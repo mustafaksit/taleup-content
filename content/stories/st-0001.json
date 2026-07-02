@@ -1,0 +1,1306 @@
+{
+  "id": "st-0001",
+  "title": "The Light in the Old House",
+  "genre": "mystery",
+  "levels": {
+    "A1": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Anna lives in a small town.",
+              "audioStart": 0.106,
+              "audioEnd": 1.786
+            },
+            {
+              "text": "She lives with her mother.",
+              "audioStart": 2.75,
+              "audioEnd": 4.181
+            },
+            {
+              "text": "Next to her house is an old house.",
+              "audioStart": 5.139,
+              "audioEnd": 7.194
+            },
+            {
+              "text": "No one lives in the old house.",
+              "audioStart": 8.153,
+              "audioEnd": 9.986
+            },
+            {
+              "text": "It is dark and quiet every day.",
+              "audioStart": 10.944,
+              "audioEnd": 12.861
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "One night, Anna looks out at the house.",
+              "audioStart": 13.819,
+              "audioEnd": 16.236
+            },
+            {
+              "text": "She sees a light in the house.",
+              "audioStart": 17.194,
+              "audioEnd": 18.931
+            },
+            {
+              "text": "The light moves from room to room.",
+              "audioStart": 19.889,
+              "audioEnd": 21.681
+            },
+            {
+              "text": "Then it goes out.",
+              "audioStart": 22.639,
+              "audioEnd": 23.75
+            },
+            {
+              "text": "Anna watches for a long time.",
+              "audioStart": 24.708,
+              "audioEnd": 26.597
+            },
+            {
+              "text": "The house is dark again.",
+              "audioStart": 27.556,
+              "audioEnd": 29.056
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The light comes back every night at ten.",
+              "audioStart": 30.014,
+              "audioEnd": 32.306
+            },
+            {
+              "text": "Anna tells her mother about the light.",
+              "audioStart": 33.264,
+              "audioEnd": 35.361
+            },
+            {
+              "text": "Her mother says it is a dream.",
+              "audioStart": 36.319,
+              "audioEnd": 38.083
+            },
+            {
+              "text": "But Anna knows it is not a dream.",
+              "audioStart": 39.042,
+              "audioEnd": 40.986
+            },
+            {
+              "text": "In the day, she looks at the house.",
+              "audioStart": 41.944,
+              "audioEnd": 44.153
+            },
+            {
+              "text": "The door is closed.",
+              "audioStart": 45.111,
+              "audioEnd": 46.389
+            },
+            {
+              "text": "It looks quiet and old.",
+              "audioStart": 47.347,
+              "audioEnd": 48.764
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Anna asks an old man about the house.",
+              "audioStart": 49.722,
+              "audioEnd": 51.972
+            },
+            {
+              "text": "He says no one lives there now.",
+              "audioStart": 52.931,
+              "audioEnd": 54.694
+            },
+            {
+              "text": "He says it is the Marsh house.",
+              "audioStart": 55.653,
+              "audioEnd": 57.444
+            },
+            {
+              "text": "The house has many old books in it.",
+              "audioStart": 58.403,
+              "audioEnd": 60.347
+            },
+            {
+              "text": "People do not go in there.",
+              "audioStart": 61.306,
+              "audioEnd": 62.833
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Anna wants to know about the light.",
+              "audioStart": 63.792,
+              "audioEnd": 65.667
+            },
+            {
+              "text": "One night she walks to the old house.",
+              "audioStart": 66.625,
+              "audioEnd": 68.875
+            },
+            {
+              "text": "The door is open.",
+              "audioStart": 69.833,
+              "audioEnd": 70.931
+            },
+            {
+              "text": "She goes in very quietly.",
+              "audioStart": 71.889,
+              "audioEnd": 73.583
+            },
+            {
+              "text": "The house is full of old books.",
+              "audioStart": 74.542,
+              "audioEnd": 76.319
+            },
+            {
+              "text": "There are books on every table.",
+              "audioStart": 77.278,
+              "audioEnd": 79.028
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Then Anna hears a sound.",
+              "audioStart": 79.986,
+              "audioEnd": 81.5
+            },
+            {
+              "text": "It comes from up in the house.",
+              "audioStart": 82.458,
+              "audioEnd": 84.111
+            },
+            {
+              "text": "Her heart goes fast, but she goes up.",
+              "audioStart": 85.069,
+              "audioEnd": 87.542
+            },
+            {
+              "text": "She opens a door slowly.",
+              "audioStart": 88.5,
+              "audioEnd": 90.097
+            },
+            {
+              "text": "An old woman sits there with a light.",
+              "audioStart": 91.056,
+              "audioEnd": 93.167
+            },
+            {
+              "text": "She is reading an old book.",
+              "audioStart": 94.125,
+              "audioEnd": 95.667
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The woman smiles at Anna.",
+              "audioStart": 96.625,
+              "audioEnd": 98.139
+            },
+            {
+              "text": "Her name is Ellen.",
+              "audioStart": 99.097,
+              "audioEnd": 100.25
+            },
+            {
+              "text": "\"This is my family house,\" she says.",
+              "audioStart": 101.208,
+              "audioEnd": 103.736
+            },
+            {
+              "text": "\"I come at night to read our books.\"",
+              "audioStart": 104.694,
+              "audioEnd": 106.597
+            },
+            {
+              "text": "\"I do not want people to see me.\"",
+              "audioStart": 107.556,
+              "audioEnd": 109.292
+            },
+            {
+              "text": "Anna understands her.",
+              "audioStart": 110.25,
+              "audioEnd": 111.583
+            },
+            {
+              "text": "Now they read together every week.",
+              "audioStart": 112.542,
+              "audioEnd": 114.597
+            },
+            {
+              "text": "The old house is not dark now.",
+              "audioStart": 115.556,
+              "audioEnd": 117.431
+            }
+          ]
+        }
+      ],
+      "audio": "audio/a1/st-0001.mp3",
+      "wordTimings": "audio/a1/st-0001.timings.json",
+      "quiz": [
+        {
+          "q": "Where does Anna live?",
+          "options": [
+            "In a small town",
+            "In a big city",
+            "On a farm"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Anna see at night?",
+          "options": [
+            "A light in the old house",
+            "A dog in the garden",
+            "A car near the house"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Who reads books in the old house?",
+          "options": [
+            "Ellen",
+            "Anna's mother",
+            "An old man"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "A2": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Anna lives with her mother in a small town.",
+              "audioStart": 0.106,
+              "audioEnd": 2.508
+            },
+            {
+              "text": "Next to their house there is an old house.",
+              "audioStart": 3.472,
+              "audioEnd": 5.667
+            },
+            {
+              "text": "Nobody lives in it, and the garden is full of tall grass.",
+              "audioStart": 6.625,
+              "audioEnd": 10.125
+            },
+            {
+              "text": "The windows are dark, and the door is always closed.",
+              "audioStart": 11.083,
+              "audioEnd": 14.194
+            },
+            {
+              "text": "People in the town call it the Marsh house.",
+              "audioStart": 15.153,
+              "audioEnd": 17.583
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "One night, Anna looked out of her window before bed.",
+              "audioStart": 18.542,
+              "audioEnd": 21.667
+            },
+            {
+              "text": "There was a small light in the old house.",
+              "audioStart": 22.625,
+              "audioEnd": 24.819
+            },
+            {
+              "text": "It moved slowly from room to room.",
+              "audioStart": 25.778,
+              "audioEnd": 27.806
+            },
+            {
+              "text": "Then it stopped, and the house was dark again.",
+              "audioStart": 28.764,
+              "audioEnd": 31.431
+            },
+            {
+              "text": "Anna watched for a long time, but nothing happened.",
+              "audioStart": 32.389,
+              "audioEnd": 35.403
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The light came back every night at ten.",
+              "audioStart": 36.361,
+              "audioEnd": 38.625
+            },
+            {
+              "text": "Anna told her mother about it.",
+              "audioStart": 39.583,
+              "audioEnd": 41.236
+            },
+            {
+              "text": "\"You are dreaming,\" her mother said with a smile.",
+              "audioStart": 42.194,
+              "audioEnd": 45.0
+            },
+            {
+              "text": "But Anna knew it was not a dream.",
+              "audioStart": 45.958,
+              "audioEnd": 47.917
+            },
+            {
+              "text": "She sat by her window every night that week.",
+              "audioStart": 48.875,
+              "audioEnd": 51.403
+            },
+            {
+              "text": "The little light always came back at the same time.",
+              "audioStart": 52.361,
+              "audioEnd": 55.236
+            },
+            {
+              "text": "It moved like a slow star in the dark house.",
+              "audioStart": 56.194,
+              "audioEnd": 58.722
+            },
+            {
+              "text": "In the day the house looked quiet, old, and sad.",
+              "audioStart": 59.681,
+              "audioEnd": 62.903
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Anna asked Mr Reed, an old man from her street.",
+              "audioStart": 63.861,
+              "audioEnd": 66.986
+            },
+            {
+              "text": "\"Nobody has lived there for twenty years,\" he said.",
+              "audioStart": 67.944,
+              "audioEnd": 71.028
+            },
+            {
+              "text": "\"Miss Marsh lived there with her books.\"",
+              "audioStart": 71.986,
+              "audioEnd": 74.056
+            },
+            {
+              "text": "\"She loved books more than anything.\"",
+              "audioStart": 75.014,
+              "audioEnd": 77.014
+            },
+            {
+              "text": "\"The house is still full of them.\"",
+              "audioStart": 77.972,
+              "audioEnd": 79.639
+            },
+            {
+              "text": "Anna thought about the light and the books all day.",
+              "audioStart": 80.597,
+              "audioEnd": 83.194
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "One night, Anna decided to look.",
+              "audioStart": 84.153,
+              "audioEnd": 86.403
+            },
+            {
+              "text": "She walked through the garden to the old house.",
+              "audioStart": 87.361,
+              "audioEnd": 89.611
+            },
+            {
+              "text": "She was going to knock, but the door was open.",
+              "audioStart": 90.569,
+              "audioEnd": 93.222
+            },
+            {
+              "text": "She went in very quietly.",
+              "audioStart": 94.181,
+              "audioEnd": 95.861
+            },
+            {
+              "text": "There were books everywhere, on every table and chair.",
+              "audioStart": 96.819,
+              "audioEnd": 99.972
+            },
+            {
+              "text": "The air smelled of old paper.",
+              "audioStart": 100.931,
+              "audioEnd": 102.653
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Then she heard a sound from up in the house.",
+              "audioStart": 103.611,
+              "audioEnd": 105.861
+            },
+            {
+              "text": "Her heart went fast, but she walked up slowly.",
+              "audioStart": 106.819,
+              "audioEnd": 109.819
+            },
+            {
+              "text": "A door was half open, and light came from it.",
+              "audioStart": 110.778,
+              "audioEnd": 113.597
+            },
+            {
+              "text": "She pushed the door and looked in.",
+              "audioStart": 114.556,
+              "audioEnd": 116.417
+            },
+            {
+              "text": "An old woman sat by a small light, reading.",
+              "audioStart": 117.375,
+              "audioEnd": 120.319
+            },
+            {
+              "text": "She did not look surprised at all.",
+              "audioStart": 121.278,
+              "audioEnd": 123.208
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "\"Hello,\" the woman said. ",
+              "audioStart": 124.167,
+              "audioEnd": 125.944
+            },
+            {
+              "text": "\"My name is Ellen Marsh.\"",
+              "audioStart": 126.903,
+              "audioEnd": 128.431
+            },
+            {
+              "text": "\"This was my sister's house, and our family books are here.\"",
+              "audioStart": 129.389,
+              "audioEnd": 132.764
+            },
+            {
+              "text": "\"I live far away now, but I come back at night.\"",
+              "audioStart": 133.722,
+              "audioEnd": 136.625
+            },
+            {
+              "text": "\"I read our old books and remember my sister.\"",
+              "audioStart": 137.583,
+              "audioEnd": 140.167
+            },
+            {
+              "text": "\"People talk too much, so I come quietly.\"",
+              "audioStart": 141.125,
+              "audioEnd": 143.903
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Anna smiled and sat down next to her.",
+              "audioStart": 144.861,
+              "audioEnd": 147.194
+            },
+            {
+              "text": "They read together until it was very late.",
+              "audioStart": 148.153,
+              "audioEnd": 150.667
+            },
+            {
+              "text": "Now Anna visits Ellen every week.",
+              "audioStart": 151.625,
+              "audioEnd": 153.875
+            },
+            {
+              "text": "They are going to read every book in the house.",
+              "audioStart": 154.833,
+              "audioEnd": 157.181
+            },
+            {
+              "text": "The light in the old house is not strange now.",
+              "audioStart": 158.139,
+              "audioEnd": 160.639
+            },
+            {
+              "text": "It is the light of a friend.",
+              "audioStart": 161.597,
+              "audioEnd": 163.125
+            }
+          ]
+        }
+      ],
+      "audio": "audio/a2/st-0001.mp3",
+      "wordTimings": "audio/a2/st-0001.timings.json",
+      "quiz": [
+        {
+          "q": "Why is the old house dark in the day?",
+          "options": [
+            "Nobody lives there",
+            "The windows are broken",
+            "Anna closes the door"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did Mr Reed say about Miss Marsh?",
+          "options": [
+            "She loved books",
+            "She loved music",
+            "She loved gardens"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Why does Ellen come at night?",
+          "options": [
+            "She does not want people to see her",
+            "She works in the day",
+            "The house is cold in the day"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "B1": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Anna has lived in the same small town all her life.",
+              "audioStart": 0.1,
+              "audioEnd": 2.913
+            },
+            {
+              "text": "Her house stands next to an old empty house with a wild garden.",
+              "audioStart": 3.775,
+              "audioEnd": 7.062
+            },
+            {
+              "text": "Everyone calls it the Marsh house, and everyone walks past it quickly.",
+              "audioStart": 7.925,
+              "audioEnd": 11.738
+            },
+            {
+              "text": "The windows are always dark, and the gate makes a sad sound in the wind.",
+              "audioStart": 12.6,
+              "audioEnd": 16.363
+            },
+            {
+              "text": "Children in the town tell each other strange stories about it.",
+              "audioStart": 17.225,
+              "audioEnd": 20.137
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "One night in October, Anna was closing her window before bed.",
+              "audioStart": 21.0,
+              "audioEnd": 24.45
+            },
+            {
+              "text": "Suddenly she saw a small yellow light inside the old house.",
+              "audioStart": 25.312,
+              "audioEnd": 28.413
+            },
+            {
+              "text": "It moved slowly from room to room, like someone walking with a lamp.",
+              "audioStart": 29.275,
+              "audioEnd": 32.775
+            },
+            {
+              "text": "After a few minutes it stopped, and the house was dark again.",
+              "audioStart": 33.638,
+              "audioEnd": 36.775
+            },
+            {
+              "text": "Anna stood at her window for a long time, watching and thinking.",
+              "audioStart": 37.638,
+              "audioEnd": 40.9
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The light returned every night at exactly ten o'clock.",
+              "audioStart": 41.763,
+              "audioEnd": 44.7
+            },
+            {
+              "text": "Anna began to keep a small notebook by her window.",
+              "audioStart": 45.562,
+              "audioEnd": 48.15
+            },
+            {
+              "text": "She wrote down the time, the weather, and what the light did.",
+              "audioStart": 49.013,
+              "audioEnd": 52.1
+            },
+            {
+              "text": "After seven nights, the notes all said the same thing.",
+              "audioStart": 52.962,
+              "audioEnd": 55.888
+            },
+            {
+              "text": "The light arrived at ten, moved through three rooms, and died at eleven.",
+              "audioStart": 56.75,
+              "audioEnd": 60.612
+            },
+            {
+              "text": "Anna has never believed in ghosts, but this was hard to explain.",
+              "audioStart": 61.475,
+              "audioEnd": 65.0
+            },
+            {
+              "text": "When she told her mother, her mother laughed and said it was a dream.",
+              "audioStart": 65.862,
+              "audioEnd": 69.275
+            },
+            {
+              "text": "\"If you watch that house every night, you will start seeing things,\" she said.",
+              "audioStart": 70.138,
+              "audioEnd": 74.062
+            },
+            {
+              "text": "But Anna knew what she had seen, and she wanted an answer.",
+              "audioStart": 74.925,
+              "audioEnd": 77.987
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The next day she visited Mr Reed, the oldest man on her street.",
+              "audioStart": 78.85,
+              "audioEnd": 82.525
+            },
+            {
+              "text": "He has lived in the town for more than eighty years.",
+              "audioStart": 83.388,
+              "audioEnd": 85.9
+            },
+            {
+              "text": "\"Nobody has lived in that house for twenty years,\" he told her.",
+              "audioStart": 86.763,
+              "audioEnd": 90.1
+            },
+            {
+              "text": "\"Miss Marsh was the last one, and she loved books more than people.\"",
+              "audioStart": 90.963,
+              "audioEnd": 94.525
+            },
+            {
+              "text": "\"When she died, her family left everything inside, even her library.\"",
+              "audioStart": 95.388,
+              "audioEnd": 99.388
+            },
+            {
+              "text": "\"If those books could speak, they would tell a hundred stories.\"",
+              "audioStart": 100.25,
+              "audioEnd": 103.225
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "That night, Anna made a decision that surprised even her.",
+              "audioStart": 104.088,
+              "audioEnd": 107.162
+            },
+            {
+              "text": "She waited until her mother had gone to sleep.",
+              "audioStart": 108.025,
+              "audioEnd": 110.3
+            },
+            {
+              "text": "Then she put on her coat and took a small light with her.",
+              "audioStart": 111.162,
+              "audioEnd": 113.8
+            },
+            {
+              "text": "The night air was cold, and the town around her was silent.",
+              "audioStart": 114.662,
+              "audioEnd": 117.7
+            },
+            {
+              "text": "At ten o'clock she crossed the wild garden with quiet steps.",
+              "audioStart": 118.562,
+              "audioEnd": 121.787
+            },
+            {
+              "text": "She was planning to knock, but then she saw the open door.",
+              "audioStart": 122.65,
+              "audioEnd": 125.625
+            },
+            {
+              "text": "Inside, the air smelled of dust and old paper.",
+              "audioStart": 126.487,
+              "audioEnd": 129.238
+            },
+            {
+              "text": "Books covered every table, every chair, and most of the floor.",
+              "audioStart": 130.1,
+              "audioEnd": 133.787
+            },
+            {
+              "text": "Somewhere above her, a floor board made a soft sound.",
+              "audioStart": 134.65,
+              "audioEnd": 137.613
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Her heart was beating fast as she climbed the stairs.",
+              "audioStart": 138.475,
+              "audioEnd": 141.188
+            },
+            {
+              "text": "A warm light came from a half open door at the top.",
+              "audioStart": 142.05,
+              "audioEnd": 144.65
+            },
+            {
+              "text": "She pushed it gently and looked inside the room.",
+              "audioStart": 145.512,
+              "audioEnd": 147.875
+            },
+            {
+              "text": "An old woman sat in a big chair with a book on her knees.",
+              "audioStart": 148.738,
+              "audioEnd": 151.738
+            },
+            {
+              "text": "She looked up calmly, as if she had been waiting for Anna.",
+              "audioStart": 152.6,
+              "audioEnd": 155.488
+            },
+            {
+              "text": "\"You have finally come,\" she said with a small smile.",
+              "audioStart": 156.35,
+              "audioEnd": 159.162
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The woman's name was Ellen, and she was Miss Marsh's younger sister.",
+              "audioStart": 160.025,
+              "audioEnd": 163.6
+            },
+            {
+              "text": "She had moved to the city many years ago, before her sister died.",
+              "audioStart": 164.463,
+              "audioEnd": 167.95
+            },
+            {
+              "text": "\"I have read these books since I was a child,\" she explained.",
+              "audioStart": 168.812,
+              "audioEnd": 171.85
+            },
+            {
+              "text": "\"Every one of them still smells like my sister's tea.\"",
+              "audioStart": 172.713,
+              "audioEnd": 175.387
+            },
+            {
+              "text": "\"I come at night because I do not want questions from the town.\"",
+              "audioStart": 176.25,
+              "audioEnd": 179.25
+            },
+            {
+              "text": "\"People love a mystery more than they love the truth.\"",
+              "audioStart": 180.113,
+              "audioEnd": 182.475
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Anna stayed that night and listened to stories about the two sisters.",
+              "audioStart": 183.338,
+              "audioEnd": 186.675
+            },
+            {
+              "text": "Ellen told her how they had read under the table as children.",
+              "audioStart": 187.537,
+              "audioEnd": 190.4
+            },
+            {
+              "text": "She showed Anna her sister's favorite book, full of little notes.",
+              "audioStart": 191.262,
+              "audioEnd": 194.613
+            },
+            {
+              "text": "Since then, Anna has visited Ellen every Friday evening.",
+              "audioStart": 195.475,
+              "audioEnd": 198.688
+            },
+            {
+              "text": "Together they are slowly reading through the whole library.",
+              "audioStart": 199.55,
+              "audioEnd": 202.137
+            },
+            {
+              "text": "If they finish it one day, Ellen says, they will simply start again.",
+              "audioStart": 203.0,
+              "audioEnd": 206.825
+            },
+            {
+              "text": "If anyone asks about the light now, Anna just smiles.",
+              "audioStart": 207.688,
+              "audioEnd": 210.875
+            },
+            {
+              "text": "Some mysteries are better as friends than as stories.",
+              "audioStart": 211.738,
+              "audioEnd": 214.287
+            }
+          ]
+        }
+      ],
+      "audio": "audio/b1/st-0001.mp3",
+      "wordTimings": "audio/b1/st-0001.timings.json",
+      "quiz": [
+        {
+          "q": "What did the moving light look like to Anna?",
+          "options": [
+            "Someone walking with a lamp",
+            "A fire starting in a room",
+            "A car light on the wall"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What happened to the house after Miss Marsh died?",
+          "options": [
+            "Her family left everything inside",
+            "The town sold all the books",
+            "Mr Reed moved into it"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Why does Ellen visit only at night?",
+          "options": [
+            "She wants to avoid questions from the town",
+            "She works every day in the city",
+            "The house is too hot in the day"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "B2": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Anna had grown up believing that nothing interesting ever happened in her town.",
+              "audioStart": 0.1,
+              "audioEnd": 3.938
+            },
+            {
+              "text": "It was the kind of place where every face was familiar and every day repeated the last.",
+              "audioStart": 4.8,
+              "audioEnd": 9.363
+            },
+            {
+              "text": "The only exception was the Marsh house, which stood beside her own like a forgotten museum.",
+              "audioStart": 10.225,
+              "audioEnd": 15.0
+            },
+            {
+              "text": "Its garden had been swallowed by wild grass, and its gate cried quietly whenever the wind passed.",
+              "audioStart": 15.863,
+              "audioEnd": 21.087
+            },
+            {
+              "text": "The house had been empty for twenty years, or at least that was what everyone believed.",
+              "audioStart": 21.95,
+              "audioEnd": 26.387
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "On a cold October night, as she was closing her window, Anna noticed something impossible.",
+              "audioStart": 27.25,
+              "audioEnd": 32.163
+            },
+            {
+              "text": "A soft yellow light was moving through the dark rooms of the empty house.",
+              "audioStart": 33.025,
+              "audioEnd": 36.487
+            },
+            {
+              "text": "It traveled slowly from window to window, paused in the highest room, and then died.",
+              "audioStart": 37.35,
+              "audioEnd": 41.837
+            },
+            {
+              "text": "She waited for almost an hour, but the darkness that followed was complete.",
+              "audioStart": 42.7,
+              "audioEnd": 46.538
+            },
+            {
+              "text": "If she had seen it only once, she might have accepted her mother's explanation.",
+              "audioStart": 47.4,
+              "audioEnd": 51.538
+            },
+            {
+              "text": "But the light returned the next night, and the night after that, always at ten.",
+              "audioStart": 52.4,
+              "audioEnd": 56.487
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Her mother, who had little patience for mysteries, said that tired eyes invent strange things.",
+              "audioStart": 57.35,
+              "audioEnd": 62.612
+            },
+            {
+              "text": "\"If you spent less time at that window, you would sleep better,\" she said.",
+              "audioStart": 63.475,
+              "audioEnd": 67.037
+            },
+            {
+              "text": "Anna disagreed, though she kept her disagreement to herself.",
+              "audioStart": 67.9,
+              "audioEnd": 71.112
+            },
+            {
+              "text": "She began keeping careful notes, recording the hour the light appeared and the path it followed.",
+              "audioStart": 71.975,
+              "audioEnd": 76.85
+            },
+            {
+              "text": "By the end of the week, her notebook told a story that no dream could explain.",
+              "audioStart": 77.713,
+              "audioEnd": 81.825
+            },
+            {
+              "text": "The visitor always entered the same three rooms, in the same order, for the same length of time.",
+              "audioStart": 82.688,
+              "audioEnd": 87.812
+            },
+            {
+              "text": "She had watched the light for a week, and it moved with purpose, not like a dream.",
+              "audioStart": 88.675,
+              "audioEnd": 92.925
+            },
+            {
+              "text": "Whoever carried it knew the house well enough to walk it in the dark.",
+              "audioStart": 93.787,
+              "audioEnd": 97.025
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The history of the house was explained to her by Mr Reed, her oldest neighbor.",
+              "audioStart": 97.888,
+              "audioEnd": 102.0
+            },
+            {
+              "text": "He was a man who collected the town's memories the way others collect stamps.",
+              "audioStart": 102.862,
+              "audioEnd": 106.825
+            },
+            {
+              "text": "\"The last owner was Miss Marsh, a woman who preferred books to almost everyone,\" he said.",
+              "audioStart": 107.688,
+              "audioEnd": 112.562
+            },
+            {
+              "text": "\"She built a library that was famous in three towns, and she guarded it like treasure.\"",
+              "audioStart": 113.425,
+              "audioEnd": 117.838
+            },
+            {
+              "text": "\"When she died, the family locked the doors and left every single book inside.\"",
+              "audioStart": 118.7,
+              "audioEnd": 122.975
+            },
+            {
+              "text": "\"Buyers came from the city more than once, and every one of them was refused.\"",
+              "audioStart": 123.838,
+              "audioEnd": 127.888
+            },
+            {
+              "text": "\"It was said that her sister never forgave herself for moving away.\"",
+              "audioStart": 128.75,
+              "audioEnd": 131.938
+            },
+            {
+              "text": "Anna asked whether anyone had a key to the house.",
+              "audioStart": 132.8,
+              "audioEnd": 135.325
+            },
+            {
+              "text": "Mr Reed smiled and said that old houses decide for themselves who may enter.",
+              "audioStart": 136.188,
+              "audioEnd": 140.25
+            },
+            {
+              "text": "At the time, Anna thought this was simply the way old men liked to talk.",
+              "audioStart": 141.113,
+              "audioEnd": 144.887
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "That evening, Anna decided that the mystery had been allowed to grow long enough.",
+              "audioStart": 145.75,
+              "audioEnd": 149.738
+            },
+            {
+              "text": "She waited in the dark kitchen until her mother's door closed upstairs.",
+              "audioStart": 150.6,
+              "audioEnd": 154.238
+            },
+            {
+              "text": "The town outside was so quiet that she could hear her own steps on the road.",
+              "audioStart": 155.1,
+              "audioEnd": 158.825
+            },
+            {
+              "text": "At exactly ten o'clock, she crossed the wet garden, guided by the light above.",
+              "audioStart": 159.688,
+              "audioEnd": 164.225
+            },
+            {
+              "text": "She had prepared a polite knock and an apology, but neither was needed.",
+              "audioStart": 165.088,
+              "audioEnd": 168.8
+            },
+            {
+              "text": "The heavy front door, which should have been locked for twenty years, stood open.",
+              "audioStart": 169.662,
+              "audioEnd": 173.875
+            },
+            {
+              "text": "Inside, the air was thick with dust and the sweet, tired smell of old paper.",
+              "audioStart": 174.738,
+              "audioEnd": 179.088
+            },
+            {
+              "text": "Books were piled on every surface, as if the house itself had been built from them.",
+              "audioStart": 179.95,
+              "audioEnd": 184.25
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "A board moved somewhere above her head, and her courage nearly left her.",
+              "audioStart": 185.113,
+              "audioEnd": 188.9
+            },
+            {
+              "text": "She climbed the stairs slowly, one hand on the cold wall, counting her own breaths.",
+              "audioStart": 189.762,
+              "audioEnd": 194.35
+            },
+            {
+              "text": "At the top, warm light escaped from a door that had been left half open.",
+              "audioStart": 195.213,
+              "audioEnd": 199.0
+            },
+            {
+              "text": "She pushed it and found a small room that the light had made golden.",
+              "audioStart": 199.863,
+              "audioEnd": 203.037
+            },
+            {
+              "text": "An old woman sat in a deep chair, a book resting on her knees.",
+              "audioStart": 203.9,
+              "audioEnd": 207.463
+            },
+            {
+              "text": "\"You took your time,\" she said calmly, as if Anna had been invited weeks ago.",
+              "audioStart": 208.325,
+              "audioEnd": 212.512
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Her name was Ellen Marsh, and she was the younger sister Mr Reed had mentioned.",
+              "audioStart": 213.375,
+              "audioEnd": 217.6
+            },
+            {
+              "text": "She had left for the city as a young woman, chasing a job and a marriage.",
+              "audioStart": 218.463,
+              "audioEnd": 222.175
+            },
+            {
+              "text": "Both had ended, but her sister had died before Ellen found the courage to return.",
+              "audioStart": 223.037,
+              "audioEnd": 227.4
+            },
+            {
+              "text": "\"This library was our whole childhood,\" she said, touching the page like an old photograph.",
+              "audioStart": 228.262,
+              "audioEnd": 233.0
+            },
+            {
+              "text": "\"If I had come back one year earlier, I would have heard her voice again.\"",
+              "audioStart": 233.863,
+              "audioEnd": 237.275
+            },
+            {
+              "text": "\"Instead, I visit at night and let the books speak for her.\"",
+              "audioStart": 238.137,
+              "audioEnd": 241.188
+            },
+            {
+              "text": "She explained that she still kept a key that her sister had given her long ago.",
+              "audioStart": 242.05,
+              "audioEnd": 245.863
+            },
+            {
+              "text": "Once a week she drove out from the city, opened the quiet house, and read until midnight.",
+              "audioStart": 246.725,
+              "audioEnd": 251.463
+            },
+            {
+              "text": "\"The town would turn me into a story, and I have no interest in being one,\" she said.",
+              "audioStart": 252.325,
+              "audioEnd": 258.024
+            },
+            {
+              "text": "\"A woman reading at night becomes a ghost very quickly in a small town.\"",
+              "audioStart": 258.887,
+              "audioEnd": 262.624
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Anna stayed until midnight, listening to stories that no book in the room contained.",
+              "audioStart": 263.486,
+              "audioEnd": 267.724
+            },
+            {
+              "text": "Ellen described two girls who had read under the kitchen table while their parents slept.",
+              "audioStart": 268.587,
+              "audioEnd": 272.749
+            },
+            {
+              "text": "She showed Anna the notes her sister had written in the corners of her favorite pages.",
+              "audioStart": 273.611,
+              "audioEnd": 277.574
+            },
+            {
+              "text": "Some of the notes were jokes, and some were small letters to nobody at all.",
+              "audioStart": 278.437,
+              "audioEnd": 282.224
+            },
+            {
+              "text": "Anna understood then that a library can hold a whole family, long after the family has gone.",
+              "audioStart": 283.087,
+              "audioEnd": 287.924
+            },
+            {
+              "text": "She has kept Ellen's secret ever since, guarding it the way Miss Marsh guarded her library.",
+              "audioStart": 288.786,
+              "audioEnd": 293.512
+            },
+            {
+              "text": "Every Friday evening, two figures can be seen reading behind the old windows, though nobody looks closely.",
+              "audioStart": 294.374,
+              "audioEnd": 300.024
+            },
+            {
+              "text": "When neighbors mention the strange light, Anna agrees that it is probably nothing.",
+              "audioStart": 300.887,
+              "audioEnd": 305.036
+            },
+            {
+              "text": "Some truths, she has learned, are too gentle to survive being told.",
+              "audioStart": 305.899,
+              "audioEnd": 309.774
+            }
+          ]
+        }
+      ],
+      "audio": "audio/b2/st-0001.mp3",
+      "wordTimings": "audio/b2/st-0001.timings.json",
+      "quiz": [
+        {
+          "q": "Why did Anna reject her mother's explanation of the light?",
+          "options": [
+            "The light moved with purpose and returned at the same hour",
+            "Her mother had never seen the house",
+            "Mr Reed told her the house was dangerous"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did Miss Marsh's family do after her death?",
+          "options": [
+            "They locked the house with the library inside",
+            "They sold the books to three towns",
+            "They gave the house to Mr Reed"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Why does Ellen regret her years in the city?",
+          "options": [
+            "Her sister died before she found the courage to return",
+            "She lost the family's money there",
+            "She forgot how to read the old books"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  }
+}

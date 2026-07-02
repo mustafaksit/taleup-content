@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "updatedAt": "2026-07-02",
+  "adConfig": {
+    "adsEnabled": true,
+    "nativeEveryNCards": 8,
+    "interstitialMinIntervalSec": 180,
+    "interstitialDailyCap": 8,
+    "interstitialStartAfterStories": 2,
+    "rewardedEnabled": true
+  },
+  "stories": [
+    {
+      "id": "st-0001",
+      "slug": "the-light-in-the-old-house",
+      "title": "The Light in the Old House",
+      "genre": "mystery",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "wordCount": {
+        "A1": 277,
+        "A2": 406,
+        "B1": 617,
+        "B2": 913
+      },
+      "minutes": {
+        "A1": 2,
+        "A2": 3,
+        "B1": 5,
+        "B2": 7
+      },
+      "cover": "covers/st-0001.webp",
+      "isNew": true,
+      "order": 1
+    },
+    {
+      "id": "st-0002",
+      "slug": "the-saturday-shop",
+      "title": "The Saturday Shop",
+      "genre": "daily",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "wordCount": {
+        "A1": 271,
+        "A2": 401,
+        "B1": 606,
+        "B2": 905
+      },
+      "minutes": {
+        "A1": 2,
+        "A2": 3,
+        "B1": 5,
+        "B2": 7
+      },
+      "cover": "covers/st-0002.webp",
+      "isNew": true,
+      "order": 2
+    }
+  ]
+}

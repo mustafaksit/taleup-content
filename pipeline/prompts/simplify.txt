@@ -1,0 +1,29 @@
+You adapt stories for an English graded-reader app. Rewrite the story below at CEFR {{level}} level. Keep the SAME plot, same characters, same scene order — a reader must be able to switch levels mid-story without getting lost. Only the language gets simpler.
+
+GENRE: {{genre}}
+TITLE: {{title}}
+
+ORIGINAL STORY (B2):
+{{b2Text}}
+
+HARD RULES (violations get the story rejected by an automatic validator):
+1. Vocabulary: use ONLY words from the allowed list below, plus the proper names already used in the story. At least 95% of all words must be from the list. Inflections of listed words are fine.
+2. Sentence length: maximum {{maxSentenceWords}} words per sentence.
+3. Story length: between {{minWords}} and {{maxWords}} words in total.
+4. Grammar scope: {{grammar}}
+5. Keep the same number of scenes; you may merge or shorten descriptions, but every plot beat stays.
+6. Also write 3 comprehension quiz questions for THIS level with 3 options each; exactly one correct; wrong options plausible.
+
+ALLOWED WORD LIST:
+{{pool}}
+
+Return JSON only, in this exact shape:
+{
+  "paragraphs": [
+    ["First sentence of paragraph one.", "Second sentence."],
+    ["First sentence of paragraph two."]
+  ],
+  "quiz": [
+    { "q": "Question text?", "options": ["Option A", "Option B", "Option C"], "answer": 0 }
+  ]
+}

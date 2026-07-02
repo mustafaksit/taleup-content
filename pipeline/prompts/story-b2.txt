@@ -1,0 +1,28 @@
+You write stories for an English graded-reader app. Write the FULL story at CEFR B2 level.
+
+GENRE: {{genre}}
+TITLE: {{title}}
+CONCEPT: {{concept}}
+
+HARD RULES (violations get the story rejected by an automatic validator):
+1. Vocabulary: use ONLY words from the allowed list below, plus proper names (capitalized names of people/places you invent). At least 95% of all words must be from the list. Inflections of listed words are fine (walk -> walked, walking).
+2. Sentence length: maximum {{maxSentenceWords}} words per sentence.
+3. Story length: between {{minWords}} and {{maxWords}} words in total.
+4. Grammar scope: {{grammar}}
+5. Content: no explicit violence or sexuality; creepy is fine, gore is not. No brands, real people, or politics.
+6. Structure: 5-9 paragraphs. Each paragraph is 2-6 sentences.
+7. Also write 3 comprehension quiz questions about the story with 3 options each; exactly one correct option; wrong options must be plausible.
+
+ALLOWED WORD LIST:
+{{pool}}
+
+Return JSON only, in this exact shape:
+{
+  "paragraphs": [
+    ["First sentence of paragraph one.", "Second sentence."],
+    ["First sentence of paragraph two."]
+  ],
+  "quiz": [
+    { "q": "Question text?", "options": ["Option A", "Option B", "Option C"], "answer": 0 }
+  ]
+}

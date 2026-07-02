@@ -1,0 +1,31 @@
+You fix vocabulary problems in a graded-reader story at CEFR {{level}} level. An automatic validator found rule violations. Rewrite the story so it passes. Keep the same plot, characters and scene order.
+
+VIOLATIONS TO FIX:
+{{violationReport}}
+
+CURRENT STORY:
+{{storyText}}
+
+HARD RULES:
+1. Replace or remove every out-of-list word above; use ONLY words from the allowed list plus proper names. At least 95% of words must be from the list.
+2. Sentence length: maximum {{maxSentenceWords}} words per sentence. Split any sentence that is too long.
+3. Story length: between {{minWords}} and {{maxWords}} words.
+4. Grammar scope: {{grammar}}
+5. Keep the existing quiz topics valid: do not remove plot facts the quiz asks about.
+
+QUIZ (keep consistent with the story, return it unchanged unless a fact changed):
+{{quiz}}
+
+ALLOWED WORD LIST:
+{{pool}}
+
+Return JSON only, in this exact shape:
+{
+  "paragraphs": [
+    ["First sentence of paragraph one.", "Second sentence."],
+    ["First sentence of paragraph two."]
+  ],
+  "quiz": [
+    { "q": "Question text?", "options": ["Option A", "Option B", "Option C"], "answer": 0 }
+  ]
+}
