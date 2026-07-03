@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 6,
+  "contentVersion": 9,
   "updatedAt": "2026-07-03",
   "adConfig": {
     "adsEnabled": true,
@@ -170,8 +170,35 @@
         "B2": 8
       },
       "cover": "covers/st-0006.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 6
+    },
+    {
+      "id": "st-0007",
+      "slug": "the-mirror-s-shadow",
+      "title": "The Mirror's Shadow",
+      "genre": "horror",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "wordCount": {
+        "A1": 314,
+        "A2": 569,
+        "B1": 790,
+        "B2": 1058
+      },
+      "minutes": {
+        "A1": 2,
+        "A2": 4,
+        "B1": 6,
+        "B2": 8
+      },
+      "cover": "covers/st-0007.webp",
+      "isNew": true,
+      "order": 7
     }
   ]
 }
