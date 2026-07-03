@@ -40,6 +40,8 @@ const STYLE_PROMPT =
   'NO text, NO letters, NO words';
 
 const GEMINI_IMAGE_MODEL = process.env.GEMINI_IMAGE_MODEL || 'gemini-2.5-flash-image';
+const GEMINI_TEXT_MODEL = process.env.GEMINI_COVER_MODEL || 'gemini-flash-latest';
+const SVG_MAX_TRIES = 3;
 
 /** Türe özel sıcak pastel gradient (prosedürel yedek). */
 const GENRE_STYLE = {
@@ -123,6 +125,64 @@ async function renderGemini(genre, coverScene, outPath) {
   await sharp(buf).resize(WIDTH, HEIGHT, { fit: 'cover' }).webp({ quality: 82 }).toFile(outPath);
 }
 
+/**
+ * Gemini METİN modeliyle flat storybook SVG illüstrasyonu üretir (görsel
+ * modeli kotası dolduğunda gerçek, hikayeye özel kapak sağlar). Çıktı
+ * doğrulanır (metin/görsel etiketi yok + resvg ile render olabiliyor).
+ */
+async function renderGeminiSvg(genre, coverScene, outPath) {
+  const key = process.env.GEMINI_API_KEY;
+  if (!key) throw new Error('no-key');
+  const prompt = `Create a flat storybook illustration as a single self-contained SVG.
+Requirements:
+- Exactly 800x600: <svg width="800" height="600" viewBox="0 0 800 600">.
+- Flat vector shapes only (rect, circle, ellipse, path, polygon, linearGradient, radialGradient). No <image>, no external refs, no <text>, no <filter>.
+- ${STYLE_PROMPT}
+- Genre: ${genre}. Scene: ${coverScene}
+- Fill the whole canvas with a soft background gradient. Rich but simple: 12-30 shapes.
+Return ONLY the raw SVG markup starting with <svg and ending with </svg>. No markdown fences, no explanation.`;
+
+  for (let attempt = 0; attempt < SVG_MAX_TRIES; attempt++) {
+    const res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_TEXT_MODEL}:generateContent?key=${key}`,
+      {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: { temperature: 0.75 },
+        }),
+      },
+    );
+    if (res.status === 429) throw new Error('quota');
+    if (!res.ok) {
+      if (attempt < SVG_MAX_TRIES - 1) continue;
+      throw new Error(`Gemini text HTTP ${res.status}`);
+    }
+    const data = await res.json();
+    let svg = data.candidates?.[0]?.content?.parts?.map((p) => p.text).join('') ?? '';
+    svg = svg
+      .trim()
+      .replace(/^```(?:svg|xml)?\s*/i, '')
+      .replace(/```\s*$/, '')
+      .trim();
+    const start = svg.indexOf('<svg');
+    const end = svg.lastIndexOf('</svg>');
+    if (start === -1 || end === -1) continue;
+    svg = svg.slice(start, end + 6);
+    // güvenlik/kalite doğrulaması: metin/görsel/harici yok
+    if (/<text|<image|xlink:href|<filter|<foreignObject/i.test(svg)) continue;
+    try {
+      const png = new Resvg(svg, { fitTo: { mode: 'width', value: WIDTH } }).render().asPng();
+      await sharp(png).resize(WIDTH, HEIGHT, { fit: 'cover' }).webp({ quality: 82 }).toFile(outPath);
+      return;
+    } catch {
+      // geçersiz SVG -> tekrar dene
+    }
+  }
+  throw new Error('svg üretilemedi');
+}
+
 function loadState() {
   return existsSync(STATE_FILE) ? JSON.parse(readFileSync(STATE_FILE, 'utf8')) : { done: [] };
 }
@@ -136,20 +196,38 @@ async function coverForStory(storyPath, { forceFallback, state }) {
   const scene = story.coverScene || `a cozy scene that represents "${story.title}"`;
 
   if (!forceFallback && process.env.GEMINI_API_KEY) {
+    // 1) Raster illüstrasyon (Gemini görsel modeli) — kota varsa en iyi sonuç
+    if (!process.env.COVER_SKIP_IMAGE) {
+      try {
+        await renderGemini(story.genre, scene, outPath);
+        console.log(`Gemini raster kapak: ${story.id}`);
+        state.done.push(story.id);
+        saveState(state);
+        return true;
+      } catch (err) {
+        if (err.message !== 'quota') {
+          console.error(`Gemini raster başarısız (${story.id}): ${err.message}`);
+        } else {
+          console.log(`Görsel kotası dolu -> SVG illüstrasyona düşülüyor (${story.id})`);
+        }
+      }
+    }
+    // 2) SVG illüstrasyon (Gemini metin modeli) — gerçek, hikayeye özel kapak
     try {
-      await renderGemini(story.genre, scene, outPath);
-      console.log(`Gemini kapak: ${story.id}`);
+      await renderGeminiSvg(story.genre, scene, outPath);
+      console.log(`Gemini SVG kapak: ${story.id}`);
       state.done.push(story.id);
       saveState(state);
       return true;
     } catch (err) {
       if (err.message === 'quota') {
-        console.error(`Kota doldu (${story.id}). --resume ile sonra devam edin.`);
+        console.error(`Metin kotası da dolu (${story.id}). --resume ile sonra devam edin.`);
         return false;
       }
-      console.error(`Gemini başarısız (${story.id}): ${err.message} -> prosedürel yedek`);
+      console.error(`Gemini SVG başarısız (${story.id}): ${err.message} -> prosedürel yedek`);
     }
   }
+  // 3) Prosedürel yedek
   await renderFallback(story.genre, outPath);
   console.log(`Prosedürel kapak: ${story.id}`);
   return true;
