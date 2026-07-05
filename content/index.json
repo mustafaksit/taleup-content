@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 14,
+  "contentVersion": 15,
   "updatedAt": "2026-07-05",
   "adConfig": {
     "adsEnabled": true,
@@ -305,8 +305,35 @@
         "B2": 9
       },
       "cover": "covers/st-0013.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 11
+    },
+    {
+      "id": "st-0014",
+      "slug": "a-christmas-carol-in-prose-being-a-ghost-story-of-christmas",
+      "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+      "genre": "classic",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "wordCount": {
+        "A1": 272,
+        "A2": 454,
+        "B1": 860,
+        "B2": 1243
+      },
+      "minutes": {
+        "A1": 2,
+        "A2": 4,
+        "B1": 7,
+        "B2": 10
+      },
+      "cover": "covers/st-0014.webp",
+      "isNew": true,
+      "order": 12
     }
   ]
 }
