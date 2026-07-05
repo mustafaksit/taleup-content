@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 16,
+  "contentVersion": 17,
   "updatedAt": "2026-07-05",
   "adConfig": {
     "adsEnabled": true,
@@ -359,7 +359,7 @@
         "B2": 9
       },
       "cover": "covers/st-0015.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 13
     }
   ]
