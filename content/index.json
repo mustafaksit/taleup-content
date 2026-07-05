@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 15,
+  "contentVersion": 16,
   "updatedAt": "2026-07-05",
   "adConfig": {
     "adsEnabled": true,
@@ -332,8 +332,35 @@
         "B2": 10
       },
       "cover": "covers/st-0014.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 12
+    },
+    {
+      "id": "st-0015",
+      "slug": "the-wonderful-wizard-of-oz",
+      "title": "The Wonderful Wizard of Oz",
+      "genre": "classic",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "wordCount": {
+        "A1": 317,
+        "A2": 414,
+        "B1": 612,
+        "B2": 1107
+      },
+      "minutes": {
+        "A1": 2,
+        "A2": 3,
+        "B1": 5,
+        "B2": 9
+      },
+      "cover": "covers/st-0015.webp",
+      "isNew": true,
+      "order": 13
     }
   ]
 }

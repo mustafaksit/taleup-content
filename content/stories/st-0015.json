@@ -1,0 +1,1921 @@
+{
+  "id": "st-0015",
+  "title": "The Wonderful Wizard of Oz",
+  "genre": "classic",
+  "coverScene": "A little girl in a blue and white dress stands in the doorway of a small house, looking out at a vast gray prairie with a few trees in the distance, and a small black dog by her side.",
+  "levels": {
+    "B2": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Dorothy lived in the middle of the great flat land of Kansas.",
+              "audioStart": 0.1,
+              "audioEnd": 3.2
+            },
+            {
+              "text": "She lived there with her Uncle Henry and her Aunt Em.",
+              "audioStart": 4.062,
+              "audioEnd": 6.55
+            },
+            {
+              "text": "Their house was very small.",
+              "audioStart": 7.412,
+              "audioEnd": 8.875
+            },
+            {
+              "text": "The wood of the house had been burned gray by the hot sun.",
+              "audioStart": 9.738,
+              "audioEnd": 12.488
+            },
+            {
+              "text": "There was a small wooden step in front of the door.",
+              "audioStart": 13.35,
+              "audioEnd": 15.6
+            },
+            {
+              "text": "Under the house, there was a small hole in the ground.",
+              "audioStart": 16.462,
+              "audioEnd": 19.113
+            },
+            {
+              "text": "This hole was a safe room under the ground.",
+              "audioStart": 19.975,
+              "audioEnd": 22.025
+            },
+            {
+              "text": "The family could go there if a very strong wind storm came.",
+              "audioStart": 22.887,
+              "audioEnd": 25.875
+            },
+            {
+              "text": "If a storm had come, they would have run there immediately.",
+              "audioStart": 26.738,
+              "audioEnd": 29.5
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Uncle Henry was a farmer who worked hard from morning until night.",
+              "audioStart": 30.363,
+              "audioEnd": 33.725
+            },
+            {
+              "text": "He never laughed and he looked very serious.",
+              "audioStart": 34.587,
+              "audioEnd": 37.062
+            },
+            {
+              "text": "Aunt Em was also very thin and she did not smile anymore.",
+              "audioStart": 37.925,
+              "audioEnd": 41.175
+            },
+            {
+              "text": "When she first came to this flat land, she was a young and happy wife.",
+              "audioStart": 42.038,
+              "audioEnd": 45.788
+            },
+            {
+              "text": "However, the wind and the sun had taken all the color from her face.",
+              "audioStart": 46.65,
+              "audioEnd": 50.362
+            },
+            {
+              "text": "Now she was gray and quiet, just like the land around her.",
+              "audioStart": 51.225,
+              "audioEnd": 54.225
+            },
+            {
+              "text": "Dorothy was a little girl who brought life back to the house.",
+              "audioStart": 55.087,
+              "audioEnd": 57.913
+            },
+            {
+              "text": "She had a little black dog named Toto.",
+              "audioStart": 58.775,
+              "audioEnd": 60.788
+            },
+            {
+              "text": "Toto had long, soft hair and small black eyes that shone with joy.",
+              "audioStart": 61.65,
+              "audioEnd": 65.438
+            },
+            {
+              "text": "Dorothy played with him all day and she loved him very much.",
+              "audioStart": 66.3,
+              "audioEnd": 69.263
+            },
+            {
+              "text": "He was the one who made her laugh when everything else was gray.",
+              "audioStart": 70.125,
+              "audioEnd": 73.175
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "One day, Uncle Henry stood on the step and looked at the sky.",
+              "audioStart": 74.037,
+              "audioEnd": 77.338
+            },
+            {
+              "text": "The sky was turning a dark and ugly gray.",
+              "audioStart": 78.2,
+              "audioEnd": 80.463
+            },
+            {
+              "text": "He could hear the low sound of the wind from the south.",
+              "audioStart": 81.325,
+              "audioEnd": 83.775
+            },
+            {
+              "text": "He knew that a dangerous wind storm was coming.",
+              "audioStart": 84.638,
+              "audioEnd": 87.013
+            },
+            {
+              "text": "He went to look after the animals on the farm.",
+              "audioStart": 87.875,
+              "audioEnd": 90.1
+            },
+            {
+              "text": "Aunt Em came to the door and saw the danger too.",
+              "audioStart": 90.963,
+              "audioEnd": 93.412
+            },
+            {
+              "text": "She was frightened by the dark clouds.",
+              "audioStart": 94.275,
+              "audioEnd": 96.162
+            },
+            {
+              "text": "She called out to Dorothy, telling her to run to the safe room under the ground.",
+              "audioStart": 97.025,
+              "audioEnd": 100.9
+            },
+            {
+              "text": "The wind began to blow very hard.",
+              "audioStart": 101.763,
+              "audioEnd": 103.6
+            },
+            {
+              "text": "It shook the small house.",
+              "audioStart": 104.463,
+              "audioEnd": 105.812
+            },
+            {
+              "text": "Dorothy ran inside to get her dog.",
+              "audioStart": 106.675,
+              "audioEnd": 108.6
+            },
+            {
+              "text": "Toto had jumped under the bed because he was afraid of the noise.",
+              "audioStart": 109.463,
+              "audioEnd": 112.588
+            },
+            {
+              "text": "Dorothy had to find him before she could run to safety.",
+              "audioStart": 113.45,
+              "audioEnd": 116.162
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Aunt Em had already gone down into the room under the ground.",
+              "audioStart": 117.025,
+              "audioEnd": 119.862
+            },
+            {
+              "text": "She called for Dorothy to follow her.",
+              "audioStart": 120.725,
+              "audioEnd": 122.562
+            },
+            {
+              "text": "But Dorothy was still inside, holding Toto in her arms.",
+              "audioStart": 123.425,
+              "audioEnd": 126.612
+            },
+            {
+              "text": "Before she could walk to the door, a strange thing happened.",
+              "audioStart": 127.475,
+              "audioEnd": 130.45
+            },
+            {
+              "text": "The wind hit the house with great force.",
+              "audioStart": 131.312,
+              "audioEnd": 133.4
+            },
+            {
+              "text": "The house shook so hard that Dorothy fell on the floor.",
+              "audioStart": 134.262,
+              "audioEnd": 136.95
+            },
+            {
+              "text": "Then, the house was lifted up into the air.",
+              "audioStart": 137.812,
+              "audioEnd": 140.175
+            },
+            {
+              "text": "It rose slowly, like a big bag of gas rising into the sky.",
+              "audioStart": 141.037,
+              "audioEnd": 144.613
+            },
+            {
+              "text": "It was carried by the wind to the very top of the storm.",
+              "audioStart": 145.475,
+              "audioEnd": 148.113
+            },
+            {
+              "text": "The house was held by the wind for a long time.",
+              "audioStart": 148.975,
+              "audioEnd": 151.412
+            },
+            {
+              "text": "It was moved miles and miles away from Kansas.",
+              "audioStart": 152.275,
+              "audioEnd": 154.787
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "At first, Dorothy was very scared.",
+              "audioStart": 155.65,
+              "audioEnd": 157.787
+            },
+            {
+              "text": "She thought the house would fall and be destroyed.",
+              "audioStart": 158.65,
+              "audioEnd": 160.912
+            },
+            {
+              "text": "She felt her head spin as the house turned around and around.",
+              "audioStart": 161.775,
+              "audioEnd": 164.8
+            },
+            {
+              "text": "The spinning made her feel quite sick.",
+              "audioStart": 165.662,
+              "audioEnd": 167.688
+            },
+            {
+              "text": "She lay down on her bed and held Toto tight.",
+              "audioStart": 168.55,
+              "audioEnd": 171.062
+            },
+            {
+              "text": "The dog did not like the movement and he ran around the room.",
+              "audioStart": 171.925,
+              "audioEnd": 174.787
+            },
+            {
+              "text": "He made a lot of noise, but Dorothy remained quiet.",
+              "audioStart": 175.65,
+              "audioEnd": 178.625
+            },
+            {
+              "text": "After some time, she realized that they were not falling.",
+              "audioStart": 179.488,
+              "audioEnd": 182.6
+            },
+            {
+              "text": "The house was being carried gently, as if it were a boat on a quiet river.",
+              "audioStart": 183.463,
+              "audioEnd": 187.238
+            },
+            {
+              "text": "If she had looked out the window, she would have seen only dark clouds.",
+              "audioStart": 188.1,
+              "audioEnd": 191.488
+            },
+            {
+              "text": "She decided to close her eyes and wait.",
+              "audioStart": 192.35,
+              "audioEnd": 194.412
+            },
+            {
+              "text": "Eventually, she fell asleep, despite the noise of the wind outside.",
+              "audioStart": 195.275,
+              "audioEnd": 199.025
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Dorothy slept for many hours.",
+              "audioStart": 199.887,
+              "audioEnd": 201.6
+            },
+            {
+              "text": "When she finally woke up, she noticed that the house was no longer moving.",
+              "audioStart": 202.463,
+              "audioEnd": 206.35
+            },
+            {
+              "text": "There was no wind, and the air was very quiet.",
+              "audioStart": 207.213,
+              "audioEnd": 209.775
+            },
+            {
+              "text": "Suddenly, the house landed with a big crash.",
+              "audioStart": 210.637,
+              "audioEnd": 213.225
+            },
+            {
+              "text": "The shake was so strong that Dorothy was thrown onto the floor.",
+              "audioStart": 214.088,
+              "audioEnd": 217.213
+            },
+            {
+              "text": "However, she was not hurt.",
+              "audioStart": 218.075,
+              "audioEnd": 219.812
+            },
+            {
+              "text": "She sat up and listened carefully.",
+              "audioStart": 220.675,
+              "audioEnd": 222.463
+            },
+            {
+              "text": "She could hear the sweet sound of birds singing outside.",
+              "audioStart": 223.325,
+              "audioEnd": 225.95
+            },
+            {
+              "text": "She also saw bright sunlight coming through the window.",
+              "audioStart": 226.812,
+              "audioEnd": 229.45
+            },
+            {
+              "text": "She went to the door and opened it.",
+              "audioStart": 230.312,
+              "audioEnd": 231.95
+            },
+            {
+              "text": "Toto followed her closely, his tail moving with excitement.",
+              "audioStart": 232.812,
+              "audioEnd": 236.125
+            },
+            {
+              "text": "She looked out and was very surprised by the sight.",
+              "audioStart": 236.988,
+              "audioEnd": 239.575
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was no longer in the gray land of Kansas.",
+              "audioStart": 240.438,
+              "audioEnd": 242.912
+            },
+            {
+              "text": "Instead, she was in a beautiful country that was full of life.",
+              "audioStart": 243.775,
+              "audioEnd": 247.15
+            },
+            {
+              "text": "There were tall green trees with sweet fruits.",
+              "audioStart": 248.012,
+              "audioEnd": 250.225
+            },
+            {
+              "text": "The ground was covered with grass and flowers of many colors.",
+              "audioStart": 251.088,
+              "audioEnd": 254.312
+            },
+            {
+              "text": "Bright yellow, red, and blue flowers were growing everywhere.",
+              "audioStart": 255.175,
+              "audioEnd": 258.663
+            },
+            {
+              "text": "The sun was shining with bright light, and the sky was a clear blue.",
+              "audioStart": 259.525,
+              "audioEnd": 262.913
+            },
+            {
+              "text": "This was a place that she had never seen before.",
+              "audioStart": 263.775,
+              "audioEnd": 266.212
+            },
+            {
+              "text": "It was a wonderful change from the dry, gray fields of her home.",
+              "audioStart": 267.075,
+              "audioEnd": 270.363
+            },
+            {
+              "text": "If her aunt had been there, she would have been amazed by the beauty.",
+              "audioStart": 271.225,
+              "audioEnd": 275.697
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "As she stood there, she saw some people coming toward her.",
+              "audioStart": 276.56,
+              "audioEnd": 279.435
+            },
+            {
+              "text": "They were small people, and they wore strange clothes.",
+              "audioStart": 280.297,
+              "audioEnd": 283.147
+            },
+            {
+              "text": "They looked at Dorothy with great respect.",
+              "audioStart": 284.01,
+              "audioEnd": 286.06
+            },
+            {
+              "text": "Then, she noticed something under her house.",
+              "audioStart": 286.922,
+              "audioEnd": 289.322
+            },
+            {
+              "text": "Two feet, wearing silver shoes, were sticking out from under the wood.",
+              "audioStart": 290.185,
+              "audioEnd": 293.909
+            },
+            {
+              "text": "The people explained that her house had landed on top of an evil magic woman.",
+              "audioStart": 294.772,
+              "audioEnd": 298.747
+            },
+            {
+              "text": "This woman had ruled their land with fear for many years.",
+              "audioStart": 299.61,
+              "audioEnd": 302.51
+            },
+            {
+              "text": "Now, because of the house, the evil magic woman was dead.",
+              "audioStart": 303.372,
+              "audioEnd": 306.822
+            },
+            {
+              "text": "The people were very happy to be free from her power.",
+              "audioStart": 307.685,
+              "audioEnd": 310.322
+            },
+            {
+              "text": "They thanked Dorothy for saving them from this terrible person.",
+              "audioStart": 311.185,
+              "audioEnd": 314.159
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Dorothy was surprised to hear this.",
+              "audioStart": 315.022,
+              "audioEnd": 316.834
+            },
+            {
+              "text": "She had not intended to kill anyone.",
+              "audioStart": 317.697,
+              "audioEnd": 319.735
+            },
+            {
+              "text": "She explained that it was an accident caused by the storm.",
+              "audioStart": 320.597,
+              "audioEnd": 323.409
+            },
+            {
+              "text": "However, the people still praised her.",
+              "audioStart": 324.272,
+              "audioEnd": 326.372
+            },
+            {
+              "text": "They offered her food and beautiful gifts.",
+              "audioStart": 327.235,
+              "audioEnd": 329.472
+            },
+            {
+              "text": "Dorothy thanked them, but she felt a bit sad.",
+              "audioStart": 330.334,
+              "audioEnd": 332.772
+            },
+            {
+              "text": "She thought about her Uncle Henry and her Aunt Em.",
+              "audioStart": 333.635,
+              "audioEnd": 335.997
+            },
+            {
+              "text": "They would be worrying about her.",
+              "audioStart": 336.86,
+              "audioEnd": 338.36
+            },
+            {
+              "text": "She knew she must find a way to get back to Kansas.",
+              "audioStart": 339.222,
+              "audioEnd": 341.909
+            },
+            {
+              "text": "If she stayed here, her family would think she was dead.",
+              "audioStart": 342.772,
+              "audioEnd": 345.635
+            },
+            {
+              "text": "She asked the people if they knew the way to her home.",
+              "audioStart": 346.497,
+              "audioEnd": 348.86
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The people shook their heads.",
+              "audioStart": 349.722,
+              "audioEnd": 351.11
+            },
+            {
+              "text": "They told her that Kansas was a very far place.",
+              "audioStart": 351.972,
+              "audioEnd": 354.672
+            },
+            {
+              "text": "It was separated from their land by a huge desert.",
+              "audioStart": 355.534,
+              "audioEnd": 358.247
+            },
+            {
+              "text": "No one had ever crossed that desert and survived.",
+              "audioStart": 359.11,
+              "audioEnd": 361.672
+            },
+            {
+              "text": "They told her about another powerful person who lived in a great city.",
+              "audioStart": 362.534,
+              "audioEnd": 365.935
+            },
+            {
+              "text": "He was a good magic man who might be able to help her.",
+              "audioStart": 366.797,
+              "audioEnd": 369.584
+            },
+            {
+              "text": "If anyone could help her, it would be him.",
+              "audioStart": 370.447,
+              "audioEnd": 372.584
+            },
+            {
+              "text": "Dorothy decided that she must travel to this city to ask for his assistance.",
+              "audioStart": 373.447,
+              "audioEnd": 377.347
+            },
+            {
+              "text": "She prepared for her long journey with Toto by her side.",
+              "audioStart": 378.209,
+              "audioEnd": 381.097
+            },
+            {
+              "text": "She hoped she would see her family again soon.",
+              "audioStart": 381.959,
+              "audioEnd": 384.247
+            }
+          ]
+        }
+      ],
+      "audio": "audio/b2/st-0015.mp3",
+      "wordTimings": "audio/b2/st-0015.timings.json",
+      "quiz": [
+        {
+          "q": "What was the name of Dorothy's little black dog?",
+          "options": [
+            "Toto",
+            "Rex",
+            "Buddy"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "Where did Dorothy live with her Uncle Henry and Aunt Em?",
+          "options": [
+            "Kansas",
+            "California",
+            "New York"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What happened to the house during the big storm?",
+          "options": [
+            "It was destroyed",
+            "It was carried away by the wind",
+            "It was flooded"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "B1": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Dorothy lived with her Uncle Henry and Aunt Em.",
+              "audioStart": 0.1,
+              "audioEnd": 2.475
+            },
+            {
+              "text": "Their house was small.",
+              "audioStart": 3.337,
+              "audioEnd": 4.5
+            },
+            {
+              "text": "It was on the great land of Kansas.",
+              "audioStart": 5.362,
+              "audioEnd": 7.275
+            },
+            {
+              "text": "The house was gray.",
+              "audioStart": 8.137,
+              "audioEnd": 9.188
+            },
+            {
+              "text": "It had a low roof.",
+              "audioStart": 10.05,
+              "audioEnd": 11.213
+            },
+            {
+              "text": "There was a little porch in front of the house.",
+              "audioStart": 12.075,
+              "audioEnd": 14.175
+            },
+            {
+              "text": "Inside, the house was also small.",
+              "audioStart": 15.037,
+              "audioEnd": 17.238
+            },
+            {
+              "text": "There was a small hole in the ground outside.",
+              "audioStart": 18.1,
+              "audioEnd": 20.225
+            },
+            {
+              "text": "This hole was a storm cellar.",
+              "audioStart": 21.087,
+              "audioEnd": 22.65
+            },
+            {
+              "text": "The family would go into this cellar.",
+              "audioStart": 23.512,
+              "audioEnd": 25.3
+            },
+            {
+              "text": "They went there if a very big storm came.",
+              "audioStart": 26.163,
+              "audioEnd": 28.225
+            },
+            {
+              "text": "This kept them safe from bad weather.",
+              "audioStart": 29.087,
+              "audioEnd": 31.038
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Uncle Henry was a farmer.",
+              "audioStart": 31.9,
+              "audioEnd": 33.388
+            },
+            {
+              "text": "He worked very hard.",
+              "audioStart": 34.25,
+              "audioEnd": 35.475
+            },
+            {
+              "text": "He worked from morning until night.",
+              "audioStart": 36.337,
+              "audioEnd": 38.1
+            },
+            {
+              "text": "Aunt Em was a kind woman.",
+              "audioStart": 38.962,
+              "audioEnd": 40.375
+            },
+            {
+              "text": "But she had become thin.",
+              "audioStart": 41.237,
+              "audioEnd": 42.575
+            },
+            {
+              "text": "She had also become very serious.",
+              "audioStart": 43.438,
+              "audioEnd": 45.45
+            },
+            {
+              "text": "This was because she had lived on the land for many years.",
+              "audioStart": 46.312,
+              "audioEnd": 49.138
+            },
+            {
+              "text": "Life on the land was hard.",
+              "audioStart": 50.0,
+              "audioEnd": 51.45
+            },
+            {
+              "text": "Dorothy loved to play with her little black dog.",
+              "audioStart": 52.312,
+              "audioEnd": 54.625
+            },
+            {
+              "text": "His name was Toto.",
+              "audioStart": 55.487,
+              "audioEnd": 56.688
+            },
+            {
+              "text": "Toto was a small dog.",
+              "audioStart": 57.55,
+              "audioEnd": 58.938
+            },
+            {
+              "text": "He made Dorothy laugh every day.",
+              "audioStart": 59.8,
+              "audioEnd": 61.612
+            },
+            {
+              "text": "He was her best friend.",
+              "audioStart": 62.475,
+              "audioEnd": 63.763
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "One day, Uncle Henry looked at the sky.",
+              "audioStart": 64.625,
+              "audioEnd": 67.0
+            },
+            {
+              "text": "He saw a big storm coming.",
+              "audioStart": 67.862,
+              "audioEnd": 69.388
+            },
+            {
+              "text": "The sky was dark and gray.",
+              "audioStart": 70.25,
+              "audioEnd": 71.675
+            },
+            {
+              "text": "The wind was blowing very hard.",
+              "audioStart": 72.537,
+              "audioEnd": 74.2
+            },
+            {
+              "text": "It made a loud noise.",
+              "audioStart": 75.062,
+              "audioEnd": 76.375
+            },
+            {
+              "text": "Aunt Em felt afraid.",
+              "audioStart": 77.237,
+              "audioEnd": 78.438
+            },
+            {
+              "text": "She knew the storm was dangerous.",
+              "audioStart": 79.3,
+              "audioEnd": 81.0
+            },
+            {
+              "text": "She told Dorothy to go to the storm cellar.",
+              "audioStart": 81.862,
+              "audioEnd": 84.075
+            },
+            {
+              "text": "It was important to go there fast.",
+              "audioStart": 84.938,
+              "audioEnd": 86.763
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "But they could not get to the cellar in time.",
+              "audioStart": 87.625,
+              "audioEnd": 89.65
+            },
+            {
+              "text": "The storm got much worse.",
+              "audioStart": 90.513,
+              "audioEnd": 91.987
+            },
+            {
+              "text": "The house started to shake a lot.",
+              "audioStart": 92.85,
+              "audioEnd": 94.475
+            },
+            {
+              "text": "Strong winds lifted the house up.",
+              "audioStart": 95.338,
+              "audioEnd": 97.075
+            },
+            {
+              "text": "It rose into the air.",
+              "audioStart": 97.938,
+              "audioEnd": 99.138
+            },
+            {
+              "text": "The wind carried it far away.",
+              "audioStart": 100.0,
+              "audioEnd": 101.575
+            },
+            {
+              "text": "Dorothy was very scared.",
+              "audioStart": 102.438,
+              "audioEnd": 103.787
+            },
+            {
+              "text": "She held on to Toto hard.",
+              "audioStart": 104.65,
+              "audioEnd": 106.112
+            },
+            {
+              "text": "She waited to see what would happen.",
+              "audioStart": 106.975,
+              "audioEnd": 108.588
+            },
+            {
+              "text": "She did not know what to do.",
+              "audioStart": 109.45,
+              "audioEnd": 110.838
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The house was carried high up.",
+              "audioStart": 111.7,
+              "audioEnd": 113.213
+            },
+            {
+              "text": "It went very far into the air.",
+              "audioStart": 114.075,
+              "audioEnd": 115.7
+            },
+            {
+              "text": "Dorothy felt like she was going up in a balloon.",
+              "audioStart": 116.562,
+              "audioEnd": 118.787
+            },
+            {
+              "text": "This was a strange feeling.",
+              "audioStart": 119.65,
+              "audioEnd": 121.075
+            },
+            {
+              "text": "She looked out the window.",
+              "audioStart": 121.938,
+              "audioEnd": 123.175
+            },
+            {
+              "text": "She saw the ground far below her.",
+              "audioStart": 124.037,
+              "audioEnd": 125.8
+            },
+            {
+              "text": "Everything looked very small.",
+              "audioStart": 126.662,
+              "audioEnd": 128.262
+            },
+            {
+              "text": "The house was spinning around and around.",
+              "audioStart": 129.125,
+              "audioEnd": 130.988
+            },
+            {
+              "text": "Dorothy got dizzy from the movement.",
+              "audioStart": 131.85,
+              "audioEnd": 133.575
+            },
+            {
+              "text": "She felt sick.",
+              "audioStart": 134.438,
+              "audioEnd": 135.425
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "After a while, the house started to fall.",
+              "audioStart": 136.287,
+              "audioEnd": 138.6
+            },
+            {
+              "text": "Dorothy was scared again.",
+              "audioStart": 139.463,
+              "audioEnd": 140.775
+            },
+            {
+              "text": "She thought it would crash with great force.",
+              "audioStart": 141.637,
+              "audioEnd": 143.787
+            },
+            {
+              "text": "But it did not fall to the ground.",
+              "audioStart": 144.65,
+              "audioEnd": 146.262
+            },
+            {
+              "text": "Instead, it landed with a big crash.",
+              "audioStart": 147.125,
+              "audioEnd": 149.438
+            },
+            {
+              "text": "The crash made a loud sound.",
+              "audioStart": 150.3,
+              "audioEnd": 151.875
+            },
+            {
+              "text": "Dorothy was shaken.",
+              "audioStart": 152.738,
+              "audioEnd": 153.8
+            },
+            {
+              "text": "But she was okay.",
+              "audioStart": 154.662,
+              "audioEnd": 155.738
+            },
+            {
+              "text": "She got out of the house slowly.",
+              "audioStart": 156.6,
+              "audioEnd": 158.175
+            },
+            {
+              "text": "She wanted to see where she was now.",
+              "audioStart": 159.037,
+              "audioEnd": 160.762
+            },
+            {
+              "text": "She looked around carefully.",
+              "audioStart": 161.625,
+              "audioEnd": 163.1
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She found herself in a beautiful land.",
+              "audioStart": 163.963,
+              "audioEnd": 165.9
+            },
+            {
+              "text": "It was very different from Kansas.",
+              "audioStart": 166.762,
+              "audioEnd": 168.588
+            },
+            {
+              "text": "There were green trees everywhere.",
+              "audioStart": 169.45,
+              "audioEnd": 171.037
+            },
+            {
+              "text": "Colorful flowers grew all around.",
+              "audioStart": 171.9,
+              "audioEnd": 173.762
+            },
+            {
+              "text": "Many birds were singing sweet songs.",
+              "audioStart": 174.625,
+              "audioEnd": 176.713
+            },
+            {
+              "text": "A bright sun was shining in the sky.",
+              "audioStart": 177.575,
+              "audioEnd": 179.55
+            },
+            {
+              "text": "Dorothy was very happy to be alive.",
+              "audioStart": 180.412,
+              "audioEnd": 182.363
+            },
+            {
+              "text": "She was happy to see such a beautiful place.",
+              "audioStart": 183.225,
+              "audioEnd": 185.537
+            },
+            {
+              "text": "It felt like a dream.",
+              "audioStart": 186.4,
+              "audioEnd": 187.6
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She looked around again.",
+              "audioStart": 188.463,
+              "audioEnd": 189.725
+            },
+            {
+              "text": "She saw that the house had landed on a witch.",
+              "audioStart": 190.588,
+              "audioEnd": 192.738
+            },
+            {
+              "text": "The witch was dead now.",
+              "audioStart": 193.6,
+              "audioEnd": 194.775
+            },
+            {
+              "text": "The people of this new land were very happy.",
+              "audioStart": 195.637,
+              "audioEnd": 197.838
+            },
+            {
+              "text": "They had waited a long time for this.",
+              "audioStart": 198.7,
+              "audioEnd": 200.6
+            },
+            {
+              "text": "They came to Dorothy.",
+              "audioStart": 201.463,
+              "audioEnd": 202.6
+            },
+            {
+              "text": "They thanked her for killing the bad witch.",
+              "audioStart": 203.463,
+              "audioEnd": 205.463
+            },
+            {
+              "text": "They asked her to stay with them for a while.",
+              "audioStart": 206.325,
+              "audioEnd": 208.238
+            },
+            {
+              "text": "They said she was a hero.",
+              "audioStart": 209.1,
+              "audioEnd": 210.488
+            },
+            {
+              "text": "\"If you stay with us,\" they told her, \"we will be very happy.\"",
+              "audioStart": 211.35,
+              "audioEnd": 214.613
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Dorothy was happy to stay for a short time.",
+              "audioStart": 215.475,
+              "audioEnd": 217.625
+            },
+            {
+              "text": "But she also wanted to go home.",
+              "audioStart": 218.488,
+              "audioEnd": 220.188
+            },
+            {
+              "text": "She has missed her Uncle Henry very much.",
+              "audioStart": 221.05,
+              "audioEnd": 223.225
+            },
+            {
+              "text": "She has missed Aunt Em a lot.",
+              "audioStart": 224.088,
+              "audioEnd": 225.662
+            },
+            {
+              "text": "She wanted to see them again soon.",
+              "audioStart": 226.525,
+              "audioEnd": 228.25
+            },
+            {
+              "text": "She felt a little sad.",
+              "audioStart": 229.113,
+              "audioEnd": 230.425
+            },
+            {
+              "text": "She asked the people of the land for help.",
+              "audioStart": 231.287,
+              "audioEnd": 233.262
+            },
+            {
+              "text": "She wanted to find a way home to Kansas.",
+              "audioStart": 234.125,
+              "audioEnd": 236.238
+            },
+            {
+              "text": "She did not know the way.",
+              "audioStart": 237.1,
+              "audioEnd": 238.312
+            }
+          ]
+        }
+      ],
+      "audio": "audio/b1/st-0015.mp3",
+      "wordTimings": "audio/b1/st-0015.timings.json",
+      "quiz": [
+        {
+          "q": "What did Uncle Henry see coming in the sky?",
+          "options": [
+            "A big bird.",
+            "A big storm.",
+            "A big plane."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Why did Aunt Em tell Dorothy to go to the cellar?",
+          "options": [
+            "Because it was time for dinner.",
+            "Because it was a safe place from the storm.",
+            "Because she wanted to play a game."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What did Dorothy find when she got out of the house in the new land?",
+          "options": [
+            "Her Uncle Henry and Aunt Em.",
+            "A bad witch who was alive.",
+            "A dead witch under her house."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    "A2": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Dorothy lived with Uncle Henry and Aunt Em.",
+              "audioStart": 0.106,
+              "audioEnd": 2.592
+            },
+            {
+              "text": "They lived in a small house.",
+              "audioStart": 3.556,
+              "audioEnd": 5.167
+            },
+            {
+              "text": "It was on the great Kansas land.",
+              "audioStart": 6.125,
+              "audioEnd": 8.069
+            },
+            {
+              "text": "The house was small and dark.",
+              "audioStart": 9.028,
+              "audioEnd": 10.708
+            },
+            {
+              "text": "It had a low top.",
+              "audioStart": 11.667,
+              "audioEnd": 12.889
+            },
+            {
+              "text": "It had a little front door.",
+              "audioStart": 13.847,
+              "audioEnd": 15.361
+            },
+            {
+              "text": "There was a small space under the ground.",
+              "audioStart": 16.319,
+              "audioEnd": 18.514
+            },
+            {
+              "text": "This space was for very bad days of strong air.",
+              "audioStart": 19.472,
+              "audioEnd": 22.347
+            },
+            {
+              "text": "The family could go there.",
+              "audioStart": 23.306,
+              "audioEnd": 24.764
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Uncle Henry worked hard on the land.",
+              "audioStart": 25.722,
+              "audioEnd": 27.889
+            },
+            {
+              "text": "He worked from morning until night.",
+              "audioStart": 28.847,
+              "audioEnd": 30.806
+            },
+            {
+              "text": "Aunt Em was a kind woman.",
+              "audioStart": 31.764,
+              "audioEnd": 33.333
+            },
+            {
+              "text": "She was small and serious now.",
+              "audioStart": 34.292,
+              "audioEnd": 36.208
+            },
+            {
+              "text": "She lived on the land for many years.",
+              "audioStart": 37.167,
+              "audioEnd": 39.403
+            },
+            {
+              "text": "Dorothy loved to play.",
+              "audioStart": 40.361,
+              "audioEnd": 41.764
+            },
+            {
+              "text": "She played with her small black dog.",
+              "audioStart": 42.722,
+              "audioEnd": 44.792
+            },
+            {
+              "text": "His name was Toto.",
+              "audioStart": 45.75,
+              "audioEnd": 47.083
+            },
+            {
+              "text": "Toto made her laugh a lot.",
+              "audioStart": 48.042,
+              "audioEnd": 49.708
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "One day, Uncle Henry looked up.",
+              "audioStart": 50.667,
+              "audioEnd": 52.889
+            },
+            {
+              "text": "He saw a very bad day coming.",
+              "audioStart": 53.847,
+              "audioEnd": 55.764
+            },
+            {
+              "text": "The air was very strong.",
+              "audioStart": 56.722,
+              "audioEnd": 58.25
+            },
+            {
+              "text": "The air was dark.",
+              "audioStart": 59.208,
+              "audioEnd": 60.319
+            },
+            {
+              "text": "Aunt Em felt great fear.",
+              "audioStart": 61.278,
+              "audioEnd": 62.861
+            },
+            {
+              "text": "She told Dorothy to go fast.",
+              "audioStart": 63.819,
+              "audioEnd": 65.806
+            },
+            {
+              "text": "She told her to go to the space.",
+              "audioStart": 66.764,
+              "audioEnd": 68.736
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "They could not get to the space.",
+              "audioStart": 69.694,
+              "audioEnd": 71.486
+            },
+            {
+              "text": "The strong air got very bad.",
+              "audioStart": 72.444,
+              "audioEnd": 74.25
+            },
+            {
+              "text": "The house started to move.",
+              "audioStart": 75.208,
+              "audioEnd": 76.694
+            },
+            {
+              "text": "Strong air moved the house up.",
+              "audioStart": 77.653,
+              "audioEnd": 79.375
+            },
+            {
+              "text": "It carried the house away.",
+              "audioStart": 80.333,
+              "audioEnd": 81.778
+            },
+            {
+              "text": "The house went high in the air.",
+              "audioStart": 82.736,
+              "audioEnd": 84.417
+            },
+            {
+              "text": "Dorothy felt great fear.",
+              "audioStart": 85.375,
+              "audioEnd": 86.944
+            },
+            {
+              "text": "She held Toto very close.",
+              "audioStart": 87.903,
+              "audioEnd": 89.708
+            },
+            {
+              "text": "She waited to see what would happen.",
+              "audioStart": 90.667,
+              "audioEnd": 92.458
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The house moved high in the air.",
+              "audioStart": 93.417,
+              "audioEnd": 95.125
+            },
+            {
+              "text": "Dorothy felt like she was going up.",
+              "audioStart": 96.083,
+              "audioEnd": 98.0
+            },
+            {
+              "text": "She looked out the window.",
+              "audioStart": 98.958,
+              "audioEnd": 100.333
+            },
+            {
+              "text": "The ground was far below her.",
+              "audioStart": 101.292,
+              "audioEnd": 103.056
+            },
+            {
+              "text": "The house was moving around and around.",
+              "audioStart": 104.014,
+              "audioEnd": 106.069
+            },
+            {
+              "text": "Dorothy felt very bad from this.",
+              "audioStart": 107.028,
+              "audioEnd": 109.097
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "After some time, the house fell.",
+              "audioStart": 110.056,
+              "audioEnd": 112.236
+            },
+            {
+              "text": "Dorothy felt fear.",
+              "audioStart": 113.194,
+              "audioEnd": 114.444
+            },
+            {
+              "text": "The house did not fall hard.",
+              "audioStart": 115.403,
+              "audioEnd": 117.042
+            },
+            {
+              "text": "Instead, it landed with a big sound.",
+              "audioStart": 118.0,
+              "audioEnd": 120.486
+            },
+            {
+              "text": "Dorothy was okay.",
+              "audioStart": 121.444,
+              "audioEnd": 122.653
+            },
+            {
+              "text": "But she felt very bad.",
+              "audioStart": 123.611,
+              "audioEnd": 125.028
+            },
+            {
+              "text": "She got out of the house fast.",
+              "audioStart": 125.986,
+              "audioEnd": 127.736
+            },
+            {
+              "text": "She wanted to see the new place.",
+              "audioStart": 128.694,
+              "audioEnd": 130.569
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was in a beautiful land.",
+              "audioStart": 131.528,
+              "audioEnd": 133.139
+            },
+            {
+              "text": "There were green trees.",
+              "audioStart": 134.097,
+              "audioEnd": 135.486
+            },
+            {
+              "text": "There were plants of many colors.",
+              "audioStart": 136.444,
+              "audioEnd": 138.333
+            },
+            {
+              "text": "These plants were in all places.",
+              "audioStart": 139.292,
+              "audioEnd": 141.264
+            },
+            {
+              "text": "She heard happy sounds.",
+              "audioStart": 142.222,
+              "audioEnd": 143.736
+            },
+            {
+              "text": "The light was very beautiful.",
+              "audioStart": 144.694,
+              "audioEnd": 146.417
+            },
+            {
+              "text": "Dorothy was happy to be not dead.",
+              "audioStart": 147.375,
+              "audioEnd": 149.306
+            },
+            {
+              "text": "It was a very beautiful place.",
+              "audioStart": 150.264,
+              "audioEnd": 152.139
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She looked around.",
+              "audioStart": 153.097,
+              "audioEnd": 154.194
+            },
+            {
+              "text": "The house landed on a bad woman.",
+              "audioStart": 155.153,
+              "audioEnd": 157.028
+            },
+            {
+              "text": "The bad woman was dead.",
+              "audioStart": 157.986,
+              "audioEnd": 159.486
+            },
+            {
+              "text": "The people of the land were happy.",
+              "audioStart": 160.444,
+              "audioEnd": 162.222
+            },
+            {
+              "text": "They thanked Dorothy very much.",
+              "audioStart": 163.181,
+              "audioEnd": 165.0
+            },
+            {
+              "text": "She killed the bad woman.",
+              "audioStart": 165.958,
+              "audioEnd": 167.417
+            },
+            {
+              "text": "They asked her to stay with them.",
+              "audioStart": 168.375,
+              "audioEnd": 170.028
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Dorothy was happy to stay there.",
+              "audioStart": 170.986,
+              "audioEnd": 172.736
+            },
+            {
+              "text": "But she also wanted to go home.",
+              "audioStart": 173.694,
+              "audioEnd": 175.583
+            },
+            {
+              "text": "She missed Uncle Henry and Aunt Em.",
+              "audioStart": 176.542,
+              "audioEnd": 178.639
+            },
+            {
+              "text": "She wanted to see them again soon.",
+              "audioStart": 179.597,
+              "audioEnd": 181.514
+            },
+            {
+              "text": "She asked for help from the people.",
+              "audioStart": 182.472,
+              "audioEnd": 184.375
+            },
+            {
+              "text": "She wanted to find a way home.",
+              "audioStart": 185.333,
+              "audioEnd": 187.056
+            }
+          ]
+        }
+      ],
+      "audio": "audio/a2/st-0015.mp3",
+      "wordTimings": "audio/a2/st-0015.timings.json",
+      "quiz": [
+        {
+          "q": "Where did Dorothy live at the start of the story?",
+          "options": [
+            "In a big city.",
+            "In a small house on Kansas land.",
+            "In a tree house."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What happened to Dorothy's house during the storm?",
+          "options": [
+            "It went into the ground.",
+            "It broke into many parts.",
+            "Strong winds carried it away."
+          ],
+          "answer": 2
+        },
+        {
+          "q": "What did Dorothy find when her house landed?",
+          "options": [
+            "A new house and a new dog.",
+            "A beautiful land and a dead bad woman.",
+            "Her Uncle Henry and Aunt Em."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "A1": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Dorothy lives in Kansas.",
+              "audioStart": 0.106,
+              "audioEnd": 1.772
+            },
+            {
+              "text": "She lives with Uncle Henry and Aunt Em.",
+              "audioStart": 2.736,
+              "audioEnd": 5.0
+            },
+            {
+              "text": "They live in a small gray house.",
+              "audioStart": 5.958,
+              "audioEnd": 7.736
+            },
+            {
+              "text": "The house is old.",
+              "audioStart": 8.694,
+              "audioEnd": 9.75
+            },
+            {
+              "text": "It has a low top.",
+              "audioStart": 10.708,
+              "audioEnd": 11.972
+            },
+            {
+              "text": "It has a small front porch.",
+              "audioStart": 12.931,
+              "audioEnd": 14.667
+            },
+            {
+              "text": "A small room is under the house.",
+              "audioStart": 15.625,
+              "audioEnd": 17.458
+            },
+            {
+              "text": "The family goes there during a storm.",
+              "audioStart": 18.417,
+              "audioEnd": 20.444
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Uncle Henry works the land.",
+              "audioStart": 21.403,
+              "audioEnd": 23.181
+            },
+            {
+              "text": "He works from morning until night.",
+              "audioStart": 24.139,
+              "audioEnd": 26.097
+            },
+            {
+              "text": "Aunt Em is thin and serious.",
+              "audioStart": 27.056,
+              "audioEnd": 28.972
+            },
+            {
+              "text": "Dorothy has a little black dog.",
+              "audioStart": 29.931,
+              "audioEnd": 31.778
+            },
+            {
+              "text": "His name is Toto.",
+              "audioStart": 32.736,
+              "audioEnd": 34.014
+            },
+            {
+              "text": "Dorothy loves to play with Toto.",
+              "audioStart": 34.972,
+              "audioEnd": 36.889
+            },
+            {
+              "text": "Toto makes her feel very good.",
+              "audioStart": 37.847,
+              "audioEnd": 39.722
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "One day, Uncle Henry looks above.",
+              "audioStart": 40.681,
+              "audioEnd": 43.056
+            },
+            {
+              "text": "He sees a very big storm.",
+              "audioStart": 44.014,
+              "audioEnd": 45.764
+            },
+            {
+              "text": "The sky is black.",
+              "audioStart": 46.722,
+              "audioEnd": 47.972
+            },
+            {
+              "text": "The wind is very strong.",
+              "audioStart": 48.931,
+              "audioEnd": 50.5
+            },
+            {
+              "text": "Aunt Em does not feel good.",
+              "audioStart": 51.458,
+              "audioEnd": 53.042
+            },
+            {
+              "text": "She tells Dorothy to go under.",
+              "audioStart": 54.0,
+              "audioEnd": 55.792
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "But the storm comes now.",
+              "audioStart": 56.75,
+              "audioEnd": 58.153
+            },
+            {
+              "text": "The small house starts to move.",
+              "audioStart": 59.111,
+              "audioEnd": 60.917
+            },
+            {
+              "text": "The strong wind takes the house.",
+              "audioStart": 61.875,
+              "audioEnd": 63.764
+            },
+            {
+              "text": "The house moves up and away.",
+              "audioStart": 64.722,
+              "audioEnd": 66.278
+            },
+            {
+              "text": "Dorothy does not feel well.",
+              "audioStart": 67.236,
+              "audioEnd": 68.847
+            },
+            {
+              "text": "She holds Toto very close.",
+              "audioStart": 69.806,
+              "audioEnd": 71.681
+            },
+            {
+              "text": "She waits to see what happens.",
+              "audioStart": 72.639,
+              "audioEnd": 74.472
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The house is high in the light.",
+              "audioStart": 75.431,
+              "audioEnd": 77.083
+            },
+            {
+              "text": "It is very high.",
+              "audioStart": 78.042,
+              "audioEnd": 79.139
+            },
+            {
+              "text": "Dorothy looks out of the window.",
+              "audioStart": 80.097,
+              "audioEnd": 81.778
+            },
+            {
+              "text": "She sees the land far down.",
+              "audioStart": 82.736,
+              "audioEnd": 84.569
+            },
+            {
+              "text": "The house turns around and around.",
+              "audioStart": 85.528,
+              "audioEnd": 87.361
+            },
+            {
+              "text": "Dorothy feels very bad.",
+              "audioStart": 88.319,
+              "audioEnd": 89.931
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Now, the house starts to fall.",
+              "audioStart": 90.889,
+              "audioEnd": 93.042
+            },
+            {
+              "text": "Dorothy is still not well.",
+              "audioStart": 94.0,
+              "audioEnd": 95.514
+            },
+            {
+              "text": "The house lands with a big sound.",
+              "audioStart": 96.472,
+              "audioEnd": 98.347
+            },
+            {
+              "text": "Dorothy is not well but she is okay.",
+              "audioStart": 99.306,
+              "audioEnd": 101.528
+            },
+            {
+              "text": "She goes outside the house.",
+              "audioStart": 102.486,
+              "audioEnd": 104.111
+            },
+            {
+              "text": "She wants to see the new place.",
+              "audioStart": 105.069,
+              "audioEnd": 106.875
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She is in a great land.",
+              "audioStart": 107.833,
+              "audioEnd": 109.306
+            },
+            {
+              "text": "There are many colors.",
+              "audioStart": 110.264,
+              "audioEnd": 111.639
+            },
+            {
+              "text": "The light is very clear.",
+              "audioStart": 112.597,
+              "audioEnd": 114.111
+            },
+            {
+              "text": "Dorothy is well and she feels good.",
+              "audioStart": 115.069,
+              "audioEnd": 117.181
+            },
+            {
+              "text": "She sees this great new place.",
+              "audioStart": 118.139,
+              "audioEnd": 120.069
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The house is on a bad witch.",
+              "audioStart": 121.028,
+              "audioEnd": 122.722
+            },
+            {
+              "text": "Now, the bad witch is dead.",
+              "audioStart": 123.681,
+              "audioEnd": 125.639
+            },
+            {
+              "text": "The people of the land feel good.",
+              "audioStart": 126.597,
+              "audioEnd": 128.417
+            },
+            {
+              "text": "They thank Dorothy for this.",
+              "audioStart": 129.375,
+              "audioEnd": 131.0
+            },
+            {
+              "text": "They ask Dorothy to stay.",
+              "audioStart": 131.958,
+              "audioEnd": 133.556
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Dorothy wants to stay.",
+              "audioStart": 134.514,
+              "audioEnd": 135.931
+            },
+            {
+              "text": "But she also wants to go home.",
+              "audioStart": 136.889,
+              "audioEnd": 138.736
+            },
+            {
+              "text": "She wants her family in Kansas.",
+              "audioStart": 139.694,
+              "audioEnd": 141.806
+            },
+            {
+              "text": "She wants to see them again.",
+              "audioStart": 142.764,
+              "audioEnd": 144.319
+            },
+            {
+              "text": "She asks the people for help.",
+              "audioStart": 145.278,
+              "audioEnd": 146.958
+            }
+          ]
+        }
+      ],
+      "audio": "audio/a1/st-0015.mp3",
+      "wordTimings": "audio/a1/st-0015.timings.json",
+      "quiz": [
+        {
+          "q": "Who lives with Dorothy in Kansas?",
+          "options": [
+            "Her father and mother.",
+            "Her uncle and aunt.",
+            "Her friends."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What takes the house away?",
+          "options": [
+            "A big balloon.",
+            "A strong wind.",
+            "A bad witch."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Where does Dorothy want to go?",
+          "options": [
+            "To her home in Kansas.",
+            "To a new land.",
+            "To a school."
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  }
+}
