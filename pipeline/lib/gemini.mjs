@@ -2,14 +2,20 @@ import { loadEnv } from './env.mjs';
 
 loadEnv();
 
-const API_BASE = 'https://generativelanguage.googleapis.com/v1beta/models';
-const DEFAULT_MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
-const MAX_RETRIES = 4;
+/**
+ * Çoklu-sağlayıcı LLM çağrısı. Gemini + OpenAI-uyumlu ücretsiz sağlayıcılar
+ * (Groq, Cerebras, Together, Mistral, OpenRouter, GitHub Models) tek havuzda
+ * toplanır. Bir uç nokta günlük/dakikalık limite takılınca sıradaki canlı uca
+ * geçilir. Böylece ücretsiz katmanların kotaları birleştirilir.
+ *
+ * .env'de yalnız ANAHTARI OLAN sağlayıcı etkinleşir:
+ *   GEMINI_API_KEY, GROQ_API_KEY, CEREBRAS_API_KEY, TOGETHER_API_KEY,
+ *   MISTRAL_API_KEY, OPENROUTER_API_KEY, GITHUB_MODELS_TOKEN
+ * Havuz sırası env GEMINI_MODELS ile Gemini modelleri için özelleştirilebilir.
+ */
 
-// Ücretsiz katman: model BAŞINA günde 20 istek. Her modelin ayrı kovası
-// olduğundan havuzu döndürerek günlük bütçeyi katlarız. Bir model günlük
-// kotayı (PerDay 429) tüketince "dead" işaretlenir, sıradaki canlı modele geçilir.
-const MODEL_POOL = (
+const GEMINI_BASE = 'https://generativelanguage.googleapis.com/v1beta/models';
+const GEMINI_MODELS = (
   process.env.GEMINI_MODELS
     ? process.env.GEMINI_MODELS.split(',')
     : [
@@ -22,95 +28,163 @@ const MODEL_POOL = (
       ]
 ).map((m) => m.trim());
 
-const deadModels = new Set();
+// OpenAI-uyumlu ücretsiz sağlayıcılar (hepsi /chat/completions). Ücretsiz ve
+// cömert olanlar önce; Gemini (en dar günlük kota) en sona konur.
+const OPENAI_PROVIDERS = [
+  { name: 'groq', env: 'GROQ_API_KEY', baseUrl: 'https://api.groq.com/openai/v1', models: ['llama-3.3-70b-versatile'] },
+  { name: 'cerebras', env: 'CEREBRAS_API_KEY', baseUrl: 'https://api.cerebras.ai/v1', models: ['llama-3.3-70b'] },
+  { name: 'together', env: 'TOGETHER_API_KEY', baseUrl: 'https://api.together.xyz/v1', models: ['meta-llama/Llama-3.3-70B-Instruct-Turbo-Free'] },
+  { name: 'mistral', env: 'MISTRAL_API_KEY', baseUrl: 'https://api.mistral.ai/v1', models: ['mistral-large-latest'] },
+  { name: 'openrouter', env: 'OPENROUTER_API_KEY', baseUrl: 'https://openrouter.ai/api/v1', models: ['meta-llama/llama-3.3-70b-instruct:free', 'deepseek/deepseek-chat-v3.1:free'] },
+  { name: 'github', env: 'GITHUB_MODELS_TOKEN', baseUrl: 'https://models.inference.ai.azure.com', models: ['gpt-4o', 'gpt-4o-mini'] },
+];
 
-/** Verilen başlangıç modelinden itibaren canlı model listesi (havuzla birleşik). */
-function liveModels(startModel) {
-  const ordered = [startModel, ...MODEL_POOL.filter((m) => m !== startModel)];
-  return ordered.filter((m) => !deadModels.has(m));
+/** Etkin uç noktaları (provider+model+key) sıralı havuz olarak kur. */
+function buildPool() {
+  const pool = [];
+  for (const p of OPENAI_PROVIDERS) {
+    const key = process.env[p.env];
+    if (!key) continue;
+    for (const model of p.models) {
+      pool.push({ id: `${p.name}:${model}`, type: 'openai', baseUrl: p.baseUrl, key, model, provider: p.name });
+    }
+  }
+  const gkey = process.env.GEMINI_API_KEY;
+  if (gkey) {
+    for (const model of GEMINI_MODELS) {
+      pool.push({ id: `gemini:${model}`, type: 'gemini', key: gkey, model, provider: 'gemini' });
+    }
+  }
+  return pool;
 }
 
+const POOL = buildPool();
+const dead = new Set();
+const noJson = new Set(); // response_format desteklemeyen uçlar
+
 export function requireApiKey() {
-  const key = process.env.GEMINI_API_KEY;
-  if (!key) {
+  if (POOL.length === 0) {
     throw new Error(
-      'GEMINI_API_KEY bulunamadı. Repo kökünde .env dosyası oluşturun (bkz. .env.example) ' +
-        've AI Studio (https://aistudio.google.com/apikey) ücretsiz anahtarınızı girin.',
+      'Hiç LLM sağlayıcı anahtarı yok. Repo kökünde .env dosyasına en az birini ekleyin: ' +
+        'GEMINI_API_KEY, GROQ_API_KEY, CEREBRAS_API_KEY, TOGETHER_API_KEY, MISTRAL_API_KEY, ' +
+        'OPENROUTER_API_KEY, GITHUB_MODELS_TOKEN.',
     );
   }
-  return key;
+  return true;
+}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+async function callOpenAI(ep, prompt, json) {
+  const body = {
+    model: ep.model,
+    messages: [{ role: 'user', content: prompt }],
+    temperature: 0.8,
+    ...(json && !noJson.has(ep.id) ? { response_format: { type: 'json_object' } } : {}),
+  };
+  const headers = { 'Content-Type': 'application/json', Authorization: `Bearer ${ep.key}` };
+  if (ep.provider === 'openrouter') {
+    headers['HTTP-Referer'] = 'https://github.com/mustafaksit/taleup-content';
+    headers['X-Title'] = 'TaleUp Content Pipeline';
+  }
+  const res = await fetch(`${ep.baseUrl}/chat/completions`, {
+    method: 'POST',
+    headers,
+    body: JSON.stringify(body),
+  });
+  if (res.status === 400 && json && !noJson.has(ep.id)) {
+    // bu uç response_format'ı desteklemiyor -> işaretle, json modu olmadan tekrar
+    noJson.add(ep.id);
+    return callOpenAI(ep, prompt, json);
+  }
+  if (res.status === 429 || res.status === 402) return { retriable: 'quota', status: res.status };
+  if (res.status >= 500) return { retriable: 'server', status: res.status };
+  if (!res.ok) {
+    const t = await res.text();
+    throw new Error(`${ep.id} HTTP ${res.status}: ${t.slice(0, 300)}`);
+  }
+  const data = await res.json();
+  const text = data.choices?.[0]?.message?.content ?? '';
+  return { text };
+}
+
+async function callGeminiEndpoint(ep, prompt, json) {
+  const body = {
+    contents: [{ parts: [{ text: prompt }] }],
+    generationConfig: { temperature: 0.8, ...(json ? { responseMimeType: 'application/json' } : {}) },
+  };
+  const res = await fetch(`${GEMINI_BASE}/${ep.model}:generateContent?key=${ep.key}`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (res.status === 429) {
+    // günlük kota -> öldür; dakika kotası -> geçici
+    let perDay = true;
+    try {
+      const b = await res.json();
+      const ids = (b.error?.details || []).flatMap((d) => d.violations || []).map((v) => v.quotaId || '');
+      if (ids.length && !ids.some((id) => /PerDay/i.test(id))) perDay = false;
+    } catch {
+      /* güvenli tarafta günlük */
+    }
+    return { retriable: perDay ? 'quota' : 'rate', status: 429 };
+  }
+  if (res.status >= 500) return { retriable: 'server', status: res.status };
+  if (!res.ok) {
+    const t = await res.text();
+    throw new Error(`${ep.id} HTTP ${res.status}: ${t.slice(0, 300)}`);
+  }
+  const data = await res.json();
+  const text = data.candidates?.[0]?.content?.parts?.map((p) => p.text).join('') ?? '';
+  return { text };
 }
 
 /**
- * Calls Gemini generateContent and returns the text response.
- * Retries on 429/5xx with exponential backoff (free tier rate limits).
+ * Havuzdaki canlı uçları sırayla dener; kota (429) -> uç öldürülür ve sonrakine
+ * geçilir; sunucu/dakika hatası -> kısa backoff + aynı uçta tekrar (birkaç kez).
  */
-export async function callGemini(prompt, { json = false, model = DEFAULT_MODEL } = {}) {
-  const key = requireApiKey();
-  const body = {
-    contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: {
-      temperature: 0.8,
-      ...(json ? { responseMimeType: 'application/json' } : {}),
-    },
-  };
-
+export async function callGemini(prompt, { json = false } = {}) {
+  requireApiKey();
   let lastError;
-  let backoff = 0; // aynı model içinde dakika-kotası/5xx için artan bekleme
-  for (let attempt = 0; attempt < MAX_RETRIES * 3; attempt++) {
-    const candidates = liveModels(model);
-    if (candidates.length === 0) {
-      throw new Error('Gemini HTTP 429: tüm modeller günlük kotayı tüketti (quota)');
-    }
-    const current = candidates[0];
-    if (backoff > 0) {
-      console.log(`  Gemini bekleme ${backoff / 1000}s (${current})...`);
-      await new Promise((r) => setTimeout(r, backoff));
-    }
-    const res = await fetch(`${API_BASE}/${current}:generateContent?key=${key}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(body),
-    });
-    if (res.status === 429) {
-      // günlük kota -> modeli öldür, sıradakine geç (beklemeden); dakika kotası -> bekle
-      let perDay = true;
-      try {
-        const b = await res.json();
-        const ids = (b.error?.details || []).flatMap((d) => d.violations || []).map((v) => v.quotaId || '');
-        if (ids.length && !ids.some((id) => /PerDay/i.test(id))) perDay = false;
-      } catch {
-        /* gövde okunamadı: güvenli tarafta günlük say */
-      }
-      lastError = new Error('Gemini HTTP 429');
-      if (perDay) {
-        deadModels.add(current);
-        console.log(`  ${current} günlük kotayı tüketti -> sıradaki modele geçiliyor`);
-        backoff = 0;
-      } else {
-        backoff = Math.min(60000, (backoff || 15000) * 1.5);
-      }
+  let guard = 0;
+  const maxSteps = POOL.length * 3 + 6;
+  while (guard++ < maxSteps) {
+    const ep = POOL.find((e) => !dead.has(e.id));
+    if (!ep) throw new Error('Gemini HTTP 429: tüm sağlayıcılar kotayı tüketti (quota)');
+    let out;
+    try {
+      out = ep.type === 'openai' ? await callOpenAI(ep, prompt, json) : await callGeminiEndpoint(ep, prompt, json);
+    } catch (e) {
+      lastError = e;
+      dead.add(ep.id); // kalıcı hata -> bu ucu bırak
+      console.log(`  ${ep.id} hata: ${e.message.slice(0, 80)} -> sıradaki sağlayıcı`);
       continue;
     }
-    if (res.status >= 500) {
-      lastError = new Error(`Gemini HTTP ${res.status}`);
-      backoff = Math.min(30000, (backoff || 4000) * 2);
+    if (out.text) {
+      if (out.text.trim()) return out.text;
+      lastError = new Error(`${ep.id} boş yanıt`);
+      dead.add(ep.id);
       continue;
     }
-    if (!res.ok) {
-      const detail = await res.text();
-      throw new Error(`Gemini HTTP ${res.status}: ${detail.slice(0, 400)}`);
-    }
-    const data = await res.json();
-    const text = data.candidates?.[0]?.content?.parts?.map((p) => p.text).join('') ?? '';
-    if (!text) {
-      lastError = new Error('Gemini boş yanıt döndürdü');
-      backoff = Math.min(30000, (backoff || 4000) * 2);
+    // retriable
+    if (out.retriable === 'quota') {
+      dead.add(ep.id);
+      console.log(`  ${ep.id} kota doldu (${out.status}) -> sıradaki sağlayıcı`);
+      lastError = new Error(`${ep.id} HTTP ${out.status}`);
       continue;
     }
-    return text;
+    // server/rate -> kısa bekle, aynı uçta bir daha; kalıcıysa öldür
+    lastError = new Error(`${ep.id} HTTP ${out.status}`);
+    ep._fails = (ep._fails || 0) + 1;
+    if (ep._fails >= 2) {
+      dead.add(ep.id);
+      console.log(`  ${ep.id} tekrarlayan ${out.status} -> bırakılıyor`);
+    } else {
+      await sleep(8000);
+    }
   }
-  throw lastError ?? new Error('Gemini çağrısı başarısız');
+  throw lastError ?? new Error('LLM çağrısı başarısız');
 }
 
 /** Parses a JSON response, tolerating markdown code fences. */
