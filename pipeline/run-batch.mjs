@@ -143,6 +143,24 @@ function nextGenre(counts, exclude = null) {
   return best; // hepsi hedefte ise null
 }
 
+/** En az sayıya sahip türü seç (hedef dolduğunda toplamı N'e taşımak için). */
+function lowestCountGenre(counts, exclude = null) {
+  let best = null;
+  let min = Infinity;
+  for (const g of Object.keys(TARGET)) {
+    if (g === exclude) continue;
+    if (counts[g] < min) {
+      min = counts[g];
+      best = g;
+    }
+  }
+  return best;
+}
+
+function totalCount(counts) {
+  return Object.values(counts).reduce((a, b) => a + b, 0);
+}
+
 function runNode(argsArr) {
   return spawnSync(process.execPath, argsArr, { cwd: REPO_ROOT, encoding: 'utf8' });
 }
@@ -363,6 +381,9 @@ async function main() {
   const classicUrl = typeof args['classic-url'] === 'string' ? args['classic-url'] : null;
   // --genre <tür>: bu turda yalnız bu türü üret (yoksa dengeli otomatik seçim)
   const forcedGenre = typeof args.genre === 'string' && TARGET[args.genre] ? args.genre : null;
+  // --fill-to <N>: katalog toplamı N olana kadar üret (hedef dağılım dolsa bile
+  // klasik açığını diğer türlerle kapatarak toplamı garantiler)
+  const fillTo = typeof args['fill-to'] === 'string' ? Number(args['fill-to']) : null;
 
   const state = loadState();
   state.produced = 0;
@@ -375,8 +396,17 @@ async function main() {
 
   while (doneThisRun < maxThisRun) {
     const counts = catalogCounts();
+    if (fillTo && totalCount(counts) >= fillTo) {
+      console.log(`Toplam hedefe ulaşıldı (${totalCount(counts)}/${fillTo}).`);
+      break;
+    }
     // klasik yalnız Gutenberg URL'iyle üretilir; URL yoksa otomatik seçimden çıkar
-    const genre = forcedGenre ?? nextGenre(counts, classicUrl ? null : 'classic');
+    const excl = classicUrl ? null : 'classic';
+    let genre = forcedGenre ?? nextGenre(counts, excl);
+    // hedef dağılım doldu ama --fill-to ile daha çok istiyorsak en az türü taşır
+    if (!genre && fillTo && totalCount(counts) < fillTo) {
+      genre = lowestCountGenre(counts, excl);
+    }
     if (!genre) {
       console.log('Hedef dağılıma ulaşıldı.');
       break;
