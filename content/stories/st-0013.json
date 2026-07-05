@@ -1,0 +1,2241 @@
+{
+  "id": "st-0013",
+  "title": "The Adventures of Tom Sawyer, Complete",
+  "genre": "classic",
+  "coverScene": "A warm illustration of Tom Sawyer sitting on a tree branch over a river, with a fishing rod in his hand, watching a sunset.",
+  "levels": {
+    "B2": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Tom Sawyer was a boy who loved adventure.",
+              "audioStart": 0.1,
+              "audioEnd": 2.325
+            },
+            {
+              "text": "He lived with his Aunt Polly in a small town.",
+              "audioStart": 3.188,
+              "audioEnd": 5.487
+            },
+            {
+              "text": "Tom was always getting into trouble, seeking new fun.",
+              "audioStart": 6.35,
+              "audioEnd": 9.287
+            },
+            {
+              "text": "He often dreamed of places far from his quiet home.",
+              "audioStart": 10.15,
+              "audioEnd": 12.85
+            },
+            {
+              "text": "Aunt Polly tried hard to keep him in line.",
+              "audioStart": 13.713,
+              "audioEnd": 15.863
+            },
+            {
+              "text": "But Tom's spirit was free.",
+              "audioStart": 16.725,
+              "audioEnd": 18.212
+            },
+            {
+              "text": "Trouble often seemed to find him.",
+              "audioStart": 19.075,
+              "audioEnd": 20.85
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "One day, Tom decided to run away from home.",
+              "audioStart": 21.712,
+              "audioEnd": 24.275
+            },
+            {
+              "text": "He felt a strong wish to go far away.",
+              "audioStart": 25.137,
+              "audioEnd": 27.225
+            },
+            {
+              "text": "He took a small boat and sailed to an island in the river.",
+              "audioStart": 28.087,
+              "audioEnd": 30.85
+            },
+            {
+              "text": "The sun was warm, and a gentle wind blew.",
+              "audioStart": 31.712,
+              "audioEnd": 34.087
+            },
+            {
+              "text": "He put some food and water in the boat.",
+              "audioStart": 34.95,
+              "audioEnd": 36.9
+            },
+            {
+              "text": "He sailed away from the town.",
+              "audioStart": 37.763,
+              "audioEnd": 39.263
+            },
+            {
+              "text": "The island was green, a perfect place for discovery.",
+              "audioStart": 40.125,
+              "audioEnd": 43.05
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom met a boy named Huck Finn on the island.",
+              "audioStart": 43.913,
+              "audioEnd": 46.212
+            },
+            {
+              "text": "Huck was a poor boy who lived on the streets.",
+              "audioStart": 47.075,
+              "audioEnd": 49.4
+            },
+            {
+              "text": "He had no real home and often slept outside.",
+              "audioStart": 50.263,
+              "audioEnd": 52.737
+            },
+            {
+              "text": "His clothes were old, but his eyes were bright.",
+              "audioStart": 53.6,
+              "audioEnd": 56.038
+            },
+            {
+              "text": "Huck knew much about the river and living free.",
+              "audioStart": 56.9,
+              "audioEnd": 59.188
+            },
+            {
+              "text": "Tom had never met anyone like him.",
+              "audioStart": 60.05,
+              "audioEnd": 61.875
+            },
+            {
+              "text": "They quickly became friends, sharing a love for adventure.",
+              "audioStart": 62.737,
+              "audioEnd": 65.787
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck became friends and had many exciting adventures together.",
+              "audioStart": 66.65,
+              "audioEnd": 70.412
+            },
+            {
+              "text": "Their days on the island were full of joy.",
+              "audioStart": 71.275,
+              "audioEnd": 73.362
+            },
+            {
+              "text": "They went on a hunt in the forest.",
+              "audioStart": 74.225,
+              "audioEnd": 75.888
+            },
+            {
+              "text": "They explored the island, finding old caves and hidden paths.",
+              "audioStart": 76.75,
+              "audioEnd": 80.088
+            },
+            {
+              "text": "They learned to work together well.",
+              "audioStart": 80.95,
+              "audioEnd": 82.55
+            },
+            {
+              "text": "Each new discovery felt great.",
+              "audioStart": 83.412,
+              "audioEnd": 85.162
+            },
+            {
+              "text": "They felt a strong bond growing.",
+              "audioStart": 86.025,
+              "audioEnd": 87.7
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "But their adventures were not without danger.",
+              "audioStart": 88.562,
+              "audioEnd": 90.688
+            },
+            {
+              "text": "Sometimes, their fun had a serious side.",
+              "audioStart": 91.55,
+              "audioEnd": 94.05
+            },
+            {
+              "text": "There were bad people near the town.",
+              "audioStart": 94.912,
+              "audioEnd": 96.638
+            },
+            {
+              "text": "Tom and Huck had to watch out for them.",
+              "audioStart": 97.5,
+              "audioEnd": 99.338
+            },
+            {
+              "text": "The law also kept an eye on things.",
+              "audioStart": 100.2,
+              "audioEnd": 102.25
+            },
+            {
+              "text": "If they were not smart, they could get into trouble.",
+              "audioStart": 103.112,
+              "audioEnd": 105.625
+            },
+            {
+              "text": "They learned to think fast and make good choices.",
+              "audioStart": 106.487,
+              "audioEnd": 109.013
+            },
+            {
+              "text": "This made their friendship stronger.",
+              "audioStart": 109.875,
+              "audioEnd": 111.562
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck learned many valuable lessons on their adventures.",
+              "audioStart": 112.425,
+              "audioEnd": 115.8
+            },
+            {
+              "text": "These lessons were very important for them.",
+              "audioStart": 116.662,
+              "audioEnd": 118.713
+            },
+            {
+              "text": "They learned about friendship and being true to each other.",
+              "audioStart": 119.575,
+              "audioEnd": 122.075
+            },
+            {
+              "text": "They understood that a friend is always there.",
+              "audioStart": 122.938,
+              "audioEnd": 125.138
+            },
+            {
+              "text": "They saw that working together made them strong.",
+              "audioStart": 126.0,
+              "audioEnd": 128.312
+            },
+            {
+              "text": "Being true was a key part.",
+              "audioStart": 129.175,
+              "audioEnd": 130.625
+            },
+            {
+              "text": "This new understanding stayed with them.",
+              "audioStart": 131.488,
+              "audioEnd": 133.275
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "In the end, Tom returned home to his Aunt Polly.",
+              "audioStart": 134.137,
+              "audioEnd": 136.762
+            },
+            {
+              "text": "She was very glad to see him safe.",
+              "audioStart": 137.625,
+              "audioEnd": 139.6
+            },
+            {
+              "text": "She had worried much about Tom.",
+              "audioStart": 140.463,
+              "audioEnd": 142.15
+            },
+            {
+              "text": "Tom told her some stories from the island.",
+              "audioStart": 143.012,
+              "audioEnd": 145.075
+            },
+            {
+              "text": "He did not tell her everything.",
+              "audioStart": 145.938,
+              "audioEnd": 147.512
+            },
+            {
+              "text": "His time there was special.",
+              "audioStart": 148.375,
+              "audioEnd": 149.8
+            },
+            {
+              "text": "He knew their friendship with Huck was real.",
+              "audioStart": 150.662,
+              "audioEnd": 152.75
+            },
+            {
+              "text": "He felt a new sense of calm.",
+              "audioStart": 153.613,
+              "audioEnd": 155.15
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck remained the best of friends.",
+              "audioStart": 156.012,
+              "audioEnd": 158.137
+            },
+            {
+              "text": "Their bond was not broken by distance.",
+              "audioStart": 159.0,
+              "audioEnd": 161.15
+            },
+            {
+              "text": "They often met for new games and shared more stories.",
+              "audioStart": 162.012,
+              "audioEnd": 164.863
+            },
+            {
+              "text": "Their friendship was a strong thing.",
+              "audioStart": 165.725,
+              "audioEnd": 167.537
+            },
+            {
+              "text": "They knew they could always depend on each other.",
+              "audioStart": 168.4,
+              "audioEnd": 170.425
+            },
+            {
+              "text": "If one had a problem, the other would help.",
+              "audioStart": 171.287,
+              "audioEnd": 173.512
+            },
+            {
+              "text": "This was a clear mark of their deep bond.",
+              "audioStart": 174.375,
+              "audioEnd": 176.4
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "If Tom had not run away from home, he would not have met Huck.",
+              "audioStart": 177.262,
+              "audioEnd": 180.613
+            },
+            {
+              "text": "This choice changed his life.",
+              "audioStart": 181.475,
+              "audioEnd": 183.137
+            },
+            {
+              "text": "His time away led to much good.",
+              "audioStart": 184.0,
+              "audioEnd": 185.8
+            },
+            {
+              "text": "It opened up a new world for him.",
+              "audioStart": 186.662,
+              "audioEnd": 188.238
+            },
+            {
+              "text": "He was glad he took the chance to explore.",
+              "audioStart": 189.1,
+              "audioEnd": 191.312
+            },
+            {
+              "text": "Without that choice, a great friendship would not exist.",
+              "audioStart": 192.175,
+              "audioEnd": 195.375
+            },
+            {
+              "text": "He knew some risks lead to good rewards.",
+              "audioStart": 196.238,
+              "audioEnd": 198.3
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "As a result, Tom and Huck had many exciting adventures together.",
+              "audioStart": 199.162,
+              "audioEnd": 202.963
+            },
+            {
+              "text": "They shared many secrets and faced small challenges.",
+              "audioStart": 203.825,
+              "audioEnd": 206.675
+            },
+            {
+              "text": "Each day brought new things to see.",
+              "audioStart": 207.537,
+              "audioEnd": 209.363
+            },
+            {
+              "text": "They became like brothers, sharing a deep bond.",
+              "audioStart": 210.225,
+              "audioEnd": 212.825
+            },
+            {
+              "text": "Their friendship lasted a very long time.",
+              "audioStart": 213.688,
+              "audioEnd": 215.963
+            },
+            {
+              "text": "They saw each other as family.",
+              "audioStart": 216.825,
+              "audioEnd": 218.4
+            },
+            {
+              "text": "Their bond was true for all their days.",
+              "audioStart": 219.262,
+              "audioEnd": 221.35
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Although Tom returned home, he never forgot about Huck.",
+              "audioStart": 222.213,
+              "audioEnd": 225.25
+            },
+            {
+              "text": "The memories of their adventures were clear in his mind.",
+              "audioStart": 226.113,
+              "audioEnd": 228.688
+            },
+            {
+              "text": "He often thought about his friend and their exciting times.",
+              "audioStart": 229.55,
+              "audioEnd": 232.438
+            },
+            {
+              "text": "The river, the island, and the forest came to his thoughts.",
+              "audioStart": 233.3,
+              "audioEnd": 236.575
+            },
+            {
+              "text": "These images made him smile.",
+              "audioStart": 237.438,
+              "audioEnd": 238.988
+            },
+            {
+              "text": "He knew he was lucky to have such a friend.",
+              "audioStart": 239.85,
+              "audioEnd": 242.05
+            },
+            {
+              "text": "He always kept Huck close.",
+              "audioStart": 242.912,
+              "audioEnd": 244.6
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "If Tom and Huck had not been careful, they would have gotten into much trouble.",
+              "audioStart": 245.463,
+              "audioEnd": 249.363
+            },
+            {
+              "text": "But they were careful, and learned to plan well.",
+              "audioStart": 250.225,
+              "audioEnd": 252.613
+            },
+            {
+              "text": "They thought about what might happen before they acted.",
+              "audioStart": 253.475,
+              "audioEnd": 255.863
+            },
+            {
+              "text": "Their quick thinking helped them avoid the law.",
+              "audioStart": 256.725,
+              "audioEnd": 258.825
+            },
+            {
+              "text": "They also avoided the bad people in town.",
+              "audioStart": 259.688,
+              "audioEnd": 261.887
+            },
+            {
+              "text": "They learned the importance of being alert.",
+              "audioStart": 262.75,
+              "audioEnd": 264.688
+            },
+            {
+              "text": "Their goal was just to have fun.",
+              "audioStart": 265.55,
+              "audioEnd": 267.137
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck's adventures taught them many valuable lessons.",
+              "audioStart": 268.0,
+              "audioEnd": 271.05
+            },
+            {
+              "text": "They truly understood the meaning of trust.",
+              "audioStart": 271.913,
+              "audioEnd": 274.1
+            },
+            {
+              "text": "They knew how important it was to be honest.",
+              "audioStart": 274.962,
+              "audioEnd": 277.0
+            },
+            {
+              "text": "They also learned about courage.",
+              "audioStart": 277.863,
+              "audioEnd": 279.5
+            },
+            {
+              "text": "They found power in their shared spirit.",
+              "audioStart": 280.363,
+              "audioEnd": 282.238
+            },
+            {
+              "text": "These important ideas were part of who they were.",
+              "audioStart": 283.1,
+              "audioEnd": 285.363
+            },
+            {
+              "text": "They learned about friendship and being true to each other.",
+              "audioStart": 286.225,
+              "audioEnd": 289.969
+            },
+            {
+              "text": "Their experiences shaped them for the better.",
+              "audioStart": 290.832,
+              "audioEnd": 293.007
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "They also learned to always have each other's backs.",
+              "audioStart": 293.869,
+              "audioEnd": 296.244
+            },
+            {
+              "text": "This sense of common purpose grew strong.",
+              "audioStart": 297.106,
+              "audioEnd": 299.144
+            },
+            {
+              "text": "No matter what adventures lay ahead, they would face them together.",
+              "audioStart": 300.007,
+              "audioEnd": 303.319
+            },
+            {
+              "text": "They knew they would always support each other.",
+              "audioStart": 304.182,
+              "audioEnd": 306.119
+            },
+            {
+              "text": "This was a deep promise between them.",
+              "audioStart": 306.981,
+              "audioEnd": 308.819
+            },
+            {
+              "text": "They could always count on their friend.",
+              "audioStart": 309.682,
+              "audioEnd": 311.457
+            },
+            {
+              "text": "This belief gave them much strength.",
+              "audioStart": 312.319,
+              "audioEnd": 314.156
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "In the future, Tom and Huck would have many more adventures together.",
+              "audioStart": 315.019,
+              "audioEnd": 318.707
+            },
+            {
+              "text": "The future held much excitement for them.",
+              "audioStart": 319.569,
+              "audioEnd": 321.594
+            },
+            {
+              "text": "New places would be found, and new mysteries solved.",
+              "audioStart": 322.457,
+              "audioEnd": 325.307
+            },
+            {
+              "text": "Their bond would only grow stronger.",
+              "audioStart": 326.169,
+              "audioEnd": 328.057
+            },
+            {
+              "text": "They would always be there for each other.",
+              "audioStart": 328.919,
+              "audioEnd": 330.719
+            },
+            {
+              "text": "Their friendship would last a very long time.",
+              "audioStart": 331.582,
+              "audioEnd": 333.919
+            },
+            {
+              "text": "They had many big plans for later days.",
+              "audioStart": 334.781,
+              "audioEnd": 337.057
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The story of Tom and Huck is a classic tale of friendship and adventure.",
+              "audioStart": 337.919,
+              "audioEnd": 341.531
+            },
+            {
+              "text": "This tale is known by many people.",
+              "audioStart": 342.394,
+              "audioEnd": 344.269
+            },
+            {
+              "text": "It shows the strong power of two boys.",
+              "audioStart": 345.132,
+              "audioEnd": 347.257
+            },
+            {
+              "text": "Their choices shaped their world and their stories.",
+              "audioStart": 348.119,
+              "audioEnd": 350.557
+            },
+            {
+              "text": "It has been passed down for generations.",
+              "audioStart": 351.419,
+              "audioEnd": 353.582
+            },
+            {
+              "text": "It will continue to be told for many years to come.",
+              "audioStart": 354.444,
+              "audioEnd": 357.094
+            },
+            {
+              "text": "People often read about their fun.",
+              "audioStart": 357.957,
+              "audioEnd": 359.769
+            },
+            {
+              "text": "It brings a smile to many faces.",
+              "audioStart": 360.632,
+              "audioEnd": 362.682
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The story teaches us about the importance of friendship and being true to each other.",
+              "audioStart": 363.544,
+              "audioEnd": 367.394
+            },
+            {
+              "text": "From their tale, we learn many valuable things.",
+              "audioStart": 368.257,
+              "audioEnd": 371.044
+            },
+            {
+              "text": "We see how vital a good friend is.",
+              "audioStart": 371.906,
+              "audioEnd": 373.781
+            },
+            {
+              "text": "We learn to make smart choices.",
+              "audioStart": 374.644,
+              "audioEnd": 376.394
+            },
+            {
+              "text": "We should think carefully before we act.",
+              "audioStart": 377.257,
+              "audioEnd": 379.281
+            },
+            {
+              "text": "It also teaches us to be careful and to avoid trouble.",
+              "audioStart": 380.144,
+              "audioEnd": 383.057
+            },
+            {
+              "text": "The boys show us a good path.",
+              "audioStart": 383.919,
+              "audioEnd": 385.557
+            },
+            {
+              "text": "This tale holds much wisdom.",
+              "audioStart": 386.419,
+              "audioEnd": 388.044
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck's friendship is an example to us all.",
+              "audioStart": 388.906,
+              "audioEnd": 391.432
+            },
+            {
+              "text": "Such strong bonds are truly valuable in life.",
+              "audioStart": 392.294,
+              "audioEnd": 395.044
+            },
+            {
+              "text": "They give us much strength and joy.",
+              "audioStart": 395.906,
+              "audioEnd": 397.619
+            },
+            {
+              "text": "We all need people we can trust.",
+              "audioStart": 398.481,
+              "audioEnd": 400.281
+            },
+            {
+              "text": "We should all try to have friendships like theirs.",
+              "audioStart": 401.144,
+              "audioEnd": 403.394
+            },
+            {
+              "text": "Friendships that last a very long time and stay true.",
+              "audioStart": 404.257,
+              "audioEnd": 407.119
+            },
+            {
+              "text": "These two boys show us how to build such a bond.",
+              "audioStart": 407.981,
+              "audioEnd": 410.369
+            },
+            {
+              "text": "Their way of life is a good model.",
+              "audioStart": 411.231,
+              "audioEnd": 412.906
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "In conclusion, the story of Tom and Huck is a story about friendship and adventure.",
+              "audioStart": 413.769,
+              "audioEnd": 418.156
+            },
+            {
+              "text": "It is a tale that touches the heart.",
+              "audioStart": 419.019,
+              "audioEnd": 420.769
+            },
+            {
+              "text": "It speaks of freedom, choice, and youth's fun.",
+              "audioStart": 421.632,
+              "audioEnd": 424.257
+            },
+            {
+              "text": "It reminds us of childhood dreams.",
+              "audioStart": 425.119,
+              "audioEnd": 426.981
+            },
+            {
+              "text": "It teaches us valuable lessons.",
+              "audioStart": 427.844,
+              "audioEnd": 429.769
+            },
+            {
+              "text": "It will continue to be told for many years to come.",
+              "audioStart": 430.632,
+              "audioEnd": 433.281
+            },
+            {
+              "text": "It is a story for everyone to enjoy.",
+              "audioStart": 434.144,
+              "audioEnd": 436.132
+            },
+            {
+              "text": "Its message is clear and strong.",
+              "audioStart": 436.994,
+              "audioEnd": 438.719
+            }
+          ]
+        }
+      ],
+      "audio": "audio/b2/st-0013.mp3",
+      "wordTimings": "audio/b2/st-0013.timings.json",
+      "quiz": [
+        {
+          "q": "What was Tom Sawyer's relationship to Aunt Polly?",
+          "options": [
+            "Mother",
+            "Sister",
+            "Aunt"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "Who did Tom meet on the island?",
+          "options": [
+            "Huck Finn",
+            "Aunt Polly",
+            "A friend from school"
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did Tom and Huck go on?",
+          "options": [
+            "A picnic",
+            "A hunt",
+            "A trip to school"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "B1": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Tom Sawyer was a young boy.",
+              "audioStart": 0.1,
+              "audioEnd": 1.637
+            },
+            {
+              "text": "He loved to find new adventures.",
+              "audioStart": 2.5,
+              "audioEnd": 4.275
+            },
+            {
+              "text": "Tom lived in a small town.",
+              "audioStart": 5.138,
+              "audioEnd": 6.625
+            },
+            {
+              "text": "He lived with his Aunt Polly.",
+              "audioStart": 7.487,
+              "audioEnd": 9.062
+            },
+            {
+              "text": "Aunt Polly tried to keep him safe.",
+              "audioStart": 9.925,
+              "audioEnd": 11.825
+            },
+            {
+              "text": "But Tom often found trouble.",
+              "audioStart": 12.688,
+              "audioEnd": 14.338
+            },
+            {
+              "text": "He liked to play and explore.",
+              "audioStart": 15.2,
+              "audioEnd": 16.863
+            },
+            {
+              "text": "He did not always follow the rules.",
+              "audioStart": 17.725,
+              "audioEnd": 19.587
+            },
+            {
+              "text": "Sometimes, Aunt Polly felt tired.",
+              "audioStart": 20.45,
+              "audioEnd": 22.625
+            },
+            {
+              "text": "She worried about Tom very much.",
+              "audioStart": 23.488,
+              "audioEnd": 25.288
+            },
+            {
+              "text": "Tom often wanted to do his own thing.",
+              "audioStart": 26.15,
+              "audioEnd": 28.025
+            },
+            {
+              "text": "He liked to discover new places.",
+              "audioStart": 28.887,
+              "audioEnd": 30.8
+            },
+            {
+              "text": "He did not want to stay at home.",
+              "audioStart": 31.663,
+              "audioEnd": 33.263
+            },
+            {
+              "text": "He often thought about faraway lands.",
+              "audioStart": 34.125,
+              "audioEnd": 36.175
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "One day, Tom was very unhappy.",
+              "audioStart": 37.038,
+              "audioEnd": 39.15
+            },
+            {
+              "text": "He felt that no one understood him.",
+              "audioStart": 40.013,
+              "audioEnd": 41.8
+            },
+            {
+              "text": "He made a big decision.",
+              "audioStart": 42.663,
+              "audioEnd": 43.925
+            },
+            {
+              "text": "Tom decided to run away from his home.",
+              "audioStart": 44.788,
+              "audioEnd": 46.75
+            },
+            {
+              "text": "He needed to find a new place.",
+              "audioStart": 47.612,
+              "audioEnd": 49.325
+            },
+            {
+              "text": "He wanted a place for new adventures.",
+              "audioStart": 50.188,
+              "audioEnd": 52.188
+            },
+            {
+              "text": "Tom found a small boat.",
+              "audioStart": 53.05,
+              "audioEnd": 54.35
+            },
+            {
+              "text": "He took the boat to the river.",
+              "audioStart": 55.212,
+              "audioEnd": 56.638
+            },
+            {
+              "text": "He put the boat in the water.",
+              "audioStart": 57.5,
+              "audioEnd": 58.9
+            },
+            {
+              "text": "Then he sailed to a nearby island.",
+              "audioStart": 59.763,
+              "audioEnd": 61.55
+            },
+            {
+              "text": "The island was in the middle of the river.",
+              "audioStart": 62.413,
+              "audioEnd": 64.25
+            },
+            {
+              "text": "He thought this place was perfect.",
+              "audioStart": 65.112,
+              "audioEnd": 66.888
+            },
+            {
+              "text": "It was a good place to be free.",
+              "audioStart": 67.75,
+              "audioEnd": 69.3
+            },
+            {
+              "text": "He had never been so far before.",
+              "audioStart": 70.162,
+              "audioEnd": 72.138
+            },
+            {
+              "text": "He was excited for what was next.",
+              "audioStart": 73.0,
+              "audioEnd": 74.987
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "On the island, Tom was not alone.",
+              "audioStart": 75.85,
+              "audioEnd": 77.875
+            },
+            {
+              "text": "He soon met another boy there.",
+              "audioStart": 78.737,
+              "audioEnd": 80.3
+            },
+            {
+              "text": "The boy's name was Huck Finn.",
+              "audioStart": 81.162,
+              "audioEnd": 82.75
+            },
+            {
+              "text": "Huck was a poor child.",
+              "audioStart": 83.612,
+              "audioEnd": 84.987
+            },
+            {
+              "text": "He did not have a home.",
+              "audioStart": 85.85,
+              "audioEnd": 87.1
+            },
+            {
+              "text": "He lived on the streets of the town.",
+              "audioStart": 87.963,
+              "audioEnd": 89.7
+            },
+            {
+              "text": "Huck did not go to school.",
+              "audioStart": 90.562,
+              "audioEnd": 92.013
+            },
+            {
+              "text": "He learned about life in a different way.",
+              "audioStart": 92.875,
+              "audioEnd": 94.8
+            },
+            {
+              "text": "Tom and Huck talked for a long time.",
+              "audioStart": 95.662,
+              "audioEnd": 97.65
+            },
+            {
+              "text": "They quickly became good friends.",
+              "audioStart": 98.513,
+              "audioEnd": 100.213
+            },
+            {
+              "text": "They both loved to have fun.",
+              "audioStart": 101.075,
+              "audioEnd": 102.537
+            },
+            {
+              "text": "They both wanted excitement.",
+              "audioStart": 103.4,
+              "audioEnd": 104.95
+            },
+            {
+              "text": "Huck knew many interesting things.",
+              "audioStart": 105.812,
+              "audioEnd": 107.688
+            },
+            {
+              "text": "Tom liked Huck's free spirit.",
+              "audioStart": 108.55,
+              "audioEnd": 110.125
+            },
+            {
+              "text": "They felt like brothers.",
+              "audioStart": 110.987,
+              "audioEnd": 112.312
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck had many exciting adventures.",
+              "audioStart": 113.175,
+              "audioEnd": 115.612
+            },
+            {
+              "text": "They explored the whole island.",
+              "audioStart": 116.475,
+              "audioEnd": 118.013
+            },
+            {
+              "text": "They found new places to play.",
+              "audioStart": 118.875,
+              "audioEnd": 120.525
+            },
+            {
+              "text": "They climbed tall trees.",
+              "audioStart": 121.388,
+              "audioEnd": 122.75
+            },
+            {
+              "text": "They swam in the river every day.",
+              "audioStart": 123.612,
+              "audioEnd": 125.3
+            },
+            {
+              "text": "They also went on a treasure hunt.",
+              "audioStart": 126.162,
+              "audioEnd": 127.862
+            },
+            {
+              "text": "They looked for old gold and money.",
+              "audioStart": 128.725,
+              "audioEnd": 130.363
+            },
+            {
+              "text": "They thought they might find something great.",
+              "audioStart": 131.225,
+              "audioEnd": 133.175
+            },
+            {
+              "text": "They dug in many secret spots.",
+              "audioStart": 134.037,
+              "audioEnd": 135.887
+            },
+            {
+              "text": "It was hard work but also fun.",
+              "audioStart": 136.75,
+              "audioEnd": 138.6
+            },
+            {
+              "text": "They spent many days together.",
+              "audioStart": 139.463,
+              "audioEnd": 141.062
+            },
+            {
+              "text": "Their friendship grew very strong.",
+              "audioStart": 141.925,
+              "audioEnd": 143.688
+            },
+            {
+              "text": "They always helped each other.",
+              "audioStart": 144.55,
+              "audioEnd": 145.925
+            },
+            {
+              "text": "They felt like real explorers.",
+              "audioStart": 146.787,
+              "audioEnd": 148.512
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "But their adventures had some danger.",
+              "audioStart": 149.375,
+              "audioEnd": 151.188
+            },
+            {
+              "text": "They had to be very careful.",
+              "audioStart": 152.05,
+              "audioEnd": 153.537
+            },
+            {
+              "text": "There were bad people in town.",
+              "audioStart": 154.4,
+              "audioEnd": 155.975
+            },
+            {
+              "text": "Tom and Huck needed to avoid them.",
+              "audioStart": 156.838,
+              "audioEnd": 158.688
+            },
+            {
+              "text": "The law also watched them.",
+              "audioStart": 159.55,
+              "audioEnd": 161.025
+            },
+            {
+              "text": "Sometimes, they did things that were not right.",
+              "audioStart": 161.887,
+              "audioEnd": 164.325
+            },
+            {
+              "text": "They did not want to get into real trouble.",
+              "audioStart": 165.188,
+              "audioEnd": 167.162
+            },
+            {
+              "text": "They had to hide sometimes.",
+              "audioStart": 168.025,
+              "audioEnd": 169.488
+            },
+            {
+              "text": "They learned to be smart.",
+              "audioStart": 170.35,
+              "audioEnd": 171.6
+            },
+            {
+              "text": "They learned to think fast.",
+              "audioStart": 172.463,
+              "audioEnd": 173.875
+            },
+            {
+              "text": "Danger was part of their new life.",
+              "audioStart": 174.738,
+              "audioEnd": 176.438
+            },
+            {
+              "text": "If they were not careful, they would lose their freedom.",
+              "audioStart": 177.3,
+              "audioEnd": 179.85
+            },
+            {
+              "text": "They learned to trust their instincts.",
+              "audioStart": 180.713,
+              "audioEnd": 182.5
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Through these experiences, they learned much.",
+              "audioStart": 183.363,
+              "audioEnd": 185.8
+            },
+            {
+              "text": "Tom and Huck learned many important lessons.",
+              "audioStart": 186.662,
+              "audioEnd": 189.075
+            },
+            {
+              "text": "They learned about being true friends.",
+              "audioStart": 189.938,
+              "audioEnd": 191.713
+            },
+            {
+              "text": "They learned about loyalty.",
+              "audioStart": 192.575,
+              "audioEnd": 194.0
+            },
+            {
+              "text": "This means always helping your friend.",
+              "audioStart": 194.863,
+              "audioEnd": 196.787
+            },
+            {
+              "text": "They also learned to be true to themselves.",
+              "audioStart": 197.65,
+              "audioEnd": 199.725
+            },
+            {
+              "text": "They understood their own value.",
+              "audioStart": 200.588,
+              "audioEnd": 202.175
+            },
+            {
+              "text": "They learned that good choices are important.",
+              "audioStart": 203.037,
+              "audioEnd": 205.05
+            },
+            {
+              "text": "They have grown up a lot.",
+              "audioStart": 205.912,
+              "audioEnd": 207.2
+            },
+            {
+              "text": "Their time on the island changed them.",
+              "audioStart": 208.062,
+              "audioEnd": 209.9
+            },
+            {
+              "text": "They now see the world differently.",
+              "audioStart": 210.762,
+              "audioEnd": 212.35
+            },
+            {
+              "text": "They understood what truly mattered.",
+              "audioStart": 213.213,
+              "audioEnd": 214.95
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Finally, it was time to go home.",
+              "audioStart": 215.812,
+              "audioEnd": 217.812
+            },
+            {
+              "text": "Tom decided to return to Aunt Polly.",
+              "audioStart": 218.675,
+              "audioEnd": 220.725
+            },
+            {
+              "text": "He missed his family.",
+              "audioStart": 221.588,
+              "audioEnd": 222.825
+            },
+            {
+              "text": "He missed his bed and good food.",
+              "audioStart": 223.688,
+              "audioEnd": 225.35
+            },
+            {
+              "text": "Aunt Polly was very happy to see him.",
+              "audioStart": 226.213,
+              "audioEnd": 228.2
+            },
+            {
+              "text": "She had worried about him so much.",
+              "audioStart": 229.062,
+              "audioEnd": 230.912
+            },
+            {
+              "text": "Tom was also happy to be back.",
+              "audioStart": 231.775,
+              "audioEnd": 233.55
+            },
+            {
+              "text": "But he would never forget the island.",
+              "audioStart": 234.412,
+              "audioEnd": 236.175
+            },
+            {
+              "text": "He would always remember Huck.",
+              "audioStart": 237.037,
+              "audioEnd": 238.575
+            },
+            {
+              "text": "He would remember all their great adventures.",
+              "audioStart": 239.438,
+              "audioEnd": 241.562
+            },
+            {
+              "text": "His heart was full of memories.",
+              "audioStart": 242.425,
+              "audioEnd": 244.175
+            },
+            {
+              "text": "He knew he had changed.",
+              "audioStart": 245.037,
+              "audioEnd": 246.387
+            },
+            {
+              "text": "Life at home felt different now.",
+              "audioStart": 247.25,
+              "audioEnd": 248.85
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck remained the best of friends.",
+              "audioStart": 249.713,
+              "audioEnd": 251.838
+            },
+            {
+              "text": "They shared a special bond.",
+              "audioStart": 252.7,
+              "audioEnd": 254.113
+            },
+            {
+              "text": "They always understood each other.",
+              "audioStart": 254.975,
+              "audioEnd": 256.562
+            },
+            {
+              "text": "They had faced danger together.",
+              "audioStart": 257.425,
+              "audioEnd": 259.075
+            },
+            {
+              "text": "They had also found joy.",
+              "audioStart": 259.938,
+              "audioEnd": 261.312
+            },
+            {
+              "text": "They knew they could trust each other.",
+              "audioStart": 262.175,
+              "audioEnd": 263.725
+            },
+            {
+              "text": "They would always help each other.",
+              "audioStart": 264.587,
+              "audioEnd": 266.05
+            },
+            {
+              "text": "They would have each other's backs.",
+              "audioStart": 266.913,
+              "audioEnd": 268.4
+            },
+            {
+              "text": "This means they would always support each other.",
+              "audioStart": 269.262,
+              "audioEnd": 271.4
+            },
+            {
+              "text": "If new adventures come, they will be ready.",
+              "audioStart": 272.262,
+              "audioEnd": 274.512
+            },
+            {
+              "text": "They would meet them together.",
+              "audioStart": 275.375,
+              "audioEnd": 276.738
+            },
+            {
+              "text": "Their friendship would last a long time.",
+              "audioStart": 277.6,
+              "audioEnd": 279.675
+            },
+            {
+              "text": "Nothing could break their bond.",
+              "audioStart": 280.538,
+              "audioEnd": 282.025
+            }
+          ]
+        }
+      ],
+      "audio": "audio/b1/st-0013.mp3",
+      "wordTimings": "audio/b1/st-0013.timings.json",
+      "quiz": [
+        {
+          "q": "Where did Tom Sawyer live at the beginning of the story?",
+          "options": [
+            "With his Aunt Polly in a small town.",
+            "On an island in the middle of a river.",
+            "In a big city with his family."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did Tom and Huck do on the island?",
+          "options": [
+            "They went on a treasure hunt and explored.",
+            "They built a new house for Huck.",
+            "They tried to find Tom's Aunt Polly."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What did Tom and Huck learn from their adventures?",
+          "options": [
+            "About friendship, loyalty, and being true to themselves.",
+            "How to avoid all danger forever.",
+            "The best way to find more gold."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "A2": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Tom Sawyer was a young boy.",
+              "audioStart": 0.106,
+              "audioEnd": 1.814
+            },
+            {
+              "text": "He lived with his Aunt Polly.",
+              "audioStart": 2.778,
+              "audioEnd": 4.528
+            },
+            {
+              "text": "Their home was in a small town.",
+              "audioStart": 5.486,
+              "audioEnd": 7.264
+            },
+            {
+              "text": "The town was by a big water.",
+              "audioStart": 8.222,
+              "audioEnd": 10.0
+            },
+            {
+              "text": "Tom was often in trouble.",
+              "audioStart": 10.958,
+              "audioEnd": 12.542
+            },
+            {
+              "text": "He did not like rules.",
+              "audioStart": 13.5,
+              "audioEnd": 14.972
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom did not like school much.",
+              "audioStart": 15.931,
+              "audioEnd": 17.722
+            },
+            {
+              "text": "He often ran away from school.",
+              "audioStart": 18.681,
+              "audioEnd": 20.542
+            },
+            {
+              "text": "He liked to play all day.",
+              "audioStart": 21.5,
+              "audioEnd": 23.139
+            },
+            {
+              "text": "He wanted to do fun things.",
+              "audioStart": 24.097,
+              "audioEnd": 25.917
+            },
+            {
+              "text": "He wanted to have a good time.",
+              "audioStart": 26.875,
+              "audioEnd": 28.583
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "One day, Tom wanted to run away from home.",
+              "audioStart": 29.542,
+              "audioEnd": 32.222
+            },
+            {
+              "text": "He had a big idea.",
+              "audioStart": 33.181,
+              "audioEnd": 34.5
+            },
+            {
+              "text": "He took a small thing from the water bank.",
+              "audioStart": 35.458,
+              "audioEnd": 37.708
+            },
+            {
+              "text": "This thing was a small boat.",
+              "audioStart": 38.667,
+              "audioEnd": 40.278
+            },
+            {
+              "text": "He went to a big place in the water.",
+              "audioStart": 41.236,
+              "audioEnd": 43.167
+            },
+            {
+              "text": "The place was an island.",
+              "audioStart": 44.125,
+              "audioEnd": 45.542
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The place was in the water.",
+              "audioStart": 46.5,
+              "audioEnd": 47.972
+            },
+            {
+              "text": "Tom was going to live there alone.",
+              "audioStart": 48.931,
+              "audioEnd": 50.75
+            },
+            {
+              "text": "He wanted to be free.",
+              "audioStart": 51.708,
+              "audioEnd": 53.111
+            },
+            {
+              "text": "No one would tell him what to do.",
+              "audioStart": 54.069,
+              "audioEnd": 55.889
+            },
+            {
+              "text": "He did not want to work.",
+              "audioStart": 56.847,
+              "audioEnd": 58.292
+            },
+            {
+              "text": "He did not want to go to school.",
+              "audioStart": 59.25,
+              "audioEnd": 61.083
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "On the place, Tom met Huck Finn.",
+              "audioStart": 62.042,
+              "audioEnd": 64.319
+            },
+            {
+              "text": "Huck was another young boy.",
+              "audioStart": 65.278,
+              "audioEnd": 66.889
+            },
+            {
+              "text": "Huck was very poor.",
+              "audioStart": 67.847,
+              "audioEnd": 69.25
+            },
+            {
+              "text": "He lived on the streets in town.",
+              "audioStart": 70.208,
+              "audioEnd": 72.083
+            },
+            {
+              "text": "He did not have a home or family.",
+              "audioStart": 73.042,
+              "audioEnd": 74.986
+            },
+            {
+              "text": "He was often alone.",
+              "audioStart": 75.944,
+              "audioEnd": 77.264
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck talked much.",
+              "audioStart": 78.222,
+              "audioEnd": 79.875
+            },
+            {
+              "text": "They liked each other right away.",
+              "audioStart": 80.833,
+              "audioEnd": 82.5
+            },
+            {
+              "text": "They wanted to have fun together.",
+              "audioStart": 83.458,
+              "audioEnd": 85.236
+            },
+            {
+              "text": "They became very good friends.",
+              "audioStart": 86.194,
+              "audioEnd": 88.069
+            },
+            {
+              "text": "They had many great times.",
+              "audioStart": 89.028,
+              "audioEnd": 90.736
+            },
+            {
+              "text": "They were happy boys.",
+              "audioStart": 91.694,
+              "audioEnd": 93.069
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck went to find something new.",
+              "audioStart": 94.028,
+              "audioEnd": 96.181
+            },
+            {
+              "text": "They looked for things all over the place.",
+              "audioStart": 97.139,
+              "audioEnd": 99.458
+            },
+            {
+              "text": "They saw new things.",
+              "audioStart": 100.417,
+              "audioEnd": 101.736
+            },
+            {
+              "text": "They played many games every day.",
+              "audioStart": 102.694,
+              "audioEnd": 104.708
+            },
+            {
+              "text": "They were very happy on the place.",
+              "audioStart": 105.667,
+              "audioEnd": 107.653
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "There were some bad people.",
+              "audioStart": 108.611,
+              "audioEnd": 110.083
+            },
+            {
+              "text": "Tom and Huck knew this.",
+              "audioStart": 111.042,
+              "audioEnd": 112.444
+            },
+            {
+              "text": "They must be very good.",
+              "audioStart": 113.403,
+              "audioEnd": 114.819
+            },
+            {
+              "text": "They needed to avoid the law.",
+              "audioStart": 115.778,
+              "audioEnd": 117.375
+            },
+            {
+              "text": "Police were in town.",
+              "audioStart": 118.333,
+              "audioEnd": 119.653
+            },
+            {
+              "text": "Bad people were also there.",
+              "audioStart": 120.611,
+              "audioEnd": 122.25
+            },
+            {
+              "text": "Tom and Huck wanted to be safe.",
+              "audioStart": 123.208,
+              "audioEnd": 125.236
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck learned new and good things.",
+              "audioStart": 126.194,
+              "audioEnd": 128.389
+            },
+            {
+              "text": "They learned about being true.",
+              "audioStart": 129.347,
+              "audioEnd": 130.931
+            },
+            {
+              "text": "They learned to be good boys.",
+              "audioStart": 131.889,
+              "audioEnd": 133.542
+            },
+            {
+              "text": "They learned to help each other.",
+              "audioStart": 134.5,
+              "audioEnd": 135.944
+            },
+            {
+              "text": "These things were very important.",
+              "audioStart": 136.903,
+              "audioEnd": 138.708
+            },
+            {
+              "text": "They remembered them well.",
+              "audioStart": 139.667,
+              "audioEnd": 141.028
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "In the end, Tom went back home.",
+              "audioStart": 141.986,
+              "audioEnd": 144.042
+            },
+            {
+              "text": "He saw his Aunt Polly again.",
+              "audioStart": 145.0,
+              "audioEnd": 146.806
+            },
+            {
+              "text": "She was very happy to see him.",
+              "audioStart": 147.764,
+              "audioEnd": 149.556
+            },
+            {
+              "text": "She gave him a big hug.",
+              "audioStart": 150.514,
+              "audioEnd": 151.972
+            },
+            {
+              "text": "Tom was happy to be home.",
+              "audioStart": 152.931,
+              "audioEnd": 154.5
+            },
+            {
+              "text": "He loved his Aunt Polly very much.",
+              "audioStart": 155.458,
+              "audioEnd": 157.653
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck stayed good friends.",
+              "audioStart": 158.611,
+              "audioEnd": 160.583
+            },
+            {
+              "text": "They were the best of friends.",
+              "audioStart": 161.542,
+              "audioEnd": 163.139
+            },
+            {
+              "text": "They would always help each other.",
+              "audioStart": 164.097,
+              "audioEnd": 165.722
+            },
+            {
+              "text": "This was very important for them.",
+              "audioStart": 166.681,
+              "audioEnd": 168.458
+            },
+            {
+              "text": "More fun times were coming for them.",
+              "audioStart": 169.417,
+              "audioEnd": 171.569
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "They would be together for many years.",
+              "audioStart": 172.528,
+              "audioEnd": 174.681
+            },
+            {
+              "text": "They would live many more stories.",
+              "audioStart": 175.639,
+              "audioEnd": 177.528
+            },
+            {
+              "text": "Tom would always remember his friend.",
+              "audioStart": 178.486,
+              "audioEnd": 180.542
+            },
+            {
+              "text": "Huck was a good friend to Tom.",
+              "audioStart": 181.5,
+              "audioEnd": 183.278
+            },
+            {
+              "text": "Tom was happy to have Huck as a friend.",
+              "audioStart": 184.236,
+              "audioEnd": 186.403
+            },
+            {
+              "text": "Their friendship was strong.",
+              "audioStart": 187.361,
+              "audioEnd": 188.889
+            }
+          ]
+        }
+      ],
+      "audio": "audio/a2/st-0013.mp3",
+      "wordTimings": "audio/a2/st-0013.timings.json",
+      "quiz": [
+        {
+          "q": "Where did Tom Sawyer live?",
+          "options": [
+            "In a big city.",
+            "In a small town.",
+            "On a place in the water."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Who did Tom meet on the place?",
+          "options": [
+            "His Aunt Polly.",
+            "A police officer.",
+            "A boy named Huck Finn."
+          ],
+          "answer": 2
+        },
+        {
+          "q": "What did Tom and Huck learn on their times?",
+          "options": [
+            "How to build a thing.",
+            "About being true.",
+            "How to avoid school."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "A1": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "Tom Sawyer is a child.",
+              "audioStart": 0.106,
+              "audioEnd": 1.689
+            },
+            {
+              "text": "He is a young child.",
+              "audioStart": 2.653,
+              "audioEnd": 3.958
+            },
+            {
+              "text": "He loves fun.",
+              "audioStart": 4.917,
+              "audioEnd": 5.986
+            },
+            {
+              "text": "He loves new things.",
+              "audioStart": 6.944,
+              "audioEnd": 8.403
+            },
+            {
+              "text": "He lives with Aunt Polly.",
+              "audioStart": 9.361,
+              "audioEnd": 10.889
+            },
+            {
+              "text": "They live in a small town.",
+              "audioStart": 11.847,
+              "audioEnd": 13.403
+            },
+            {
+              "text": "Tom always has problems.",
+              "audioStart": 14.361,
+              "audioEnd": 16.0
+            },
+            {
+              "text": "He is not always a good child.",
+              "audioStart": 16.958,
+              "audioEnd": 18.792
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "One day, Tom runs away.",
+              "audioStart": 19.75,
+              "audioEnd": 21.681
+            },
+            {
+              "text": "He runs from his home.",
+              "audioStart": 22.639,
+              "audioEnd": 24.028
+            },
+            {
+              "text": "He does not feel good there.",
+              "audioStart": 24.986,
+              "audioEnd": 26.486
+            },
+            {
+              "text": "He takes a small water thing.",
+              "audioStart": 27.444,
+              "audioEnd": 29.194
+            },
+            {
+              "text": "He goes to some land.",
+              "audioStart": 30.153,
+              "audioEnd": 31.542
+            },
+            {
+              "text": "This land is on water.",
+              "audioStart": 32.5,
+              "audioEnd": 33.889
+            },
+            {
+              "text": "He feels free now.",
+              "audioStart": 34.847,
+              "audioEnd": 36.056
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom meets a child there.",
+              "audioStart": 37.014,
+              "audioEnd": 38.403
+            },
+            {
+              "text": "His name is Huck Finn.",
+              "audioStart": 39.361,
+              "audioEnd": 40.792
+            },
+            {
+              "text": "Huck has no money.",
+              "audioStart": 41.75,
+              "audioEnd": 42.944
+            },
+            {
+              "text": "He is a child.",
+              "audioStart": 43.903,
+              "audioEnd": 44.958
+            },
+            {
+              "text": "He lives outside.",
+              "audioStart": 45.917,
+              "audioEnd": 47.167
+            },
+            {
+              "text": "He does not have a home.",
+              "audioStart": 48.125,
+              "audioEnd": 49.528
+            },
+            {
+              "text": "Huck is also a young child.",
+              "audioStart": 50.486,
+              "audioEnd": 52.236
+            },
+            {
+              "text": "Tom and Huck talk.",
+              "audioStart": 53.194,
+              "audioEnd": 54.472
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck become friends.",
+              "audioStart": 55.431,
+              "audioEnd": 57.222
+            },
+            {
+              "text": "They have much great fun.",
+              "audioStart": 58.181,
+              "audioEnd": 59.722
+            },
+            {
+              "text": "They do new things.",
+              "audioStart": 60.681,
+              "audioEnd": 61.958
+            },
+            {
+              "text": "They go together.",
+              "audioStart": 62.917,
+              "audioEnd": 64.042
+            },
+            {
+              "text": "They look for money.",
+              "audioStart": 65.0,
+              "audioEnd": 66.139
+            },
+            {
+              "text": "They look for some money.",
+              "audioStart": 67.097,
+              "audioEnd": 68.444
+            },
+            {
+              "text": "They look at the land.",
+              "audioStart": 69.403,
+              "audioEnd": 70.625
+            },
+            {
+              "text": "They see new things.",
+              "audioStart": 71.583,
+              "audioEnd": 72.917
+            },
+            {
+              "text": "The land is their new home.",
+              "audioStart": 73.875,
+              "audioEnd": 75.347
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Their fun has problems.",
+              "audioStart": 76.306,
+              "audioEnd": 77.819
+            },
+            {
+              "text": "They must watch.",
+              "audioStart": 78.778,
+              "audioEnd": 79.889
+            },
+            {
+              "text": "They stay away from law.",
+              "audioStart": 80.847,
+              "audioEnd": 82.25
+            },
+            {
+              "text": "They stay away from bad people.",
+              "audioStart": 83.208,
+              "audioEnd": 84.972
+            },
+            {
+              "text": "Bad people are in town.",
+              "audioStart": 85.931,
+              "audioEnd": 87.514
+            },
+            {
+              "text": "These people are very bad.",
+              "audioStart": 88.472,
+              "audioEnd": 90.056
+            },
+            {
+              "text": "Tom and Huck must run.",
+              "audioStart": 91.014,
+              "audioEnd": 92.528
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck learn many things.",
+              "audioStart": 93.486,
+              "audioEnd": 95.528
+            },
+            {
+              "text": "They learn about friends.",
+              "audioStart": 96.486,
+              "audioEnd": 97.903
+            },
+            {
+              "text": "They learn to help friends.",
+              "audioStart": 98.861,
+              "audioEnd": 100.361
+            },
+            {
+              "text": "They learn to be true.",
+              "audioStart": 101.319,
+              "audioEnd": 102.639
+            },
+            {
+              "text": "This is important for them.",
+              "audioStart": 103.597,
+              "audioEnd": 105.028
+            },
+            {
+              "text": "They grow up a little.",
+              "audioStart": 105.986,
+              "audioEnd": 107.111
+            },
+            {
+              "text": "They understand many things.",
+              "audioStart": 108.069,
+              "audioEnd": 109.944
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "In the end, Tom goes home.",
+              "audioStart": 110.903,
+              "audioEnd": 112.75
+            },
+            {
+              "text": "He goes to Aunt Polly.",
+              "audioStart": 113.708,
+              "audioEnd": 115.139
+            },
+            {
+              "text": "He feels good there.",
+              "audioStart": 116.097,
+              "audioEnd": 117.403
+            },
+            {
+              "text": "He is back home now.",
+              "audioStart": 118.361,
+              "audioEnd": 119.681
+            },
+            {
+              "text": "He always remembers fun.",
+              "audioStart": 120.639,
+              "audioEnd": 122.264
+            },
+            {
+              "text": "He remembers new things.",
+              "audioStart": 123.222,
+              "audioEnd": 124.847
+            },
+            {
+              "text": "He always remembers Huck.",
+              "audioStart": 125.806,
+              "audioEnd": 127.431
+            },
+            {
+              "text": "His home is a good place.",
+              "audioStart": 128.389,
+              "audioEnd": 130.028
+            },
+            {
+              "text": "Aunt Polly feels good too.",
+              "audioStart": 130.986,
+              "audioEnd": 132.653
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Tom and Huck stay friends.",
+              "audioStart": 133.611,
+              "audioEnd": 135.236
+            },
+            {
+              "text": "They are best friends.",
+              "audioStart": 136.194,
+              "audioEnd": 137.514
+            },
+            {
+              "text": "They always help each other.",
+              "audioStart": 138.472,
+              "audioEnd": 139.944
+            },
+            {
+              "text": "New fun is coming.",
+              "audioStart": 140.903,
+              "audioEnd": 142.181
+            },
+            {
+              "text": "They are always together.",
+              "audioStart": 143.139,
+              "audioEnd": 144.569
+            },
+            {
+              "text": "They are strong friends.",
+              "audioStart": 145.528,
+              "audioEnd": 146.972
+            },
+            {
+              "text": "They are good together.",
+              "audioStart": 147.931,
+              "audioEnd": 149.125
+            }
+          ]
+        }
+      ],
+      "audio": "audio/a1/st-0013.mp3",
+      "wordTimings": "audio/a1/st-0013.timings.json",
+      "quiz": [
+        {
+          "q": "Who does Tom live with?",
+          "options": [
+            "Huck Finn",
+            "Aunt Polly",
+            "Bad people"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Where do Tom and Huck go for adventures?",
+          "options": [
+            "To a small town",
+            "To a river island",
+            "To the streets"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What do Tom and Huck learn on the island?",
+          "options": [
+            "To be careful with bad people.",
+            "To make money.",
+            "About friends and being true."
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  }
+}

@@ -1,483 +1,1414 @@
 {
   "id": "st-0012",
-  "title": "The Adventures of Sherlock Holmes",
+  "title": "Alice's Adventures in Wonderland",
   "genre": "classic",
-  "coverScene": "Sherlock Holmes sitting in his armchair, surrounded by books and papers, with a hint of a London street scene outside the window.",
+  "coverScene": "Alice stands in a beautiful garden surrounded by tall flowers and towering trees, with a curious expression on her face.",
   "levels": {
     "B2": {
       "paragraphs": [
         {
           "sentences": [
             {
-              "text": "It was a cold winter evening when I visited my old friend Sherlock Holmes.",
+              "text": "She fell down a deep hole.",
               "audioStart": 0.1,
-              "audioEnd": 3.675
+              "audioEnd": 1.5
             },
             {
-              "text": "He was living in our old place in Baker Street, which was always full of books and papers.",
-              "audioStart": 4.537,
-              "audioEnd": 9.137
+              "text": "It was very dark.",
+              "audioStart": 2.362,
+              "audioEnd": 3.475
             },
             {
-              "text": "As I walked up the stairs, I felt a sense of excitement.",
-              "audioStart": 10.0,
-              "audioEnd": 13.062
-            },
-            {
-              "text": "The wind was blowing hard outside, and the streets were covered in white snow.",
-              "audioStart": 13.925,
-              "audioEnd": 17.738
-            },
-            {
-              "text": "When I entered the room, I saw Holmes sitting in his chair.",
-              "audioStart": 18.6,
-              "audioEnd": 21.45
-            },
-            {
-              "text": "He looked very thin and tired, but his eyes were still bright.",
-              "audioStart": 22.312,
-              "audioEnd": 25.738
-            },
-            {
-              "text": "A small fire was burning in the room, which made the place feel warm and comfortable.",
-              "audioStart": 26.6,
-              "audioEnd": 30.988
-            },
-            {
-              "text": "Holmes welcomed me with a smile.",
-              "audioStart": 31.85,
-              "audioEnd": 33.487
-            },
-            {
-              "text": "He pointed to an empty chair next to the fire.",
-              "audioStart": 34.35,
-              "audioEnd": 36.888
+              "text": "She did not know what to do.",
+              "audioStart": 4.338,
+              "audioEnd": 5.725
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "If I had not visited him that night, I would have missed a very interesting discussion.",
-              "audioStart": 37.75,
-              "audioEnd": 41.925
+              "text": "Then she saw a table.",
+              "audioStart": 6.588,
+              "audioEnd": 7.812
             },
             {
-              "text": "I sat down and began to tell him about my own life.",
-              "audioStart": 42.788,
-              "audioEnd": 45.7
+              "text": "On the table, there was a small key.",
+              "audioStart": 8.675,
+              "audioEnd": 10.75
             },
             {
-              "text": "I told him about my work as a doctor, which kept me very busy.",
-              "audioStart": 46.562,
-              "audioEnd": 50.05
-            },
-            {
-              "text": "My family was doing well, and my life was quiet and happy.",
-              "audioStart": 50.913,
-              "audioEnd": 54.25
-            },
-            {
-              "text": "Holmes listened to me carefully, though he did not say much at first.",
-              "audioStart": 55.112,
-              "audioEnd": 58.575
-            },
-            {
-              "text": "He was holding a pipe in his hand, which was not burning.",
-              "audioStart": 59.438,
-              "audioEnd": 62.3
-            },
-            {
-              "text": "I could see that his mind was active, even if his body was tired.",
-              "audioStart": 63.163,
-              "audioEnd": 66.675
-            },
-            {
-              "text": "He had been working on some difficult problems, which had taken all his energy.",
-              "audioStart": 67.537,
-              "audioEnd": 71.55
-            },
-            {
-              "text": "It was clear that he needed a new challenge to make him feel alive again.",
-              "audioStart": 72.412,
-              "audioEnd": 76.0
+              "text": "The key was gold.",
+              "audioStart": 11.613,
+              "audioEnd": 12.65
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "While we were talking, a letter was brought to the room by a servant.",
-              "audioStart": 76.862,
-              "audioEnd": 80.088
+              "text": "She found a door.",
+              "audioStart": 13.512,
+              "audioEnd": 14.525
             },
             {
-              "text": "The letter had been left at the door just a few minutes before.",
-              "audioStart": 80.95,
-              "audioEnd": 84.112
+              "text": "The door was locked.",
+              "audioStart": 15.387,
+              "audioEnd": 16.462
             },
             {
-              "text": "Holmes opened the envelope and read the note inside with great interest.",
-              "audioStart": 84.975,
-              "audioEnd": 88.463
-            },
-            {
-              "text": "He did not say anything for a moment, but his face showed that it was important.",
-              "audioStart": 89.325,
-              "audioEnd": 93.362
-            },
-            {
-              "text": "Then he handed the note to me so that I could read it too.",
-              "audioStart": 94.225,
-              "audioEnd": 96.838
-            },
-            {
-              "text": "The note was written on thick paper, which looked very expensive.",
-              "audioStart": 97.7,
-              "audioEnd": 101.138
-            },
-            {
-              "text": "It said that a gentleman would visit Holmes at a quarter to eight that night.",
-              "audioStart": 102.0,
-              "audioEnd": 105.475
-            },
-            {
-              "text": "The writer did not give his name or explain what he wanted.",
-              "audioStart": 106.338,
-              "audioEnd": 109.225
-            },
-            {
-              "text": "However, the note warned Holmes to be careful and to expect something important.",
-              "audioStart": 110.088,
-              "audioEnd": 114.225
+              "text": "She used the key to open the door.",
+              "audioStart": 17.325,
+              "audioEnd": 19.075
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "We began to talk about who this visitor might be.",
-              "audioStart": 115.088,
-              "audioEnd": 117.55
+              "text": "The door was very small.",
+              "audioStart": 19.938,
+              "audioEnd": 21.312
             },
             {
-              "text": "If the paper had been cheap, we might have thought it was a joke.",
-              "audioStart": 118.412,
-              "audioEnd": 121.525
+              "text": "She wanted to go through the door.",
+              "audioStart": 22.175,
+              "audioEnd": 23.7
             },
             {
-              "text": "But the paper was of very high quality, which suggested the writer was a rich man.",
-              "audioStart": 122.388,
-              "audioEnd": 126.662
-            },
-            {
-              "text": "\"This is a very interesting matter,\" Holmes said, looking down at the floor.",
-              "audioStart": 127.525,
-              "audioEnd": 131.488
-            },
-            {
-              "text": "\"Why would a gentleman write a note instead of coming directly?\"",
-              "audioStart": 132.35,
-              "audioEnd": 135.325
-            },
-            {
-              "text": "He believed that the visitor was facing a very serious problem.",
-              "audioStart": 136.188,
-              "audioEnd": 139.363
-            },
-            {
-              "text": "If the problem were simple, he would not have asked for help in this way.",
-              "audioStart": 140.225,
-              "audioEnd": 143.775
-            },
-            {
-              "text": "We waited in silence as the clock on the wall moved toward the hour.",
-              "audioStart": 144.637,
-              "audioEnd": 148.025
-            },
-            {
-              "text": "My heart was beating fast because I wanted to know what would happen next.",
-              "audioStart": 148.887,
-              "audioEnd": 152.562
+              "text": "But she was too big.",
+              "audioStart": 24.562,
+              "audioEnd": 25.712
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "At exactly a quarter to eight, we heard the sound of wheels outside.",
-              "audioStart": 153.425,
-              "audioEnd": 157.0
+              "text": "She did not know what to do.",
+              "audioStart": 26.575,
+              "audioEnd": 27.962
             },
             {
-              "text": "A vehicle had stopped in front of our house in Baker Street.",
-              "audioStart": 157.863,
-              "audioEnd": 160.812
+              "text": "She was very sad.",
+              "audioStart": 28.825,
+              "audioEnd": 29.988
             },
             {
-              "text": "A moment later, heavy steps were heard on the stairs.",
-              "audioStart": 161.675,
-              "audioEnd": 164.537
+              "text": "She wanted to be small.",
+              "audioStart": 30.85,
+              "audioEnd": 32.2
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "So she could go through the door.",
+              "audioStart": 33.062,
+              "audioEnd": 34.487
             },
             {
-              "text": "There was a knock on the door, and Holmes called out for the visitor to enter.",
-              "audioStart": 165.4,
-              "audioEnd": 169.1
+              "text": "And see what was on the other side.",
+              "audioStart": 35.35,
+              "audioEnd": 37.013
             },
             {
-              "text": "The door opened, and a tall, thin man stepped into the room.",
-              "audioStart": 169.963,
-              "audioEnd": 173.412
+              "text": "It would be a great adventure.",
+              "audioStart": 37.875,
+              "audioEnd": 39.312
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was thinking about her life.",
+              "audioStart": 40.175,
+              "audioEnd": 41.875
             },
             {
-              "text": "He was wearing a dark coat that covered him from head to foot.",
-              "audioStart": 174.275,
-              "audioEnd": 177.188
+              "text": "She thought about her family and friends.",
+              "audioStart": 42.737,
+              "audioEnd": 44.725
             },
             {
-              "text": "But what was most unusual was that he wore something over his face.",
-              "audioStart": 178.05,
-              "audioEnd": 181.35
+              "text": "And her cat, Dinah.",
+              "audioStart": 45.587,
+              "audioEnd": 46.987
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She missed them very much.",
+              "audioStart": 47.85,
+              "audioEnd": 49.263
             },
             {
-              "text": "It was a black mask, which hid his eyes and the upper part of his face.",
-              "audioStart": 182.213,
+              "text": "She heard a voice.",
+              "audioStart": 50.125,
+              "audioEnd": 51.2
+            },
+            {
+              "text": "It was a man.",
+              "audioStart": 52.062,
+              "audioEnd": 52.95
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The man was in a hurry.",
+              "audioStart": 53.812,
+              "audioEnd": 55.05
+            },
+            {
+              "text": "He was saying something about being late.",
+              "audioStart": 55.913,
+              "audioEnd": 57.938
+            },
+            {
+              "text": "She followed him.",
+              "audioStart": 58.8,
+              "audioEnd": 59.763
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She went through a long passage.",
+              "audioStart": 60.625,
+              "audioEnd": 62.212
+            },
+            {
+              "text": "The passage was very dark.",
+              "audioStart": 63.075,
+              "audioEnd": 64.6
+            },
+            {
+              "text": "But she could hear the man.",
+              "audioStart": 65.463,
+              "audioEnd": 66.713
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She came to a big hall.",
+              "audioStart": 67.575,
+              "audioEnd": 68.938
+            },
+            {
+              "text": "The hall was very nice.",
+              "audioStart": 69.8,
+              "audioEnd": 71.162
+            },
+            {
+              "text": "There were many doors.",
+              "audioStart": 72.025,
+              "audioEnd": 73.225
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "But all the doors were locked.",
+              "audioStart": 74.088,
+              "audioEnd": 75.537
+            },
+            {
+              "text": "She was very tired.",
+              "audioStart": 76.4,
+              "audioEnd": 77.6
+            },
+            {
+              "text": "She had been walking for a long time.",
+              "audioStart": 78.463,
+              "audioEnd": 80.412
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She wanted to find a way out.",
+              "audioStart": 81.275,
+              "audioEnd": 82.862
+            },
+            {
+              "text": "But she did not know how.",
+              "audioStart": 83.725,
+              "audioEnd": 84.987
+            },
+            {
+              "text": "She was very sad.",
+              "audioStart": 85.85,
+              "audioEnd": 87.013
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She sat down on a chair.",
+              "audioStart": 87.875,
+              "audioEnd": 89.312
+            },
+            {
+              "text": "The chair was very comfortable.",
+              "audioStart": 90.175,
+              "audioEnd": 91.775
+            },
+            {
+              "text": "She felt a bit better.",
+              "audioStart": 92.638,
+              "audioEnd": 93.825
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She looked around the hall.",
+              "audioStart": 94.688,
+              "audioEnd": 95.987
+            },
+            {
+              "text": "She saw a lot of things.",
+              "audioStart": 96.85,
+              "audioEnd": 98.312
+            },
+            {
+              "text": "There were many people.",
+              "audioStart": 99.175,
+              "audioEnd": 100.338
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "They were all very busy.",
+              "audioStart": 101.2,
+              "audioEnd": 102.475
+            },
+            {
+              "text": "They did not notice her.",
+              "audioStart": 103.338,
+              "audioEnd": 104.575
+            },
+            {
+              "text": "She was very happy.",
+              "audioStart": 105.438,
+              "audioEnd": 106.6
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She wanted to talk to them.",
+              "audioStart": 107.463,
+              "audioEnd": 108.862
+            },
+            {
+              "text": "But she was too shy.",
+              "audioStart": 109.725,
+              "audioEnd": 110.95
+            },
+            {
+              "text": "She did not know what to say.",
+              "audioStart": 111.812,
+              "audioEnd": 113.275
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She got up and walked around.",
+              "audioStart": 114.138,
+              "audioEnd": 115.612
+            },
+            {
+              "text": "She saw a lot of interesting things.",
+              "audioStart": 116.475,
+              "audioEnd": 118.388
+            },
+            {
+              "text": "There were many doors.",
+              "audioStart": 119.25,
+              "audioEnd": 120.45
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She wanted to open them.",
+              "audioStart": 121.312,
+              "audioEnd": 122.575
+            },
+            {
+              "text": "But they were all locked.",
+              "audioStart": 123.438,
+              "audioEnd": 124.625
+            },
+            {
+              "text": "She was very disappointed.",
+              "audioStart": 125.487,
+              "audioEnd": 126.9
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She sat down again.",
+              "audioStart": 127.763,
+              "audioEnd": 128.988
+            },
+            {
+              "text": "She thought about her situation.",
+              "audioStart": 129.85,
+              "audioEnd": 131.5
+            },
+            {
+              "text": "She was very sad.",
+              "audioStart": 132.363,
+              "audioEnd": 133.525
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She heard a noise.",
+              "audioStart": 134.387,
+              "audioEnd": 135.5
+            },
+            {
+              "text": "It was the man again.",
+              "audioStart": 136.363,
+              "audioEnd": 137.512
+            },
+            {
+              "text": "He was coming towards her.",
+              "audioStart": 138.375,
+              "audioEnd": 139.762
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "He smiled at her.",
+              "audioStart": 140.625,
+              "audioEnd": 141.675
+            },
+            {
+              "text": "She smiled back.",
+              "audioStart": 142.537,
+              "audioEnd": 143.588
+            },
+            {
+              "text": "He seemed very nice.",
+              "audioStart": 144.45,
+              "audioEnd": 145.762
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "He asked her what she was doing.",
+              "audioStart": 146.625,
+              "audioEnd": 148.225
+            },
+            {
+              "text": "She told him about the door.",
+              "audioStart": 149.088,
+              "audioEnd": 150.537
+            },
+            {
+              "text": "He laughed.",
+              "audioStart": 151.4,
+              "audioEnd": 152.137
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "He said it was a test.",
+              "audioStart": 153.0,
+              "audioEnd": 154.375
+            },
+            {
+              "text": "She had passed it.",
+              "audioStart": 155.238,
+              "audioEnd": 156.325
+            },
+            {
+              "text": "He was very happy.",
+              "audioStart": 157.188,
+              "audioEnd": 158.35
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "He took her to another room.",
+              "audioStart": 159.213,
+              "audioEnd": 160.613
+            },
+            {
+              "text": "It was very big.",
+              "audioStart": 161.475,
+              "audioEnd": 162.537
+            },
+            {
+              "text": "There were many people.",
+              "audioStart": 163.4,
+              "audioEnd": 164.562
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "They were all very happy.",
+              "audioStart": 165.425,
+              "audioEnd": 166.738
+            },
+            {
+              "text": "They welcomed her.",
+              "audioStart": 167.6,
+              "audioEnd": 168.537
+            },
+            {
+              "text": "She was very happy.",
+              "audioStart": 169.4,
+              "audioEnd": 170.562
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She stayed there for a long time.",
+              "audioStart": 171.425,
+              "audioEnd": 173.113
+            },
+            {
+              "text": "She learned a lot of things.",
+              "audioStart": 173.975,
+              "audioEnd": 175.475
+            },
+            {
+              "text": "She was very happy.",
+              "audioStart": 176.338,
+              "audioEnd": 177.5
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She made many friends.",
+              "audioStart": 178.363,
+              "audioEnd": 179.725
+            },
+            {
+              "text": "They were all very nice.",
+              "audioStart": 180.588,
+              "audioEnd": 181.938
+            },
+            {
+              "text": "She loved them.",
+              "audioStart": 182.8,
+              "audioEnd": 183.713
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She never wanted to leave.",
+              "audioStart": 184.575,
               "audioEnd": 186.025
             },
             {
-              "text": "This made him look very strange, and I wondered why he wanted to hide his identity.",
+              "text": "But she knew she had to.",
               "audioStart": 186.887,
-              "audioEnd": 191.125
+              "audioEnd": 188.125
+            },
+            {
+              "text": "She was very sad.",
+              "audioStart": 189.0,
+              "audioEnd": 190.162
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "The gentleman stood by the door for a moment without saying a word.",
-              "audioStart": 191.988,
-              "audioEnd": 195.137
+              "text": "She said goodbye to her friends.",
+              "audioStart": 191.025,
+              "audioEnd": 192.725
             },
             {
-              "text": "He looked at me and then at Holmes, as if he were trying to decide something.",
-              "audioStart": 196.0,
-              "audioEnd": 199.875
+              "text": "They said goodbye to her.",
+              "audioStart": 193.588,
+              "audioEnd": 194.85
             },
             {
-              "text": "\"Should I speak before your friend?\" he asked in a low voice.",
-              "audioStart": 200.738,
-              "audioEnd": 203.912
-            },
-            {
-              "text": "Holmes replied that I was a trusted friend who could keep a secret.",
-              "audioStart": 204.775,
-              "audioEnd": 208.088
-            },
-            {
-              "text": "If I had not been there, the visitor might have spoken more freely at first.",
-              "audioStart": 208.95,
-              "audioEnd": 212.875
-            },
-            {
-              "text": "But because Holmes trusted me, the gentleman decided to stay and explain his problem.",
-              "audioStart": 213.738,
-              "audioEnd": 218.25
-            },
-            {
-              "text": "He sat down in the chair that I had offered him.",
-              "audioStart": 219.113,
-              "audioEnd": 221.287
-            },
-            {
-              "text": "He spoke slowly, and his voice was deep and full of worry.",
-              "audioStart": 222.15,
-              "audioEnd": 225.35
-            },
-            {
-              "text": "He told us that his problem was so serious that it could ruin his life.",
-              "audioStart": 226.213,
-              "audioEnd": 229.8
+              "text": "She left the place.",
+              "audioStart": 195.713,
+              "audioEnd": 196.95
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "The visitor explained that he was a person of very high position in his country.",
-              "audioStart": 230.662,
-              "audioEnd": 234.738
+              "text": "She went back home.",
+              "audioStart": 197.812,
+              "audioEnd": 198.85
             },
             {
-              "text": "If his secret were discovered, it would cause a major political crisis.",
-              "audioStart": 235.6,
-              "audioEnd": 239.312
+              "text": "She was very happy.",
+              "audioStart": 199.713,
+              "audioEnd": 200.875
             },
             {
-              "text": "He had been forced to wear the mask because he could not risk being recognized.",
-              "audioStart": 240.175,
-              "audioEnd": 244.113
-            },
-            {
-              "text": "\"If I am seen here, my enemies will use it against me,\" he said.",
-              "audioStart": 244.975,
-              "audioEnd": 248.713
-            },
-            {
-              "text": "A certain woman had some letters and a photograph that belonged to him.",
-              "audioStart": 249.575,
-              "audioEnd": 252.975
-            },
-            {
-              "text": "She had threatened to send them to his family and to the public.",
-              "audioStart": 253.838,
-              "audioEnd": 258.123
-            },
-            {
-              "text": "If she did this, his future would be completely destroyed.",
-              "audioStart": 258.985,
-              "audioEnd": 262.06
-            },
-            {
-              "text": "He had tried to buy the papers from her, but she had refused his money.",
-              "audioStart": 262.923,
-              "audioEnd": 266.522
-            },
-            {
-              "text": "Now, his only hope was that Holmes could find a way to get them back.",
-              "audioStart": 267.385,
-              "audioEnd": 271.098
+              "text": "She had learned a lot.",
+              "audioStart": 201.738,
+              "audioEnd": 202.912
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "Holmes listened to this story with great attention, noting every small detail.",
-              "audioStart": 271.96,
-              "audioEnd": 275.947
+              "text": "She told her family and friends about her adventure.",
+              "audioStart": 203.775,
+              "audioEnd": 206.325
             },
             {
-              "text": "He asked several questions about the woman and where she kept the papers.",
-              "audioStart": 276.81,
-              "audioEnd": 280.473
+              "text": "They were all very impressed.",
+              "audioStart": 207.188,
+              "audioEnd": 208.675
             },
             {
-              "text": "The gentleman gave us all the information he had, though some details were still unclear.",
-              "audioStart": 281.335,
-              "audioEnd": 285.935
-            },
-            {
-              "text": "\"This is indeed a difficult case,\" Holmes said after a long pause.",
-              "audioStart": 286.798,
-              "audioEnd": 290.373
-            },
-            {
-              "text": "\"But I am confident that a solution can be found.\"",
-              "audioStart": 291.235,
-              "audioEnd": 293.76
-            },
-            {
-              "text": "If he had not been confident, the visitor might have lost all hope.",
-              "audioStart": 294.623,
-              "audioEnd": 298.022
-            },
-            {
-              "text": "But because Holmes was so calm, the gentleman began to feel some hope.",
-              "audioStart": 298.885,
-              "audioEnd": 302.635
-            },
-            {
-              "text": "He thanked Holmes and promised to pay any amount of money if the papers were returned.",
-              "audioStart": 303.498,
-              "audioEnd": 307.598
+              "text": "They loved her.",
+              "audioStart": 209.537,
+              "audioEnd": 210.363
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "After the gentleman had left, Holmes and Watson sat by the fire for a long time.",
-              "audioStart": 308.46,
-              "audioEnd": 313.048
+              "text": "She was very happy.",
+              "audioStart": 211.225,
+              "audioEnd": 212.387
             },
             {
-              "text": "We discussed the different ways we could approach the problem.",
-              "audioStart": 313.91,
-              "audioEnd": 316.572
+              "text": "She had found what she was looking for.",
+              "audioStart": 213.25,
+              "audioEnd": 215.238
             },
             {
-              "text": "If we did not act quickly, the papers might be made public very soon.",
-              "audioStart": 317.435,
-              "audioEnd": 321.348
-            },
-            {
-              "text": "\"I will need your help tomorrow, Watson,\" Holmes said to me.",
-              "audioStart": 322.21,
-              "audioEnd": 325.348
-            },
-            {
-              "text": "I told him that I would be happy to do whatever was necessary.",
-              "audioStart": 326.21,
-              "audioEnd": 329.223
-            },
-            {
-              "text": "If I had not visited him that evening, I would not have been part of this adventure.",
-              "audioStart": 330.085,
-              "audioEnd": 333.897
-            },
-            {
-              "text": "I was glad that I had decided to go to Baker Street that night.",
-              "audioStart": 334.76,
-              "audioEnd": 337.873
-            },
-            {
-              "text": "It was exciting to be working with my old friend once again.",
-              "audioStart": 338.735,
-              "audioEnd": 341.71
+              "text": "She was at peace.",
+              "audioStart": 216.1,
+              "audioEnd": 217.175
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "The case proved to be one of the most difficult that Holmes had ever had.",
-              "audioStart": 342.572,
-              "audioEnd": 346.035
+              "text": "She lived happily ever after.",
+              "audioStart": 218.037,
+              "audioEnd": 219.75
             },
             {
-              "text": "It required all his skill and intelligence to find the papers.",
-              "audioStart": 346.897,
-              "audioEnd": 350.26
+              "text": "She never forgot her adventure.",
+              "audioStart": 220.613,
+              "audioEnd": 222.275
             },
             {
-              "text": "If he had not been so brilliant, the secret would have been revealed.",
-              "audioStart": 351.123,
-              "audioEnd": 354.397
+              "text": "She was very grateful.",
+              "audioStart": 223.137,
+              "audioEnd": 224.425
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She always remembered the man.",
+              "audioStart": 225.287,
+              "audioEnd": 226.825
             },
             {
-              "text": "But because he was able to think of things that others missed, he succeeded.",
-              "audioStart": 355.26,
-              "audioEnd": 358.923
+              "text": "He had helped her.",
+              "audioStart": 227.688,
+              "audioEnd": 228.675
             },
             {
-              "text": "The papers were finally recovered, and the gentleman's future was saved.",
-              "audioStart": 359.785,
-              "audioEnd": 363.56
+              "text": "She loved him.",
+              "audioStart": 229.537,
+              "audioEnd": 230.4
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She never forgot the hall.",
+              "audioStart": 231.262,
+              "audioEnd": 232.65
             },
             {
-              "text": "It was an experience that I would never forget.",
-              "audioStart": 364.423,
-              "audioEnd": 366.76
+              "text": "It was a special place.",
+              "audioStart": 233.512,
+              "audioEnd": 234.912
             },
             {
-              "text": "I learned a lot from watching Holmes work on this difficult case.",
-              "audioStart": 367.623,
-              "audioEnd": 370.81
+              "text": "She loved it.",
+              "audioStart": 235.775,
+              "audioEnd": 236.625
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She always remembered the doors.",
+              "audioStart": 237.488,
+              "audioEnd": 239.162
             },
             {
-              "text": "I was grateful for the opportunity to see my friend show his great ability once more.",
-              "audioStart": 371.673,
-              "audioEnd": 375.935
+              "text": "They were very important.",
+              "audioStart": 240.025,
+              "audioEnd": 241.3
+            },
+            {
+              "text": "She loved them.",
+              "audioStart": 242.162,
+              "audioEnd": 243.075
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She never forgot the test.",
+              "audioStart": 243.938,
+              "audioEnd": 245.537
+            },
+            {
+              "text": "It was very difficult.",
+              "audioStart": 246.4,
+              "audioEnd": 247.662
+            },
+            {
+              "text": "She was very proud.",
+              "audioStart": 248.525,
+              "audioEnd": 249.675
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She always remembered the feeling.",
+              "audioStart": 250.537,
+              "audioEnd": 252.213
+            },
+            {
+              "text": "It was very happy.",
+              "audioStart": 253.075,
+              "audioEnd": 254.2
+            },
+            {
+              "text": "She loved it.",
+              "audioStart": 255.062,
+              "audioEnd": 255.912
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She lived a very happy life.",
+              "audioStart": 256.775,
+              "audioEnd": 258.438
+            },
+            {
+              "text": "She never forgot her adventure.",
+              "audioStart": 259.3,
+              "audioEnd": 260.962
+            },
+            {
+              "text": "She was very grateful.",
+              "audioStart": 261.825,
+              "audioEnd": 263.113
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She always remembered the people.",
+              "audioStart": 263.975,
+              "audioEnd": 265.575
+            },
+            {
+              "text": "They were very nice.",
+              "audioStart": 266.438,
+              "audioEnd": 267.637
+            },
+            {
+              "text": "She loved them.",
+              "audioStart": 268.5,
+              "audioEnd": 269.413
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She never forgot the place.",
+              "audioStart": 270.275,
+              "audioEnd": 271.837
+            },
+            {
+              "text": "It was very special.",
+              "audioStart": 272.7,
+              "audioEnd": 273.938
+            },
+            {
+              "text": "She loved it.",
+              "audioStart": 274.8,
+              "audioEnd": 275.65
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She always remembered the time.",
+              "audioStart": 276.512,
+              "audioEnd": 278.125
+            },
+            {
+              "text": "It was very happy.",
+              "audioStart": 278.988,
+              "audioEnd": 280.113
+            },
+            {
+              "text": "She loved it.",
+              "audioStart": 280.975,
+              "audioEnd": 281.825
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She lived a very long life.",
+              "audioStart": 282.688,
+              "audioEnd": 284.325
+            },
+            {
+              "text": "She was very happy.",
+              "audioStart": 285.188,
+              "audioEnd": 286.35
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 287.212,
+              "audioEnd": 288.413
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She never forgot her adventure.",
+              "audioStart": 289.275,
+              "audioEnd": 290.938
+            },
+            {
+              "text": "It was very important.",
+              "audioStart": 291.8,
+              "audioEnd": 293.012
+            },
+            {
+              "text": "She loved it.",
+              "audioStart": 293.875,
+              "audioEnd": 294.725
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She always remembered the man.",
+              "audioStart": 295.587,
+              "audioEnd": 297.125
+            },
+            {
+              "text": "He was very nice.",
+              "audioStart": 297.988,
+              "audioEnd": 299.2
+            },
+            {
+              "text": "She loved him.",
+              "audioStart": 300.062,
+              "audioEnd": 300.925
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She never forgot the hall.",
+              "audioStart": 301.788,
+              "audioEnd": 303.175
+            },
+            {
+              "text": "It was very special.",
+              "audioStart": 304.038,
+              "audioEnd": 305.275
+            },
+            {
+              "text": "She loved it.",
+              "audioStart": 306.137,
+              "audioEnd": 306.988
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She always remembered the doors.",
+              "audioStart": 307.85,
+              "audioEnd": 309.525
+            },
+            {
+              "text": "They were very important.",
+              "audioStart": 310.387,
+              "audioEnd": 311.663
+            },
+            {
+              "text": "She loved them.",
+              "audioStart": 312.525,
+              "audioEnd": 313.438
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She never forgot the test.",
+              "audioStart": 314.3,
+              "audioEnd": 315.9
+            },
+            {
+              "text": "It was very difficult.",
+              "audioStart": 316.762,
+              "audioEnd": 318.025
+            },
+            {
+              "text": "She was very proud.",
+              "audioStart": 318.887,
+              "audioEnd": 320.038
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She always remembered the feeling.",
+              "audioStart": 320.9,
+              "audioEnd": 322.575
+            },
+            {
+              "text": "It was very happy.",
+              "audioStart": 323.438,
+              "audioEnd": 324.562
+            },
+            {
+              "text": "She loved it.",
+              "audioStart": 325.425,
+              "audioEnd": 326.275
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She lived a very happy life.",
+              "audioStart": 327.137,
+              "audioEnd": 328.8
+            },
+            {
+              "text": "She never forgot her adventure.",
+              "audioStart": 329.663,
+              "audioEnd": 331.325
+            },
+            {
+              "text": "She was very grateful.",
+              "audioStart": 332.188,
+              "audioEnd": 333.475
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was very old.",
+              "audioStart": 334.337,
+              "audioEnd": 335.438
+            },
+            {
+              "text": "She was very wise.",
+              "audioStart": 336.3,
+              "audioEnd": 337.575
+            },
+            {
+              "text": "She was very happy.",
+              "audioStart": 338.438,
+              "audioEnd": 339.6
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She had lived a very long life.",
+              "audioStart": 340.462,
+              "audioEnd": 342.25
+            },
+            {
+              "text": "She had seen many things.",
+              "audioStart": 343.113,
+              "audioEnd": 344.675
+            },
+            {
+              "text": "She was very grateful.",
+              "audioStart": 345.538,
+              "audioEnd": 346.825
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She had learned a lot.",
+              "audioStart": 347.688,
+              "audioEnd": 348.863
+            },
+            {
+              "text": "She had loved a lot.",
+              "audioStart": 349.725,
+              "audioEnd": 350.913
+            },
+            {
+              "text": "She was very happy.",
+              "audioStart": 351.775,
+              "audioEnd": 352.938
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was at peace.",
+              "audioStart": 353.8,
+              "audioEnd": 354.875
+            },
+            {
+              "text": "She was very happy.",
+              "audioStart": 355.738,
+              "audioEnd": 356.9
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 357.762,
+              "audioEnd": 358.962
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She had no regrets.",
+              "audioStart": 359.825,
+              "audioEnd": 361.075
+            },
+            {
+              "text": "She was very grateful.",
+              "audioStart": 361.938,
+              "audioEnd": 363.225
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 364.087,
+              "audioEnd": 366.548
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was very happy.",
+              "audioStart": 367.411,
+              "audioEnd": 368.573
+            },
+            {
+              "text": "She was very content.",
+              "audioStart": 369.435,
+              "audioEnd": 370.736
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 371.598,
+              "audioEnd": 372.798
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She had lived a very good life.",
+              "audioStart": 373.661,
+              "audioEnd": 375.348
+            },
+            {
+              "text": "She had done many things.",
+              "audioStart": 376.211,
+              "audioEnd": 377.773
+            },
+            {
+              "text": "She was very proud.",
+              "audioStart": 378.635,
+              "audioEnd": 379.786
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was very happy.",
+              "audioStart": 380.648,
+              "audioEnd": 381.81
+            },
+            {
+              "text": "She was very grateful.",
+              "audioStart": 382.673,
+              "audioEnd": 383.961
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 384.823,
+              "audioEnd": 386.023
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was at peace.",
+              "audioStart": 386.885,
+              "audioEnd": 387.961
+            },
+            {
+              "text": "She was very happy.",
+              "audioStart": 388.823,
+              "audioEnd": 389.986
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 390.848,
+              "audioEnd": 392.048
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She had no regrets.",
+              "audioStart": 392.911,
+              "audioEnd": 394.161
+            },
+            {
+              "text": "She was very grateful.",
+              "audioStart": 395.023,
+              "audioEnd": 396.31
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 397.173,
+              "audioEnd": 398.373
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was very happy.",
+              "audioStart": 399.236,
+              "audioEnd": 400.398
+            },
+            {
+              "text": "She was very content.",
+              "audioStart": 401.26,
+              "audioEnd": 402.56
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 403.423,
+              "audioEnd": 404.623
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was very old.",
+              "audioStart": 405.486,
+              "audioEnd": 406.586
+            },
+            {
+              "text": "She was very wise.",
+              "audioStart": 407.448,
+              "audioEnd": 408.723
+            },
+            {
+              "text": "She was very happy.",
+              "audioStart": 409.586,
+              "audioEnd": 410.748
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She had lived a very long life.",
+              "audioStart": 411.611,
+              "audioEnd": 413.398
+            },
+            {
+              "text": "She had seen many things.",
+              "audioStart": 414.26,
+              "audioEnd": 415.823
+            },
+            {
+              "text": "She was very grateful.",
+              "audioStart": 416.685,
+              "audioEnd": 417.973
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She had learned a lot.",
+              "audioStart": 418.836,
+              "audioEnd": 420.01
+            },
+            {
+              "text": "She had loved a lot.",
+              "audioStart": 420.873,
+              "audioEnd": 422.06
+            },
+            {
+              "text": "She was very happy.",
+              "audioStart": 422.923,
+              "audioEnd": 424.086
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was at peace.",
+              "audioStart": 424.948,
+              "audioEnd": 426.023
+            },
+            {
+              "text": "She was very happy.",
+              "audioStart": 426.885,
+              "audioEnd": 428.048
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 428.911,
+              "audioEnd": 430.111
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She had no regrets.",
+              "audioStart": 430.973,
+              "audioEnd": 432.223
+            },
+            {
+              "text": "She was very grateful.",
+              "audioStart": 433.086,
+              "audioEnd": 434.373
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 435.236,
+              "audioEnd": 436.435
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was very happy.",
+              "audioStart": 437.298,
+              "audioEnd": 438.461
+            },
+            {
+              "text": "She was very content.",
+              "audioStart": 439.323,
+              "audioEnd": 440.623
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 441.486,
+              "audioEnd": 442.685
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was very happy.",
+              "audioStart": 443.548,
+              "audioEnd": 444.711
+            },
+            {
+              "text": "She was very grateful.",
+              "audioStart": 445.573,
+              "audioEnd": 446.861
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 447.723,
+              "audioEnd": 448.923
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She had lived a very good life.",
+              "audioStart": 449.786,
+              "audioEnd": 451.473
+            },
+            {
+              "text": "She had done many things.",
+              "audioStart": 452.336,
+              "audioEnd": 453.898
+            },
+            {
+              "text": "She was very proud.",
+              "audioStart": 454.76,
+              "audioEnd": 455.911
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was very happy.",
+              "audioStart": 456.773,
+              "audioEnd": 457.935
+            },
+            {
+              "text": "She was very grateful.",
+              "audioStart": 458.798,
+              "audioEnd": 460.086
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 460.948,
+              "audioEnd": 462.148
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was at peace.",
+              "audioStart": 463.01,
+              "audioEnd": 464.086
+            },
+            {
+              "text": "She was very happy.",
+              "audioStart": 464.948,
+              "audioEnd": 466.111
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 466.973,
+              "audioEnd": 468.173
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She had no regrets.",
+              "audioStart": 469.036,
+              "audioEnd": 470.286
+            },
+            {
+              "text": "She was very grateful.",
+              "audioStart": 471.148,
+              "audioEnd": 472.435
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 473.298,
+              "audioEnd": 474.498
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "She was very happy.",
+              "audioStart": 475.361,
+              "audioEnd": 476.523
+            },
+            {
+              "text": "She was very content.",
+              "audioStart": 477.385,
+              "audioEnd": 478.685
+            },
+            {
+              "text": "She loved her life.",
+              "audioStart": 479.548,
+              "audioEnd": 480.748
             }
           ]
         }
@@ -486,29 +1417,29 @@
       "wordTimings": "audio/b2/st-0012.timings.json",
       "quiz": [
         {
-          "q": "What was the weather like when the narrator visited Sherlock Holmes?",
+          "q": "What did she fall down?",
           "options": [
-            "Hot summer evening",
-            "Cold winter evening",
-            "Rainy spring morning"
+            "A mountain",
+            "A hole",
+            "A tree"
           ],
           "answer": 1
         },
         {
-          "q": "What did the note warn Holmes to expect?",
+          "q": "What did she find on the table?",
           "options": [
-            "A visit from an old friend",
-            "A new case to solve",
-            "Something important"
+            "A book",
+            "A key",
+            "A flower"
           ],
-          "answer": 2
+          "answer": 1
         },
         {
-          "q": "What was unusual about the gentleman who visited Holmes?",
+          "q": "Why could she not go through the door?",
           "options": [
-            "He was very tall",
-            "He was wearing something over his face",
-            "He had a loud voice"
+            "It was locked",
+            "It was too small",
+            "It was too big"
           ],
           "answer": 1
         }
@@ -519,485 +1450,585 @@
         {
           "sentences": [
             {
-              "text": "It was a very cold winter evening.",
+              "text": "Alice fell down a very deep hole.",
               "audioStart": 0.1,
-              "audioEnd": 1.837
+              "audioEnd": 1.887
             },
             {
-              "text": "The wind was strong and there was snow on the ground.",
-              "audioStart": 2.7,
-              "audioEnd": 5.075
+              "text": "She went down fast.",
+              "audioStart": 2.75,
+              "audioEnd": 4.025
             },
             {
-              "text": "I decided to visit my old friend, Sherlock Holmes.",
-              "audioStart": 5.938,
-              "audioEnd": 8.787
+              "text": "She was very afraid inside it.",
+              "audioStart": 4.888,
+              "audioEnd": 6.55
             },
             {
-              "text": "We had lived together for a long time.",
-              "audioStart": 9.65,
-              "audioEnd": 11.688
+              "text": "The space was dark.",
+              "audioStart": 7.412,
+              "audioEnd": 8.575
             },
             {
-              "text": "Now, he was living alone in our old rooms on Baker Street.",
-              "audioStart": 12.55,
-              "audioEnd": 15.812
+              "text": "Alice did not know what to do next.",
+              "audioStart": 9.438,
+              "audioEnd": 11.338
             },
             {
-              "text": "I walked quickly through the dark streets.",
-              "audioStart": 16.675,
-              "audioEnd": 18.675
+              "text": "She had never been in such a dark place before.",
+              "audioStart": 12.2,
+              "audioEnd": 14.725
             },
             {
-              "text": "I wanted to get out of the cold air.",
-              "audioStart": 19.538,
-              "audioEnd": 21.225
+              "text": "This new place made her feel very small.",
+              "audioStart": 15.588,
+              "audioEnd": 17.788
             },
             {
-              "text": "Soon, I arrived at the house.",
-              "audioStart": 22.087,
-              "audioEnd": 23.925
+              "text": "She looked all around her.",
+              "audioStart": 18.65,
+              "audioEnd": 19.938
             },
             {
-              "text": "I went up the steps to his room.",
-              "audioStart": 24.788,
-              "audioEnd": 26.4
+              "text": "But she could see nothing at all.",
+              "audioStart": 20.8,
+              "audioEnd": 22.288
             },
             {
-              "text": "It felt very familiar to me.",
-              "audioStart": 27.262,
-              "audioEnd": 28.875
+              "text": "She felt quite lost in this place.",
+              "audioStart": 23.15,
+              "audioEnd": 25.087
             },
             {
-              "text": "I knocked on the door and entered.",
-              "audioStart": 29.738,
-              "audioEnd": 31.238
+              "text": "She wanted to go back up.",
+              "audioStart": 25.95,
+              "audioEnd": 27.35
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "Holmes was sitting in his large chair near the fire.",
-              "audioStart": 32.1,
-              "audioEnd": 34.65
+              "text": "Then, Alice saw a small table.",
+              "audioStart": 28.212,
+              "audioEnd": 30.113
             },
             {
-              "text": "The room was full of books and papers.",
-              "audioStart": 35.513,
-              "audioEnd": 37.487
+              "text": "It stood there in the dark.",
+              "audioStart": 30.975,
+              "audioEnd": 32.275
             },
             {
-              "text": "He looked very thin and tired.",
-              "audioStart": 38.35,
-              "audioEnd": 40.112
+              "text": "The table was made of glass.",
+              "audioStart": 33.138,
+              "audioEnd": 34.725
             },
             {
-              "text": "His face was white, and he did not look healthy.",
-              "audioStart": 40.975,
-              "audioEnd": 43.562
+              "text": "It was clear and bright.",
+              "audioStart": 35.587,
+              "audioEnd": 36.9
             },
             {
-              "text": "I felt sad to see my friend like this.",
-              "audioStart": 44.425,
-              "audioEnd": 46.513
+              "text": "On the table, there was a tiny gold key.",
+              "audioStart": 37.763,
+              "audioEnd": 40.1
             },
             {
-              "text": "However, he was happy to see me.",
-              "audioStart": 47.375,
-              "audioEnd": 49.3
+              "text": "Alice felt very happy to find this key.",
+              "audioStart": 40.962,
+              "audioEnd": 43.138
             },
             {
-              "text": "When he started talking, his face changed completely.",
-              "audioStart": 50.163,
-              "audioEnd": 53.212
+              "text": "She had hope again.",
+              "audioStart": 44.0,
+              "audioEnd": 45.125
             },
             {
-              "text": "I could see the old, bright energy in his eyes.",
-              "audioStart": 54.075,
-              "audioEnd": 56.625
+              "text": "She thought the key could help her.",
+              "audioStart": 45.987,
+              "audioEnd": 47.5
             },
             {
-              "text": "His mind was still very active.",
-              "audioStart": 57.487,
-              "audioEnd": 59.325
+              "text": "She believed it would help her leave this strange place.",
+              "audioStart": 48.362,
+              "audioEnd": 50.9
             },
             {
-              "text": "He was ready for a new challenge.",
-              "audioStart": 60.188,
-              "audioEnd": 61.888
+              "text": "She picked up the key.",
+              "audioStart": 51.763,
+              "audioEnd": 52.95
+            },
+            {
+              "text": "She held it with her small hand.",
+              "audioStart": 53.812,
+              "audioEnd": 55.425
+            },
+            {
+              "text": "This key was her only hope.",
+              "audioStart": 56.288,
+              "audioEnd": 57.737
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "He asked me about my life.",
-              "audioStart": 62.75,
-              "audioEnd": 64.362
+              "text": "Alice started to look for a door.",
+              "audioStart": 58.6,
+              "audioEnd": 60.275
             },
             {
-              "text": "He wanted to know what I have done recently.",
-              "audioStart": 65.225,
-              "audioEnd": 67.375
+              "text": "She walked around the dark room.",
+              "audioStart": 61.138,
+              "audioEnd": 62.737
             },
             {
-              "text": "\"I have been very busy with my work,\" I told him.",
-              "audioStart": 68.237,
-              "audioEnd": 70.925
+              "text": "Soon, she found a small door.",
+              "audioStart": 63.6,
+              "audioEnd": 65.5
             },
             {
-              "text": "I told him about my work as a local doctor.",
-              "audioStart": 71.787,
-              "audioEnd": 74.125
+              "text": "It was low on the wall.",
+              "audioStart": 66.362,
+              "audioEnd": 67.65
             },
             {
-              "text": "I had many patients to see every day.",
-              "audioStart": 74.987,
-              "audioEnd": 77.1
+              "text": "The door was locked tightly.",
+              "audioStart": 68.513,
+              "audioEnd": 70.037
             },
             {
-              "text": "I also told him about my family.",
-              "audioStart": 77.963,
-              "audioEnd": 79.812
+              "text": "Alice used her new gold key.",
+              "audioStart": 70.9,
+              "audioEnd": 72.438
             },
             {
-              "text": "My life was very different now, but I was happy.",
-              "audioStart": 80.675,
-              "audioEnd": 83.4
+              "text": "She put the key in the lock.",
+              "audioStart": 73.3,
+              "audioEnd": 74.688
             },
             {
-              "text": "He listened to me carefully.",
-              "audioStart": 84.263,
-              "audioEnd": 85.763
+              "text": "The key fit the lock perfectly.",
+              "audioStart": 75.55,
+              "audioEnd": 77.225
             },
             {
-              "text": "He was always interested in my news.",
-              "audioStart": 86.625,
-              "audioEnd": 88.575
+              "text": "She had a good feeling.",
+              "audioStart": 78.088,
+              "audioEnd": 79.287
+            },
+            {
+              "text": "She turned the key.",
+              "audioStart": 80.15,
+              "audioEnd": 81.2
+            },
+            {
+              "text": "The lock made a sound.",
+              "audioStart": 82.062,
+              "audioEnd": 83.325
+            },
+            {
+              "text": "She then opened the door.",
+              "audioStart": 84.188,
+              "audioEnd": 85.45
+            },
+            {
+              "text": "But the door was very, very small.",
+              "audioStart": 86.312,
+              "audioEnd": 88.362
+            },
+            {
+              "text": "It was just a little opening in the wall.",
+              "audioStart": 89.225,
+              "audioEnd": 91.138
+            },
+            {
+              "text": "She looked inside the opening.",
+              "audioStart": 92.0,
+              "audioEnd": 93.525
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "Then, Holmes started to talk about his own work.",
-              "audioStart": 89.438,
-              "audioEnd": 91.987
+              "text": "Alice wanted to go through the door.",
+              "audioStart": 94.388,
+              "audioEnd": 96.037
             },
             {
-              "text": "He told me about his latest case.",
-              "audioStart": 92.85,
-              "audioEnd": 94.775
+              "text": "She truly wanted to see.",
+              "audioStart": 96.9,
+              "audioEnd": 98.388
             },
             {
-              "text": "It was a very difficult problem.",
-              "audioStart": 95.638,
-              "audioEnd": 97.275
+              "text": "She wished to know what was outside.",
+              "audioStart": 99.25,
+              "audioEnd": 100.963
             },
             {
-              "text": "A rich man had lost something important.",
-              "audioStart": 98.138,
-              "audioEnd": 100.375
+              "text": "But she was much too big to pass through.",
+              "audioStart": 101.825,
+              "audioEnd": 103.875
             },
             {
-              "text": "The police did not know what to do.",
-              "audioStart": 101.237,
-              "audioEnd": 102.987
+              "text": "Her head could not even fit inside.",
+              "audioStart": 104.737,
+              "audioEnd": 106.65
             },
             {
-              "text": "\"It is a strange case,\" Holmes said.",
-              "audioStart": 103.85,
-              "audioEnd": 105.912
+              "text": "Alice did not know what to do now.",
+              "audioStart": 107.513,
+              "audioEnd": 109.15
             },
             {
-              "text": "But I have some information.",
-              "audioStart": 106.775,
-              "audioEnd": 108.188
+              "text": "She felt very sad about this problem.",
+              "audioStart": 110.013,
+              "audioEnd": 112.013
             },
             {
-              "text": "If I follow these details, I will find the answer.",
-              "audioStart": 109.05,
-              "audioEnd": 111.763
+              "text": "She had worked to find a way out.",
+              "audioStart": 112.875,
+              "audioEnd": 114.625
             },
             {
-              "text": "I am sure I can solve it soon.",
-              "audioStart": 112.625,
-              "audioEnd": 114.263
+              "text": "But she could not use it at all.",
+              "audioStart": 115.487,
+              "audioEnd": 117.013
             },
             {
-              "text": "He had great confidence in his work.",
-              "audioStart": 115.125,
-              "audioEnd": 117.112
+              "text": "This made her feel bad.",
+              "audioStart": 117.875,
+              "audioEnd": 119.162
+            },
+            {
+              "text": "There was no clear path for her.",
+              "audioStart": 120.025,
+              "audioEnd": 121.688
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "As we talked, I realized something important.",
-              "audioStart": 117.975,
-              "audioEnd": 120.575
+              "text": "Alice wished she could be small.",
+              "audioStart": 122.55,
+              "audioEnd": 124.188
             },
             {
-              "text": "Holmes was still the same great expert.",
-              "audioStart": 121.438,
-              "audioEnd": 123.438
+              "text": "She closed her eyes for a moment.",
+              "audioStart": 125.05,
+              "audioEnd": 126.7
             },
             {
-              "text": "He could notice tiny details that other people always missed.",
-              "audioStart": 124.3,
-              "audioEnd": 127.575
+              "text": "If she can be small, she will go through.",
+              "audioStart": 127.562,
+              "audioEnd": 129.762
             },
             {
-              "text": "For example, he looked at my shoes.",
-              "audioStart": 128.438,
-              "audioEnd": 130.713
+              "text": "Then she will see what is on the other side.",
+              "audioStart": 130.625,
+              "audioEnd": 132.575
             },
             {
-              "text": "\"You have walked through the cold park today,\" he said.",
-              "audioStart": 131.575,
-              "audioEnd": 134.137
+              "text": "This will be a great new experience for her.",
+              "audioStart": 133.438,
+              "audioEnd": 135.588
             },
             {
-              "text": "He was absolutely right.",
-              "audioStart": 135.0,
-              "audioEnd": 136.5
+              "text": "She has always wanted a big new journey.",
+              "audioStart": 136.45,
+              "audioEnd": 138.475
             },
             {
-              "text": "I was amazed by his quick mind.",
-              "audioStart": 137.363,
-              "audioEnd": 139.213
+              "text": "She has wished for a special trip.",
+              "audioStart": 139.338,
+              "audioEnd": 141.075
             },
             {
-              "text": "He always saw the truth immediately.",
-              "audioStart": 140.075,
-              "audioEnd": 141.975
+              "text": "She wants to find a new world.",
+              "audioStart": 141.938,
+              "audioEnd": 143.438
+            },
+            {
+              "text": "This idea made her feel a bit better.",
+              "audioStart": 144.3,
+              "audioEnd": 146.225
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "I was very happy to see my old friend again.",
-              "audioStart": 142.838,
-              "audioEnd": 145.113
+              "text": "Alice thought about her own life.",
+              "audioStart": 147.088,
+              "audioEnd": 148.812
             },
             {
-              "text": "The room felt warm and comfortable.",
-              "audioStart": 145.975,
-              "audioEnd": 147.738
+              "text": "She thought about her family.",
+              "audioStart": 149.675,
+              "audioEnd": 151.125
             },
             {
-              "text": "We spent the rest of the evening talking about the past.",
-              "audioStart": 148.6,
-              "audioEnd": 151.387
+              "text": "She also thought about her friends.",
+              "audioStart": 151.988,
+              "audioEnd": 153.775
             },
             {
-              "text": "We remembered our old cases.",
-              "audioStart": 152.25,
-              "audioEnd": 153.887
+              "text": "She remembered her dear cat, Dinah.",
+              "audioStart": 154.637,
+              "audioEnd": 156.7
             },
             {
-              "text": "We laughed together about the funny things we had seen.",
-              "audioStart": 154.75,
-              "audioEnd": 157.412
+              "text": "Alice missed them very much.",
+              "audioStart": 157.562,
+              "audioEnd": 159.15
             },
             {
-              "text": "It was a wonderful night.",
-              "audioStart": 158.275,
-              "audioEnd": 159.625
+              "text": "She had left them far above the ground.",
+              "audioStart": 160.012,
+              "audioEnd": 162.025
             },
             {
-              "text": "I had missed our long conversations.",
-              "audioStart": 160.488,
-              "audioEnd": 162.512
+              "text": "She hoped to see them again soon.",
+              "audioStart": 162.887,
+              "audioEnd": 164.575
             },
             {
-              "text": "It felt like the old days.",
-              "audioStart": 163.375,
-              "audioEnd": 164.812
+              "text": "She felt a little alone now.",
+              "audioStart": 165.438,
+              "audioEnd": 166.912
+            },
+            {
+              "text": "This was a hard feeling.",
+              "audioStart": 167.775,
+              "audioEnd": 169.1
+            },
+            {
+              "text": "She was far from her home.",
+              "audioStart": 169.963,
+              "audioEnd": 171.338
+            },
+            {
+              "text": "She wished for their company.",
+              "audioStart": 172.2,
+              "audioEnd": 173.6
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "The next day, I was at my own home.",
-              "audioStart": 165.675,
-              "audioEnd": 167.8
+              "text": "Suddenly, Alice heard a voice.",
+              "audioStart": 174.463,
+              "audioEnd": 176.363
             },
             {
-              "text": "In the morning, I received a strange note.",
-              "audioStart": 168.662,
-              "audioEnd": 170.925
+              "text": "A white animal spoke very fast.",
+              "audioStart": 177.225,
+              "audioEnd": 179.262
             },
             {
-              "text": "The letter had no name on it.",
-              "audioStart": 171.787,
-              "audioEnd": 173.275
+              "text": "It was a white animal.",
+              "audioStart": 180.125,
+              "audioEnd": 181.312
             },
             {
-              "text": "I opened it and read the words carefully.",
-              "audioStart": 174.137,
-              "audioEnd": 176.213
+              "text": "It had bright red eyes.",
+              "audioStart": 182.175,
+              "audioEnd": 183.475
             },
             {
-              "text": "The note said that a gentleman would visit Holmes tonight.",
-              "audioStart": 177.075,
-              "audioEnd": 179.662
+              "text": "The animal was moving very fast.",
+              "audioStart": 184.338,
+              "audioEnd": 186.25
             },
             {
-              "text": "He would arrive at a quarter to eight.",
-              "audioStart": 180.525,
-              "audioEnd": 182.287
+              "text": "It seemed to be in a rush.",
+              "audioStart": 187.113,
+              "audioEnd": 188.45
             },
             {
-              "text": "The writer of the note asked me to be there.",
-              "audioStart": 183.15,
-              "audioEnd": 185.2
+              "text": "He said, \"Oh dear! I am very late!\"",
+              "audioStart": 189.312,
+              "audioEnd": 192.637
             },
             {
-              "text": "I wondered who this man could be.",
-              "audioStart": 186.062,
-              "audioEnd": 187.688
+              "text": "He had to go quickly from there.",
+              "audioStart": 193.5,
+              "audioEnd": 195.188
+            },
+            {
+              "text": "Alice was very surprised.",
+              "audioStart": 196.05,
+              "audioEnd": 197.637
+            },
+            {
+              "text": "She heard an animal talk.",
+              "audioStart": 198.5,
+              "audioEnd": 199.9
+            },
+            {
+              "text": "This was a truly strange sight.",
+              "audioStart": 200.762,
+              "audioEnd": 202.488
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "The note did not say who the gentleman was.",
-              "audioStart": 188.55,
-              "audioEnd": 190.688
+              "text": "Alice decided to follow the white animal.",
+              "audioStart": 203.35,
+              "audioEnd": 205.475
             },
             {
-              "text": "It did not explain what he wanted from us.",
-              "audioStart": 191.55,
-              "audioEnd": 193.787
+              "text": "She moved fast after it.",
+              "audioStart": 206.338,
+              "audioEnd": 207.787
             },
             {
-              "text": "However, it had a serious warning.",
-              "audioStart": 194.65,
-              "audioEnd": 196.65
+              "text": "She went through a long passage.",
+              "audioStart": 208.65,
+              "audioEnd": 210.238
             },
             {
-              "text": "It warned Holmes to be very careful.",
-              "audioStart": 197.512,
-              "audioEnd": 199.425
+              "text": "The passage was very dark.",
+              "audioStart": 211.1,
+              "audioEnd": 212.625
             },
             {
-              "text": "It said that the visitor was a man of high position.",
-              "audioStart": 200.287,
-              "audioEnd": 202.762
+              "text": "It was also very narrow.",
+              "audioStart": 213.488,
+              "audioEnd": 214.9
             },
             {
-              "text": "\"If you do not help him, there will be great trouble,\" the note said.",
-              "audioStart": 203.625,
-              "audioEnd": 207.075
+              "text": "But she could still hear the white animal's voice.",
+              "audioStart": 215.762,
+              "audioEnd": 218.062
             },
             {
-              "text": "We had to expect something very important.",
-              "audioStart": 207.938,
-              "audioEnd": 210.1
+              "text": "He was always saying he was late.",
+              "audioStart": 218.925,
+              "audioEnd": 220.688
+            },
+            {
+              "text": "Alice followed the sound of his fast feet.",
+              "audioStart": 221.55,
+              "audioEnd": 223.662
+            },
+            {
+              "text": "She went deeper into the dark.",
+              "audioStart": 224.525,
+              "audioEnd": 226.012
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "That night, I went back to Baker Street.",
-              "audioStart": 210.963,
-              "audioEnd": 213.175
+              "text": "Then Alice came to a big hall.",
+              "audioStart": 226.875,
+              "audioEnd": 228.6
             },
             {
-              "text": "I wanted to see what would happen.",
-              "audioStart": 214.037,
-              "audioEnd": 215.575
+              "text": "The hall was very nice.",
+              "audioStart": 229.463,
+              "audioEnd": 230.825
             },
             {
-              "text": "Holmes was waiting for me.",
-              "audioStart": 216.438,
-              "audioEnd": 217.762
+              "text": "It was also very long.",
+              "audioStart": 231.688,
+              "audioEnd": 233.113
             },
             {
-              "text": "We sat together in the quiet room.",
-              "audioStart": 218.625,
-              "audioEnd": 220.4
+              "text": "There were many doors here.",
+              "audioStart": 233.975,
+              "audioEnd": 235.3
             },
             {
-              "text": "We watched the clock on the wall.",
-              "audioStart": 221.262,
-              "audioEnd": 222.887
-            },
-            {
-              "text": "Finally, it was a quarter to eight.",
-              "audioStart": 223.75,
-              "audioEnd": 225.8
-            },
-            {
-              "text": "At that exact moment, we heard a sound on the street.",
-              "audioStart": 226.662,
-              "audioEnd": 229.588
-            },
-            {
-              "text": "A man walked up the steps.",
-              "audioStart": 230.45,
-              "audioEnd": 232.025
-            },
-            {
-              "text": "He knocked on our door.",
-              "audioStart": 232.887,
-              "audioEnd": 234.088
-            },
-            {
-              "text": "The gentleman had arrived, just as the note had said.",
-              "audioStart": 234.95,
+              "text": "They were on every side of the hall.",
+              "audioStart": 236.162,
               "audioEnd": 237.775
+            },
+            {
+              "text": "But all the doors were locked.",
+              "audioStart": 238.637,
+              "audioEnd": 240.088
+            },
+            {
+              "text": "Alice had not found an open door yet.",
+              "audioStart": 240.95,
+              "audioEnd": 243.0
+            },
+            {
+              "text": "She had looked at each one.",
+              "audioStart": 243.863,
+              "audioEnd": 245.2
+            },
+            {
+              "text": "She needed to find a new key now.",
+              "audioStart": 246.062,
+              "audioEnd": 247.713
+            },
+            {
+              "text": "Without it, she could not pass.",
+              "audioStart": 248.575,
+              "audioEnd": 250.475
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "The door opened, and the man entered the room.",
-              "audioStart": 238.637,
-              "audioEnd": 241.0
+              "text": "Alice felt very tired now.",
+              "audioStart": 251.338,
+              "audioEnd": 252.975
             },
             {
-              "text": "He was a very tall and thin man.",
-              "audioStart": 241.863,
-              "audioEnd": 243.675
+              "text": "She had walked for a long time.",
+              "audioStart": 253.838,
+              "audioEnd": 255.55
             },
             {
-              "text": "He was wearing expensive clothes, but he had a black cover over his face.",
-              "audioStart": 244.537,
-              "audioEnd": 248.625
+              "text": "Her feet were tired.",
+              "audioStart": 256.413,
+              "audioEnd": 257.587
             },
             {
-              "text": "He did not want us to see his real face.",
-              "audioStart": 249.488,
-              "audioEnd": 251.713
+              "text": "She wanted to find a way out of here.",
+              "audioStart": 258.45,
+              "audioEnd": 260.212
             },
             {
-              "text": "He spoke in a low, deep voice.",
-              "audioStart": 252.575,
-              "audioEnd": 254.65
+              "text": "But she did not know how to leave.",
+              "audioStart": 261.075,
+              "audioEnd": 262.675
             },
             {
-              "text": "He looked at Holmes and then at me.",
-              "audioStart": 255.512,
-              "audioEnd": 257.2
+              "text": "She looked at all the locked doors.",
+              "audioStart": 263.538,
+              "audioEnd": 265.337
             },
             {
-              "text": "\"I need your help,\" he said.",
-              "audioStart": 258.062,
-              "audioEnd": 259.65
+              "text": "She felt she did not know what to do next.",
+              "audioStart": 266.2,
+              "audioEnd": 268.387
             },
             {
-              "text": "He told Holmes that he had a very serious problem.",
-              "audioStart": 260.512,
-              "audioEnd": 263.113
+              "text": "Alice just wanted to go home.",
+              "audioStart": 269.25,
+              "audioEnd": 270.913
+            },
+            {
+              "text": "She wanted to be back with Dinah.",
+              "audioStart": 271.775,
+              "audioEnd": 273.4
+            },
+            {
+              "text": "She hoped to find her way soon.",
+              "audioStart": 274.262,
+              "audioEnd": 275.887
             }
           ]
         }
@@ -1006,29 +2037,29 @@
       "wordTimings": "audio/b1/st-0012.timings.json",
       "quiz": [
         {
-          "q": "What did the writer of the note warn Holmes about?",
+          "q": "What did Alice find on the table?",
           "options": [
-            "That he must be careful because the situation was very important.",
-            "That the police were looking for him.",
-            "That he should leave Baker Street immediately."
-          ],
-          "answer": 0
-        },
-        {
-          "q": "How did Watson know that Holmes's mind was still active?",
-          "options": [
-            "Holmes told him he had decided to stop working.",
-            "Holmes noticed a small detail about Watson's shoes.",
-            "Holmes had already solved the visitor's problem."
+            "A big gold key.",
+            "A small gold key.",
+            "A small silver key."
           ],
           "answer": 1
         },
         {
-          "q": "What was unusual about the gentleman who arrived at Baker Street?",
+          "q": "Why was Alice sad after opening the door?",
           "options": [
-            "He did not speak English.",
-            "He had a black cover over his face.",
-            "He arrived much later than the note said."
+            "The door was still locked.",
+            "She was too big to go through.",
+            "The key did not work."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "Who did Alice hear talking?",
+          "options": [
+            "Her cat, Dinah.",
+            "A rabbit in a hurry.",
+            "Her family and friends."
           ],
           "answer": 1
         }
@@ -1039,345 +2070,435 @@
         {
           "sentences": [
             {
-              "text": "It was a very cold winter evening.",
+              "text": "Alice fell down a deep place.",
               "audioStart": 0.106,
-              "audioEnd": 2.036
+              "audioEnd": 2.008
             },
             {
-              "text": "I went to visit my old friend, Sherlock Holmes.",
-              "audioStart": 3.0,
-              "audioEnd": 5.889
+              "text": "It was very dark inside.",
+              "audioStart": 2.972,
+              "audioEnd": 4.583
             },
             {
-              "text": "He was living in the old rooms in Baker Street.",
-              "audioStart": 6.847,
-              "audioEnd": 9.444
+              "text": "She did not know where she was.",
+              "audioStart": 5.542,
+              "audioEnd": 7.306
             },
             {
-              "text": "I was happy to go there.",
-              "audioStart": 10.403,
-              "audioEnd": 11.819
+              "text": "Alice felt much fear.",
+              "audioStart": 8.264,
+              "audioEnd": 9.722
             },
             {
-              "text": "The street was very dark and cold.",
-              "audioStart": 12.778,
-              "audioEnd": 14.806
+              "text": "She thought about her family.",
+              "audioStart": 10.681,
+              "audioEnd": 12.292
             },
             {
-              "text": "I walked quickly to the house.",
-              "audioStart": 15.764,
-              "audioEnd": 17.569
+              "text": "She thought about her home.",
+              "audioStart": 13.25,
+              "audioEnd": 14.681
+            },
+            {
+              "text": "She wanted to be good.",
+              "audioStart": 15.639,
+              "audioEnd": 16.986
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "Holmes was sitting in his large seat.",
-              "audioStart": 18.528,
-              "audioEnd": 20.569
+              "text": "Then Alice saw a table.",
+              "audioStart": 17.944,
+              "audioEnd": 19.458
             },
             {
-              "text": "He looked very thin and not well.",
-              "audioStart": 21.528,
-              "audioEnd": 23.681
+              "text": "The table was made of clear material.",
+              "audioStart": 20.417,
+              "audioEnd": 22.611
             },
             {
-              "text": "But he started to talk to me.",
-              "audioStart": 24.639,
-              "audioEnd": 26.264
+              "text": "A small key of yellow material was on the table.",
+              "audioStart": 23.569,
+              "audioEnd": 26.375
             },
             {
-              "text": "Then, I saw the old energy in his eyes.",
-              "audioStart": 27.222,
-              "audioEnd": 29.861
+              "text": "Alice looked at the key.",
+              "audioStart": 27.333,
+              "audioEnd": 28.736
             },
             {
-              "text": "He was still a very strong man.",
-              "audioStart": 30.819,
-              "audioEnd": 32.708
+              "text": "She was happy to find it.",
+              "audioStart": 29.694,
+              "audioEnd": 31.208
             },
             {
-              "text": "He was ready to work.",
-              "audioStart": 33.667,
-              "audioEnd": 35.042
+              "text": "She picked up the key.",
+              "audioStart": 32.167,
+              "audioEnd": 33.486
+            },
+            {
+              "text": "It felt cold in her hand.",
+              "audioStart": 34.444,
+              "audioEnd": 35.944
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "My friend asked me about my life.",
-              "audioStart": 36.0,
-              "audioEnd": 38.153
+              "text": "Alice walked around the room.",
+              "audioStart": 36.903,
+              "audioEnd": 38.556
             },
             {
-              "text": "He wanted to know what I did every day.",
-              "audioStart": 39.111,
-              "audioEnd": 41.278
+              "text": "She found a small door.",
+              "audioStart": 39.514,
+              "audioEnd": 40.958
             },
             {
-              "text": "I told him about my work.",
-              "audioStart": 42.236,
-              "audioEnd": 43.806
+              "text": "The door was very low.",
+              "audioStart": 41.917,
+              "audioEnd": 43.361
             },
             {
-              "text": "I was a doctor, and I worked hard.",
-              "audioStart": 44.764,
-              "audioEnd": 47.069
+              "text": "She tried to open it.",
+              "audioStart": 44.319,
+              "audioEnd": 45.597
             },
             {
-              "text": "I also told him about my family.",
-              "audioStart": 48.028,
-              "audioEnd": 50.083
+              "text": "The door was not open.",
+              "audioStart": 46.556,
+              "audioEnd": 47.944
             },
             {
-              "text": "He listened to me with interest.",
-              "audioStart": 51.042,
-              "audioEnd": 52.764
+              "text": "Alice thought about the key.",
+              "audioStart": 48.903,
+              "audioEnd": 50.403
+            },
+            {
+              "text": "She used the small key of yellow material.",
+              "audioStart": 51.361,
+              "audioEnd": 53.889
+            },
+            {
+              "text": "She put the key in the door part.",
+              "audioStart": 54.847,
+              "audioEnd": 56.667
+            },
+            {
+              "text": "The door opened not fast.",
+              "audioStart": 57.625,
+              "audioEnd": 59.375
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "Then, he started to tell me about his new case.",
-              "audioStart": 53.722,
-              "audioEnd": 56.611
+              "text": "Alice looked through the door.",
+              "audioStart": 60.333,
+              "audioEnd": 61.819
             },
             {
-              "text": "It was a very difficult problem.",
-              "audioStart": 57.569,
-              "audioEnd": 59.389
+              "text": "She saw a beautiful garden.",
+              "audioStart": 62.778,
+              "audioEnd": 64.319
             },
             {
-              "text": "But Holmes was sure he could find the answer.",
-              "audioStart": 60.347,
-              "audioEnd": 62.708
+              "text": "It had many garden plants with colors.",
+              "audioStart": 65.278,
+              "audioEnd": 67.611
             },
             {
-              "text": "He loved to find the facts.",
-              "audioStart": 63.667,
-              "audioEnd": 65.444
+              "text": "She wanted to go inside.",
+              "audioStart": 68.569,
+              "audioEnd": 70.153
             },
             {
-              "text": "He was going to finish this difficult case soon.",
-              "audioStart": 66.403,
-              "audioEnd": 69.028
+              "text": "But Alice was too big.",
+              "audioStart": 71.111,
+              "audioEnd": 72.625
             },
             {
-              "text": "He smiled as he spoke.",
-              "audioStart": 69.986,
-              "audioEnd": 71.472
+              "text": "She tried to go through.",
+              "audioStart": 73.583,
+              "audioEnd": 74.931
+            },
+            {
+              "text": "Her head touched the door.",
+              "audioStart": 75.889,
+              "audioEnd": 77.361
+            },
+            {
+              "text": "She could not pass.",
+              "audioStart": 78.319,
+              "audioEnd": 79.639
+            },
+            {
+              "text": "Alice felt not happy.",
+              "audioStart": 80.597,
+              "audioEnd": 82.097
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "We talked for a long time.",
-              "audioStart": 72.431,
-              "audioEnd": 74.111
+              "text": "Alice wanted to be small.",
+              "audioStart": 83.056,
+              "audioEnd": 84.708
             },
             {
-              "text": "I realized that Holmes was still the same great man.",
-              "audioStart": 75.069,
-              "audioEnd": 78.097
+              "text": "Then she could go into the garden.",
+              "audioStart": 85.667,
+              "audioEnd": 87.347
             },
             {
-              "text": "He had a very good mind.",
-              "audioStart": 79.056,
-              "audioEnd": 80.625
+              "text": "She could see all the garden plants.",
+              "audioStart": 88.306,
+              "audioEnd": 90.264
             },
             {
-              "text": "He could see small details.",
-              "audioStart": 81.583,
-              "audioEnd": 83.319
+              "text": "It was going to be a great time.",
+              "audioStart": 91.222,
+              "audioEnd": 93.056
             },
             {
-              "text": "Other people did not notice these things.",
-              "audioStart": 84.278,
-              "audioEnd": 86.653
+              "text": "She wanted to have new things.",
+              "audioStart": 94.014,
+              "audioEnd": 95.819
             },
             {
-              "text": "But Holmes saw everything.",
-              "audioStart": 87.611,
-              "audioEnd": 89.125
+              "text": "This was a new place for her.",
+              "audioStart": 96.778,
+              "audioEnd": 98.444
             },
             {
-              "text": "He knew how to find the answer.",
-              "audioStart": 90.083,
-              "audioEnd": 91.778
+              "text": "She wanted to see everything.",
+              "audioStart": 99.403,
+              "audioEnd": 101.111
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "I was very happy to see my friend again.",
-              "audioStart": 92.736,
-              "audioEnd": 95.083
+              "text": "Alice thought about her home.",
+              "audioStart": 102.069,
+              "audioEnd": 103.625
             },
             {
-              "text": "We spent the rest of the evening together.",
-              "audioStart": 96.042,
-              "audioEnd": 98.319
+              "text": "She missed her family very much.",
+              "audioStart": 104.583,
+              "audioEnd": 106.556
             },
             {
-              "text": "We talked and we laughed a lot.",
-              "audioStart": 99.278,
-              "audioEnd": 101.139
+              "text": "She missed her good friends.",
+              "audioStart": 107.514,
+              "audioEnd": 109.111
             },
             {
-              "text": "It was like the old days.",
-              "audioStart": 102.097,
-              "audioEnd": 103.569
+              "text": "She also missed her pet animal, Dinah.",
+              "audioStart": 110.069,
+              "audioEnd": 112.556
             },
             {
-              "text": "I loved to be there with him.",
-              "audioStart": 104.528,
-              "audioEnd": 106.111
+              "text": "Dinah was a nice pet animal.",
+              "audioStart": 113.514,
+              "audioEnd": 115.292
             },
             {
-              "text": "We had a very good time.",
-              "audioStart": 107.069,
-              "audioEnd": 108.639
+              "text": "Alice wanted to go home.",
+              "audioStart": 116.25,
+              "audioEnd": 117.833
+            },
+            {
+              "text": "But she was in a deep place.",
+              "audioStart": 118.792,
+              "audioEnd": 120.556
+            },
+            {
+              "text": "She did not know the way out.",
+              "audioStart": 121.514,
+              "audioEnd": 123.167
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "The next day, I received an important note.",
-              "audioStart": 109.597,
-              "audioEnd": 112.25
+              "text": "Then Alice heard a voice.",
+              "audioStart": 124.125,
+              "audioEnd": 125.694
             },
             {
-              "text": "The note said that a man would visit Holmes.",
-              "audioStart": 113.208,
-              "audioEnd": 115.528
+              "text": "It was near her.",
+              "audioStart": 126.653,
+              "audioEnd": 127.694
             },
             {
-              "text": "He was going to arrive at a quarter to eight.",
-              "audioStart": 116.486,
-              "audioEnd": 118.875
+              "text": "She looked around quickly.",
+              "audioStart": 128.653,
+              "audioEnd": 130.167
             },
             {
-              "text": "He was coming that night.",
-              "audioStart": 119.833,
-              "audioEnd": 121.347
+              "text": "A white animal ran past.",
+              "audioStart": 131.125,
+              "audioEnd": 132.972
             },
             {
-              "text": "I did not know who this man was.",
-              "audioStart": 122.306,
-              "audioEnd": 124.278
-            },
-            {
-              "text": "But I wanted to find out.",
-              "audioStart": 125.236,
-              "audioEnd": 126.75
-            }
-          ]
-        },
-        {
-          "sentences": [
-            {
-              "text": "The note did not give the man's name.",
-              "audioStart": 127.708,
-              "audioEnd": 129.597
-            },
-            {
-              "text": "It did not say what the man wanted.",
-              "audioStart": 130.556,
-              "audioEnd": 132.542
-            },
-            {
-              "text": "But it told Holmes to take great care.",
-              "audioStart": 133.5,
+              "text": "He wore small blue clothes.",
+              "audioStart": 133.931,
               "audioEnd": 135.708
             },
             {
-              "text": "It said he should expect something very important.",
+              "text": "The white animal was moving fast.",
               "audioStart": 136.667,
-              "audioEnd": 139.306
+              "audioEnd": 138.736
             },
             {
-              "text": "The case was going to be big.",
-              "audioStart": 140.264,
-              "audioEnd": 141.958
+              "text": "He said, \"Oh my! I am late!\"",
+              "audioStart": 139.694,
+              "audioEnd": 142.958
             },
             {
-              "text": "I felt a little worried for my friend.",
-              "audioStart": 142.917,
-              "audioEnd": 144.972
+              "text": "He looked at his watch.",
+              "audioStart": 143.917,
+              "audioEnd": 145.306
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "That night, I went back to Baker Street.",
-              "audioStart": 145.931,
-              "audioEnd": 148.389
+              "text": "Alice followed the white animal fast.",
+              "audioStart": 146.264,
+              "audioEnd": 148.528
             },
             {
-              "text": "I wanted to see what would happen there.",
-              "audioStart": 149.347,
-              "audioEnd": 151.25
+              "text": "She ran after him.",
+              "audioStart": 149.486,
+              "audioEnd": 150.736
             },
             {
-              "text": "I waited with Holmes in his room.",
-              "audioStart": 152.208,
-              "audioEnd": 154.097
+              "text": "He went through a place.",
+              "audioStart": 151.694,
+              "audioEnd": 153.083
             },
             {
-              "text": "Then, the man arrived at the house.",
-              "audioStart": 155.056,
-              "audioEnd": 157.25
+              "text": "Alice went into the place too.",
+              "audioStart": 154.042,
+              "audioEnd": 155.847
             },
             {
-              "text": "It was exactly a quarter to eight.",
-              "audioStart": 158.208,
-              "audioEnd": 160.292
+              "text": "She went through a long way.",
+              "audioStart": 156.806,
+              "audioEnd": 158.264
             },
             {
-              "text": "The note was right about the time.",
-              "audioStart": 161.25,
-              "audioEnd": 163.083
+              "text": "The way was very dark.",
+              "audioStart": 159.222,
+              "audioEnd": 160.639
+            },
+            {
+              "text": "She could not see much.",
+              "audioStart": 161.597,
+              "audioEnd": 163.042
+            },
+            {
+              "text": "But she could hear the white animal.",
+              "audioStart": 164.0,
+              "audioEnd": 165.764
+            },
+            {
+              "text": "She heard his small feet.",
+              "audioStart": 166.722,
+              "audioEnd": 168.208
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "The man was very tall and thin.",
-              "audioStart": 164.042,
-              "audioEnd": 166.014
+              "text": "Alice came to a big room.",
+              "audioStart": 169.167,
+              "audioEnd": 170.806
             },
             {
-              "text": "He had a black cover over his face.",
-              "audioStart": 166.972,
-              "audioEnd": 169.208
+              "text": "It was a very big room.",
+              "audioStart": 171.764,
+              "audioEnd": 173.236
             },
             {
-              "text": "He spoke in a very low voice.",
-              "audioStart": 170.167,
-              "audioEnd": 172.083
+              "text": "The room was very nice.",
+              "audioStart": 174.194,
+              "audioEnd": 175.764
             },
             {
-              "text": "He told Holmes that he needed help.",
-              "audioStart": 173.042,
-              "audioEnd": 174.986
+              "text": "There were many doors.",
+              "audioStart": 176.722,
+              "audioEnd": 178.056
             },
             {
-              "text": "He had a very serious problem.",
-              "audioStart": 175.944,
-              "audioEnd": 177.903
+              "text": "All the doors were not open.",
+              "audioStart": 179.014,
+              "audioEnd": 180.611
             },
             {
-              "text": "He wanted my friend to help him.",
-              "audioStart": 178.861,
-              "audioEnd": 180.681
+              "text": "Alice tried to open them.",
+              "audioStart": 181.569,
+              "audioEnd": 183.042
+            },
+            {
+              "text": "She pushed each door.",
+              "audioStart": 184.0,
+              "audioEnd": 185.361
+            },
+            {
+              "text": "But they did not open.",
+              "audioStart": 186.319,
+              "audioEnd": 187.528
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Alice had much need for rest now.",
+              "audioStart": 188.486,
+              "audioEnd": 190.514
+            },
+            {
+              "text": "She walked for a long time.",
+              "audioStart": 191.472,
+              "audioEnd": 193.153
+            },
+            {
+              "text": "She wanted to find a way out.",
+              "audioStart": 194.111,
+              "audioEnd": 195.875
+            },
+            {
+              "text": "She wanted to rest.",
+              "audioStart": 196.833,
+              "audioEnd": 198.194
+            },
+            {
+              "text": "But she did not know how.",
+              "audioStart": 199.153,
+              "audioEnd": 200.556
+            },
+            {
+              "text": "Where was she going to go?",
+              "audioStart": 201.514,
+              "audioEnd": 202.917
+            },
+            {
+              "text": "She felt very lost.",
+              "audioStart": 203.875,
+              "audioEnd": 205.361
             }
           ]
         }
@@ -1386,31 +2507,31 @@
       "wordTimings": "audio/a2/st-0012.timings.json",
       "quiz": [
         {
-          "q": "Where was Sherlock Holmes living?",
+          "q": "Where did Alice fall at the start of the story?",
           "options": [
-            "In his old rooms in Baker Street.",
-            "In a big hospital in the city.",
-            "In a hotel with his family."
-          ],
-          "answer": 0
-        },
-        {
-          "q": "What time did the visitor arrive?",
-          "options": [
-            "At eight o'clock in the morning.",
-            "At a quarter to eight at night.",
-            "At a quarter past nine in the evening."
+            "Into a small room.",
+            "Down a deep hole.",
+            "Into a nice garden."
           ],
           "answer": 1
         },
         {
-          "q": "What did the visitor have over his face?",
+          "q": "What did Alice find on the table?",
           "options": [
-            "A black cover.",
-            "A red hat.",
-            "Large glasses."
+            "A gold watch.",
+            "A small gold key.",
+            "A pretty flower."
           ],
-          "answer": 0
+          "answer": 1
+        },
+        {
+          "q": "Why was Alice sad after opening the door?",
+          "options": [
+            "She did not like the garden.",
+            "She was too big to go through.",
+            "The door was locked again."
+          ],
+          "answer": 1
         }
       ]
     },
@@ -1419,315 +2540,260 @@
         {
           "sentences": [
             {
-              "text": "It is a late night.",
+              "text": "Alice falls down a long way.",
               "audioStart": 0.106,
-              "audioEnd": 1.328
+              "audioEnd": 1.869
             },
             {
-              "text": "I visit my old friend.",
-              "audioStart": 2.292,
-              "audioEnd": 3.764
+              "text": "The way is black.",
+              "audioStart": 2.833,
+              "audioEnd": 3.972
             },
             {
-              "text": "His name is Sherlock Holmes.",
-              "audioStart": 4.722,
-              "audioEnd": 6.458
+              "text": "She feels very bad.",
+              "audioStart": 4.931,
+              "audioEnd": 6.333
             },
             {
-              "text": "He lives in Baker Street.",
-              "audioStart": 7.417,
-              "audioEnd": 8.931
+              "text": "It is very black here.",
+              "audioStart": 7.292,
+              "audioEnd": 8.75
             },
             {
-              "text": "This is our old house.",
-              "audioStart": 9.889,
-              "audioEnd": 11.319
-            },
-            {
-              "text": "We live here together.",
-              "audioStart": 12.278,
-              "audioEnd": 13.611
+              "text": "Alice does not know what to do.",
+              "audioStart": 9.708,
+              "audioEnd": 11.486
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "Holmes sits in his room.",
-              "audioStart": 14.569,
-              "audioEnd": 16.014
+              "text": "Then she sees a big table.",
+              "audioStart": 12.444,
+              "audioEnd": 14.069
             },
             {
-              "text": "He looks very bad.",
-              "audioStart": 16.972,
-              "audioEnd": 18.264
+              "text": "A very small thing is on it.",
+              "audioStart": 15.028,
+              "audioEnd": 16.806
             },
             {
-              "text": "He is not well today.",
-              "audioStart": 19.222,
-              "audioEnd": 20.569
+              "text": "Alice wants to open with this thing.",
+              "audioStart": 17.764,
+              "audioEnd": 19.722
             },
             {
-              "text": "But he starts to talk.",
-              "audioStart": 21.528,
-              "audioEnd": 22.944
-            },
-            {
-              "text": "Now his eyes look strong.",
-              "audioStart": 23.903,
-              "audioEnd": 25.389
-            },
-            {
-              "text": "He has a lot of life.",
-              "audioStart": 26.347,
-              "audioEnd": 27.819
+              "text": "She feels good to find this thing.",
+              "audioStart": 20.681,
+              "audioEnd": 22.542
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "He asks about my life.",
-              "audioStart": 28.778,
-              "audioEnd": 30.444
+              "text": "Alice finds a new, small part.",
+              "audioStart": 23.5,
+              "audioEnd": 25.736
             },
             {
-              "text": "He asks about my work.",
-              "audioStart": 31.403,
-              "audioEnd": 32.958
+              "text": "This part is not open.",
+              "audioStart": 26.694,
+              "audioEnd": 28.167
             },
             {
-              "text": "I help people with their health.",
-              "audioStart": 33.917,
-              "audioEnd": 35.486
+              "text": "She uses the small thing to open.",
+              "audioStart": 29.125,
+              "audioEnd": 31.028
             },
             {
-              "text": "I have a good family.",
-              "audioStart": 36.444,
-              "audioEnd": 37.819
+              "text": "Now the part is open.",
+              "audioStart": 31.986,
+              "audioEnd": 33.319
             },
             {
-              "text": "I tell him about my family.",
-              "audioStart": 38.778,
-              "audioEnd": 40.486
-            },
-            {
-              "text": "He hears my words.",
-              "audioStart": 41.444,
-              "audioEnd": 42.792
+              "text": "The open part is very small.",
+              "audioStart": 34.278,
+              "audioEnd": 36.194
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "Then he tells me a case.",
-              "audioStart": 43.75,
-              "audioEnd": 45.375
+              "text": "Alice wants to go through the part.",
+              "audioStart": 37.153,
+              "audioEnd": 39.0
             },
             {
-              "text": "It is his new case.",
-              "audioStart": 46.333,
-              "audioEnd": 47.681
+              "text": "But she is too big.",
+              "audioStart": 39.958,
+              "audioEnd": 41.194
             },
             {
-              "text": "It is a very difficult problem.",
-              "audioStart": 48.639,
-              "audioEnd": 50.458
+              "text": "She does not know what to do.",
+              "audioStart": 42.153,
+              "audioEnd": 43.75
             },
             {
-              "text": "But Holmes is very sure.",
-              "audioStart": 51.417,
-              "audioEnd": 53.014
-            },
-            {
-              "text": "He can find the answer.",
-              "audioStart": 53.972,
-              "audioEnd": 55.472
-            },
-            {
-              "text": "He wants to help the people.",
-              "audioStart": 56.431,
-              "audioEnd": 58.0
+              "text": "Alice feels very bad now.",
+              "audioStart": 44.708,
+              "audioEnd": 46.417
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "We talk for a long time.",
-              "audioStart": 58.958,
-              "audioEnd": 60.597
+              "text": "Alice wants to be very small.",
+              "audioStart": 47.375,
+              "audioEnd": 49.25
             },
             {
-              "text": "Holmes is still the same great man.",
-              "audioStart": 61.556,
-              "audioEnd": 63.542
+              "text": "Then she can go through the part.",
+              "audioStart": 50.208,
+              "audioEnd": 51.889
             },
             {
-              "text": "He sees small details.",
-              "audioStart": 64.5,
-              "audioEnd": 66.139
+              "text": "She can see the other side.",
+              "audioStart": 52.847,
+              "audioEnd": 54.458
             },
             {
-              "text": "Other people do not see them.",
-              "audioStart": 67.097,
-              "audioEnd": 68.722
+              "text": "This is a great new time.",
+              "audioStart": 55.417,
+              "audioEnd": 56.972
             },
             {
-              "text": "He knows everything.",
-              "audioStart": 69.681,
-              "audioEnd": 70.903
-            },
-            {
-              "text": "He is a very good friend.",
-              "audioStart": 71.861,
-              "audioEnd": 73.458
+              "text": "It is for Alice.",
+              "audioStart": 57.931,
+              "audioEnd": 59.139
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "I feel good to see him.",
-              "audioStart": 74.417,
-              "audioEnd": 75.736
+              "text": "Alice thinks about her life.",
+              "audioStart": 60.097,
+              "audioEnd": 61.889
             },
             {
-              "text": "We stay together for many hours.",
-              "audioStart": 76.694,
-              "audioEnd": 78.819
+              "text": "She thinks of her family.",
+              "audioStart": 62.847,
+              "audioEnd": 64.347
             },
             {
-              "text": "We talk and have good times.",
-              "audioStart": 79.778,
-              "audioEnd": 81.542
+              "text": "She thinks of her good friends.",
+              "audioStart": 65.306,
+              "audioEnd": 67.056
             },
             {
-              "text": "We feel good together.",
-              "audioStart": 82.5,
-              "audioEnd": 83.861
+              "text": "And her good Dinah.",
+              "audioStart": 68.014,
+              "audioEnd": 69.139
+            },
+            {
+              "text": "She thinks of them much.",
+              "audioStart": 70.097,
+              "audioEnd": 71.514
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "The next day, I receive a note.",
-              "audioStart": 84.819,
-              "audioEnd": 87.0
+              "text": "Alice hears a big sound.",
+              "audioStart": 72.472,
+              "audioEnd": 74.042
             },
             {
-              "text": "It is a special note.",
-              "audioStart": 87.958,
-              "audioEnd": 89.306
+              "text": "It is a something that can run.",
+              "audioStart": 75.0,
+              "audioEnd": 76.708
             },
             {
-              "text": "A man visits Holmes this night.",
-              "audioStart": 90.264,
-              "audioEnd": 92.181
+              "text": "This something runs very well.",
+              "audioStart": 77.667,
+              "audioEnd": 79.458
             },
             {
-              "text": "He comes at fifteen minutes before eight.",
-              "audioStart": 93.139,
-              "audioEnd": 95.597
-            },
-            {
-              "text": "The note is very short.",
-              "audioStart": 96.556,
-              "audioEnd": 98.028
+              "text": "It says, \"I am very late!\"",
+              "audioStart": 80.417,
+              "audioEnd": 82.444
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "The note has no name.",
-              "audioStart": 98.986,
-              "audioEnd": 100.306
+              "text": "Alice follows the something that runs.",
+              "audioStart": 83.403,
+              "audioEnd": 85.569
             },
             {
-              "text": "It does not say what he wants.",
-              "audioStart": 101.264,
-              "audioEnd": 103.069
+              "text": "She goes through a long, black way.",
+              "audioStart": 86.528,
+              "audioEnd": 88.694
             },
             {
-              "text": "But it tells Holmes to watch.",
-              "audioStart": 104.028,
-              "audioEnd": 105.653
+              "text": "The way is very black.",
+              "audioStart": 89.653,
+              "audioEnd": 91.097
             },
             {
-              "text": "He must watch the door.",
-              "audioStart": 106.611,
-              "audioEnd": 108.069
-            },
-            {
-              "text": "Something important is coming.",
-              "audioStart": 109.028,
-              "audioEnd": 110.681
+              "text": "She hears the something again.",
+              "audioStart": 92.056,
+              "audioEnd": 93.722
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "I go back to Baker Street.",
-              "audioStart": 111.639,
-              "audioEnd": 113.264
+              "text": "Alice comes to a big, good room.",
+              "audioStart": 94.681,
+              "audioEnd": 96.875
             },
             {
-              "text": "I want to see the man.",
-              "audioStart": 114.222,
-              "audioEnd": 115.486
+              "text": "The room is very good.",
+              "audioStart": 97.833,
+              "audioEnd": 99.236
             },
             {
-              "text": "The man comes at fifteen minutes before eight.",
-              "audioStart": 116.444,
-              "audioEnd": 119.097
+              "text": "Many parts are in the room.",
+              "audioStart": 100.194,
+              "audioEnd": 101.764
             },
             {
-              "text": "It happens just like the note says.",
-              "audioStart": 120.056,
-              "audioEnd": 122.153
-            },
-            {
-              "text": "He comes to the door.",
-              "audioStart": 123.111,
-              "audioEnd": 124.403
+              "text": "All the parts are not open.",
+              "audioStart": 102.722,
+              "audioEnd": 104.292
             }
           ]
         },
         {
           "sentences": [
             {
-              "text": "He is a very large man.",
-              "audioStart": 125.361,
-              "audioEnd": 126.931
+              "text": "Alice feels very bad now.",
+              "audioStart": 105.25,
+              "audioEnd": 106.958
             },
             {
-              "text": "He has a black thing over his face.",
-              "audioStart": 127.889,
-              "audioEnd": 130.069
+              "text": "She walks for a very long time.",
+              "audioStart": 107.917,
+              "audioEnd": 109.917
             },
             {
-              "text": "He speaks with a low sound.",
-              "audioStart": 131.028,
-              "audioEnd": 132.681
+              "text": "She wants to find a way out.",
+              "audioStart": 110.875,
+              "audioEnd": 112.528
             },
             {
-              "text": "He tells Holmes his problem.",
-              "audioStart": 133.639,
-              "audioEnd": 135.292
-            },
-            {
-              "text": "He needs help with a big problem.",
-              "audioStart": 136.25,
-              "audioEnd": 138.125
-            },
-            {
-              "text": "He wants Holmes to help him now.",
-              "audioStart": 139.083,
-              "audioEnd": 140.806
+              "text": "She does not know how to get out.",
+              "audioStart": 113.486,
+              "audioEnd": 115.222
             }
           ]
         }
@@ -1736,31 +2802,31 @@
       "wordTimings": "audio/a1/st-0012.timings.json",
       "quiz": [
         {
-          "q": "Where does Sherlock Holmes live?",
+          "q": "Where does Alice fall?",
           "options": [
-            "In a school",
-            "In Baker Street",
-            "In a new city"
+            "In a deep hole.",
+            "In a big room.",
+            "On a table."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does Alice find on the table?",
+          "options": [
+            "A small room.",
+            "A small thing.",
+            "A big part."
           ],
           "answer": 1
         },
         {
-          "q": "What does the special note say?",
+          "q": "Why is Alice sad?",
           "options": [
-            "A man will visit Holmes.",
-            "Holmes must leave the city.",
-            "The friend has a new job."
+            "She is too small.",
+            "She is too big.",
+            "She is very happy."
           ],
-          "answer": 0
-        },
-        {
-          "q": "What does the man have over his face?",
-          "options": [
-            "A black thing",
-            "A white paper",
-            "A lot of money"
-          ],
-          "answer": 0
+          "answer": 1
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 12,
+  "contentVersion": 14,
   "updatedAt": "2026-07-05",
   "adConfig": {
     "adsEnabled": true,
@@ -256,8 +256,8 @@
     },
     {
       "id": "st-0012",
-      "slug": "the-adventures-of-sherlock-holmes",
-      "title": "The Adventures of Sherlock Holmes",
+      "slug": "alice-s-adventures-in-wonderland",
+      "title": "Alice's Adventures in Wonderland",
       "genre": "classic",
       "levels": [
         "A1",
@@ -266,20 +266,47 @@
         "B2"
       ],
       "wordCount": {
-        "A1": 305,
-        "A2": 442,
+        "A1": 257,
+        "A2": 441,
         "B1": 710,
-        "B2": 1150
+        "B2": 1034
       },
       "minutes": {
         "A1": 2,
         "A2": 3,
         "B1": 6,
-        "B2": 9
+        "B2": 8
       },
       "cover": "covers/st-0012.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 10
+    },
+    {
+      "id": "st-0013",
+      "slug": "the-adventures-of-tom-sawyer-complete",
+      "title": "The Adventures of Tom Sawyer, Complete",
+      "genre": "classic",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "wordCount": {
+        "A1": 293,
+        "A2": 429,
+        "B1": 684,
+        "B2": 1158
+      },
+      "minutes": {
+        "A1": 2,
+        "A2": 3,
+        "B1": 5,
+        "B2": 9
+      },
+      "cover": "covers/st-0013.webp",
+      "isNew": true,
+      "order": 11
     }
   ]
 }
