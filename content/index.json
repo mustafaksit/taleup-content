@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 11,
+  "contentVersion": 12,
   "updatedAt": "2026-07-05",
   "adConfig": {
     "adsEnabled": true,
@@ -251,8 +251,35 @@
         "B2": 8
       },
       "cover": "covers/st-0011.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 9
+    },
+    {
+      "id": "st-0012",
+      "slug": "the-adventures-of-sherlock-holmes",
+      "title": "The Adventures of Sherlock Holmes",
+      "genre": "classic",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "wordCount": {
+        "A1": 305,
+        "A2": 442,
+        "B1": 710,
+        "B2": 1150
+      },
+      "minutes": {
+        "A1": 2,
+        "A2": 3,
+        "B1": 6,
+        "B2": 9
+      },
+      "cover": "covers/st-0012.webp",
+      "isNew": true,
+      "order": 10
     }
   ]
 }

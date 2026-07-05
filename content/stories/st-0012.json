@@ -1,0 +1,1768 @@
+{
+  "id": "st-0012",
+  "title": "The Adventures of Sherlock Holmes",
+  "genre": "classic",
+  "coverScene": "Sherlock Holmes sitting in his armchair, surrounded by books and papers, with a hint of a London street scene outside the window.",
+  "levels": {
+    "B2": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "It was a cold winter evening when I visited my old friend Sherlock Holmes.",
+              "audioStart": 0.1,
+              "audioEnd": 3.675
+            },
+            {
+              "text": "He was living in our old place in Baker Street, which was always full of books and papers.",
+              "audioStart": 4.537,
+              "audioEnd": 9.137
+            },
+            {
+              "text": "As I walked up the stairs, I felt a sense of excitement.",
+              "audioStart": 10.0,
+              "audioEnd": 13.062
+            },
+            {
+              "text": "The wind was blowing hard outside, and the streets were covered in white snow.",
+              "audioStart": 13.925,
+              "audioEnd": 17.738
+            },
+            {
+              "text": "When I entered the room, I saw Holmes sitting in his chair.",
+              "audioStart": 18.6,
+              "audioEnd": 21.45
+            },
+            {
+              "text": "He looked very thin and tired, but his eyes were still bright.",
+              "audioStart": 22.312,
+              "audioEnd": 25.738
+            },
+            {
+              "text": "A small fire was burning in the room, which made the place feel warm and comfortable.",
+              "audioStart": 26.6,
+              "audioEnd": 30.988
+            },
+            {
+              "text": "Holmes welcomed me with a smile.",
+              "audioStart": 31.85,
+              "audioEnd": 33.487
+            },
+            {
+              "text": "He pointed to an empty chair next to the fire.",
+              "audioStart": 34.35,
+              "audioEnd": 36.888
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "If I had not visited him that night, I would have missed a very interesting discussion.",
+              "audioStart": 37.75,
+              "audioEnd": 41.925
+            },
+            {
+              "text": "I sat down and began to tell him about my own life.",
+              "audioStart": 42.788,
+              "audioEnd": 45.7
+            },
+            {
+              "text": "I told him about my work as a doctor, which kept me very busy.",
+              "audioStart": 46.562,
+              "audioEnd": 50.05
+            },
+            {
+              "text": "My family was doing well, and my life was quiet and happy.",
+              "audioStart": 50.913,
+              "audioEnd": 54.25
+            },
+            {
+              "text": "Holmes listened to me carefully, though he did not say much at first.",
+              "audioStart": 55.112,
+              "audioEnd": 58.575
+            },
+            {
+              "text": "He was holding a pipe in his hand, which was not burning.",
+              "audioStart": 59.438,
+              "audioEnd": 62.3
+            },
+            {
+              "text": "I could see that his mind was active, even if his body was tired.",
+              "audioStart": 63.163,
+              "audioEnd": 66.675
+            },
+            {
+              "text": "He had been working on some difficult problems, which had taken all his energy.",
+              "audioStart": 67.537,
+              "audioEnd": 71.55
+            },
+            {
+              "text": "It was clear that he needed a new challenge to make him feel alive again.",
+              "audioStart": 72.412,
+              "audioEnd": 76.0
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "While we were talking, a letter was brought to the room by a servant.",
+              "audioStart": 76.862,
+              "audioEnd": 80.088
+            },
+            {
+              "text": "The letter had been left at the door just a few minutes before.",
+              "audioStart": 80.95,
+              "audioEnd": 84.112
+            },
+            {
+              "text": "Holmes opened the envelope and read the note inside with great interest.",
+              "audioStart": 84.975,
+              "audioEnd": 88.463
+            },
+            {
+              "text": "He did not say anything for a moment, but his face showed that it was important.",
+              "audioStart": 89.325,
+              "audioEnd": 93.362
+            },
+            {
+              "text": "Then he handed the note to me so that I could read it too.",
+              "audioStart": 94.225,
+              "audioEnd": 96.838
+            },
+            {
+              "text": "The note was written on thick paper, which looked very expensive.",
+              "audioStart": 97.7,
+              "audioEnd": 101.138
+            },
+            {
+              "text": "It said that a gentleman would visit Holmes at a quarter to eight that night.",
+              "audioStart": 102.0,
+              "audioEnd": 105.475
+            },
+            {
+              "text": "The writer did not give his name or explain what he wanted.",
+              "audioStart": 106.338,
+              "audioEnd": 109.225
+            },
+            {
+              "text": "However, the note warned Holmes to be careful and to expect something important.",
+              "audioStart": 110.088,
+              "audioEnd": 114.225
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "We began to talk about who this visitor might be.",
+              "audioStart": 115.088,
+              "audioEnd": 117.55
+            },
+            {
+              "text": "If the paper had been cheap, we might have thought it was a joke.",
+              "audioStart": 118.412,
+              "audioEnd": 121.525
+            },
+            {
+              "text": "But the paper was of very high quality, which suggested the writer was a rich man.",
+              "audioStart": 122.388,
+              "audioEnd": 126.662
+            },
+            {
+              "text": "\"This is a very interesting matter,\" Holmes said, looking down at the floor.",
+              "audioStart": 127.525,
+              "audioEnd": 131.488
+            },
+            {
+              "text": "\"Why would a gentleman write a note instead of coming directly?\"",
+              "audioStart": 132.35,
+              "audioEnd": 135.325
+            },
+            {
+              "text": "He believed that the visitor was facing a very serious problem.",
+              "audioStart": 136.188,
+              "audioEnd": 139.363
+            },
+            {
+              "text": "If the problem were simple, he would not have asked for help in this way.",
+              "audioStart": 140.225,
+              "audioEnd": 143.775
+            },
+            {
+              "text": "We waited in silence as the clock on the wall moved toward the hour.",
+              "audioStart": 144.637,
+              "audioEnd": 148.025
+            },
+            {
+              "text": "My heart was beating fast because I wanted to know what would happen next.",
+              "audioStart": 148.887,
+              "audioEnd": 152.562
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "At exactly a quarter to eight, we heard the sound of wheels outside.",
+              "audioStart": 153.425,
+              "audioEnd": 157.0
+            },
+            {
+              "text": "A vehicle had stopped in front of our house in Baker Street.",
+              "audioStart": 157.863,
+              "audioEnd": 160.812
+            },
+            {
+              "text": "A moment later, heavy steps were heard on the stairs.",
+              "audioStart": 161.675,
+              "audioEnd": 164.537
+            },
+            {
+              "text": "There was a knock on the door, and Holmes called out for the visitor to enter.",
+              "audioStart": 165.4,
+              "audioEnd": 169.1
+            },
+            {
+              "text": "The door opened, and a tall, thin man stepped into the room.",
+              "audioStart": 169.963,
+              "audioEnd": 173.412
+            },
+            {
+              "text": "He was wearing a dark coat that covered him from head to foot.",
+              "audioStart": 174.275,
+              "audioEnd": 177.188
+            },
+            {
+              "text": "But what was most unusual was that he wore something over his face.",
+              "audioStart": 178.05,
+              "audioEnd": 181.35
+            },
+            {
+              "text": "It was a black mask, which hid his eyes and the upper part of his face.",
+              "audioStart": 182.213,
+              "audioEnd": 186.025
+            },
+            {
+              "text": "This made him look very strange, and I wondered why he wanted to hide his identity.",
+              "audioStart": 186.887,
+              "audioEnd": 191.125
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The gentleman stood by the door for a moment without saying a word.",
+              "audioStart": 191.988,
+              "audioEnd": 195.137
+            },
+            {
+              "text": "He looked at me and then at Holmes, as if he were trying to decide something.",
+              "audioStart": 196.0,
+              "audioEnd": 199.875
+            },
+            {
+              "text": "\"Should I speak before your friend?\" he asked in a low voice.",
+              "audioStart": 200.738,
+              "audioEnd": 203.912
+            },
+            {
+              "text": "Holmes replied that I was a trusted friend who could keep a secret.",
+              "audioStart": 204.775,
+              "audioEnd": 208.088
+            },
+            {
+              "text": "If I had not been there, the visitor might have spoken more freely at first.",
+              "audioStart": 208.95,
+              "audioEnd": 212.875
+            },
+            {
+              "text": "But because Holmes trusted me, the gentleman decided to stay and explain his problem.",
+              "audioStart": 213.738,
+              "audioEnd": 218.25
+            },
+            {
+              "text": "He sat down in the chair that I had offered him.",
+              "audioStart": 219.113,
+              "audioEnd": 221.287
+            },
+            {
+              "text": "He spoke slowly, and his voice was deep and full of worry.",
+              "audioStart": 222.15,
+              "audioEnd": 225.35
+            },
+            {
+              "text": "He told us that his problem was so serious that it could ruin his life.",
+              "audioStart": 226.213,
+              "audioEnd": 229.8
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The visitor explained that he was a person of very high position in his country.",
+              "audioStart": 230.662,
+              "audioEnd": 234.738
+            },
+            {
+              "text": "If his secret were discovered, it would cause a major political crisis.",
+              "audioStart": 235.6,
+              "audioEnd": 239.312
+            },
+            {
+              "text": "He had been forced to wear the mask because he could not risk being recognized.",
+              "audioStart": 240.175,
+              "audioEnd": 244.113
+            },
+            {
+              "text": "\"If I am seen here, my enemies will use it against me,\" he said.",
+              "audioStart": 244.975,
+              "audioEnd": 248.713
+            },
+            {
+              "text": "A certain woman had some letters and a photograph that belonged to him.",
+              "audioStart": 249.575,
+              "audioEnd": 252.975
+            },
+            {
+              "text": "She had threatened to send them to his family and to the public.",
+              "audioStart": 253.838,
+              "audioEnd": 258.123
+            },
+            {
+              "text": "If she did this, his future would be completely destroyed.",
+              "audioStart": 258.985,
+              "audioEnd": 262.06
+            },
+            {
+              "text": "He had tried to buy the papers from her, but she had refused his money.",
+              "audioStart": 262.923,
+              "audioEnd": 266.522
+            },
+            {
+              "text": "Now, his only hope was that Holmes could find a way to get them back.",
+              "audioStart": 267.385,
+              "audioEnd": 271.098
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Holmes listened to this story with great attention, noting every small detail.",
+              "audioStart": 271.96,
+              "audioEnd": 275.947
+            },
+            {
+              "text": "He asked several questions about the woman and where she kept the papers.",
+              "audioStart": 276.81,
+              "audioEnd": 280.473
+            },
+            {
+              "text": "The gentleman gave us all the information he had, though some details were still unclear.",
+              "audioStart": 281.335,
+              "audioEnd": 285.935
+            },
+            {
+              "text": "\"This is indeed a difficult case,\" Holmes said after a long pause.",
+              "audioStart": 286.798,
+              "audioEnd": 290.373
+            },
+            {
+              "text": "\"But I am confident that a solution can be found.\"",
+              "audioStart": 291.235,
+              "audioEnd": 293.76
+            },
+            {
+              "text": "If he had not been confident, the visitor might have lost all hope.",
+              "audioStart": 294.623,
+              "audioEnd": 298.022
+            },
+            {
+              "text": "But because Holmes was so calm, the gentleman began to feel some hope.",
+              "audioStart": 298.885,
+              "audioEnd": 302.635
+            },
+            {
+              "text": "He thanked Holmes and promised to pay any amount of money if the papers were returned.",
+              "audioStart": 303.498,
+              "audioEnd": 307.598
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "After the gentleman had left, Holmes and Watson sat by the fire for a long time.",
+              "audioStart": 308.46,
+              "audioEnd": 313.048
+            },
+            {
+              "text": "We discussed the different ways we could approach the problem.",
+              "audioStart": 313.91,
+              "audioEnd": 316.572
+            },
+            {
+              "text": "If we did not act quickly, the papers might be made public very soon.",
+              "audioStart": 317.435,
+              "audioEnd": 321.348
+            },
+            {
+              "text": "\"I will need your help tomorrow, Watson,\" Holmes said to me.",
+              "audioStart": 322.21,
+              "audioEnd": 325.348
+            },
+            {
+              "text": "I told him that I would be happy to do whatever was necessary.",
+              "audioStart": 326.21,
+              "audioEnd": 329.223
+            },
+            {
+              "text": "If I had not visited him that evening, I would not have been part of this adventure.",
+              "audioStart": 330.085,
+              "audioEnd": 333.897
+            },
+            {
+              "text": "I was glad that I had decided to go to Baker Street that night.",
+              "audioStart": 334.76,
+              "audioEnd": 337.873
+            },
+            {
+              "text": "It was exciting to be working with my old friend once again.",
+              "audioStart": 338.735,
+              "audioEnd": 341.71
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The case proved to be one of the most difficult that Holmes had ever had.",
+              "audioStart": 342.572,
+              "audioEnd": 346.035
+            },
+            {
+              "text": "It required all his skill and intelligence to find the papers.",
+              "audioStart": 346.897,
+              "audioEnd": 350.26
+            },
+            {
+              "text": "If he had not been so brilliant, the secret would have been revealed.",
+              "audioStart": 351.123,
+              "audioEnd": 354.397
+            },
+            {
+              "text": "But because he was able to think of things that others missed, he succeeded.",
+              "audioStart": 355.26,
+              "audioEnd": 358.923
+            },
+            {
+              "text": "The papers were finally recovered, and the gentleman's future was saved.",
+              "audioStart": 359.785,
+              "audioEnd": 363.56
+            },
+            {
+              "text": "It was an experience that I would never forget.",
+              "audioStart": 364.423,
+              "audioEnd": 366.76
+            },
+            {
+              "text": "I learned a lot from watching Holmes work on this difficult case.",
+              "audioStart": 367.623,
+              "audioEnd": 370.81
+            },
+            {
+              "text": "I was grateful for the opportunity to see my friend show his great ability once more.",
+              "audioStart": 371.673,
+              "audioEnd": 375.935
+            }
+          ]
+        }
+      ],
+      "audio": "audio/b2/st-0012.mp3",
+      "wordTimings": "audio/b2/st-0012.timings.json",
+      "quiz": [
+        {
+          "q": "What was the weather like when the narrator visited Sherlock Holmes?",
+          "options": [
+            "Hot summer evening",
+            "Cold winter evening",
+            "Rainy spring morning"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What did the note warn Holmes to expect?",
+          "options": [
+            "A visit from an old friend",
+            "A new case to solve",
+            "Something important"
+          ],
+          "answer": 2
+        },
+        {
+          "q": "What was unusual about the gentleman who visited Holmes?",
+          "options": [
+            "He was very tall",
+            "He was wearing something over his face",
+            "He had a loud voice"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "B1": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "It was a very cold winter evening.",
+              "audioStart": 0.1,
+              "audioEnd": 1.837
+            },
+            {
+              "text": "The wind was strong and there was snow on the ground.",
+              "audioStart": 2.7,
+              "audioEnd": 5.075
+            },
+            {
+              "text": "I decided to visit my old friend, Sherlock Holmes.",
+              "audioStart": 5.938,
+              "audioEnd": 8.787
+            },
+            {
+              "text": "We had lived together for a long time.",
+              "audioStart": 9.65,
+              "audioEnd": 11.688
+            },
+            {
+              "text": "Now, he was living alone in our old rooms on Baker Street.",
+              "audioStart": 12.55,
+              "audioEnd": 15.812
+            },
+            {
+              "text": "I walked quickly through the dark streets.",
+              "audioStart": 16.675,
+              "audioEnd": 18.675
+            },
+            {
+              "text": "I wanted to get out of the cold air.",
+              "audioStart": 19.538,
+              "audioEnd": 21.225
+            },
+            {
+              "text": "Soon, I arrived at the house.",
+              "audioStart": 22.087,
+              "audioEnd": 23.925
+            },
+            {
+              "text": "I went up the steps to his room.",
+              "audioStart": 24.788,
+              "audioEnd": 26.4
+            },
+            {
+              "text": "It felt very familiar to me.",
+              "audioStart": 27.262,
+              "audioEnd": 28.875
+            },
+            {
+              "text": "I knocked on the door and entered.",
+              "audioStart": 29.738,
+              "audioEnd": 31.238
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Holmes was sitting in his large chair near the fire.",
+              "audioStart": 32.1,
+              "audioEnd": 34.65
+            },
+            {
+              "text": "The room was full of books and papers.",
+              "audioStart": 35.513,
+              "audioEnd": 37.487
+            },
+            {
+              "text": "He looked very thin and tired.",
+              "audioStart": 38.35,
+              "audioEnd": 40.112
+            },
+            {
+              "text": "His face was white, and he did not look healthy.",
+              "audioStart": 40.975,
+              "audioEnd": 43.562
+            },
+            {
+              "text": "I felt sad to see my friend like this.",
+              "audioStart": 44.425,
+              "audioEnd": 46.513
+            },
+            {
+              "text": "However, he was happy to see me.",
+              "audioStart": 47.375,
+              "audioEnd": 49.3
+            },
+            {
+              "text": "When he started talking, his face changed completely.",
+              "audioStart": 50.163,
+              "audioEnd": 53.212
+            },
+            {
+              "text": "I could see the old, bright energy in his eyes.",
+              "audioStart": 54.075,
+              "audioEnd": 56.625
+            },
+            {
+              "text": "His mind was still very active.",
+              "audioStart": 57.487,
+              "audioEnd": 59.325
+            },
+            {
+              "text": "He was ready for a new challenge.",
+              "audioStart": 60.188,
+              "audioEnd": 61.888
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "He asked me about my life.",
+              "audioStart": 62.75,
+              "audioEnd": 64.362
+            },
+            {
+              "text": "He wanted to know what I have done recently.",
+              "audioStart": 65.225,
+              "audioEnd": 67.375
+            },
+            {
+              "text": "\"I have been very busy with my work,\" I told him.",
+              "audioStart": 68.237,
+              "audioEnd": 70.925
+            },
+            {
+              "text": "I told him about my work as a local doctor.",
+              "audioStart": 71.787,
+              "audioEnd": 74.125
+            },
+            {
+              "text": "I had many patients to see every day.",
+              "audioStart": 74.987,
+              "audioEnd": 77.1
+            },
+            {
+              "text": "I also told him about my family.",
+              "audioStart": 77.963,
+              "audioEnd": 79.812
+            },
+            {
+              "text": "My life was very different now, but I was happy.",
+              "audioStart": 80.675,
+              "audioEnd": 83.4
+            },
+            {
+              "text": "He listened to me carefully.",
+              "audioStart": 84.263,
+              "audioEnd": 85.763
+            },
+            {
+              "text": "He was always interested in my news.",
+              "audioStart": 86.625,
+              "audioEnd": 88.575
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Then, Holmes started to talk about his own work.",
+              "audioStart": 89.438,
+              "audioEnd": 91.987
+            },
+            {
+              "text": "He told me about his latest case.",
+              "audioStart": 92.85,
+              "audioEnd": 94.775
+            },
+            {
+              "text": "It was a very difficult problem.",
+              "audioStart": 95.638,
+              "audioEnd": 97.275
+            },
+            {
+              "text": "A rich man had lost something important.",
+              "audioStart": 98.138,
+              "audioEnd": 100.375
+            },
+            {
+              "text": "The police did not know what to do.",
+              "audioStart": 101.237,
+              "audioEnd": 102.987
+            },
+            {
+              "text": "\"It is a strange case,\" Holmes said.",
+              "audioStart": 103.85,
+              "audioEnd": 105.912
+            },
+            {
+              "text": "But I have some information.",
+              "audioStart": 106.775,
+              "audioEnd": 108.188
+            },
+            {
+              "text": "If I follow these details, I will find the answer.",
+              "audioStart": 109.05,
+              "audioEnd": 111.763
+            },
+            {
+              "text": "I am sure I can solve it soon.",
+              "audioStart": 112.625,
+              "audioEnd": 114.263
+            },
+            {
+              "text": "He had great confidence in his work.",
+              "audioStart": 115.125,
+              "audioEnd": 117.112
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "As we talked, I realized something important.",
+              "audioStart": 117.975,
+              "audioEnd": 120.575
+            },
+            {
+              "text": "Holmes was still the same great expert.",
+              "audioStart": 121.438,
+              "audioEnd": 123.438
+            },
+            {
+              "text": "He could notice tiny details that other people always missed.",
+              "audioStart": 124.3,
+              "audioEnd": 127.575
+            },
+            {
+              "text": "For example, he looked at my shoes.",
+              "audioStart": 128.438,
+              "audioEnd": 130.713
+            },
+            {
+              "text": "\"You have walked through the cold park today,\" he said.",
+              "audioStart": 131.575,
+              "audioEnd": 134.137
+            },
+            {
+              "text": "He was absolutely right.",
+              "audioStart": 135.0,
+              "audioEnd": 136.5
+            },
+            {
+              "text": "I was amazed by his quick mind.",
+              "audioStart": 137.363,
+              "audioEnd": 139.213
+            },
+            {
+              "text": "He always saw the truth immediately.",
+              "audioStart": 140.075,
+              "audioEnd": 141.975
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "I was very happy to see my old friend again.",
+              "audioStart": 142.838,
+              "audioEnd": 145.113
+            },
+            {
+              "text": "The room felt warm and comfortable.",
+              "audioStart": 145.975,
+              "audioEnd": 147.738
+            },
+            {
+              "text": "We spent the rest of the evening talking about the past.",
+              "audioStart": 148.6,
+              "audioEnd": 151.387
+            },
+            {
+              "text": "We remembered our old cases.",
+              "audioStart": 152.25,
+              "audioEnd": 153.887
+            },
+            {
+              "text": "We laughed together about the funny things we had seen.",
+              "audioStart": 154.75,
+              "audioEnd": 157.412
+            },
+            {
+              "text": "It was a wonderful night.",
+              "audioStart": 158.275,
+              "audioEnd": 159.625
+            },
+            {
+              "text": "I had missed our long conversations.",
+              "audioStart": 160.488,
+              "audioEnd": 162.512
+            },
+            {
+              "text": "It felt like the old days.",
+              "audioStart": 163.375,
+              "audioEnd": 164.812
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The next day, I was at my own home.",
+              "audioStart": 165.675,
+              "audioEnd": 167.8
+            },
+            {
+              "text": "In the morning, I received a strange note.",
+              "audioStart": 168.662,
+              "audioEnd": 170.925
+            },
+            {
+              "text": "The letter had no name on it.",
+              "audioStart": 171.787,
+              "audioEnd": 173.275
+            },
+            {
+              "text": "I opened it and read the words carefully.",
+              "audioStart": 174.137,
+              "audioEnd": 176.213
+            },
+            {
+              "text": "The note said that a gentleman would visit Holmes tonight.",
+              "audioStart": 177.075,
+              "audioEnd": 179.662
+            },
+            {
+              "text": "He would arrive at a quarter to eight.",
+              "audioStart": 180.525,
+              "audioEnd": 182.287
+            },
+            {
+              "text": "The writer of the note asked me to be there.",
+              "audioStart": 183.15,
+              "audioEnd": 185.2
+            },
+            {
+              "text": "I wondered who this man could be.",
+              "audioStart": 186.062,
+              "audioEnd": 187.688
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The note did not say who the gentleman was.",
+              "audioStart": 188.55,
+              "audioEnd": 190.688
+            },
+            {
+              "text": "It did not explain what he wanted from us.",
+              "audioStart": 191.55,
+              "audioEnd": 193.787
+            },
+            {
+              "text": "However, it had a serious warning.",
+              "audioStart": 194.65,
+              "audioEnd": 196.65
+            },
+            {
+              "text": "It warned Holmes to be very careful.",
+              "audioStart": 197.512,
+              "audioEnd": 199.425
+            },
+            {
+              "text": "It said that the visitor was a man of high position.",
+              "audioStart": 200.287,
+              "audioEnd": 202.762
+            },
+            {
+              "text": "\"If you do not help him, there will be great trouble,\" the note said.",
+              "audioStart": 203.625,
+              "audioEnd": 207.075
+            },
+            {
+              "text": "We had to expect something very important.",
+              "audioStart": 207.938,
+              "audioEnd": 210.1
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "That night, I went back to Baker Street.",
+              "audioStart": 210.963,
+              "audioEnd": 213.175
+            },
+            {
+              "text": "I wanted to see what would happen.",
+              "audioStart": 214.037,
+              "audioEnd": 215.575
+            },
+            {
+              "text": "Holmes was waiting for me.",
+              "audioStart": 216.438,
+              "audioEnd": 217.762
+            },
+            {
+              "text": "We sat together in the quiet room.",
+              "audioStart": 218.625,
+              "audioEnd": 220.4
+            },
+            {
+              "text": "We watched the clock on the wall.",
+              "audioStart": 221.262,
+              "audioEnd": 222.887
+            },
+            {
+              "text": "Finally, it was a quarter to eight.",
+              "audioStart": 223.75,
+              "audioEnd": 225.8
+            },
+            {
+              "text": "At that exact moment, we heard a sound on the street.",
+              "audioStart": 226.662,
+              "audioEnd": 229.588
+            },
+            {
+              "text": "A man walked up the steps.",
+              "audioStart": 230.45,
+              "audioEnd": 232.025
+            },
+            {
+              "text": "He knocked on our door.",
+              "audioStart": 232.887,
+              "audioEnd": 234.088
+            },
+            {
+              "text": "The gentleman had arrived, just as the note had said.",
+              "audioStart": 234.95,
+              "audioEnd": 237.775
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The door opened, and the man entered the room.",
+              "audioStart": 238.637,
+              "audioEnd": 241.0
+            },
+            {
+              "text": "He was a very tall and thin man.",
+              "audioStart": 241.863,
+              "audioEnd": 243.675
+            },
+            {
+              "text": "He was wearing expensive clothes, but he had a black cover over his face.",
+              "audioStart": 244.537,
+              "audioEnd": 248.625
+            },
+            {
+              "text": "He did not want us to see his real face.",
+              "audioStart": 249.488,
+              "audioEnd": 251.713
+            },
+            {
+              "text": "He spoke in a low, deep voice.",
+              "audioStart": 252.575,
+              "audioEnd": 254.65
+            },
+            {
+              "text": "He looked at Holmes and then at me.",
+              "audioStart": 255.512,
+              "audioEnd": 257.2
+            },
+            {
+              "text": "\"I need your help,\" he said.",
+              "audioStart": 258.062,
+              "audioEnd": 259.65
+            },
+            {
+              "text": "He told Holmes that he had a very serious problem.",
+              "audioStart": 260.512,
+              "audioEnd": 263.113
+            }
+          ]
+        }
+      ],
+      "audio": "audio/b1/st-0012.mp3",
+      "wordTimings": "audio/b1/st-0012.timings.json",
+      "quiz": [
+        {
+          "q": "What did the writer of the note warn Holmes about?",
+          "options": [
+            "That he must be careful because the situation was very important.",
+            "That the police were looking for him.",
+            "That he should leave Baker Street immediately."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "How did Watson know that Holmes's mind was still active?",
+          "options": [
+            "Holmes told him he had decided to stop working.",
+            "Holmes noticed a small detail about Watson's shoes.",
+            "Holmes had already solved the visitor's problem."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What was unusual about the gentleman who arrived at Baker Street?",
+          "options": [
+            "He did not speak English.",
+            "He had a black cover over his face.",
+            "He arrived much later than the note said."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    "A2": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "It was a very cold winter evening.",
+              "audioStart": 0.106,
+              "audioEnd": 2.036
+            },
+            {
+              "text": "I went to visit my old friend, Sherlock Holmes.",
+              "audioStart": 3.0,
+              "audioEnd": 5.889
+            },
+            {
+              "text": "He was living in the old rooms in Baker Street.",
+              "audioStart": 6.847,
+              "audioEnd": 9.444
+            },
+            {
+              "text": "I was happy to go there.",
+              "audioStart": 10.403,
+              "audioEnd": 11.819
+            },
+            {
+              "text": "The street was very dark and cold.",
+              "audioStart": 12.778,
+              "audioEnd": 14.806
+            },
+            {
+              "text": "I walked quickly to the house.",
+              "audioStart": 15.764,
+              "audioEnd": 17.569
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Holmes was sitting in his large seat.",
+              "audioStart": 18.528,
+              "audioEnd": 20.569
+            },
+            {
+              "text": "He looked very thin and not well.",
+              "audioStart": 21.528,
+              "audioEnd": 23.681
+            },
+            {
+              "text": "But he started to talk to me.",
+              "audioStart": 24.639,
+              "audioEnd": 26.264
+            },
+            {
+              "text": "Then, I saw the old energy in his eyes.",
+              "audioStart": 27.222,
+              "audioEnd": 29.861
+            },
+            {
+              "text": "He was still a very strong man.",
+              "audioStart": 30.819,
+              "audioEnd": 32.708
+            },
+            {
+              "text": "He was ready to work.",
+              "audioStart": 33.667,
+              "audioEnd": 35.042
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "My friend asked me about my life.",
+              "audioStart": 36.0,
+              "audioEnd": 38.153
+            },
+            {
+              "text": "He wanted to know what I did every day.",
+              "audioStart": 39.111,
+              "audioEnd": 41.278
+            },
+            {
+              "text": "I told him about my work.",
+              "audioStart": 42.236,
+              "audioEnd": 43.806
+            },
+            {
+              "text": "I was a doctor, and I worked hard.",
+              "audioStart": 44.764,
+              "audioEnd": 47.069
+            },
+            {
+              "text": "I also told him about my family.",
+              "audioStart": 48.028,
+              "audioEnd": 50.083
+            },
+            {
+              "text": "He listened to me with interest.",
+              "audioStart": 51.042,
+              "audioEnd": 52.764
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Then, he started to tell me about his new case.",
+              "audioStart": 53.722,
+              "audioEnd": 56.611
+            },
+            {
+              "text": "It was a very difficult problem.",
+              "audioStart": 57.569,
+              "audioEnd": 59.389
+            },
+            {
+              "text": "But Holmes was sure he could find the answer.",
+              "audioStart": 60.347,
+              "audioEnd": 62.708
+            },
+            {
+              "text": "He loved to find the facts.",
+              "audioStart": 63.667,
+              "audioEnd": 65.444
+            },
+            {
+              "text": "He was going to finish this difficult case soon.",
+              "audioStart": 66.403,
+              "audioEnd": 69.028
+            },
+            {
+              "text": "He smiled as he spoke.",
+              "audioStart": 69.986,
+              "audioEnd": 71.472
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "We talked for a long time.",
+              "audioStart": 72.431,
+              "audioEnd": 74.111
+            },
+            {
+              "text": "I realized that Holmes was still the same great man.",
+              "audioStart": 75.069,
+              "audioEnd": 78.097
+            },
+            {
+              "text": "He had a very good mind.",
+              "audioStart": 79.056,
+              "audioEnd": 80.625
+            },
+            {
+              "text": "He could see small details.",
+              "audioStart": 81.583,
+              "audioEnd": 83.319
+            },
+            {
+              "text": "Other people did not notice these things.",
+              "audioStart": 84.278,
+              "audioEnd": 86.653
+            },
+            {
+              "text": "But Holmes saw everything.",
+              "audioStart": 87.611,
+              "audioEnd": 89.125
+            },
+            {
+              "text": "He knew how to find the answer.",
+              "audioStart": 90.083,
+              "audioEnd": 91.778
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "I was very happy to see my friend again.",
+              "audioStart": 92.736,
+              "audioEnd": 95.083
+            },
+            {
+              "text": "We spent the rest of the evening together.",
+              "audioStart": 96.042,
+              "audioEnd": 98.319
+            },
+            {
+              "text": "We talked and we laughed a lot.",
+              "audioStart": 99.278,
+              "audioEnd": 101.139
+            },
+            {
+              "text": "It was like the old days.",
+              "audioStart": 102.097,
+              "audioEnd": 103.569
+            },
+            {
+              "text": "I loved to be there with him.",
+              "audioStart": 104.528,
+              "audioEnd": 106.111
+            },
+            {
+              "text": "We had a very good time.",
+              "audioStart": 107.069,
+              "audioEnd": 108.639
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The next day, I received an important note.",
+              "audioStart": 109.597,
+              "audioEnd": 112.25
+            },
+            {
+              "text": "The note said that a man would visit Holmes.",
+              "audioStart": 113.208,
+              "audioEnd": 115.528
+            },
+            {
+              "text": "He was going to arrive at a quarter to eight.",
+              "audioStart": 116.486,
+              "audioEnd": 118.875
+            },
+            {
+              "text": "He was coming that night.",
+              "audioStart": 119.833,
+              "audioEnd": 121.347
+            },
+            {
+              "text": "I did not know who this man was.",
+              "audioStart": 122.306,
+              "audioEnd": 124.278
+            },
+            {
+              "text": "But I wanted to find out.",
+              "audioStart": 125.236,
+              "audioEnd": 126.75
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The note did not give the man's name.",
+              "audioStart": 127.708,
+              "audioEnd": 129.597
+            },
+            {
+              "text": "It did not say what the man wanted.",
+              "audioStart": 130.556,
+              "audioEnd": 132.542
+            },
+            {
+              "text": "But it told Holmes to take great care.",
+              "audioStart": 133.5,
+              "audioEnd": 135.708
+            },
+            {
+              "text": "It said he should expect something very important.",
+              "audioStart": 136.667,
+              "audioEnd": 139.306
+            },
+            {
+              "text": "The case was going to be big.",
+              "audioStart": 140.264,
+              "audioEnd": 141.958
+            },
+            {
+              "text": "I felt a little worried for my friend.",
+              "audioStart": 142.917,
+              "audioEnd": 144.972
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "That night, I went back to Baker Street.",
+              "audioStart": 145.931,
+              "audioEnd": 148.389
+            },
+            {
+              "text": "I wanted to see what would happen there.",
+              "audioStart": 149.347,
+              "audioEnd": 151.25
+            },
+            {
+              "text": "I waited with Holmes in his room.",
+              "audioStart": 152.208,
+              "audioEnd": 154.097
+            },
+            {
+              "text": "Then, the man arrived at the house.",
+              "audioStart": 155.056,
+              "audioEnd": 157.25
+            },
+            {
+              "text": "It was exactly a quarter to eight.",
+              "audioStart": 158.208,
+              "audioEnd": 160.292
+            },
+            {
+              "text": "The note was right about the time.",
+              "audioStart": 161.25,
+              "audioEnd": 163.083
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The man was very tall and thin.",
+              "audioStart": 164.042,
+              "audioEnd": 166.014
+            },
+            {
+              "text": "He had a black cover over his face.",
+              "audioStart": 166.972,
+              "audioEnd": 169.208
+            },
+            {
+              "text": "He spoke in a very low voice.",
+              "audioStart": 170.167,
+              "audioEnd": 172.083
+            },
+            {
+              "text": "He told Holmes that he needed help.",
+              "audioStart": 173.042,
+              "audioEnd": 174.986
+            },
+            {
+              "text": "He had a very serious problem.",
+              "audioStart": 175.944,
+              "audioEnd": 177.903
+            },
+            {
+              "text": "He wanted my friend to help him.",
+              "audioStart": 178.861,
+              "audioEnd": 180.681
+            }
+          ]
+        }
+      ],
+      "audio": "audio/a2/st-0012.mp3",
+      "wordTimings": "audio/a2/st-0012.timings.json",
+      "quiz": [
+        {
+          "q": "Where was Sherlock Holmes living?",
+          "options": [
+            "In his old rooms in Baker Street.",
+            "In a big hospital in the city.",
+            "In a hotel with his family."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What time did the visitor arrive?",
+          "options": [
+            "At eight o'clock in the morning.",
+            "At a quarter to eight at night.",
+            "At a quarter past nine in the evening."
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What did the visitor have over his face?",
+          "options": [
+            "A black cover.",
+            "A red hat.",
+            "Large glasses."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    "A1": {
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "It is a late night.",
+              "audioStart": 0.106,
+              "audioEnd": 1.328
+            },
+            {
+              "text": "I visit my old friend.",
+              "audioStart": 2.292,
+              "audioEnd": 3.764
+            },
+            {
+              "text": "His name is Sherlock Holmes.",
+              "audioStart": 4.722,
+              "audioEnd": 6.458
+            },
+            {
+              "text": "He lives in Baker Street.",
+              "audioStart": 7.417,
+              "audioEnd": 8.931
+            },
+            {
+              "text": "This is our old house.",
+              "audioStart": 9.889,
+              "audioEnd": 11.319
+            },
+            {
+              "text": "We live here together.",
+              "audioStart": 12.278,
+              "audioEnd": 13.611
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Holmes sits in his room.",
+              "audioStart": 14.569,
+              "audioEnd": 16.014
+            },
+            {
+              "text": "He looks very bad.",
+              "audioStart": 16.972,
+              "audioEnd": 18.264
+            },
+            {
+              "text": "He is not well today.",
+              "audioStart": 19.222,
+              "audioEnd": 20.569
+            },
+            {
+              "text": "But he starts to talk.",
+              "audioStart": 21.528,
+              "audioEnd": 22.944
+            },
+            {
+              "text": "Now his eyes look strong.",
+              "audioStart": 23.903,
+              "audioEnd": 25.389
+            },
+            {
+              "text": "He has a lot of life.",
+              "audioStart": 26.347,
+              "audioEnd": 27.819
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "He asks about my life.",
+              "audioStart": 28.778,
+              "audioEnd": 30.444
+            },
+            {
+              "text": "He asks about my work.",
+              "audioStart": 31.403,
+              "audioEnd": 32.958
+            },
+            {
+              "text": "I help people with their health.",
+              "audioStart": 33.917,
+              "audioEnd": 35.486
+            },
+            {
+              "text": "I have a good family.",
+              "audioStart": 36.444,
+              "audioEnd": 37.819
+            },
+            {
+              "text": "I tell him about my family.",
+              "audioStart": 38.778,
+              "audioEnd": 40.486
+            },
+            {
+              "text": "He hears my words.",
+              "audioStart": 41.444,
+              "audioEnd": 42.792
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "Then he tells me a case.",
+              "audioStart": 43.75,
+              "audioEnd": 45.375
+            },
+            {
+              "text": "It is his new case.",
+              "audioStart": 46.333,
+              "audioEnd": 47.681
+            },
+            {
+              "text": "It is a very difficult problem.",
+              "audioStart": 48.639,
+              "audioEnd": 50.458
+            },
+            {
+              "text": "But Holmes is very sure.",
+              "audioStart": 51.417,
+              "audioEnd": 53.014
+            },
+            {
+              "text": "He can find the answer.",
+              "audioStart": 53.972,
+              "audioEnd": 55.472
+            },
+            {
+              "text": "He wants to help the people.",
+              "audioStart": 56.431,
+              "audioEnd": 58.0
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "We talk for a long time.",
+              "audioStart": 58.958,
+              "audioEnd": 60.597
+            },
+            {
+              "text": "Holmes is still the same great man.",
+              "audioStart": 61.556,
+              "audioEnd": 63.542
+            },
+            {
+              "text": "He sees small details.",
+              "audioStart": 64.5,
+              "audioEnd": 66.139
+            },
+            {
+              "text": "Other people do not see them.",
+              "audioStart": 67.097,
+              "audioEnd": 68.722
+            },
+            {
+              "text": "He knows everything.",
+              "audioStart": 69.681,
+              "audioEnd": 70.903
+            },
+            {
+              "text": "He is a very good friend.",
+              "audioStart": 71.861,
+              "audioEnd": 73.458
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "I feel good to see him.",
+              "audioStart": 74.417,
+              "audioEnd": 75.736
+            },
+            {
+              "text": "We stay together for many hours.",
+              "audioStart": 76.694,
+              "audioEnd": 78.819
+            },
+            {
+              "text": "We talk and have good times.",
+              "audioStart": 79.778,
+              "audioEnd": 81.542
+            },
+            {
+              "text": "We feel good together.",
+              "audioStart": 82.5,
+              "audioEnd": 83.861
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The next day, I receive a note.",
+              "audioStart": 84.819,
+              "audioEnd": 87.0
+            },
+            {
+              "text": "It is a special note.",
+              "audioStart": 87.958,
+              "audioEnd": 89.306
+            },
+            {
+              "text": "A man visits Holmes this night.",
+              "audioStart": 90.264,
+              "audioEnd": 92.181
+            },
+            {
+              "text": "He comes at fifteen minutes before eight.",
+              "audioStart": 93.139,
+              "audioEnd": 95.597
+            },
+            {
+              "text": "The note is very short.",
+              "audioStart": 96.556,
+              "audioEnd": 98.028
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "The note has no name.",
+              "audioStart": 98.986,
+              "audioEnd": 100.306
+            },
+            {
+              "text": "It does not say what he wants.",
+              "audioStart": 101.264,
+              "audioEnd": 103.069
+            },
+            {
+              "text": "But it tells Holmes to watch.",
+              "audioStart": 104.028,
+              "audioEnd": 105.653
+            },
+            {
+              "text": "He must watch the door.",
+              "audioStart": 106.611,
+              "audioEnd": 108.069
+            },
+            {
+              "text": "Something important is coming.",
+              "audioStart": 109.028,
+              "audioEnd": 110.681
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "I go back to Baker Street.",
+              "audioStart": 111.639,
+              "audioEnd": 113.264
+            },
+            {
+              "text": "I want to see the man.",
+              "audioStart": 114.222,
+              "audioEnd": 115.486
+            },
+            {
+              "text": "The man comes at fifteen minutes before eight.",
+              "audioStart": 116.444,
+              "audioEnd": 119.097
+            },
+            {
+              "text": "It happens just like the note says.",
+              "audioStart": 120.056,
+              "audioEnd": 122.153
+            },
+            {
+              "text": "He comes to the door.",
+              "audioStart": 123.111,
+              "audioEnd": 124.403
+            }
+          ]
+        },
+        {
+          "sentences": [
+            {
+              "text": "He is a very large man.",
+              "audioStart": 125.361,
+              "audioEnd": 126.931
+            },
+            {
+              "text": "He has a black thing over his face.",
+              "audioStart": 127.889,
+              "audioEnd": 130.069
+            },
+            {
+              "text": "He speaks with a low sound.",
+              "audioStart": 131.028,
+              "audioEnd": 132.681
+            },
+            {
+              "text": "He tells Holmes his problem.",
+              "audioStart": 133.639,
+              "audioEnd": 135.292
+            },
+            {
+              "text": "He needs help with a big problem.",
+              "audioStart": 136.25,
+              "audioEnd": 138.125
+            },
+            {
+              "text": "He wants Holmes to help him now.",
+              "audioStart": 139.083,
+              "audioEnd": 140.806
+            }
+          ]
+        }
+      ],
+      "audio": "audio/a1/st-0012.mp3",
+      "wordTimings": "audio/a1/st-0012.timings.json",
+      "quiz": [
+        {
+          "q": "Where does Sherlock Holmes live?",
+          "options": [
+            "In a school",
+            "In Baker Street",
+            "In a new city"
+          ],
+          "answer": 1
+        },
+        {
+          "q": "What does the special note say?",
+          "options": [
+            "A man will visit Holmes.",
+            "Holmes must leave the city.",
+            "The friend has a new job."
+          ],
+          "answer": 0
+        },
+        {
+          "q": "What does the man have over his face?",
+          "options": [
+            "A black thing",
+            "A white paper",
+            "A lot of money"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  }
+}
