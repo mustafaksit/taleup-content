@@ -26,6 +26,7 @@ import { Resvg } from '@resvg/resvg-js';
 import sharp from 'sharp';
 
 import { COVERS_DIR, STORIES_DIR, loadEnv } from './lib/env.mjs';
+import { callGemini } from './lib/gemini.mjs';
 import { GENRES } from './lib/levels.mjs';
 
 loadEnv();
@@ -132,8 +133,6 @@ async function renderGemini(genre, coverScene, outPath) {
  * doğrulanır (metin/görsel etiketi yok + resvg ile render olabiliyor).
  */
 async function renderGeminiSvg(genre, coverScene, outPath) {
-  const key = process.env.GEMINI_API_KEY;
-  if (!key) throw new Error('no-key');
   const prompt = `Create a flat storybook illustration as a single self-contained SVG.
 Requirements:
 - Exactly 800x600: <svg width="800" height="600" viewBox="0 0 800 600">.
@@ -144,25 +143,16 @@ Requirements:
 Return ONLY the raw SVG markup starting with <svg and ending with </svg>. No markdown fences, no explanation.`;
 
   for (let attempt = 0; attempt < SVG_MAX_TRIES; attempt++) {
-    const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_TEXT_MODEL}:generateContent?key=${key}`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: { temperature: 0.75 },
-        }),
-      },
-    );
-    if (res.status === 429) throw new Error('quota');
-    if (!res.ok) {
+    let raw;
+    try {
+      // çoklu-sağlayıcı havuz (Groq/Cerebras/Gemini rotasyonu) — kapak metni SVG'si
+      raw = await callGemini(prompt, { json: false });
+    } catch (err) {
+      if (/quota|429/i.test(err.message)) throw new Error('quota');
       if (attempt < SVG_MAX_TRIES - 1) continue;
-      throw new Error(`Gemini text HTTP ${res.status}`);
+      throw err;
     }
-    const data = await res.json();
-    let svg = data.candidates?.[0]?.content?.parts?.map((p) => p.text).join('') ?? '';
-    svg = svg
+    let svg = raw
       .trim()
       .replace(/^```(?:svg|xml)?\s*/i, '')
       .replace(/```\s*$/, '')
@@ -228,10 +218,10 @@ async function coverForStory(storyPath, { forceFallback, state, dailyBatch }) {
         return 'done';
       } catch (err) {
         if (err.message === 'quota') {
-          console.error(`Metin kotası da dolu (${story.id}). --resume ile sonra devam edin.`);
-          return 'quota';
+          console.log(`Tüm LLM kotaları dolu (${story.id}) -> prosedürel yedek kapak`);
+        } else {
+          console.error(`Gemini SVG başarısız (${story.id}): ${err.message} -> prosedürel yedek`);
         }
-        console.error(`Gemini SVG başarısız (${story.id}): ${err.message} -> prosedürel yedek`);
       }
     }
   }

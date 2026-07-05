@@ -32,7 +32,7 @@ const GEMINI_MODELS = (
 // cömert olanlar önce; Gemini (en dar günlük kota) en sona konur.
 const OPENAI_PROVIDERS = [
   { name: 'groq', env: 'GROQ_API_KEY', baseUrl: 'https://api.groq.com/openai/v1', models: ['llama-3.3-70b-versatile'] },
-  { name: 'cerebras', env: 'CEREBRAS_API_KEY', baseUrl: 'https://api.cerebras.ai/v1', models: ['llama-3.3-70b'] },
+  { name: 'cerebras', env: 'CEREBRAS_API_KEY', baseUrl: 'https://api.cerebras.ai/v1', models: ['llama3.3-70b', 'llama-3.3-70b'] },
   { name: 'together', env: 'TOGETHER_API_KEY', baseUrl: 'https://api.together.xyz/v1', models: ['meta-llama/Llama-3.3-70B-Instruct-Turbo-Free'] },
   { name: 'mistral', env: 'MISTRAL_API_KEY', baseUrl: 'https://api.mistral.ai/v1', models: ['mistral-large-latest'] },
   { name: 'openrouter', env: 'OPENROUTER_API_KEY', baseUrl: 'https://openrouter.ai/api/v1', models: ['meta-llama/llama-3.3-70b-instruct:free', 'deepseek/deepseek-chat-v3.1:free'] },
@@ -97,7 +97,10 @@ async function callOpenAI(ep, prompt, json) {
     noJson.add(ep.id);
     return callOpenAI(ep, prompt, json);
   }
-  if (res.status === 429 || res.status === 402) return { retriable: 'quota', status: res.status };
+  // OpenAI sağlayıcılarında 429 çoğunlukla DAKİKA limiti (kalıcı değil) -> backoff+retry.
+  // 402 = ödeme/kredi bitti -> kalıcı kota.
+  if (res.status === 402) return { retriable: 'quota', status: res.status };
+  if (res.status === 429) return { retriable: 'rate', status: res.status };
   if (res.status >= 500) return { retriable: 'server', status: res.status };
   if (!res.ok) {
     const t = await res.text();
@@ -174,14 +177,24 @@ export async function callGemini(prompt, { json = false } = {}) {
       lastError = new Error(`${ep.id} HTTP ${out.status}`);
       continue;
     }
-    // server/rate -> kısa bekle, aynı uçta bir daha; kalıcıysa öldür
     lastError = new Error(`${ep.id} HTTP ${out.status}`);
     ep._fails = (ep._fails || 0) + 1;
-    if (ep._fails >= 2) {
-      dead.add(ep.id);
-      console.log(`  ${ep.id} tekrarlayan ${out.status} -> bırakılıyor`);
+    if (out.retriable === 'rate') {
+      // dakika limiti: uzun eşik, backoff (pencere açılınca düzelir)
+      if (ep._fails >= 10) {
+        dead.add(ep.id);
+        console.log(`  ${ep.id} sürekli 429 -> bırakılıyor`);
+      } else {
+        await sleep(12000);
+      }
     } else {
-      await sleep(8000);
+      // sunucu hatası: kısa eşik
+      if (ep._fails >= 3) {
+        dead.add(ep.id);
+        console.log(`  ${ep.id} tekrarlayan ${out.status} -> bırakılıyor`);
+      } else {
+        await sleep(6000);
+      }
     }
   }
   throw lastError ?? new Error('LLM çağrısı başarısız');
