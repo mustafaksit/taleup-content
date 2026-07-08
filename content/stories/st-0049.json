@@ -2,6 +2,7 @@
   "id": "st-0049",
   "title": "The Forgotten Umbrella",
   "genre": "daily",
+  "summary": "Leo forgets his umbrella on the bus one rainy day.",
   "coverScene": "A black umbrella leans against a foggy city bus window, reflecting the bright lights of a rainy evening street.",
   "levels": {
     "B2": {
@@ -737,7 +738,7 @@
             {
               "text": "It shows a black umbrella.",
               "audioStart": 63.431,
-              "audioEnd": 65.0
+              "audioEnd": 65
             },
             {
               "text": "He sees a mark on it.",

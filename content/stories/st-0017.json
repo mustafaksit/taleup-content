@@ -2,6 +2,7 @@
   "id": "st-0017",
   "title": "The Lost Hotel Room",
   "genre": "horror",
+  "summary": "Emily checks into a mysterious old hotel with a strange room.",
   "coverScene": "A young woman stands in a dark, dusty hotel hallway holding a metal key, looking down a long passage under a low wooden ceiling.",
   "levels": {
     "B2": {
@@ -455,7 +456,7 @@
             },
             {
               "text": "She checked her phone.",
-              "audioStart": 67.0,
+              "audioStart": 67,
               "audioEnd": 68.162
             },
             {
@@ -1020,7 +1021,7 @@
             },
             {
               "text": "The hotel had no sound.",
-              "audioStart": 75.0,
+              "audioStart": 75,
               "audioEnd": 76.639
             },
             {
@@ -1059,7 +1060,7 @@
             },
             {
               "text": "Emily put her head against the wall.",
-              "audioStart": 95.0,
+              "audioStart": 95,
               "audioEnd": 97.056
             },
             {
@@ -1084,7 +1085,7 @@
             },
             {
               "text": "It told her to come.",
-              "audioStart": 109.0,
+              "audioStart": 109,
               "audioEnd": 110.236
             }
           ]
@@ -1276,7 +1277,7 @@
             {
               "text": "She was lost.",
               "audioStart": 198.889,
-              "audioEnd": 200.0
+              "audioEnd": 200
             },
             {
               "text": "The night would never end.",
@@ -1540,7 +1541,7 @@
             {
               "text": "The sound next door makes a sound.",
               "audioStart": 81.889,
-              "audioEnd": 84.0
+              "audioEnd": 84
             },
             {
               "text": "She takes the things in the hand.",

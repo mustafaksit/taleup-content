@@ -2,6 +2,7 @@
   "id": "st-0021",
   "title": "The Lost City Map",
   "genre": "mystery",
+  "summary": "Emily finds a mysterious map in an old book suddenly.",
   "coverScene": "A young woman and a man stand at the edge of a forest, looking at a piece of shining yellow paper.",
   "levels": {
     "B2": {
@@ -99,7 +100,7 @@
             {
               "text": "The birds stopped singing and the wind died down, leaving a strange silence that pressed against their ears like heavy weight.",
               "audioStart": 103.075,
-              "audioEnd": 109.0
+              "audioEnd": 109
             },
             {
               "text": "They realized that they were no longer alone in the wild, which made them move much faster toward their distant goal.",
@@ -436,7 +437,7 @@
             {
               "text": "The trees in the forest all looked the same.",
               "audioStart": 53.9,
-              "audioEnd": 56.0
+              "audioEnd": 56
             },
             {
               "text": "Jack pointed toward a large rock.",
@@ -538,7 +539,7 @@
             },
             {
               "text": "These signs matched the ones Emily had studied at home.",
-              "audioStart": 115.0,
+              "audioStart": 115,
               "audioEnd": 117.888
             },
             {
@@ -554,7 +555,7 @@
             {
               "text": "A loud sound of falling stones filled the deep valley.",
               "audioStart": 126.338,
-              "audioEnd": 129.0
+              "audioEnd": 129
             },
             {
               "text": "If they were not strong, they would turn back now.",
@@ -646,7 +647,7 @@
             },
             {
               "text": "The figures did not move like human beings.",
-              "audioStart": 187.0,
+              "audioStart": 187,
               "audioEnd": 189.287
             },
             {
@@ -918,7 +919,7 @@
             {
               "text": "They agreed to meet at the forest the next morning.",
               "audioStart": 18.306,
-              "audioEnd": 21.0
+              "audioEnd": 21
             },
             {
               "text": "The map felt heavy in her hand.",
@@ -967,7 +968,7 @@
             {
               "text": "Emily felt excited but also worried.",
               "audioStart": 44.764,
-              "audioEnd": 47.0
+              "audioEnd": 47
             }
           ]
         },
@@ -1083,7 +1084,7 @@
             },
             {
               "text": "It was part of the city system.",
-              "audioStart": 108.0,
+              "audioStart": 108,
               "audioEnd": 109.792
             }
           ]

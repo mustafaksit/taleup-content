@@ -2,6 +2,7 @@
   "id": "st-0119",
   "title": "The Star Garden",
   "genre": "scifi",
+  "summary": "Tom and Maya find a special garden in space that grows without land.",
   "coverScene": "Tom and Maya float near a tiny light garden inside a small ship, light stars around them.",
   "levels": {
     "B2": {
@@ -59,7 +60,7 @@
             },
             {
               "text": "Tom realized that the garden could provide food for their very long journey across the big space.",
-              "audioStart": 49.0,
+              "audioStart": 49,
               "audioEnd": 54.025
             },
             {
@@ -93,7 +94,7 @@
             },
             {
               "text": "If the light became too weak, they would turn the screen to show more light onto the leaves, very urgently.",
-              "audioStart": 87.0,
+              "audioStart": 87,
               "audioEnd": 92.55
             },
             {
@@ -599,7 +600,7 @@
             {
               "text": "They know the garden will always be their star garden.",
               "audioStart": 192.675,
-              "audioEnd": 195.0
+              "audioEnd": 195
             }
           ]
         },
@@ -953,7 +954,7 @@
             {
               "text": "They wanted to find places for the garden.",
               "audioStart": 181.778,
-              "audioEnd": 184.0
+              "audioEnd": 184
             },
             {
               "text": "Their travel will go far and the garden will grow food.",
@@ -1022,7 +1023,7 @@
             {
               "text": "He loves the many lights.",
               "audioStart": 2.361,
-              "audioEnd": 4.0
+              "audioEnd": 4
             },
             {
               "text": "He moves in a small room.",
@@ -1115,7 +1116,7 @@
             {
               "text": "They eat the food together.",
               "audioStart": 43.514,
-              "audioEnd": 45.0
+              "audioEnd": 45
             },
             {
               "text": "They feel strong and happy.",
@@ -1192,7 +1193,7 @@
             },
             {
               "text": "They hope it stays good.",
-              "audioStart": 80.0,
+              "audioStart": 80,
               "audioEnd": 81.389
             }
           ]
@@ -1261,7 +1262,7 @@
             {
               "text": "They look at the lights.",
               "audioStart": 112.667,
-              "audioEnd": 114.0
+              "audioEnd": 114
             }
           ]
         },

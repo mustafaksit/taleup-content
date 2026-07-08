@@ -2,6 +2,7 @@
   "id": "st-0006",
   "title": "The Whispering Well",
   "genre": "horror",
+  "summary": "Ben moves to an old house with a mysterious well.",
   "coverScene": "An old stone well with a broken wooden cover sits in a dark, overgrown garden behind a quiet country house under the evening sky.",
   "levels": {
     "B2": {
@@ -410,7 +411,7 @@
             },
             {
               "text": "Instead, a quiet whisper came from the bottom.",
-              "audioStart": 39.0,
+              "audioStart": 39,
               "audioEnd": 41.425
             },
             {
@@ -490,7 +491,7 @@
             {
               "text": "\"And I am getting warmer.\"",
               "audioStart": 86.775,
-              "audioEnd": 88.0
+              "audioEnd": 88
             },
             {
               "text": "The message made him afraid, but he could not stop thinking about it.",
@@ -681,7 +682,7 @@
             {
               "text": "The wet marks stopped right at his kitchen door.",
               "audioStart": 203.625,
-              "audioEnd": 206.0
+              "audioEnd": 206
             }
           ]
         },
@@ -862,7 +863,7 @@
             },
             {
               "text": "He felt fear, but he also had interest.",
-              "audioStart": 25.0,
+              "audioStart": 25,
               "audioEnd": 27.764
             }
           ]
@@ -1009,7 +1010,7 @@
             },
             {
               "text": "The thing was moving up.",
-              "audioStart": 106.0,
+              "audioStart": 106,
               "audioEnd": 107.306
             },
             {
@@ -1044,7 +1045,7 @@
             {
               "text": "\"I am too close to the top.\"",
               "audioStart": 124.389,
-              "audioEnd": 126.0
+              "audioEnd": 126
             },
             {
               "text": "The voice was very near.",
@@ -1131,7 +1132,7 @@
             },
             {
               "text": "A dark track of water led to the house.",
-              "audioStart": 171.0,
+              "audioStart": 171,
               "audioEnd": 173.333
             },
             {
@@ -1377,7 +1378,7 @@
             {
               "text": "A low sound comes from the water.",
               "audioStart": 48.167,
-              "audioEnd": 50.0
+              "audioEnd": 50
             },
             {
               "text": "'I wait under you,' it says.",
@@ -1571,7 +1572,7 @@
             },
             {
               "text": "He runs to his room.",
-              "audioStart": 140.0,
+              "audioStart": 140,
               "audioEnd": 141.389
             },
             {

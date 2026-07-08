@@ -2,6 +2,7 @@
   "id": "st-0012",
   "title": "Alice's Adventures in Wonderland",
   "genre": "classic",
+  "summary": "Alice falls down a long way into darkness suddenly alone.",
   "coverScene": "Alice stands in a beautiful garden surrounded by tall flowers and towering trees, with a curious expression on her face.",
   "levels": {
     "B2": {
@@ -447,7 +448,7 @@
           "sentences": [
             {
               "text": "He said it was a test.",
-              "audioStart": 153.0,
+              "audioStart": 153,
               "audioEnd": 154.375
             },
             {
@@ -552,7 +553,7 @@
             },
             {
               "text": "She was very sad.",
-              "audioStart": 189.0,
+              "audioStart": 189,
               "audioEnd": 190.162
             }
           ]
@@ -1540,7 +1541,7 @@
             },
             {
               "text": "She had hope again.",
-              "audioStart": 44.0,
+              "audioStart": 44,
               "audioEnd": 45.125
             },
             {
@@ -1644,7 +1645,7 @@
             },
             {
               "text": "She looked inside the opening.",
-              "audioStart": 92.0,
+              "audioStart": 92,
               "audioEnd": 93.525
             }
           ]
@@ -1959,7 +1960,7 @@
             {
               "text": "Alice had not found an open door yet.",
               "audioStart": 240.95,
-              "audioEnd": 243.0
+              "audioEnd": 243
             },
             {
               "text": "She had looked at each one.",
@@ -2409,7 +2410,7 @@
             },
             {
               "text": "But she could hear the white animal.",
-              "audioStart": 164.0,
+              "audioStart": 164,
               "audioEnd": 165.764
             },
             {
@@ -2453,7 +2454,7 @@
             },
             {
               "text": "She pushed each door.",
-              "audioStart": 184.0,
+              "audioStart": 184,
               "audioEnd": 185.361
             },
             {
@@ -2624,7 +2625,7 @@
             {
               "text": "Alice wants to go through the part.",
               "audioStart": 37.153,
-              "audioEnd": 39.0
+              "audioEnd": 39
             },
             {
               "text": "But she is too big.",
@@ -2710,7 +2711,7 @@
             },
             {
               "text": "It is a something that can run.",
-              "audioStart": 75.0,
+              "audioStart": 75,
               "audioEnd": 76.708
             },
             {

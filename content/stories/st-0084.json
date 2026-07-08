@@ -2,6 +2,7 @@
   "id": "st-0084",
   "title": "The Lost Island",
   "genre": "adventure",
+  "summary": "Ann and Max discover a mysterious small land at sea suddenly.",
   "coverScene": "A small white boat drifts toward a mysterious, lush island hidden by a light morning mist over the ocean.",
   "levels": {
     "B2": {
@@ -230,7 +231,7 @@
             {
               "text": "They were happy to be exploring such a place.",
               "audioStart": 159.662,
-              "audioEnd": 162.0
+              "audioEnd": 162
             },
             {
               "text": "They continued to walk through the trees, noticing the beauty of nature.",
@@ -1033,7 +1034,7 @@
             },
             {
               "text": "They needed to leave now.",
-              "audioStart": 116.0,
+              "audioStart": 116,
               "audioEnd": 117.347
             },
             {
@@ -1148,7 +1149,7 @@
             {
               "text": "The day was very important to them.",
               "audioStart": 176.056,
-              "audioEnd": 178.0
+              "audioEnd": 178
             },
             {
               "text": "They will talk about this day again.",
@@ -1255,7 +1256,7 @@
             },
             {
               "text": "They walk into a still area.",
-              "audioStart": 13.0,
+              "audioStart": 13,
               "audioEnd": 14.736
             },
             {
@@ -1289,7 +1290,7 @@
             },
             {
               "text": "Max sees a letter from a man.",
-              "audioStart": 28.0,
+              "audioStart": 28,
               "audioEnd": 29.764
             },
             {
@@ -1324,7 +1325,7 @@
             },
             {
               "text": "They sit and look at the wall.",
-              "audioStart": 46.0,
+              "audioStart": 46,
               "audioEnd": 47.639
             },
             {
@@ -1378,7 +1379,7 @@
             },
             {
               "text": "They must leave the house now.",
-              "audioStart": 72.0,
+              "audioStart": 72,
               "audioEnd": 73.542
             },
             {

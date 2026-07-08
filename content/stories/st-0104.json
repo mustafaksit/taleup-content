@@ -2,6 +2,7 @@
   "id": "st-0104",
   "title": "The Lost Island Quest",
   "genre": "adventure",
+  "summary": "Sam and Maya find an old map and plan an adventure.",
   "coverScene": "Sam and Maya stand on a sand beach looking at a glowing map under a bright sky.",
   "levels": {
     "B2": {
@@ -113,7 +114,7 @@
             {
               "text": "At dawn they saw the land of the new island covered with green trees and bright sky above the water.",
               "audioStart": 95.05,
-              "audioEnd": 100.0
+              "audioEnd": 100
             },
             {
               "text": "The island was covered with trees and a small cave near the beach that smelled of sea near the dawn.",
@@ -371,7 +372,7 @@
             },
             {
               "text": "The sea is calm and the air is soft as they travel.",
-              "audioStart": 40.0,
+              "audioStart": 40,
               "audioEnd": 42.562
             },
             {
@@ -489,7 +490,7 @@
             {
               "text": "Inside the box a second question is written on a piece of paper that is bright.",
               "audioStart": 124.912,
-              "audioEnd": 129.0
+              "audioEnd": 129
             },
             {
               "text": "The question asks what can travel around the world while staying in one place.",
@@ -577,7 +578,7 @@
             },
             {
               "text": "It works if they are good and kind in mind.",
-              "audioStart": 188.0,
+              "audioStart": 188,
               "audioEnd": 190.05
             }
           ]
@@ -916,7 +917,7 @@
             {
               "text": "Maya felt good and agreed that they had learned to work together.",
               "audioStart": 156.778,
-              "audioEnd": 160.0
+              "audioEnd": 160
             },
             {
               "text": "The place was a place where anyone could find a thing.",

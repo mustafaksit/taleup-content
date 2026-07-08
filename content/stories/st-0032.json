@@ -2,6 +2,7 @@
   "id": "st-0032",
   "title": "The Hidden Mountain Map",
   "genre": "adventure",
+  "summary": "Leo and Mia find an old map in a library book suddenly.",
   "coverScene": "A young boy and a girl sit on the floor of an old library, illuminated by a warm lamp while examining a dusty, yellowed map spread out between them.",
   "levels": {
     "B2": {
@@ -11,7 +12,7 @@
             {
               "text": "Leo and Mia were students who loved to visit the local library after school.",
               "audioStart": 0.1,
-              "audioEnd": 4.0
+              "audioEnd": 4
             },
             {
               "text": "One rainy afternoon, they found an old, dusty book which contained a hidden mountain map.",
@@ -229,7 +230,7 @@
             {
               "text": "The light began to fade.",
               "audioStart": 40.612,
-              "audioEnd": 42.0
+              "audioEnd": 42
             },
             {
               "text": "They saw a small, dark opening hidden behind a large tree.",
@@ -443,7 +444,7 @@
             {
               "text": "Inside, they found a small box on the ground.",
               "audioStart": 63.153,
-              "audioEnd": 66.0
+              "audioEnd": 66
             },
             {
               "text": "They opened the box.",

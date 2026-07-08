@@ -2,6 +2,7 @@
   "id": "st-0003",
   "title": "The Little Door",
   "genre": "horror",
+  "summary": "Mara hears strange sounds in her new home at night.",
   "coverScene": "a child's attic bedroom with a tiny mysterious low door in the corner and an old pocket watch glowing faintly",
   "levels": {
     "A1": {
@@ -789,7 +790,7 @@
             },
             {
               "text": "The three knocks came from the corner, patient as always.",
-              "audioStart": 149.0,
+              "audioStart": 149,
               "audioEnd": 151.975
             },
             {
@@ -1063,7 +1064,7 @@
             {
               "text": "It had stopped decades ago; its delicate hands were frozen at exactly three o'clock.",
               "audioStart": 150.113,
-              "audioEnd": 155.0
+              "audioEnd": 155
             },
             {
               "text": "\"There is your ghost,\" her father announced, delighted. \"A dead watch and a pile of paper.\"",

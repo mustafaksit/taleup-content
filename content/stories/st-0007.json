@@ -2,6 +2,7 @@
   "id": "st-0007",
   "title": "The Mirror's Shadow",
   "genre": "horror",
+  "summary": "Leo buys a mysterious old mirror for his room suddenly.",
   "coverScene": "A young man stands in a cozy bedroom with warm lighting, looking curiously at a large, beautiful mirror with a dark wooden frame.",
   "levels": {
     "B2": {
@@ -195,7 +196,7 @@
             },
             {
               "text": "According to the reports, the young man had spent his last days staring into the same large, dark mirror.",
-              "audioStart": 209.0,
+              "audioStart": 209,
               "audioEnd": 214.95
             },
             {
@@ -387,7 +388,7 @@
             {
               "text": "That first evening, the glass reflected his room perfectly.",
               "audioStart": 25.688,
-              "audioEnd": 29.0
+              "audioEnd": 29
             },
             {
               "text": "It showed only the clean floor and his happy face.",
@@ -518,7 +519,7 @@
             },
             {
               "text": "Leo decided he must remove the mirror.",
-              "audioStart": 102.0,
+              "audioStart": 102,
               "audioEnd": 104.05
             },
             {
@@ -554,7 +555,7 @@
             {
               "text": "He realized he was unable to escape.",
               "audioStart": 121.938,
-              "audioEnd": 124.0
+              "audioEnd": 124
             },
             {
               "text": "He covered the glass with a thick white sheet.",
@@ -995,7 +996,7 @@
           "sentences": [
             {
               "text": "On the second night, Leo watched the mirror.",
-              "audioStart": 58.0,
+              "audioStart": 58,
               "audioEnd": 60.681
             },
             {
@@ -1035,7 +1036,7 @@
             },
             {
               "text": "The room was completely quiet.",
-              "audioStart": 80.0,
+              "audioStart": 80,
               "audioEnd": 81.944
             },
             {
@@ -1074,7 +1075,7 @@
             },
             {
               "text": "It did not move at all.",
-              "audioStart": 101.0,
+              "audioStart": 101,
               "audioEnd": 102.389
             },
             {
@@ -1202,7 +1203,7 @@
             {
               "text": "Suddenly, every light went out.",
               "audioStart": 170.806,
-              "audioEnd": 173.0
+              "audioEnd": 173
             },
             {
               "text": "The room was very dark.",
@@ -1646,7 +1647,7 @@
             {
               "text": "People cannot find Leo.",
               "audioStart": 134.417,
-              "audioEnd": 136.0
+              "audioEnd": 136
             },
             {
               "text": "The mirror goes to a local shop.",

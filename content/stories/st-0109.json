@@ -2,6 +2,7 @@
   "id": "st-0109",
   "title": "Starship Garden Adventure",
   "genre": "scifi",
+  "summary": "Leo and Maya go to a strange area with low power.",
   "coverScene": "Leo and Maya standing beside a glowing tiny garden inside an old star ship",
   "levels": {
     "B2": {
@@ -78,7 +79,7 @@
           "sentences": [
             {
               "text": "The panel was linked to a main power core that was still off due to the old storm.",
-              "audioStart": 64.0,
+              "audioStart": 64,
               "audioEnd": 67.875
             },
             {
@@ -132,7 +133,7 @@
             },
             {
               "text": "A new plan was set to return home with the garden alive still, ensuring future people learn.",
-              "audioStart": 118.0,
+              "audioStart": 118,
               "audioEnd": 122.912
             },
             {
@@ -342,7 +343,7 @@
             {
               "text": "Leo and Maya travel on a ship that moves through a dark star area at night.",
               "audioStart": 0.1,
-              "audioEnd": 4.0
+              "audioEnd": 4
             },
             {
               "text": "They have got a plan to find a new home for people on a far planet.",
@@ -351,7 +352,7 @@
             },
             {
               "text": "The ship system have low power and the people need more power for the long travel.",
-              "audioStart": 9.0,
+              "audioStart": 9,
               "audioEnd": 13.125
             },
             {
@@ -372,7 +373,7 @@
             {
               "text": "The people know that without more power the journey may fail.",
               "audioStart": 27.188,
-              "audioEnd": 30.0
+              "audioEnd": 30
             },
             {
               "text": "They hope to find a place where the ship can get the power.",
@@ -435,7 +436,7 @@
             },
             {
               "text": "If they fix the wire the power will flow and the garden will live again.",
-              "audioStart": 81.0,
+              "audioStart": 81,
               "audioEnd": 84.513
             },
             {
@@ -760,7 +761,7 @@
             {
               "text": "The case was join to a main power case.",
               "audioStart": 58.458,
-              "audioEnd": 61.0
+              "audioEnd": 61
             },
             {
               "text": "The case was off because of a bad case.",
@@ -1015,7 +1016,7 @@
             {
               "text": "It is for the world.",
               "audioStart": 202.792,
-              "audioEnd": 204.0
+              "audioEnd": 204
             },
             {
               "text": "The space see the garden from above and feel good.",
@@ -1241,7 +1242,7 @@
             {
               "text": "The move is long but good.",
               "audioStart": 86.444,
-              "audioEnd": 88.0
+              "audioEnd": 88
             },
             {
               "text": "People watch the system move.",

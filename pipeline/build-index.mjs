@@ -55,6 +55,9 @@ const stories = files.map((file, i) => {
     id: story.id,
     slug: slugify(story.title),
     title: story.title,
+    ...(typeof story.summary === 'string' && story.summary.trim()
+      ? { summary: story.summary.trim() }
+      : {}),
     genre: story.genre,
     levels,
     wordCount,

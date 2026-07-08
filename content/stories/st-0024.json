@@ -2,6 +2,7 @@
   "id": "st-0024",
   "title": "The Midnight Library Key",
   "genre": "mystery",
+  "summary": "Max finds a mysterious key in an old book somehow.",
   "coverScene": "A young man holding a silver key stands before a tall, dusty wooden cabinet in a dark, quiet library basement.",
   "levels": {
     "B2": {
@@ -65,7 +66,7 @@
             },
             {
               "text": "It was as if time itself had decided to end in this place.",
-              "audioStart": 42.0,
+              "audioStart": 42,
               "audioEnd": 45.013
             },
             {
@@ -219,7 +220,7 @@
             },
             {
               "text": "The room was very dark, but he could still see the clocks.",
-              "audioStart": 149.0,
+              "audioStart": 149,
               "audioEnd": 152.113
             },
             {
@@ -375,7 +376,7 @@
             {
               "text": "The library was the perfect place for his new life.",
               "audioStart": 256.363,
-              "audioEnd": 259.0
+              "audioEnd": 259
             },
             {
               "text": "He felt that everything was possible now.",
@@ -718,7 +719,7 @@
             },
             {
               "text": "The door had closed and was now locked again.",
-              "audioStart": 72.0,
+              "audioStart": 72,
               "audioEnd": 74.3
             },
             {
@@ -934,7 +935,7 @@
             {
               "text": "Now he felt only fear in the dark room.",
               "audioStart": 208.938,
-              "audioEnd": 211.0
+              "audioEnd": 211
             },
             {
               "text": "He hoped the morning light would help him.",
@@ -969,7 +970,7 @@
             {
               "text": "He would wait until the sun rose outside.",
               "audioStart": 229.85,
-              "audioEnd": 232.0
+              "audioEnd": 232
             },
             {
               "text": "Maybe then someone would hear his voice.",
@@ -1235,7 +1236,7 @@
             },
             {
               "text": "He was inside with the clocks.",
-              "audioStart": 97.0,
+              "audioStart": 97,
               "audioEnd": 98.861
             },
             {
@@ -1260,7 +1261,7 @@
             },
             {
               "text": "He was now part of the history of the house.",
-              "audioStart": 109.0,
+              "audioStart": 109,
               "audioEnd": 111.278
             },
             {
@@ -1455,7 +1456,7 @@
             {
               "text": "The thing is in an old book.",
               "audioStart": 15.472,
-              "audioEnd": 17.0
+              "audioEnd": 17
             },
             {
               "text": "The thing is small.",

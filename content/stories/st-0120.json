@@ -2,6 +2,7 @@
   "id": "st-0120",
   "title": "The Lost City",
   "genre": "mystery",
+  "summary": "Emily and Max find an old paper with a city map on it.",
   "coverScene": "Emily and Max sitting by a campfire, looking at a map with a hidden city marked on it.",
   "levels": {
     "B2": {
@@ -234,7 +235,7 @@
           "sentences": [
             {
               "text": "They solved the games.",
-              "audioStart": 69.0,
+              "audioStart": 69,
               "audioEnd": 70.2
             },
             {
@@ -1206,7 +1207,7 @@
             {
               "text": "They see a wall that is high.",
               "audioStart": 24.538,
-              "audioEnd": 26.0
+              "audioEnd": 26
             },
             {
               "text": "The wall surround the city.",
@@ -1393,7 +1394,7 @@
             {
               "text": "They rest and eat food.",
               "audioStart": 110.638,
-              "audioEnd": 112.0
+              "audioEnd": 112
             },
             {
               "text": "They share the gold with the group.",
@@ -1418,7 +1419,7 @@
             {
               "text": "They will tell their story to others.",
               "audioStart": 123.25,
-              "audioEnd": 125.0
+              "audioEnd": 125
             },
             {
               "text": "Their story will become famous.",
@@ -1547,7 +1548,7 @@
             {
               "text": "The story will travel across the region.",
               "audioStart": 188.025,
-              "audioEnd": 190.0
+              "audioEnd": 190
             },
             {
               "text": "Many will hear and will try same trips.",
@@ -1807,7 +1808,7 @@
             },
             {
               "text": "They heard a sound.",
-              "audioStart": 66.0,
+              "audioStart": 66,
               "audioEnd": 67.139
             },
             {
@@ -1946,7 +1947,7 @@
             {
               "text": "This report will help other people.",
               "audioStart": 132.083,
-              "audioEnd": 134.0
+              "audioEnd": 134
             },
             {
               "text": "Others will find the place.",
@@ -1981,7 +1982,7 @@
             {
               "text": "They traveled back to their home.",
               "audioStart": 150.306,
-              "audioEnd": 152.0
+              "audioEnd": 152
             }
           ]
         },
@@ -2094,7 +2095,7 @@
             {
               "text": "They thought about it each day.",
               "audioStart": 202.417,
-              "audioEnd": 204.0
+              "audioEnd": 204
             },
             {
               "text": "They still felt good.",
@@ -2212,7 +2213,7 @@
             {
               "text": "They are in a area.",
               "audioStart": 2.889,
-              "audioEnd": 4.0
+              "audioEnd": 4
             },
             {
               "text": "They find a paper.",
@@ -2437,7 +2438,7 @@
             },
             {
               "text": "They learn something new.",
-              "audioStart": 87.0,
+              "audioStart": 87,
               "audioEnd": 88.319
             }
           ]

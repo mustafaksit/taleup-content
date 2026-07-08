@@ -2,6 +2,7 @@
   "id": "st-0115",
   "title": "The Lost Island Quest",
   "genre": "adventure",
+  "summary": "Sam and Maya find a mysterious old paper at school library.",
   "coverScene": "Sam and Maya stand on a bright beach looking at a strange map under a blue sky",
   "levels": {
     "B2": {
@@ -147,7 +148,7 @@
             },
             {
               "text": "Inside the room they hear a soft voice that ask them to answer a second question.",
-              "audioStart": 114.0,
+              "audioStart": 114,
               "audioEnd": 118.162
             },
             {
@@ -728,7 +729,7 @@
             {
               "text": "Soon the ground grow green.",
               "audioStart": 176.562,
-              "audioEnd": 178.0
+              "audioEnd": 178
             },
             {
               "text": "The village have enough food for the whole year.",
@@ -849,7 +850,7 @@
           "sentences": [
             {
               "text": "The story show that interest, team and wait can lead to great results.",
-              "audioStart": 245.0,
+              "audioStart": 245,
               "audioEnd": 248.775
             },
             {
@@ -1164,7 +1165,7 @@
             },
             {
               "text": "The bag was heavy but the box was sturdy.",
-              "audioStart": 159.0,
+              "audioStart": 159,
               "audioEnd": 161.417
             },
             {
@@ -1337,12 +1338,12 @@
             {
               "text": "They plan a move by water.",
               "audioStart": 9.431,
-              "audioEnd": 11.0
+              "audioEnd": 11
             },
             {
               "text": "The old thing can hold food for week.",
               "audioStart": 11.958,
-              "audioEnd": 14.0
+              "audioEnd": 14
             },
             {
               "text": "Sam and Maya feel good.",
@@ -1396,7 +1397,7 @@
             {
               "text": "They find big thing near that thing.",
               "audioStart": 39.056,
-              "audioEnd": 41.0
+              "audioEnd": 41
             }
           ]
         },
@@ -1450,7 +1451,7 @@
             {
               "text": "It show new room near water.",
               "audioStart": 65.389,
-              "audioEnd": 67.0
+              "audioEnd": 67
             }
           ]
         },

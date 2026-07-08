@@ -2,6 +2,7 @@
   "id": "st-0011",
   "title": "The Adventures of Sherlock Holmes",
   "genre": "classic",
+  "summary": "Sherlock Holmes gets a mysterious letter about a big problem.",
   "coverScene": "Sherlock Holmes sitting in his armchair, surrounded by books and papers, with a magnifying glass in hand.",
   "levels": {
     "B2": {
@@ -180,7 +181,7 @@
             },
             {
               "text": "The letter was written in a strange way, which made Holmes very interested.",
-              "audioStart": 121.0,
+              "audioStart": 121,
               "audioEnd": 124.662
             },
             {
@@ -573,7 +574,7 @@
             },
             {
               "text": "He wanted to know what I had been doing recently.",
-              "audioStart": 31.0,
+              "audioStart": 31,
               "audioEnd": 33.325
             },
             {
@@ -1208,7 +1209,7 @@
             {
               "text": "They did not want us to see their face.",
               "audioStart": 145.819,
-              "audioEnd": 148.0
+              "audioEnd": 148
             },
             {
               "text": "They looked very worried.",
@@ -1465,7 +1466,7 @@
           "sentences": [
             {
               "text": "He shows me a letter.",
-              "audioStart": 57.0,
+              "audioStart": 57,
               "audioEnd": 58.319
             },
             {

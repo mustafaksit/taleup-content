@@ -2,6 +2,7 @@
   "id": "st-0014",
   "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
   "genre": "classic",
+  "summary": "Scrooge is a hard man who does not like Christmas.",
   "coverScene": "An old man sits by a small fire in a dimly lit room with a Christmas tree in the corner, surrounded by snow-covered windows.",
   "levels": {
     "B2": {
@@ -85,7 +86,7 @@
             {
               "text": "Snow fell from the sky with no end.",
               "audioStart": 45.112,
-              "audioEnd": 47.0
+              "audioEnd": 47
             },
             {
               "text": "The wind made a sad sound around the windows.",
@@ -275,7 +276,7 @@
             {
               "text": "A series of important events would begin this night.",
               "audioStart": 153.412,
-              "audioEnd": 156.0
+              "audioEnd": 156
             },
             {
               "text": "He would never be the same after these events.",
@@ -304,7 +305,7 @@
             {
               "text": "But he was not kind at all to people.",
               "audioStart": 169.2,
-              "audioEnd": 171.0
+              "audioEnd": 171
             },
             {
               "text": "So, he was not happy in his life.",
@@ -854,7 +855,7 @@
             },
             {
               "text": "He worked all day.",
-              "audioStart": 13.0,
+              "audioStart": 13,
               "audioEnd": 14.113
             },
             {
@@ -1410,7 +1411,7 @@
             {
               "text": "City lights began to give light.",
               "audioStart": 270.175,
-              "audioEnd": 272.0
+              "audioEnd": 272
             },
             {
               "text": "People walked fast through streets.",
@@ -1514,7 +1515,7 @@
             {
               "text": "After work, he would go home.",
               "audioStart": 317.238,
-              "audioEnd": 319.0
+              "audioEnd": 319
             },
             {
               "text": "He would eat a small dinner alone.",
@@ -1643,7 +1644,7 @@
             {
               "text": "He would see the past.",
               "audioStart": 376.738,
-              "audioEnd": 378.0
+              "audioEnd": 378
             },
             {
               "text": "He would see the future.",
@@ -1658,7 +1659,7 @@
             {
               "text": "They would show a new way to live.",
               "audioStart": 383.45,
-              "audioEnd": 385.0
+              "audioEnd": 385
             },
             {
               "text": "His life would become better.",
@@ -1742,7 +1743,7 @@
             {
               "text": "Scrooge did not have many friends.",
               "audioStart": 17.931,
-              "audioEnd": 20.0
+              "audioEnd": 20
             },
             {
               "text": "He did not want to have friends.",

@@ -2,6 +2,7 @@
   "id": "st-0080",
   "title": "The Missing Blue Key",
   "genre": "daily",
+  "summary": "Leo loses his blue key and searches everywhere for it.",
   "coverScene": "A young man with a worried expression searching for his blue key under a sunlit park bench near a path.",
   "levels": {
     "B2": {
@@ -50,7 +51,7 @@
             {
               "text": "He decided to return to the park immediately.",
               "audioStart": 31.675,
-              "audioEnd": 34.0
+              "audioEnd": 34
             }
           ]
         },
@@ -433,7 +434,7 @@
             {
               "text": "He decided to return to the park.",
               "audioStart": 30.944,
-              "audioEnd": 33.0
+              "audioEnd": 33
             }
           ]
         },
@@ -701,7 +702,7 @@
             {
               "text": "The light is very low.",
               "audioStart": 39.556,
-              "audioEnd": 41.0
+              "audioEnd": 41
             }
           ]
         },

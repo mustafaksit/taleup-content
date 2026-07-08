@@ -2,6 +2,7 @@
   "id": "st-0002",
   "title": "The Saturday Shop",
   "genre": "daily",
+  "summary": "Leo helps his father in a small shop in a small town.",
   "coverScene": "a cozy little bookshop with a child reading aloud to other children sitting in a circle by the window",
   "levels": {
     "A1": {
@@ -395,7 +396,7 @@
             },
             {
               "text": "They looked at their shoes and at the sky.",
-              "audioStart": 81.0,
+              "audioStart": 81,
               "audioEnd": 83.264
             },
             {
@@ -434,7 +435,7 @@
             },
             {
               "text": "His father watched him and said nothing.",
-              "audioStart": 109.0,
+              "audioStart": 109,
               "audioEnd": 111.264
             }
           ]

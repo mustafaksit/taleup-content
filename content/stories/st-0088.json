@@ -2,6 +2,7 @@
   "id": "st-0088",
   "title": "The Library Note",
   "genre": "romance",
+  "summary": "Leo finds a mysterious note in a library book one rainy day.",
   "coverScene": "A young man sits on a wooden library floor, holding an old book with a small, folded piece of paper tucked inside.",
   "levels": {
     "B2": {
@@ -131,7 +132,7 @@
             },
             {
               "text": "She held the book tightly, not knowing if she should smile or run away.",
-              "audioStart": 88.0,
+              "audioStart": 88,
               "audioEnd": 91.65
             },
             {
@@ -268,7 +269,7 @@
             },
             {
               "text": "He wanted to meet them, but he feared the magic would disappear.",
-              "audioStart": 52.0,
+              "audioStart": 52,
               "audioEnd": 55.288
             },
             {
@@ -444,7 +445,7 @@
             },
             {
               "text": "They shared details about their lives.",
-              "audioStart": 37.0,
+              "audioStart": 37,
               "audioEnd": 39.208
             },
             {

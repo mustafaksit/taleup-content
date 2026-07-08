@@ -2,6 +2,7 @@
   "id": "st-0106",
   "title": "The Starship Garden",
   "genre": "scifi",
+  "summary": "Mia and Tix find a small garden in their big home.",
   "coverScene": "A young girl with a robot friend stands in a small, glowing garden filled with green plants and bright flowers, nestled within a dark, metallic spaceship corridor.",
   "levels": {
     "B2": {
@@ -118,7 +119,7 @@
             {
               "text": "\"They require specific conditions and proper care to survive here, far from any light or ground.\"",
               "audioStart": 106.688,
-              "audioEnd": 112.0
+              "audioEnd": 112
             },
             {
               "text": "Mia sat, gently touching a soft green part, feeling its soft feel beneath her finger.",
@@ -133,7 +134,7 @@
             {
               "text": "This tiny garden was like a secret beating heart hidden within the ship's cold machine body for so long.",
               "audioStart": 124.875,
-              "audioEnd": 130.0
+              "audioEnd": 130
             },
             {
               "text": "Mia knew, in that very moment, that she must protect this good soft discovery at all costs.",
@@ -156,7 +157,7 @@
             },
             {
               "text": "Water had to be precisely managed, drop by drop, to avoid any waste in the closed ship system environment.",
-              "audioStart": 149.0,
+              "audioStart": 149,
               "audioEnd": 155.35
             },
             {
@@ -416,7 +417,7 @@
             {
               "text": "Mia often felt very lonely in this deep space.",
               "audioStart": 22.3,
-              "audioEnd": 25.0
+              "audioEnd": 25
             },
             {
               "text": "She wished for something more than the low sound of the engines.",
@@ -459,7 +460,7 @@
             },
             {
               "text": "She wanted to find something new.",
-              "audioStart": 50.0,
+              "audioStart": 50,
               "audioEnd": 51.6
             },
             {
@@ -524,7 +525,7 @@
             {
               "text": "He processed the new data quickly.",
               "audioStart": 88.175,
-              "audioEnd": 90.0
+              "audioEnd": 90
             }
           ]
         },
@@ -955,7 +956,7 @@
             {
               "text": "Tix looked at the plants.",
               "audioStart": 78.528,
-              "audioEnd": 80.0
+              "audioEnd": 80
             },
             {
               "text": "He was very interested in them.",
@@ -1467,7 +1468,7 @@
             },
             {
               "text": "thing show good sign.",
-              "audioStart": 68.0,
+              "audioStart": 68,
               "audioEnd": 69.319
             },
             {

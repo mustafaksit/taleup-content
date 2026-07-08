@@ -2,6 +2,7 @@
   "id": "st-0042",
   "title": "The Last Robot Gardener",
   "genre": "scifi",
+  "summary": "Leo is a robot who finds a small green plant in a dry world.",
   "coverScene": "A small, glowing green plant sits in a cracked glass jar on a dusty, metallic surface under the light of a distant star.",
   "levels": {
     "B2": {
@@ -130,7 +131,7 @@
           "sentences": [
             {
               "text": "The robot sat down and watched the light touch the green leaves.",
-              "audioStart": 78.0,
+              "audioStart": 78,
               "audioEnd": 81.287
             },
             {

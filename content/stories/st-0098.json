@@ -2,6 +2,7 @@
   "id": "st-0098",
   "title": "The Library Note",
   "genre": "romance",
+  "summary": "Leo finds a mysterious note in a library book every day.",
   "coverScene": "A young man sits on a wooden library floor between high bookshelves, reading a small, worn book while holding a pen.",
   "levels": {
     "B2": {
@@ -44,7 +45,7 @@
             },
             {
               "text": "This became a secret game between the two strangers who shared their favorite stories.",
-              "audioStart": 28.0,
+              "audioStart": 28,
               "audioEnd": 32.2
             },
             {
@@ -727,7 +728,7 @@
             {
               "text": "They talk about books.",
               "audioStart": 65.597,
-              "audioEnd": 67.0
+              "audioEnd": 67
             },
             {
               "text": "They are very happy.",

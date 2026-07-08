@@ -2,6 +2,7 @@
   "id": "st-0040",
   "title": "The Library Note",
   "genre": "romance",
+  "summary": "Leo finds a mysterious note in a library book every week.",
   "coverScene": "A quiet library corner with a single open book resting on a wooden shelf beside a small handwritten note.",
   "levels": {
     "B2": {
@@ -15,7 +16,7 @@
             },
             {
               "text": "He liked to sit in the quiet corner near the history section.",
-              "audioStart": 4.0,
+              "audioStart": 4,
               "audioEnd": 7.05
             },
             {
@@ -137,7 +138,7 @@
             {
               "text": "It was a perfect afternoon for both of them.",
               "audioStart": 80.85,
-              "audioEnd": 83.0
+              "audioEnd": 83
             },
             {
               "text": "They realized that they had much in common.",
@@ -195,7 +196,7 @@
             },
             {
               "text": "He liked to sit in the quiet corner near the history section.",
-              "audioStart": 4.0,
+              "audioStart": 4,
               "audioEnd": 7.05
             },
             {
@@ -317,7 +318,7 @@
             {
               "text": "It was a perfect afternoon for both of them.",
               "audioStart": 80.85,
-              "audioEnd": 83.0
+              "audioEnd": 83
             },
             {
               "text": "They realized that they had much in common.",
@@ -600,7 +601,7 @@
             {
               "text": "Soon he finds a new note.",
               "audioStart": 25.417,
-              "audioEnd": 27.0
+              "audioEnd": 27
             },
             {
               "text": "He learns her name is Mia.",

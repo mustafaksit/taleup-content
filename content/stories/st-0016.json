@@ -2,6 +2,7 @@
   "id": "st-0016",
   "title": "The Shadow House",
   "genre": "horror",
+  "summary": "Emily visits her friend Max at his new big house today.",
   "coverScene": "A warm light shines through a window of a large, old house with a sprawling garden, where two friends, Emily and Max, sit on a bench together.",
   "levels": {
     "B2": {
@@ -100,7 +101,7 @@
             {
               "text": "She opened a white door, hoping to find the stairs, but it only led to a small, empty bedroom.",
               "audioStart": 79.513,
-              "audioEnd": 85.0
+              "audioEnd": 85
             },
             {
               "text": "She turned back to return to her room, but the hall now looked completely different.",
@@ -164,7 +165,7 @@
             {
               "text": "Emily and Max tried to find a map of the house that could help them understand the structure.",
               "audioStart": 137.613,
-              "audioEnd": 142.0
+              "audioEnd": 142
             },
             {
               "text": "If they had a map, they would easily find the way around the many halls.",
@@ -256,7 +257,7 @@
           "sentences": [
             {
               "text": "The next morning, Emily decided to prove her theory to Max.",
-              "audioStart": 215.0,
+              "audioStart": 215,
               "audioEnd": 218.425
             },
             {
@@ -272,7 +273,7 @@
             {
               "text": "Max stared at the stone wall in silence, his face turning pale with surprise.",
               "audioStart": 228.688,
-              "audioEnd": 233.0
+              "audioEnd": 233
             },
             {
               "text": "He finally realized that Emily was telling the truth about the changes.",
@@ -890,7 +891,7 @@
             {
               "text": "She went to the front door.",
               "audioStart": 14.528,
-              "audioEnd": 16.0
+              "audioEnd": 16
             },
             {
               "text": "Max opened the door with a smile.",

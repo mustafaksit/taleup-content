@@ -2,6 +2,7 @@
   "id": "st-0102",
   "title": "The Garden Gift",
   "genre": "romance",
+  "summary": "Emma meets Luca in a quiet town with a special place.",
   "coverScene": "Emma and Luca stand hand in hand beside a bright garden under a soft evening.",
   "levels": {
     "B2": {
@@ -470,7 +471,7 @@
             {
               "text": "He places the flower near the pond.",
               "audioStart": 45.025,
-              "audioEnd": 47.0
+              "audioEnd": 47
             },
             {
               "text": "The bright color makes the water look a bit brighter.",
@@ -1351,7 +1352,7 @@
           "sentences": [
             {
               "text": "Emma plans to stay in the town.",
-              "audioStart": 85.0,
+              "audioStart": 85,
               "audioEnd": 86.931
             },
             {
@@ -1420,7 +1421,7 @@
             {
               "text": "The place is now a good home.",
               "audioStart": 120.306,
-              "audioEnd": 122.0
+              "audioEnd": 122
             },
             {
               "text": "The story shows a thing can bring people.",

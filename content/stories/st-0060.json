@@ -2,6 +2,7 @@
   "id": "st-0060",
   "title": "The Missing Silver Key",
   "genre": "mystery",
+  "summary": "Leo finds a small silver key in an old library book suddenly.",
   "coverScene": "A curious young man standing in a quiet, sunlit library holding a small, old silver key that he just found inside a thick, dusty book.",
   "levels": {
     "B2": {
@@ -237,7 +238,7 @@
             {
               "text": "He noticed a small lock on a side door which matched his key perfectly.",
               "audioStart": 48.325,
-              "audioEnd": 52.0
+              "audioEnd": 52
             },
             {
               "text": "He wondered if the key would turn, or if he should wait for another sign.",
@@ -269,7 +270,7 @@
           "sentences": [
             {
               "text": "The sun was beginning to fall behind the mountains as he finished his search.",
-              "audioStart": 71.0,
+              "audioStart": 71,
               "audioEnd": 74.562
             },
             {
@@ -429,7 +430,7 @@
           "sentences": [
             {
               "text": "He pushed the key into the lock and turned it.",
-              "audioStart": 60.0,
+              "audioStart": 60,
               "audioEnd": 62.347
             },
             {
@@ -585,13 +586,13 @@
             },
             {
               "text": "It is on a stone wall.",
-              "audioStart": 30.0,
+              "audioStart": 30,
               "audioEnd": 31.347
             },
             {
               "text": "The note tells him a secret.",
               "audioStart": 32.306,
-              "audioEnd": 34.0
+              "audioEnd": 34
             },
             {
               "text": "It talks about time.",
@@ -619,7 +620,7 @@
             },
             {
               "text": "The key fits the lock.",
-              "audioStart": 45.0,
+              "audioStart": 45,
               "audioEnd": 46.403
             },
             {
@@ -648,7 +649,7 @@
             },
             {
               "text": "He finds his family history here.",
-              "audioStart": 57.0,
+              "audioStart": 57,
               "audioEnd": 59.028
             },
             {

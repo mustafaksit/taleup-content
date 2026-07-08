@@ -2,6 +2,7 @@
   "id": "st-0033",
   "title": "The Hidden Mountain Map",
   "genre": "adventure",
+  "summary": "Leo and Mia find an old map in a book at the library.",
   "coverScene": "A young man and a girl stand in a dusty library, looking at a glowing, ancient map that reveals a path leading toward a snowy mountain peak.",
   "levels": {
     "B2": {

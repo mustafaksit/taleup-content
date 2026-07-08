@@ -2,6 +2,7 @@
   "id": "st-0013",
   "title": "The Adventures of Tom Sawyer, Complete",
   "genre": "classic",
+  "summary": "Tom Sawyer is a young child who loves fun and new things always.",
   "coverScene": "A warm illustration of Tom Sawyer sitting on a tree branch over a river, with a fishing rod in his hand, watching a sunset.",
   "levels": {
     "B2": {
@@ -230,7 +231,7 @@
             },
             {
               "text": "They saw that working together made them strong.",
-              "audioStart": 126.0,
+              "audioStart": 126,
               "audioEnd": 128.312
             },
             {
@@ -298,7 +299,7 @@
             },
             {
               "text": "Their bond was not broken by distance.",
-              "audioStart": 159.0,
+              "audioStart": 159,
               "audioEnd": 161.15
             },
             {
@@ -342,7 +343,7 @@
             },
             {
               "text": "His time away led to much good.",
-              "audioStart": 184.0,
+              "audioStart": 184,
               "audioEnd": 185.8
             },
             {
@@ -488,7 +489,7 @@
           "sentences": [
             {
               "text": "Tom and Huck's adventures taught them many valuable lessons.",
-              "audioStart": 268.0,
+              "audioStart": 268,
               "audioEnd": 271.05
             },
             {
@@ -499,7 +500,7 @@
             {
               "text": "They knew how important it was to be honest.",
               "audioStart": 274.962,
-              "audioEnd": 277.0
+              "audioEnd": 277
             },
             {
               "text": "They also learned about courage.",
@@ -965,7 +966,7 @@
             },
             {
               "text": "He was excited for what was next.",
-              "audioStart": 73.0,
+              "audioStart": 73,
               "audioEnd": 74.987
             }
           ]
@@ -1212,7 +1213,7 @@
             {
               "text": "They learned about loyalty.",
               "audioStart": 192.575,
-              "audioEnd": 194.0
+              "audioEnd": 194
             },
             {
               "text": "This means always helping your friend.",
@@ -1449,7 +1450,7 @@
             {
               "text": "The town was by a big water.",
               "audioStart": 8.222,
-              "audioEnd": 10.0
+              "audioEnd": 10
             },
             {
               "text": "Tom was often in trouble.",
@@ -1739,7 +1740,7 @@
             },
             {
               "text": "He saw his Aunt Polly again.",
-              "audioStart": 145.0,
+              "audioStart": 145,
               "audioEnd": 146.806
             },
             {
@@ -1897,7 +1898,7 @@
             {
               "text": "Tom always has problems.",
               "audioStart": 14.361,
-              "audioEnd": 16.0
+              "audioEnd": 16
             },
             {
               "text": "He is not always a good child.",
@@ -2013,7 +2014,7 @@
             },
             {
               "text": "They look for money.",
-              "audioStart": 65.0,
+              "audioStart": 65,
               "audioEnd": 66.139
             },
             {

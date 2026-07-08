@@ -2,6 +2,7 @@
   "id": "st-0023",
   "title": "The Lost City",
   "genre": "mystery",
+  "summary": "Emily and Jack find a hidden city in the forest together slowly.",
   "coverScene": "Two hikers stand on a white stone bridge looking at a hidden city of gold towers nestled in a green valley.",
   "levels": {
     "B2": {
@@ -35,7 +36,7 @@
             },
             {
               "text": "They decided to follow the trail, wondering what kind of secret could be hidden in such a remote and wild region.",
-              "audioStart": 33.0,
+              "audioStart": 33,
               "audioEnd": 38.663
             }
           ]
@@ -706,7 +707,7 @@
             },
             {
               "text": "They have preserved a piece of history that is truly unique.",
-              "audioStart": 238.0,
+              "audioStart": 238,
               "audioEnd": 240.863
             }
           ]
@@ -942,7 +943,7 @@
             },
             {
               "text": "They found old marks on the ground.",
-              "audioStart": 10.0,
+              "audioStart": 10,
               "audioEnd": 11.931
             },
             {
@@ -1317,7 +1318,7 @@
             },
             {
               "text": "The city seems very old.",
-              "audioStart": 28.0,
+              "audioStart": 28,
               "audioEnd": 29.639
             }
           ]

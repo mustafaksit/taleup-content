@@ -2,6 +2,7 @@
   "id": "st-0047",
   "title": "The Missing Key",
   "genre": "daily",
+  "summary": "Leo wakes up late on Monday morning and cannot find his key anywhere.",
   "coverScene": "A young man looks frantically under a messy armchair in his living room while a small cat sits nearby watching him with calm eyes.",
   "levels": {
     "B2": {
@@ -272,7 +273,7 @@
             },
             {
               "text": "He remembered that he had walked through the living room yesterday.",
-              "audioStart": 45.0,
+              "audioStart": 45,
               "audioEnd": 47.85
             },
             {

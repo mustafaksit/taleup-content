@@ -2,6 +2,7 @@
   "id": "st-0092",
   "title": "The Robot Who Loved Plants",
   "genre": "scifi",
+  "summary": "Leo finds a special seed in space and must make a choice.",
   "coverScene": "A lonely metallic robot sits in a glowing glass dome on a dark space station, holding a small shining plant with gentle hands.",
   "levels": {
     "B2": {
@@ -374,7 +375,7 @@
             },
             {
               "text": "He was happy to be a keeper of such a life.",
-              "audioStart": 244.0,
+              "audioStart": 244,
               "audioEnd": 246.262
             },
             {
@@ -667,7 +668,7 @@
             },
             {
               "text": "His life was very calm.",
-              "audioStart": 13.0,
+              "audioStart": 13,
               "audioEnd": 14.438
             },
             {
@@ -771,13 +772,13 @@
             },
             {
               "text": "The object had a great power inside.",
-              "audioStart": 72.0,
+              "audioStart": 72,
               "audioEnd": 74.125
             },
             {
               "text": "The machine looked at it for a long time.",
               "audioStart": 74.987,
-              "audioEnd": 77.0
+              "audioEnd": 77
             },
             {
               "text": "He thought about the object.",
@@ -1154,7 +1155,7 @@
             },
             {
               "text": "He did his work well every day.",
-              "audioStart": 45.0,
+              "audioStart": 45,
               "audioEnd": 46.917
             },
             {
@@ -1180,7 +1181,7 @@
             {
               "text": "He felt good to be there for his plants every day.",
               "audioStart": 59.347,
-              "audioEnd": 62.0
+              "audioEnd": 62
             }
           ]
         },
@@ -1358,13 +1359,13 @@
             },
             {
               "text": "He had a new friend.",
-              "audioStart": 159.0,
+              "audioStart": 159,
               "audioEnd": 160.264
             },
             {
               "text": "Everything was going to be fine.",
               "audioStart": 161.222,
-              "audioEnd": 163.0
+              "audioEnd": 163
             },
             {
               "text": "He smiled at the plant.",
@@ -1596,7 +1597,7 @@
             },
             {
               "text": "He needs to make a choice.",
-              "audioStart": 79.0,
+              "audioStart": 79,
               "audioEnd": 80.639
             }
           ]
@@ -1611,7 +1612,7 @@
             {
               "text": "He wants life to grow.",
               "audioStart": 84.611,
-              "audioEnd": 86.0
+              "audioEnd": 86
             },
             {
               "text": "He puts it in the ground.",
@@ -1691,7 +1692,7 @@
             {
               "text": "He is not alone now.",
               "audioStart": 123.667,
-              "audioEnd": 125.0
+              "audioEnd": 125
             },
             {
               "text": "The plant is his friend.",

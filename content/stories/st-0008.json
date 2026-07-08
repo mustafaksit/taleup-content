@@ -2,6 +2,7 @@
   "id": "st-0008",
   "title": "The Happy Prince, and Other Tales",
   "genre": "classic",
+  "summary": "A small Swallow meets a statue of the Good Prince in the city.",
   "coverScene": "A small golden statue of a prince stands high on a column in a city at night, with a tiny swallow landing on his feet, and a full moon shining above.",
   "levels": {
     "B2": {
@@ -257,7 +258,7 @@
             },
             {
               "text": "\"I will stay there,\" he cried with joy.",
-              "audioStart": 140.0,
+              "audioStart": 140,
               "audioEnd": 142.15
             },
             {
@@ -735,7 +736,7 @@
             {
               "text": "They spoke about his beauty.",
               "audioStart": 5.65,
-              "audioEnd": 7.0
+              "audioEnd": 7
             },
             {
               "text": "A smart mother told her crying child.",
@@ -1263,7 +1264,7 @@
             {
               "text": "\"My friends are flying over the Nile river.\"",
               "audioStart": 258.9,
-              "audioEnd": 261.0
+              "audioEnd": 261
             },
             {
               "text": "\"Soon they will sleep.\"",
@@ -1411,7 +1412,7 @@
             {
               "text": "Said he was beautiful.",
               "audioStart": 5.653,
-              "audioEnd": 7.0
+              "audioEnd": 7
             },
             {
               "text": "A mother told her kid.",
@@ -1676,7 +1677,7 @@
             },
             {
               "text": "Another drop fell.",
-              "audioStart": 136.0,
+              "audioStart": 136,
               "audioEnd": 137.319
             },
             {
@@ -1706,7 +1707,7 @@
             {
               "text": "He looked up.",
               "audioStart": 149.125,
-              "audioEnd": 150.0
+              "audioEnd": 150
             },
             {
               "text": "He saw the Prince making water.",
@@ -1869,7 +1870,7 @@
             {
               "text": "\"My friends fly over the Nile water.\"",
               "audioStart": 234.931,
-              "audioEnd": 237.0
+              "audioEnd": 237
             },
             {
               "text": "\"Soon they will sleep.\"",

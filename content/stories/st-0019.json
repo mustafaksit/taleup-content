@@ -2,6 +2,7 @@
   "id": "st-0019",
   "title": "The Midnight Clock",
   "genre": "horror",
+  "summary": "A man buys a special old thing from a shop.",
   "coverScene": "A young man sitting on his bed stares at an old wooden clock next to a window, while a dark shadow stands outside in the moonlit garden.",
   "levels": {
     "B2": {
@@ -253,7 +254,7 @@
             },
             {
               "text": "By the time the hand reached ten, the figure was standing on the stone path just outside.",
-              "audioStart": 245.0,
+              "audioStart": 245,
               "audioEnd": 249.812
             },
             {
@@ -381,7 +382,7 @@
             },
             {
               "text": "If he knows the secret of this object, he will leave immediately.",
-              "audioStart": 21.0,
+              "audioStart": 21,
               "audioEnd": 24.275
             },
             {
@@ -646,7 +647,7 @@
             {
               "text": "The dark figure was there again.",
               "audioStart": 190.4,
-              "audioEnd": 192.0
+              "audioEnd": 192
             },
             {
               "text": "It was already standing in the middle of the garden.",
@@ -659,7 +660,7 @@
           "sentences": [
             {
               "text": "The dark figure took a step toward the house.",
-              "audioStart": 196.0,
+              "audioStart": 196,
               "audioEnd": 198.238
             },
             {
@@ -670,7 +671,7 @@
             {
               "text": "Leo wanted to scream, but no sound came from his throat.",
               "audioStart": 202.875,
-              "audioEnd": 206.0
+              "audioEnd": 206
             },
             {
               "text": "At seven, the figure was directly under his window.",
@@ -963,7 +964,7 @@
           "sentences": [
             {
               "text": "Finally, the clock reached one.",
-              "audioStart": 100.0,
+              "audioStart": 100,
               "audioEnd": 102.139
             },
             {
@@ -1092,7 +1093,7 @@
             {
               "text": "Leo looked out at the garden.",
               "audioStart": 169.458,
-              "audioEnd": 171.0
+              "audioEnd": 171
             },
             {
               "text": "The dark figure was there again.",
@@ -1581,7 +1582,7 @@
             {
               "text": "The man closes the eyes.",
               "audioStart": 147.236,
-              "audioEnd": 149.0
+              "audioEnd": 149
             },
             {
               "text": "The thing moves to one.",

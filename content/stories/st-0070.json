@@ -2,6 +2,7 @@
   "id": "st-0070",
   "title": "The Library Letter",
   "genre": "romance",
+  "summary": "Leo finds a mysterious note in a library book every day.",
   "coverScene": "A young man sits in a quiet, sunlit library, holding an old book while a handwritten letter rests on the table next to him.",
   "levels": {
     "B2": {
@@ -468,7 +469,7 @@
           "sentences": [
             {
               "text": "Leo finds a note in a book.",
-              "audioStart": 11.0,
+              "audioStart": 11,
               "audioEnd": 12.708
             },
             {
@@ -536,7 +537,7 @@
             },
             {
               "text": "She often looks at Leo.",
-              "audioStart": 43.0,
+              "audioStart": 43,
               "audioEnd": 44.556
             }
           ]
@@ -569,7 +570,7 @@
             },
             {
               "text": "She walks to his table.",
-              "audioStart": 55.0,
+              "audioStart": 55,
               "audioEnd": 56.472
             },
             {

@@ -2,6 +2,7 @@
   "id": "st-0028",
   "title": "The Hidden Mountain Map",
   "genre": "adventure",
+  "summary": "Leo and Mia find a secret map in an old book somehow.",
   "coverScene": "A young boy and a girl stand in a dusty library, looking at a golden, glowing map that reveals a mountain path.",
   "levels": {
     "B2": {
@@ -224,7 +225,7 @@
             {
               "text": "They followed the blue light until they reached a small opening in the rock.",
               "audioStart": 39.625,
-              "audioEnd": 43.0
+              "audioEnd": 43
             },
             {
               "text": "The cave was filled with golden objects that had been hidden for many years.",

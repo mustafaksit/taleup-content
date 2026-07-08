@@ -2,6 +2,7 @@
   "id": "st-0005",
   "title": "Numbers in the Night",
   "genre": "scifi",
+  "summary": "Sam gets strange phone calls with numbers every night at nine.",
   "coverScene": "a boy holding an old telephone by a window at night while a soft white light crosses the starry sky",
   "levels": {
     "A1": {
@@ -186,7 +187,7 @@
             {
               "text": "\"Three,\" says the man. \"Two.\"",
               "audioStart": 88.028,
-              "audioEnd": 91.0
+              "audioEnd": 91
             },
             {
               "text": "Then comes the last night.",
@@ -239,7 +240,7 @@
             {
               "text": "Sam answers it fast.",
               "audioStart": 114.403,
-              "audioEnd": 116.0
+              "audioEnd": 116
             },
             {
               "text": "\"I am home,\" says the man.",

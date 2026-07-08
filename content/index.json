@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "contentVersion": 19,
-  "updatedAt": "2026-07-06",
+  "contentVersion": 20,
+  "updatedAt": "2026-07-08",
   "adConfig": {
     "adsEnabled": true,
     "nativeEveryNCards": 8,
@@ -15,6 +15,7 @@
       "id": "st-0001",
       "slug": "the-light-in-the-old-house",
       "title": "The Light in the Old House",
+      "summary": "Anna sees a light in the old house next door at night.",
       "genre": "mystery",
       "levels": [
         "A1",
@@ -42,6 +43,7 @@
       "id": "st-0002",
       "slug": "the-saturday-shop",
       "title": "The Saturday Shop",
+      "summary": "Leo helps his father in a small shop in a small town.",
       "genre": "daily",
       "levels": [
         "A1",
@@ -69,6 +71,7 @@
       "id": "st-0003",
       "slug": "the-little-door",
       "title": "The Little Door",
+      "summary": "Mara hears strange sounds in her new home at night.",
       "genre": "horror",
       "levels": [
         "A1",
@@ -96,6 +99,7 @@
       "id": "st-0004",
       "slug": "the-way-to-the-water",
       "title": "The Way to the Water",
+      "summary": "Kim finds an old book with a mysterious drawing of her town.",
       "genre": "adventure",
       "levels": [
         "A1",
@@ -123,6 +127,7 @@
       "id": "st-0005",
       "slug": "numbers-in-the-night",
       "title": "Numbers in the Night",
+      "summary": "Sam gets strange phone calls with numbers every night at nine.",
       "genre": "scifi",
       "levels": [
         "A1",
@@ -150,6 +155,7 @@
       "id": "st-0006",
       "slug": "the-whispering-well",
       "title": "The Whispering Well",
+      "summary": "Ben moves to an old house with a mysterious well.",
       "genre": "horror",
       "levels": [
         "A1",
@@ -177,6 +183,7 @@
       "id": "st-0007",
       "slug": "the-mirror-s-shadow",
       "title": "The Mirror's Shadow",
+      "summary": "Leo buys a mysterious old mirror for his room suddenly.",
       "genre": "horror",
       "levels": [
         "A1",
@@ -204,6 +211,7 @@
       "id": "st-0008",
       "slug": "the-happy-prince-and-other-tales",
       "title": "The Happy Prince, and Other Tales",
+      "summary": "A small Swallow meets a statue of the Good Prince in the city.",
       "genre": "classic",
       "levels": [
         "A1",
@@ -231,6 +239,7 @@
       "id": "st-0011",
       "slug": "the-adventures-of-sherlock-holmes",
       "title": "The Adventures of Sherlock Holmes",
+      "summary": "Sherlock Holmes gets a mysterious letter about a big problem.",
       "genre": "classic",
       "levels": [
         "A1",
@@ -258,6 +267,7 @@
       "id": "st-0012",
       "slug": "alice-s-adventures-in-wonderland",
       "title": "Alice's Adventures in Wonderland",
+      "summary": "Alice falls down a long way into darkness suddenly alone.",
       "genre": "classic",
       "levels": [
         "A1",
@@ -285,6 +295,7 @@
       "id": "st-0013",
       "slug": "the-adventures-of-tom-sawyer-complete",
       "title": "The Adventures of Tom Sawyer, Complete",
+      "summary": "Tom Sawyer is a young child who loves fun and new things always.",
       "genre": "classic",
       "levels": [
         "A1",
@@ -312,6 +323,7 @@
       "id": "st-0014",
       "slug": "a-christmas-carol-in-prose-being-a-ghost-story-of-christmas",
       "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+      "summary": "Scrooge is a hard man who does not like Christmas.",
       "genre": "classic",
       "levels": [
         "A1",
@@ -339,6 +351,7 @@
       "id": "st-0015",
       "slug": "the-wonderful-wizard-of-oz",
       "title": "The Wonderful Wizard of Oz",
+      "summary": "Dorothy lives in a small house in Kansas with her family suddenly.",
       "genre": "classic",
       "levels": [
         "A1",
@@ -366,6 +379,7 @@
       "id": "st-0016",
       "slug": "the-shadow-house",
       "title": "The Shadow House",
+      "summary": "Emily visits her friend Max at his new big house today.",
       "genre": "horror",
       "levels": [
         "A1",
@@ -393,6 +407,7 @@
       "id": "st-0017",
       "slug": "the-lost-hotel-room",
       "title": "The Lost Hotel Room",
+      "summary": "Emily checks into a mysterious old hotel with a strange room.",
       "genre": "horror",
       "levels": [
         "A1",
@@ -420,6 +435,7 @@
       "id": "st-0018",
       "slug": "the-lost-tunnel",
       "title": "The Lost Tunnel",
+      "summary": "Emily and Ben explore a mysterious old tunnel together today.",
       "genre": "horror",
       "levels": [
         "A1",
@@ -447,6 +463,7 @@
       "id": "st-0019",
       "slug": "the-midnight-clock",
       "title": "The Midnight Clock",
+      "summary": "A man buys a special old thing from a shop.",
       "genre": "horror",
       "levels": [
         "A1",
@@ -474,6 +491,7 @@
       "id": "st-0020",
       "slug": "the-slow-mirror",
       "title": "The Slow Mirror",
+      "summary": "Ben buys an old face thing from a shop on Saturday.",
       "genre": "horror",
       "levels": [
         "A1",
@@ -501,6 +519,7 @@
       "id": "st-0021",
       "slug": "the-lost-city-map",
       "title": "The Lost City Map",
+      "summary": "Emily finds a mysterious map in an old book suddenly.",
       "genre": "mystery",
       "levels": [
         "A1",
@@ -528,6 +547,7 @@
       "id": "st-0023",
       "slug": "the-lost-city",
       "title": "The Lost City",
+      "summary": "Emily and Jack find a hidden city in the forest together slowly.",
       "genre": "mystery",
       "levels": [
         "A1",
@@ -555,6 +575,7 @@
       "id": "st-0024",
       "slug": "the-midnight-library-key",
       "title": "The Midnight Library Key",
+      "summary": "Max finds a mysterious key in an old book somehow.",
       "genre": "mystery",
       "levels": [
         "A1",
@@ -582,6 +603,7 @@
       "id": "st-0025",
       "slug": "the-whispering-library-clock",
       "title": "The Whispering Library Clock",
+      "summary": "Leo finds a mysterious clock in the school library suddenly.",
       "genre": "mystery",
       "levels": [
         "A1",
@@ -609,6 +631,7 @@
       "id": "st-0027",
       "slug": "the-whispering-library-book",
       "title": "The Whispering Library Book",
+      "summary": "Leo finds a mysterious old book in the city library with strange notes inside.",
       "genre": "mystery",
       "levels": [
         "A1",
@@ -636,6 +659,7 @@
       "id": "st-0028",
       "slug": "the-hidden-mountain-map",
       "title": "The Hidden Mountain Map",
+      "summary": "Leo and Mia find a secret map in an old book somehow.",
       "genre": "adventure",
       "levels": [
         "A1",
@@ -663,6 +687,7 @@
       "id": "st-0032",
       "slug": "the-hidden-mountain-map",
       "title": "The Hidden Mountain Map",
+      "summary": "Leo and Mia find an old map in a library book suddenly.",
       "genre": "adventure",
       "levels": [
         "A1",
@@ -690,6 +715,7 @@
       "id": "st-0033",
       "slug": "the-hidden-mountain-map",
       "title": "The Hidden Mountain Map",
+      "summary": "Leo and Mia find an old map in a book at the library.",
       "genre": "adventure",
       "levels": [
         "A1",
@@ -717,6 +743,7 @@
       "id": "st-0040",
       "slug": "the-library-note",
       "title": "The Library Note",
+      "summary": "Leo finds a mysterious note in a library book every week.",
       "genre": "romance",
       "levels": [
         "A1",
@@ -744,6 +771,7 @@
       "id": "st-0042",
       "slug": "the-last-robot-gardener",
       "title": "The Last Robot Gardener",
+      "summary": "Leo is a robot who finds a small green plant in a dry world.",
       "genre": "scifi",
       "levels": [
         "A1",
@@ -771,6 +799,7 @@
       "id": "st-0047",
       "slug": "the-missing-key",
       "title": "The Missing Key",
+      "summary": "Leo wakes up late on Monday morning and cannot find his key anywhere.",
       "genre": "daily",
       "levels": [
         "A1",
@@ -798,6 +827,7 @@
       "id": "st-0049",
       "slug": "the-forgotten-umbrella",
       "title": "The Forgotten Umbrella",
+      "summary": "Leo forgets his umbrella on the bus one rainy day.",
       "genre": "daily",
       "levels": [
         "A1",
@@ -825,6 +855,7 @@
       "id": "st-0052",
       "slug": "the-mirror-in-the-attic",
       "title": "The Mirror in the Attic",
+      "summary": "Leo finds a strange mirror in the attic of his new house.",
       "genre": "horror",
       "levels": [
         "A1",
@@ -845,13 +876,14 @@
         "B2": 2
       },
       "cover": "covers/st-0052.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 31
     },
     {
       "id": "st-0060",
       "slug": "the-missing-silver-key",
       "title": "The Missing Silver Key",
+      "summary": "Leo finds a small silver key in an old library book suddenly.",
       "genre": "mystery",
       "levels": [
         "A1",
@@ -872,13 +904,14 @@
         "B2": 2
       },
       "cover": "covers/st-0060.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 32
     },
     {
       "id": "st-0070",
       "slug": "the-library-letter",
       "title": "The Library Letter",
+      "summary": "Leo finds a mysterious note in a library book every day.",
       "genre": "romance",
       "levels": [
         "A1",
@@ -899,13 +932,14 @@
         "B2": 1
       },
       "cover": "covers/st-0070.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 33
     },
     {
       "id": "st-0080",
       "slug": "the-missing-blue-key",
       "title": "The Missing Blue Key",
+      "summary": "Leo loses his blue key and searches everywhere for it.",
       "genre": "daily",
       "levels": [
         "A1",
@@ -926,13 +960,14 @@
         "B2": 2
       },
       "cover": "covers/st-0080.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 34
     },
     {
       "id": "st-0084",
       "slug": "the-lost-island",
       "title": "The Lost Island",
+      "summary": "Ann and Max discover a mysterious small land at sea suddenly.",
       "genre": "adventure",
       "levels": [
         "A1",
@@ -953,13 +988,14 @@
         "B2": 8
       },
       "cover": "covers/st-0084.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 35
     },
     {
       "id": "st-0088",
       "slug": "the-library-note",
       "title": "The Library Note",
+      "summary": "Leo finds a mysterious note in a library book one rainy day.",
       "genre": "romance",
       "levels": [
         "A1",
@@ -980,13 +1016,14 @@
         "B2": 2
       },
       "cover": "covers/st-0088.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 36
     },
     {
       "id": "st-0091",
       "slug": "the-desert-map",
       "title": "The Desert Map",
+      "summary": "Leo and Mia find an old map in a book at school.",
       "genre": "adventure",
       "levels": [
         "A1",
@@ -1007,13 +1044,14 @@
         "B2": 8
       },
       "cover": "covers/st-0091.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 37
     },
     {
       "id": "st-0092",
       "slug": "the-robot-who-loved-plants",
       "title": "The Robot Who Loved Plants",
+      "summary": "Leo finds a special seed in space and must make a choice.",
       "genre": "scifi",
       "levels": [
         "A1",
@@ -1034,13 +1072,14 @@
         "B2": 9
       },
       "cover": "covers/st-0092.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 38
     },
     {
       "id": "st-0097",
       "slug": "love-on-sunny-island",
       "title": "Love on Sunny Island",
+      "summary": "Emily meets a man on a sunny island and they talk.",
       "genre": "romance",
       "levels": [
         "A1",
@@ -1061,13 +1100,14 @@
         "B2": 2
       },
       "cover": "covers/st-0097.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 39
     },
     {
       "id": "st-0098",
       "slug": "the-library-note",
       "title": "The Library Note",
+      "summary": "Leo finds a mysterious note in a library book every day.",
       "genre": "romance",
       "levels": [
         "A1",
@@ -1088,13 +1128,14 @@
         "B2": 3
       },
       "cover": "covers/st-0098.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 40
     },
     {
       "id": "st-0102",
       "slug": "the-garden-gift",
       "title": "The Garden Gift",
+      "summary": "Emma meets Luca in a quiet town with a special place.",
       "genre": "romance",
       "levels": [
         "A1",
@@ -1115,13 +1156,14 @@
         "B2": 8
       },
       "cover": "covers/st-0102.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 41
     },
     {
       "id": "st-0104",
       "slug": "the-lost-island-quest",
       "title": "The Lost Island Quest",
+      "summary": "Sam and Maya find an old map and plan an adventure.",
       "genre": "adventure",
       "levels": [
         "A1",
@@ -1142,13 +1184,14 @@
         "B2": 7
       },
       "cover": "covers/st-0104.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 42
     },
     {
       "id": "st-0106",
       "slug": "the-starship-garden",
       "title": "The Starship Garden",
+      "summary": "Mia and Tix find a small garden in their big home.",
       "genre": "scifi",
       "levels": [
         "A1",
@@ -1169,13 +1212,14 @@
         "B2": 7
       },
       "cover": "covers/st-0106.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 43
     },
     {
       "id": "st-0109",
       "slug": "starship-garden-adventure",
       "title": "Starship Garden Adventure",
+      "summary": "Leo and Maya go to a strange area with low power.",
       "genre": "scifi",
       "levels": [
         "A1",
@@ -1196,13 +1240,14 @@
         "B2": 7
       },
       "cover": "covers/st-0109.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 44
     },
     {
       "id": "st-0113",
       "slug": "lost-in-the-market",
       "title": "Lost in the Market",
+      "summary": "Emily and Lila go to a big market together today.",
       "genre": "daily",
       "levels": [
         "A1",
@@ -1223,13 +1268,14 @@
         "B2": 8
       },
       "cover": "covers/st-0113.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 45
     },
     {
       "id": "st-0115",
       "slug": "the-lost-island-quest",
       "title": "The Lost Island Quest",
+      "summary": "Sam and Maya find a mysterious old paper at school library.",
       "genre": "adventure",
       "levels": [
         "A1",
@@ -1250,13 +1296,14 @@
         "B2": 8
       },
       "cover": "covers/st-0115.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 46
     },
     {
       "id": "st-0117",
       "slug": "lost-in-the-market",
       "title": "Lost in the Market",
+      "summary": "Emily and Anna get separated at the market early today somehow.",
       "genre": "daily",
       "levels": [
         "A1",
@@ -1277,13 +1324,14 @@
         "B2": 7
       },
       "cover": "covers/st-0117.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 47
     },
     {
       "id": "st-0119",
       "slug": "the-star-garden",
       "title": "The Star Garden",
+      "summary": "Tom and Maya find a special garden in space that grows without land.",
       "genre": "scifi",
       "levels": [
         "A1",
@@ -1304,13 +1352,14 @@
         "B2": 7
       },
       "cover": "covers/st-0119.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 48
     },
     {
       "id": "st-0120",
       "slug": "the-lost-city",
       "title": "The Lost City",
+      "summary": "Emily and Max find an old paper with a city map on it.",
       "genre": "mystery",
       "levels": [
         "A1",
@@ -1331,13 +1380,14 @@
         "B2": 8
       },
       "cover": "covers/st-0120.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 49
     },
     {
       "id": "st-0121",
       "slug": "lily-s-lost-bike",
       "title": "Lily's Lost Bike",
+      "summary": "Lily loses her bike in the open area on a sunny day.",
       "genre": "daily",
       "levels": [
         "A1",
@@ -1358,7 +1408,7 @@
         "B2": 11
       },
       "cover": "covers/st-0121.webp",
-      "isNew": true,
+      "isNew": false,
       "order": 50
     }
   ]

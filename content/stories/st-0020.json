@@ -2,6 +2,7 @@
   "id": "st-0020",
   "title": "The Slow Mirror",
   "genre": "horror",
+  "summary": "Ben buys an old face thing from a shop on Saturday.",
   "coverScene": "A cozy bedroom at night with a large, beautifully designed wooden mirror reflecting a young man who is standing perfectly still.",
   "levels": {
     "B2": {
@@ -103,7 +104,7 @@
             },
             {
               "text": "Although he wanted to tell his friends about it, he was afraid that they would think he was crazy.",
-              "audioStart": 107.0,
+              "audioStart": 107,
               "audioEnd": 111.525
             }
           ]
@@ -470,7 +471,7 @@
             },
             {
               "text": "However, he was also very interested in this impossible physical thing.",
-              "audioStart": 99.0,
+              "audioStart": 99,
               "audioEnd": 102.888
             },
             {
@@ -677,7 +678,7 @@
             {
               "text": "It looked around the reflected room.",
               "audioStart": 233.25,
-              "audioEnd": 235.0
+              "audioEnd": 235
             },
             {
               "text": "Then, it turned its head to look directly at the real Ben.",
@@ -726,7 +727,7 @@
             {
               "text": "As the image left, the real bedroom became very dark.",
               "audioStart": 264.875,
-              "audioEnd": 268.0
+              "audioEnd": 268
             },
             {
               "text": "Soon, the room was in a deep, heavy dark.",
@@ -844,13 +845,13 @@
             },
             {
               "text": "Ben paid for it and he went home.",
-              "audioStart": 23.0,
+              "audioStart": 23,
               "audioEnd": 24.972
             },
             {
               "text": "He put the thing on his sleep room wall.",
               "audioStart": 25.931,
-              "audioEnd": 28.0
+              "audioEnd": 28
             },
             {
               "text": "The room looked very large now.",
@@ -1462,7 +1463,7 @@
             {
               "text": "The other Ben is still sitting.",
               "audioStart": 104.25,
-              "audioEnd": 106.0
+              "audioEnd": 106
             },
             {
               "text": "The eyes are closed.",

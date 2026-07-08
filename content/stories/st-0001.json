@@ -2,6 +2,7 @@
   "id": "st-0001",
   "title": "The Light in the Old House",
   "genre": "mystery",
+  "summary": "Anna sees a light in the old house next door at night.",
   "coverScene": "a small warm house at night beside a tall old house whose single window glows softly, under a starry sky",
   "levels": {
     "A1": {
@@ -357,7 +358,7 @@
             {
               "text": "\"You are dreaming,\" her mother said with a smile.",
               "audioStart": 42.194,
-              "audioEnd": 45.0
+              "audioEnd": 45
             },
             {
               "text": "But Anna knew it was not a dream.",
@@ -624,7 +625,7 @@
           "sentences": [
             {
               "text": "One night in October, Anna was closing her window before bed.",
-              "audioStart": 21.0,
+              "audioStart": 21,
               "audioEnd": 24.45
             },
             {
@@ -679,7 +680,7 @@
             {
               "text": "Anna has never believed in ghosts, but this was hard to explain.",
               "audioStart": 61.475,
-              "audioEnd": 65.0
+              "audioEnd": 65
             },
             {
               "text": "When she told her mother, her mother laughed and said it was a dream.",
@@ -878,7 +879,7 @@
             },
             {
               "text": "If they finish it one day, Ellen says, they will simply start again.",
-              "audioStart": 203.0,
+              "audioStart": 203,
               "audioEnd": 206.825
             },
             {
@@ -943,7 +944,7 @@
             {
               "text": "The only exception was the Marsh house, which stood beside her own like a forgotten museum.",
               "audioStart": 10.225,
-              "audioEnd": 15.0
+              "audioEnd": 15
             },
             {
               "text": "Its garden had been swallowed by wild grass, and its gate cried quietly whenever the wind passed.",
@@ -1040,7 +1041,7 @@
             {
               "text": "The history of the house was explained to her by Mr Reed, her oldest neighbor.",
               "audioStart": 97.888,
-              "audioEnd": 102.0
+              "audioEnd": 102
             },
             {
               "text": "He was a man who collected the town's memories the way others collect stamps.",
@@ -1148,7 +1149,7 @@
             {
               "text": "At the top, warm light escaped from a door that had been left half open.",
               "audioStart": 195.213,
-              "audioEnd": 199.0
+              "audioEnd": 199
             },
             {
               "text": "She pushed it and found a small room that the light had made golden.",
@@ -1187,7 +1188,7 @@
             {
               "text": "\"This library was our whole childhood,\" she said, touching the page like an old photograph.",
               "audioStart": 228.262,
-              "audioEnd": 233.0
+              "audioEnd": 233
             },
             {
               "text": "\"If I had come back one year earlier, I would have heard her voice again.\"",

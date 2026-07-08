@@ -2,6 +2,7 @@
   "id": "st-0018",
   "title": "The Lost Tunnel",
   "genre": "horror",
+  "summary": "Emily and Ben explore a mysterious old tunnel together today.",
   "coverScene": "A cozy illustration of a boy and a girl with flashlights standing before a mysterious, plant-covered stone tunnel entrance on a green mountain side.",
   "levels": {
     "B2": {
@@ -480,7 +481,7 @@
             {
               "text": "He suggested that they should return to the entrance.",
               "audioStart": 106.487,
-              "audioEnd": 109.0
+              "audioEnd": 109
             },
             {
               "text": "However, when they turned around, the straight path had disappeared.",
@@ -794,7 +795,7 @@
             },
             {
               "text": "They turned on their small lights.",
-              "audioStart": 23.0,
+              "audioStart": 23,
               "audioEnd": 24.778
             },
             {
@@ -1011,7 +1012,7 @@
             {
               "text": "The shapes were not for them.",
               "audioStart": 139.486,
-              "audioEnd": 141.0
+              "audioEnd": 141
             },
             {
               "text": "They heard quiet voices in the dark.",
@@ -1118,7 +1119,7 @@
             },
             {
               "text": "She felt new air on her face.",
-              "audioStart": 194.0,
+              "audioStart": 194,
               "audioEnd": 195.917
             },
             {
@@ -1173,7 +1174,7 @@
             {
               "text": "Finally, they saw a small light.",
               "audioStart": 220.819,
-              "audioEnd": 223.0
+              "audioEnd": 223
             },
             {
               "text": "It was at the end of the road.",

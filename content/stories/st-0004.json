@@ -2,6 +2,7 @@
   "id": "st-0004",
   "title": "The Way to the Water",
   "genre": "adventure",
+  "summary": "Kim finds an old book with a mysterious drawing of her town.",
   "coverScene": "a green path winding from a town down to a calm blue lake with a small wooden cabin by the shore",
   "levels": {
     "A1": {
@@ -619,7 +620,7 @@
             },
             {
               "text": "He compared the old map with the town plan on his phone.",
-              "audioStart": 57.0,
+              "audioStart": 57,
               "audioEnd": 59.85
             },
             {
@@ -1094,7 +1095,7 @@
             {
               "text": "\"I will keep the house ready, because promises do not care about distance.\"",
               "audioStart": 241.162,
-              "audioEnd": 245.0
+              "audioEnd": 245
             },
             {
               "text": "\"If you have found this box, the place is yours now.\"",

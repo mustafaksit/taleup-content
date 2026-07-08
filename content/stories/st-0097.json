@@ -2,6 +2,7 @@
   "id": "st-0097",
   "title": "Love on Sunny Island",
   "genre": "romance",
+  "summary": "Emily meets a man on a sunny island and they talk.",
   "coverScene": "A young couple walking hand in hand along a secluded white sand beach with turquoise water and green palm trees in the background.",
   "levels": {
     "B2": {
@@ -73,7 +74,7 @@
             },
             {
               "text": "They started to walk back through a narrow forest path.",
-              "audioStart": 46.0,
+              "audioStart": 46,
               "audioEnd": 48.763
             },
             {
@@ -761,7 +762,7 @@
           "sentences": [
             {
               "text": "The last day comes soon.",
-              "audioStart": 77.0,
+              "audioStart": 77,
               "audioEnd": 78.556
             },
             {

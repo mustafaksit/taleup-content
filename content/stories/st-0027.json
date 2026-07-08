@@ -2,6 +2,7 @@
   "id": "st-0027",
   "title": "The Whispering Library Book",
   "genre": "mystery",
+  "summary": "Leo finds a mysterious old book in the city library with strange notes inside.",
   "coverScene": "A dusty, leather-bound book sits open on a wooden table, glowing faintly in the dim light of a quiet library.",
   "levels": {
     "B2": {
@@ -39,7 +40,7 @@
             },
             {
               "text": "He went to the street and saw the accident happen exactly as described.",
-              "audioStart": 19.0,
+              "audioStart": 19,
               "audioEnd": 22.637
             }
           ]
@@ -303,7 +304,7 @@
             {
               "text": "He walked out into the night and finally felt free.",
               "audioStart": 74.375,
-              "audioEnd": 77.0
+              "audioEnd": 77
             }
           ]
         }

@@ -2,6 +2,7 @@
   "id": "st-0015",
   "title": "The Wonderful Wizard of Oz",
   "genre": "classic",
+  "summary": "Dorothy lives in a small house in Kansas with her family suddenly.",
   "coverScene": "A little girl in a blue and white dress stands in the doorway of a small house, looking out at a vast gray prairie with a few trees in the distance, and a small black dog by her side.",
   "levels": {
     "B2": {
@@ -724,7 +725,7 @@
             },
             {
               "text": "Life on the land was hard.",
-              "audioStart": 50.0,
+              "audioStart": 50,
               "audioEnd": 51.45
             },
             {
@@ -759,7 +760,7 @@
             {
               "text": "One day, Uncle Henry looked at the sky.",
               "audioStart": 64.625,
-              "audioEnd": 67.0
+              "audioEnd": 67
             },
             {
               "text": "He saw a big storm coming.",
@@ -789,7 +790,7 @@
             {
               "text": "She knew the storm was dangerous.",
               "audioStart": 79.3,
-              "audioEnd": 81.0
+              "audioEnd": 81
             },
             {
               "text": "She told Dorothy to go to the storm cellar.",
@@ -832,7 +833,7 @@
             },
             {
               "text": "The wind carried it far away.",
-              "audioStart": 100.0,
+              "audioStart": 100,
               "audioEnd": 101.575
             },
             {
@@ -1353,7 +1354,7 @@
             {
               "text": "Dorothy felt like she was going up.",
               "audioStart": 96.083,
-              "audioEnd": 98.0
+              "audioEnd": 98
             },
             {
               "text": "She looked out the window.",
@@ -1396,7 +1397,7 @@
             },
             {
               "text": "Instead, it landed with a big sound.",
-              "audioStart": 118.0,
+              "audioStart": 118,
               "audioEnd": 120.486
             },
             {
@@ -1490,7 +1491,7 @@
             {
               "text": "They thanked Dorothy very much.",
               "audioStart": 163.181,
-              "audioEnd": 165.0
+              "audioEnd": 165
             },
             {
               "text": "She killed the bad woman.",
@@ -1583,7 +1584,7 @@
             {
               "text": "She lives with Uncle Henry and Aunt Em.",
               "audioStart": 2.736,
-              "audioEnd": 5.0
+              "audioEnd": 5
             },
             {
               "text": "They live in a small gray house.",
@@ -1685,7 +1686,7 @@
             },
             {
               "text": "She tells Dorothy to go under.",
-              "audioStart": 54.0,
+              "audioStart": 54,
               "audioEnd": 55.792
             }
           ]
@@ -1772,7 +1773,7 @@
             },
             {
               "text": "Dorothy is still not well.",
-              "audioStart": 94.0,
+              "audioStart": 94,
               "audioEnd": 95.514
             },
             {
@@ -1846,7 +1847,7 @@
             {
               "text": "They thank Dorothy for this.",
               "audioStart": 129.375,
-              "audioEnd": 131.0
+              "audioEnd": 131
             },
             {
               "text": "They ask Dorothy to stay.",

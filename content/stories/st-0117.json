@@ -2,6 +2,7 @@
   "id": "st-0117",
   "title": "Lost in the Market",
   "genre": "daily",
+  "summary": "Emily and Anna get separated at the market early today somehow.",
   "coverScene": "Emily looks at a market shop with a small thing.",
   "levels": {
     "B2": {
@@ -21,7 +22,7 @@
             {
               "text": "Emily carries a small bag with money and a list of thing they want to buy.",
               "audioStart": 9.287,
-              "audioEnd": 13.0
+              "audioEnd": 13
             },
             {
               "text": "Anna points to a fruit shop that sell fresh fruit for a good price.",
@@ -404,7 +405,7 @@
             },
             {
               "text": "A kind woman who walks near sees Emily feel not good.",
-              "audioStart": 37.0,
+              "audioStart": 37,
               "audioEnd": 40.038
             },
             {
@@ -576,7 +577,7 @@
             },
             {
               "text": "Emily thanks the woman again and promises to be more care in the market next time.",
-              "audioStart": 153.0,
+              "audioStart": 153,
               "audioEnd": 157.15
             },
             {

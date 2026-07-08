@@ -2,6 +2,7 @@
   "id": "st-0025",
   "title": "The Whispering Library Clock",
   "genre": "mystery",
+  "summary": "Leo finds a mysterious clock in the school library suddenly.",
   "coverScene": "A dusty, ornate wooden clock sits on a mahogany table inside a dimly lit library filled with rows of old books.",
   "levels": {
     "B2": {
@@ -430,7 +431,7 @@
             },
             {
               "text": "He finally discovered the truth.",
-              "audioStart": 70.0,
+              "audioStart": 70,
               "audioEnd": 71.931
             }
           ]
