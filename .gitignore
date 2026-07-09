@@ -5,3 +5,4 @@ rejected/
 .DS_Store
 pipeline/.cover-state.json
 pipeline/.batch-state.json
+pipeline/.cover-image-state.json

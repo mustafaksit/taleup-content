@@ -1,59 +1,81 @@
 #!/usr/bin/env node
 /**
- * Kapak üretimi (PHASE-14, Karar 2).
+ * Kapak üretimi (PHASE-15) - Gemini image generation ile.
  *
- * İki mod:
- *  1) Gemini illüstrasyon (varsayılan, GEMINI_API_KEY gerekir): sabit "cozy
- *     storybook" stil prompt'u + hikayeye özel coverScene ile 4:3 yatay görsel.
- *     Ücretsiz kota sınırına takılırsa state dosyasından (`--resume`) devam eder.
- *  2) Prosedürel yedek (`--fallback`, anahtar yoksa otomatik): sıcak pastel
- *     4:3 kompozisyon. METİN İÇERMEZ (başlık yalnız kartta gösterilir).
+ * Tutarlı sanat yönetimi: her kapakta AYNEN kullanılan bir master prompt +
+ * hikayeye özel [SCENE]. Sahne betimleri text modeliyle (Groq/Cerebras/Gemini
+ * zinciri) üretilir ve covers-scenes.json'da saklanır, böylece yeniden
+ * üretimde aynı sahne kullanılır.
+ *
+ * Görsel model rotasyonu: birden çok Gemini image modeli sırayla denenir;
+ * biri günlük kotayı (429) tüketince sıradakine geçilir (ücretsiz katman
+ * bütçesi çoğaltılır). TÜM image modelleri kotayı tüketince script durmaz -
+ * kalanları listeler, tekrar-çalıştırma komutunu yazar ve TEMİZ çıkar (exit 0).
+ *
+ * Çıktı: content/covers/<id>.webp (3:4 dikey, ~900x1200, sıkıştırılmış).
+ * RESUME: üretilen her kapak state dosyasına işlenir; tekrar çalıştırılınca
+ * yalnız eksikler üretilir.
  *
  * Kullanım:
- *   node pipeline/generate-cover.mjs --story content/stories/st-0001.json
- *   node pipeline/generate-cover.mjs --all            # tüm hikayeler
- *   node pipeline/generate-cover.mjs --all --fallback # prosedürel yedek
- *   node pipeline/generate-cover.mjs --daily-batch   # kota 429'a kadar üret, temiz çık (yarın devam)
- *   node pipeline/generate-cover.mjs --regenerate st-0001
- *
- * Çıktı: content/covers/<id>.webp (800x600, 4:3, metinsiz)
+ *   node pipeline/generate-cover.mjs --scenes-only     # yalnız sahne betimleri (kota istemez)
+ *   node pipeline/generate-cover.mjs --limit 3         # ilk 3 eksik kapak (onay partisi)
+ *   node pipeline/generate-cover.mjs --all             # kalan tüm kapaklar (resume)
+ *   node pipeline/generate-cover.mjs --regenerate st-0001   # tek kapağı yeniden üret
+ *   node pipeline/generate-cover.mjs --reset --all     # state sıfırla, hepsini baştan üret
+ *   node pipeline/generate-cover.mjs --regen-scenes ...# sahne betimlerini de yeniden üret
  */
-import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, writeFileSync, mkdirSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { Resvg } from '@resvg/resvg-js';
 import sharp from 'sharp';
 
-import { COVERS_DIR, STORIES_DIR, loadEnv } from './lib/env.mjs';
-import { callGemini } from './lib/gemini.mjs';
-import { GENRES } from './lib/levels.mjs';
+import { COVERS_DIR, REPO_ROOT, STORIES_DIR, loadEnv } from './lib/env.mjs';
+import { callGemini, parseJsonResponse } from './lib/gemini.mjs';
+import { LEVELS } from './lib/levels.mjs';
 
 loadEnv();
 
-const WIDTH = 800;
-const HEIGHT = 600;
-const STATE_FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), '.cover-state.json');
+const OUT_W = 900;
+const OUT_H = 1200; // 3:4 dikey
+const WEBP_QUALITY = 80;
+const REQUEST_GAP_MS = 2000; // kota dostu: başarılı istekler arası kısa bekleme
+const PER_MODEL_TRANSIENT_RETRY = 1;
 
-// Sabit stil prompt'u — her kapakta AYNEN kullanılır (stil tutarlılığı buradan)
-const STYLE_PROMPT =
-  "children's storybook illustration, flat shapes with soft textures, " +
-  'warm pastel palette, cozy atmosphere, single focal scene, consistent style, ' +
-  'NO text, NO letters, NO watermark';
+const STATE_FILE = path.join(path.dirname(fileURLToPath(import.meta.url)), '.cover-image-state.json');
+const SCENES_FILE = path.join(REPO_ROOT, 'covers-scenes.json');
 
-const GEMINI_IMAGE_MODEL = process.env.GEMINI_IMAGE_MODEL || 'gemini-2.5-flash-image';
-const GEMINI_TEXT_MODEL = process.env.GEMINI_COVER_MODEL || 'gemini-flash-latest';
-const SVG_MAX_TRIES = 3;
+// Görsel model havuzu (ucuz/flash önce, pro sona). Rotasyon ücretsiz günlük
+// kotayı model başına çoğaltır. env COVER_IMAGE_MODELS ile özelleştirilebilir.
+const IMAGE_MODELS = (
+  process.env.COVER_IMAGE_MODELS
+    ? process.env.COVER_IMAGE_MODELS.split(',')
+    : [
+        'gemini-2.5-flash-image',
+        'gemini-3.1-flash-image',
+        'gemini-3.1-flash-lite-image',
+        'gemini-3.1-flash-image-preview',
+        'gemini-3-pro-image',
+        'gemini-3-pro-image-preview',
+      ]
+).map((m) => m.trim());
 
-/** Türe özel sıcak pastel gradient (prosedürel yedek). */
-const GENRE_STYLE = {
-  horror: { from: '#6E5A8C', to: '#3B3049', accent: '#C9A9E8' },
-  mystery: { from: '#5A7A8C', to: '#30454F', accent: '#A9D2E8' },
-  adventure: { from: '#5A8C6E', to: '#304F3B', accent: '#AEE8C4' },
-  romance: { from: '#C97A8C', to: '#8C4A5A', accent: '#F5C2CE' },
-  scifi: { from: '#6E7AC9', to: '#3B4180', accent: '#C2C9F5' },
-  daily: { from: '#C99A5A', to: '#8C6E30', accent: '#F5D9A9' },
-  classic: { from: '#9A8C7A', to: '#5A4F3B', accent: '#E8DAC2' },
+// Sabit sanat yönetimi. [SCENE] hikayeye özel sahneyle değişir; gerisi SABİT.
+function masterPrompt(scene) {
+  return `Flat vector illustration for a story book cover, vertical 3:4 aspect ratio. Scene: ${scene}. Style: soft rounded geometric shapes, minimal detail, flat colors with subtle gradients, no textures, no outlines, no text, no letters, no words anywhere. Warm storybook mood, slightly whimsical. Color palette: warm cream and soft coral accents; for night scenes deep navy and muted purple with small warm light sources. Consistent lighting, one clear focal point, generous negative space, clean composition centered slightly above the middle. Main subject clearly centered and occupying the middle third of the frame; avoid important elements near the edges (card cropping safety). Keep scenes simple: one focal subject, maximum 2 to 3 supporting elements, avoid crowded interiors with many small objects. High quality, crisp edges, suitable as a mobile app book cover.`;
+}
+
+// Türe göre atmosfer (sahne betimi üretiminde text modeline verilir).
+const GENRE_ATMOSPHERE = {
+  horror:
+    'nighttime, deep navy and muted purple tones with one small warm light source, gently spooky and cute, never disturbing or graphic',
+  mystery: 'dim moody evening light, cool tones with a single warm highlight, calm and intriguing',
+  adventure: 'bright open daytime, warm cream sky, a sense of journey and discovery',
+  romance: 'soft pastel sunset, warm coral and pink hues, tender and gentle',
+  scifi: 'cool twilight with soft glowing lights, calm sense of wonder',
+  daily: 'warm daytime or cozy evening light, friendly and homey',
+  classic: 'warm timeless golden light, nostalgic storybook feel',
 };
 
 function parseArgs(argv) {
@@ -72,101 +94,231 @@ function parseArgs(argv) {
   return args;
 }
 
-/** Prosedürel yedek kapak: sıcak pastel, yumuşak yuvarlak sahne, METİNSİZ. */
-function fallbackSvg(genre) {
-  const s = GENRE_STYLE[genre] ?? GENRE_STYLE.daily;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="${s.from}"/>
-      <stop offset="1" stop-color="${s.to}"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.5">
-      <stop offset="0" stop-color="${s.accent}" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="${s.accent}" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <rect width="${WIDTH}" height="${HEIGHT}" fill="url(#bg)"/>
-  <ellipse cx="400" cy="250" rx="260" ry="200" fill="url(#glow)"/>
-  <!-- yumuşak tepe hatları (yuvarlak, dostane) -->
-  <path d="M0 480 Q 200 380 400 460 T 800 440 L 800 600 L 0 600 Z" fill="${s.accent}" opacity="0.25"/>
-  <path d="M0 520 Q 240 440 480 510 T 800 500 L 800 600 L 0 600 Z" fill="${s.accent}" opacity="0.18"/>
-  <!-- odak: yükselen ay/sayfa dairesi -->
-  <circle cx="400" cy="250" r="96" fill="${s.accent}" opacity="0.9"/>
-  <circle cx="400" cy="250" r="96" fill="none" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="4"/>
-</svg>`;
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+function loadJson(file, fallback) {
+  return existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : fallback;
+}
+function saveJson(file, data) {
+  writeFileSync(file, JSON.stringify(data, null, 2) + '\n');
 }
 
-async function renderFallback(genre, outPath) {
-  const png = new Resvg(fallbackSvg(genre), { fitTo: { mode: 'width', value: WIDTH } })
-    .render()
-    .asPng();
-  await sharp(png).webp({ quality: 82 }).toFile(outPath);
+function lowestLevelText(story) {
+  const level = LEVELS.find((l) => story.levels?.[l]);
+  if (!level) return { level: null, text: '' };
+  const text = story.levels[level].paragraphs
+    .map((p) => p.sentences.map((s) => s.text).join(' '))
+    .join(' ');
+  return { level, text: text.slice(0, 1500) };
 }
 
-/** Gemini görsel üretimi -> WebP. coverScene sahne tarifidir. */
-async function renderGemini(genre, coverScene, outPath) {
-  const key = process.env.GEMINI_API_KEY;
-  if (!key) throw new Error('no-key');
-  const prompt = `${STYLE_PROMPT}. Genre: ${genre}. Scene: ${coverScene}`;
-  const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_IMAGE_MODEL}:generateContent?key=${key}`,
-    {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
-    },
-  );
-  if (res.status === 429) throw new Error('quota');
-  if (!res.ok) throw new Error(`Gemini HTTP ${res.status}: ${(await res.text()).slice(0, 200)}`);
-  const data = await res.json();
-  const part = data.candidates?.[0]?.content?.parts?.find((p) => p.inlineData?.data);
-  if (!part) throw new Error('Gemini görsel döndürmedi');
-  const buf = Buffer.from(part.inlineData.data, 'base64');
-  // 4:3'e kırp + ölçekle, metin garantisi prompt yasağıyla (göz kontrolü kullanıcıda)
-  await sharp(buf).resize(WIDTH, HEIGHT, { fit: 'cover' }).webp({ quality: 82 }).toFile(outPath);
+function cleanScene(raw) {
+  return String(raw)
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/^["'“”‘’]+|["'“”‘’]+$/g, '')
+    .replace(/—/g, ', ')
+    .replace(/–/g, ', ')
+    .trim();
+}
+
+/** Text modeliyle 1-2 cümlelik somut görsel sahne betimi üretir. */
+async function buildScene(story) {
+  const { level, text } = lowestLevelText(story);
+  const atmo = GENRE_ATMOSPHERE[story.genre] ?? GENRE_ATMOSPHERE.daily;
+  const prompt = `You are an art director writing a visual scene brief for a storybook cover illustration.
+Given the story below, write a CONCRETE visual scene in 1 to 2 short sentences: the main setting, one focal object or character, and the light source. Describe only what is visible, no plot, no narration, no character names.
+Atmosphere for this ${story.genre} story: ${atmo}.
+Do not mention any text, letters, words, titles, or logos in the scene. Keep it under 40 words. Avoid dashes.
+Return strict JSON: {"scene": "..."}.
+
+TITLE: ${story.title}
+SUMMARY: ${story.summary ?? ''}
+STORY TEXT (level ${level ?? '?'}): ${text}`;
+
+  const raw = await callGemini(prompt, { json: true });
+  let scene;
+  try {
+    scene = cleanScene(parseJsonResponse(raw).scene ?? '');
+  } catch {
+    scene = cleanScene(raw);
+  }
+  if (!scene) throw new Error(`${story.id}: sahne betimi boş`);
+  return scene;
 }
 
 /**
- * Gemini METİN modeliyle flat storybook SVG illüstrasyonu üretir (görsel
- * modeli kotası dolduğunda gerçek, hikayeye özel kapak sağlar). Çıktı
- * doğrulanır (metin/görsel etiketi yok + resvg ile render olabiliyor).
+ * Bir sahne için görsel üretir. Canlı image modellerini sırayla dener.
+ * Dönüş: { buf } başarı; dead güncellenir. Tüm modeller ölünce Error('quota').
  */
-async function renderGeminiSvg(genre, coverScene, outPath) {
-  const prompt = `Create a flat storybook illustration as a single self-contained SVG.
-Requirements:
-- Exactly 800x600: <svg width="800" height="600" viewBox="0 0 800 600">.
-- Flat vector shapes only (rect, circle, ellipse, path, polygon, linearGradient, radialGradient). No <image>, no external refs, no <text>, no <filter>.
-- ${STYLE_PROMPT}
-- Genre: ${genre}. Scene: ${coverScene}
-- Fill the whole canvas with a soft background gradient. Rich but simple: 12-30 shapes.
-Return ONLY the raw SVG markup starting with <svg and ending with </svg>. No markdown fences, no explanation.`;
+async function generateImage(scene, key, dead) {
+  const prompt = masterPrompt(scene);
+  for (const model of IMAGE_MODELS) {
+    if (dead.has(model)) continue;
+    let transient = 0;
+    while (true) {
+      let res;
+      try {
+        res = await fetch(
+          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
+          {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              contents: [{ parts: [{ text: prompt }] }],
+              generationConfig: { responseModalities: ['Image'], imageConfig: { aspectRatio: '3:4' } },
+            }),
+          },
+        );
+      } catch (e) {
+        dead.add(model);
+        console.log(`    ${model}: ağ hatası (${e.message.slice(0, 50)}) -> sıradaki model`);
+        break;
+      }
+      if (res.status === 429) {
+        dead.add(model);
+        console.log(`    ${model}: kota doldu (429) -> sıradaki model`);
+        break;
+      }
+      if (res.status === 400) {
+        // imageConfig/responseModalities desteklenmiyorsa sade gövdeyle bir kez dene
+        const t = await res.text();
+        const bare = await fetch(
+          `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
+          {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
+          },
+        );
+        if (bare.status === 429) {
+          dead.add(model);
+          break;
+        }
+        if (!bare.ok) {
+          dead.add(model);
+          console.log(`    ${model}: 400 (${t.slice(0, 60)}) -> sıradaki model`);
+          break;
+        }
+        const bd = await bare.json();
+        const bp = bd.candidates?.[0]?.content?.parts?.find((p) => p.inlineData?.data);
+        if (!bp) {
+          dead.add(model);
+          break;
+        }
+        return { buf: Buffer.from(bp.inlineData.data, 'base64'), model };
+      }
+      if (res.status >= 500) {
+        if (transient++ < PER_MODEL_TRANSIENT_RETRY) {
+          await sleep(4000);
+          continue;
+        }
+        dead.add(model);
+        console.log(`    ${model}: ${res.status} (geçici) -> sıradaki model`);
+        break;
+      }
+      if (!res.ok) {
+        dead.add(model);
+        console.log(`    ${model}: HTTP ${res.status} -> sıradaki model`);
+        break;
+      }
+      const data = await res.json();
+      const part = data.candidates?.[0]?.content?.parts?.find((p) => p.inlineData?.data);
+      if (!part) {
+        dead.add(model);
+        console.log(`    ${model}: görsel dönmedi -> sıradaki model`);
+        break;
+      }
+      return { buf: Buffer.from(part.inlineData.data, 'base64'), model };
+    }
+  }
+  throw new Error('quota');
+}
 
-  for (let attempt = 0; attempt < SVG_MAX_TRIES; attempt++) {
+const POLL_BASE = 'https://image.pollinations.ai/prompt';
+
+/** id'den kararlı seed (aynı hikaye tekrar üretildiğinde aynı görsel). */
+function seedFromId(id) {
+  const n = parseInt((id.match(/\d+/) || ['0'])[0], 10);
+  return (n * 2654435761) % 2000000000 || 1;
+}
+
+/**
+ * VARSAYILAN üretici (sıfır bütçe): Pollinations.ai (Flux) - ücretsiz, anahtar
+ * ve faturalandırma gerektirmeyen raster görsel. Master prompt aynen kullanılır,
+ * her hikayeye kararlı seed verilir. Rate-limit/hata durumunda kısa backoff +
+ * yeniden dener.
+ */
+async function renderPollinations(scene, id) {
+  const prompt = masterPrompt(scene);
+  const seed = seedFromId(id);
+  const url = `${POLL_BASE}/${encodeURIComponent(prompt)}?width=768&height=1024&nologo=true&seed=${seed}&model=flux`;
+  let lastErr;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 90000);
+    try {
+      const res = await fetch(url, { signal: ctrl.signal });
+      clearTimeout(timer);
+      if (res.status === 429) {
+        lastErr = new Error('rate');
+        await sleep(8000);
+        continue;
+      }
+      if (!res.ok) {
+        lastErr = new Error(`HTTP ${res.status}`);
+        await sleep(3000);
+        continue;
+      }
+      const ct = res.headers.get('content-type') || '';
+      const buf = Buffer.from(await res.arrayBuffer());
+      if (!/image/.test(ct) || buf.length < 2000) {
+        lastErr = new Error('görsel değil');
+        await sleep(3000);
+        continue;
+      }
+      return buf;
+    } catch (e) {
+      clearTimeout(timer);
+      lastErr = e;
+      await sleep(3000);
+    }
+  }
+  throw new Error(`pollinations başarısız: ${lastErr?.message || '?'}`);
+}
+
+/**
+ * Sıfır bütçe yolu: text modeliyle (Groq/Cerebras/Gemini) kendine yeten flat
+ * vektör SVG kapak üretir, PNG'e render eder. Kota istemez (metin ücretsiz).
+ * Master sanat yönü SVG kısıtlarına uyarlanır; METİN/harici görsel yasak.
+ */
+async function renderSvgCover(scene, genre) {
+  const prompt = `Create a single self-contained flat vector SVG illustration for a story book cover.
+- Canvas exactly: <svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">. Vertical 3:4.
+- Fill the whole canvas with a soft background gradient.
+- Style: soft rounded geometric shapes, minimal detail, flat colors with subtle gradients, no textures, no outlines, no text, no letters, no words anywhere.
+- Warm storybook mood, slightly whimsical. Palette: warm cream and soft coral accents; for night scenes deep navy and muted purple with small warm light sources.
+- One clear focal point, generous negative space, composition centered slightly above the middle. Use 16 to 40 shapes.
+- Genre: ${genre}. Scene: ${scene}
+Allowed elements only: svg, g, rect, circle, ellipse, path, polygon, polyline, line, linearGradient, radialGradient, stop, defs. No <text>, no <image>, no xlink:href, no <filter>, no <foreignObject>, no external references.
+Return ONLY the raw SVG markup from <svg to </svg>. No markdown fences, no explanation.`;
+
+  for (let attempt = 0; attempt < 4; attempt++) {
     let raw;
     try {
-      // çoklu-sağlayıcı havuz (Groq/Cerebras/Gemini rotasyonu) — kapak metni SVG'si
       raw = await callGemini(prompt, { json: false });
-    } catch (err) {
-      if (/quota|429/i.test(err.message)) throw new Error('quota');
-      if (attempt < SVG_MAX_TRIES - 1) continue;
-      throw err;
+    } catch (e) {
+      if (/quota|429/i.test(e.message)) throw new Error('quota');
+      continue;
     }
-    let svg = raw
-      .trim()
-      .replace(/^```(?:svg|xml)?\s*/i, '')
-      .replace(/```\s*$/, '')
-      .trim();
-    const start = svg.indexOf('<svg');
-    const end = svg.lastIndexOf('</svg>');
-    if (start === -1 || end === -1) continue;
-    svg = svg.slice(start, end + 6);
-    // güvenlik/kalite doğrulaması: metin/görsel/harici yok
+    let svg = raw.trim().replace(/^```(?:svg|xml)?\s*/i, '').replace(/```\s*$/, '').trim();
+    const s = svg.indexOf('<svg');
+    const e = svg.lastIndexOf('</svg>');
+    if (s === -1 || e === -1) continue;
+    svg = svg.slice(s, e + 6);
     if (/<text|<image|xlink:href|<filter|<foreignObject/i.test(svg)) continue;
     try {
-      const png = new Resvg(svg, { fitTo: { mode: 'width', value: WIDTH } }).render().asPng();
-      await sharp(png).resize(WIDTH, HEIGHT, { fit: 'cover' }).webp({ quality: 82 }).toFile(outPath);
-      return;
+      return new Resvg(svg, { fitTo: { mode: 'width', value: OUT_W } }).render().asPng();
     } catch {
       // geçersiz SVG -> tekrar dene
     }
@@ -174,108 +326,142 @@ Return ONLY the raw SVG markup starting with <svg and ending with </svg>. No mar
   throw new Error('svg üretilemedi');
 }
 
-function loadState() {
-  return existsSync(STATE_FILE) ? JSON.parse(readFileSync(STATE_FILE, 'utf8')) : { done: [] };
-}
-function saveState(state) {
-  writeFileSync(STATE_FILE, JSON.stringify(state, null, 2) + '\n');
-}
-
-async function coverForStory(storyPath, { forceFallback, state, dailyBatch }) {
-  const story = JSON.parse(readFileSync(storyPath, 'utf8'));
-  const outPath = path.join(COVERS_DIR, `${story.id}.webp`);
-  const scene = story.coverScene || `a cozy scene that represents "${story.title}"`;
-
-  if (!forceFallback && process.env.GEMINI_API_KEY) {
-    // 1) Raster illüstrasyon (Gemini görsel modeli) — BİRİNCİL kaynak
-    if (!process.env.COVER_SKIP_IMAGE) {
-      try {
-        await renderGemini(story.genre, scene, outPath);
-        console.log(`Gemini raster kapak: ${story.id}`);
-        state.done.push(story.id);
-        saveState(state);
-        return 'done';
-      } catch (err) {
-        if (err.message === 'quota') {
-          // daily-batch: kota bitti, SVG'ye düşmeden temiz dur (yarın devam)
-          if (dailyBatch) {
-            console.log(`Görsel kotası doldu -> günlük parti bitti (${story.id} sırada).`);
-            return 'quota';
-          }
-          console.log(`Görsel kotası dolu -> SVG illüstrasyona düşülüyor (${story.id})`);
-        } else {
-          console.error(`Gemini raster başarısız (${story.id}): ${err.message}`);
-        }
-      }
-    }
-    // 2) SVG illüstrasyon (Gemini metin modeli) — fallback (daily-batch dışı)
-    if (!dailyBatch) {
-      try {
-        await renderGeminiSvg(story.genre, scene, outPath);
-        console.log(`Gemini SVG kapak: ${story.id}`);
-        state.done.push(story.id);
-        saveState(state);
-        return 'done';
-      } catch (err) {
-        if (err.message === 'quota') {
-          console.log(`Tüm LLM kotaları dolu (${story.id}) -> prosedürel yedek kapak`);
-        } else {
-          console.error(`Gemini SVG başarısız (${story.id}): ${err.message} -> prosedürel yedek`);
-        }
-      }
-    }
+/** Ham görseli 3:4'e ölçekle/kırp, webp'e sıkıştır (~200-400KB hedef). */
+async function writeCover(buf, outPath) {
+  let quality = WEBP_QUALITY;
+  let out = await sharp(buf).resize(OUT_W, OUT_H, { fit: 'cover' }).webp({ quality }).toBuffer();
+  // 400KB üstündeyse kaliteyi kademeli düşür
+  while (out.length > 400 * 1024 && quality > 60) {
+    quality -= 8;
+    out = await sharp(buf).resize(OUT_W, OUT_H, { fit: 'cover' }).webp({ quality }).toBuffer();
   }
-  if (dailyBatch) return 'quota'; // daily-batch'te prosedürele düşme
-  // 3) Prosedürel yedek
-  await renderFallback(story.genre, outPath);
-  console.log(`Prosedürel kapak: ${story.id}`);
-  return 'done';
+  writeFileSync(outPath, out);
+  return { kb: Math.round(out.length / 1024), quality };
 }
 
 async function main() {
   const args = parseArgs(process.argv);
-  const forceFallback = Boolean(args.fallback);
-  const dailyBatch = Boolean(args['daily-batch']);
-  // daily-batch her zaman state'ten devam eder
-  const state = args.resume || dailyBatch ? loadState() : { done: [] };
-
-  let storyFiles = [];
-  if (args.all || args.resume || dailyBatch) {
-    storyFiles = readdirSync(STORIES_DIR)
-      .filter((f) => f.endsWith('.json'))
-      .filter((f) => !state.done.includes(f.replace('.json', '')))
-      .map((f) => path.join(STORIES_DIR, f));
-  } else if (typeof args.regenerate === 'string') {
-    storyFiles = [path.join(STORIES_DIR, `${args.regenerate}.json`)];
-  } else if (typeof args.story === 'string') {
-    storyFiles = [path.resolve(args.story)];
-  } else if (typeof args.genre === 'string' && GENRES.includes(args.genre)) {
-    // tek seferlik test: sadece prosedürel yedek örneği
-    const out = typeof args.out === 'string' ? path.resolve(args.out) : path.join(COVERS_DIR, `${args.genre}.webp`);
-    await renderFallback(args.genre, out);
-    console.log(`Prosedürel örnek: ${out}`);
-    return;
-  } else {
-    console.error('Kullanım: --story <json> | --all [--fallback|--resume] | --regenerate <id>');
+  // Üretici modu: varsayılan pollinations (ücretsiz raster). --gemini (billing
+  // gerekir) veya --svg (ücretsiz ama düşük kalite) ile değiştirilebilir.
+  const mode = args.gemini ? 'gemini' : args.svg ? 'svg' : 'pollinations';
+  const key = process.env.GEMINI_API_KEY;
+  if (mode === 'gemini' && !key) {
+    console.error('--gemini modu GEMINI_API_KEY (billing açık proje) gerektirir.');
     process.exit(1);
   }
+  if (!existsSync(COVERS_DIR)) mkdirSync(COVERS_DIR, { recursive: true });
 
-  let made = 0;
-  for (const file of storyFiles) {
-    const result = await coverForStory(file, { forceFallback, state, dailyBatch });
-    if (result === 'quota') {
-      if (dailyBatch) {
-        console.log(`Günlük parti tamam: ${made} kapak üretildi. Yarın 'node pipeline/generate-cover.mjs --daily-batch' ile devam.`);
-        return; // temiz çıkış (exit 0)
-      }
-      process.exit(2);
-    }
-    if (result === 'done') made += 1;
+  const limit = args.limit ? Number(args.limit) : Infinity;
+  const state = args.reset ? { done: [] } : loadJson(STATE_FILE, { done: [] });
+  const scenes = loadJson(SCENES_FILE, {});
+  const regenScenes = Boolean(args['regen-scenes']);
+  const scenesOnly = Boolean(args['scenes-only']);
+
+  let files;
+  if (typeof args.regenerate === 'string') {
+    files = [`${args.regenerate}.json`];
+    state.done = state.done.filter((id) => id !== args.regenerate);
+  } else {
+    files = readdirSync(STORIES_DIR).filter((f) => f.endsWith('.json')).sort();
   }
-  console.log(`Bitti. ${made} kapak.`);
+
+  const dead = new Set();
+  let madeCovers = 0;
+  let madeScenes = 0;
+  const remaining = [];
+  let quotaHit = false;
+
+  for (const file of files) {
+    const id = file.replace('.json', '');
+    const storyPath = path.join(STORIES_DIR, file);
+    if (!existsSync(storyPath)) {
+      console.log(`${id}: hikaye dosyası yok, atlanıyor`);
+      continue;
+    }
+    const story = JSON.parse(readFileSync(storyPath, 'utf8'));
+
+    // 1) Sahne betimi (cache'li). Kota istemez (text pool).
+    if (!scenes[id] || regenScenes) {
+      try {
+        scenes[id] = { genre: story.genre, scene: await buildScene(story) };
+        saveJson(SCENES_FILE, scenes);
+        madeScenes++;
+        console.log(`${id} sahne: ${scenes[id].scene}`);
+      } catch (e) {
+        console.error(`${id} sahne üretilemedi: ${e.message}`);
+        remaining.push(id);
+        continue;
+      }
+    }
+
+    if (scenesOnly || mode === 'scenes') continue;
+
+    // 2) Kapak zaten üretildiyse atla (resume).
+    if (state.done.includes(id)) continue;
+    if (madeCovers >= limit) {
+      remaining.push(id);
+      continue;
+    }
+
+    // 3) Kapak üret. Raster (model rotasyonlu) veya --svg (ücretsiz). Kota bitince temiz dur.
+    process.stdout.write(`${id} kapak uretiliyor ... `);
+    let buf;
+    let modelLabel;
+    try {
+      if (mode === 'pollinations') {
+        buf = await renderPollinations(scenes[id].scene, id);
+        modelLabel = 'pollinations/flux';
+      } else if (mode === 'svg') {
+        buf = await renderSvgCover(scenes[id].scene, story.genre);
+        modelLabel = 'svg';
+      } else {
+        const r = await generateImage(scenes[id].scene, key, dead);
+        buf = r.buf;
+        modelLabel = r.model;
+      }
+    } catch (e) {
+      if (e.message === 'quota') {
+        console.log('TUM IMAGE MODELLERI KOTAYI TUKETTI.');
+        quotaHit = true;
+        remaining.push(id);
+        break;
+      }
+      console.error(`hata: ${e.message}`);
+      remaining.push(id);
+      continue;
+    }
+    const outPath = path.join(COVERS_DIR, `${id}.webp`);
+    const { kb, quality } = await writeCover(buf, outPath);
+    state.done.push(id);
+    saveJson(STATE_FILE, state);
+    madeCovers++;
+    console.log(`OK [${modelLabel}, ${kb}KB q${quality}]`);
+    if (mode !== 'svg') await sleep(REQUEST_GAP_MS);
+  }
+
+  // kalanları topla (limit/kota sonrası üretilmeyenler)
+  if (!scenesOnly) {
+    const allIds = readdirSync(STORIES_DIR).filter((f) => f.endsWith('.json')).map((f) => f.replace('.json', ''));
+    for (const id of allIds) if (!state.done.includes(id) && !remaining.includes(id)) remaining.push(id);
+  }
+
+  console.log('\n==== RAPOR ====');
+  console.log(`Sahne betimi: ${madeScenes} yeni (toplam ${Object.keys(scenes).length}) -> ${path.relative(REPO_ROOT, SCENES_FILE)}`);
+  if (!scenesOnly) {
+    console.log(`Kapak: ${madeCovers} üretildi (bu çalıştırma). Toplam tamam: ${state.done.length}/${files.length}.`);
+    if (remaining.length) {
+      console.log(`Kalan ${remaining.length}: ${remaining.slice(0, 12).join(', ')}${remaining.length > 12 ? ' ...' : ''}`);
+      if (quotaHit)
+        console.log('Sebep: Gemini image günlük kotası doldu (ücretsiz katmanda limit 0). Billing açık anahtar gerekir.');
+      const modeFlag = mode === 'gemini' ? ' --gemini' : mode === 'svg' ? ' --svg' : '';
+      console.log(`Tekrar çalıştırma: node pipeline/generate-cover.mjs --all${modeFlag}`);
+    } else {
+      console.log('Tüm kapaklar tamam.');
+    }
+  }
 }
 
 main().catch((err) => {
-  console.error(err.message);
+  console.error(err.stack || err.message);
   process.exit(1);
 });
