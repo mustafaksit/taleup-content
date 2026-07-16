@@ -42,6 +42,10 @@ const files = readdirSync(STORIES_DIR)
   .filter((f) => f.endsWith('.json'))
   .sort();
 
+// Sürüm önce hesaplanır: kapak URL'lerine ?v=<version> cache-bust eklenir,
+// böylece kapak değişince istemci (expo-image) aynı URL'i cache'lemez.
+const contentVersion = (previous?.contentVersion ?? 0) + 1;
+
 const stories = files.map((file, i) => {
   const story = JSON.parse(readFileSync(path.join(STORIES_DIR, file), 'utf8'));
   const levels = LEVELS.filter((l) => story.levels[l]);
@@ -62,7 +66,7 @@ const stories = files.map((file, i) => {
     levels,
     wordCount,
     minutes,
-    cover: `covers/${story.id}.webp`,
+    cover: `covers/${story.id}.webp?v=${contentVersion}`,
     isNew: !previousIds.has(story.id),
     order: previousOrder.get(story.id) ?? i + 1,
   };
@@ -70,7 +74,7 @@ const stories = files.map((file, i) => {
 
 const index = {
   schemaVersion: 1,
-  contentVersion: (previous?.contentVersion ?? 0) + 1,
+  contentVersion,
   updatedAt: new Date().toISOString().slice(0, 10),
   adConfig: { ...DEFAULT_AD_CONFIG, ...(previous?.adConfig ?? {}) },
   stories,
