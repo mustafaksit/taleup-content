@@ -21,6 +21,7 @@ import { callGemini, parseJsonResponse } from './lib/gemini.mjs';
 import { REPO_ROOT } from './lib/env.mjs';
 
 const WORDS_PATH = path.join(REPO_ROOT, 'wordlists', 'def-words.json');
+const EXTRA_PATH = path.join(REPO_ROOT, 'wordlists', 'def-extra-words.json');
 const OUT_PATH = path.join(REPO_ROOT, 'content', 'dictionary', 'en-def.json');
 const BATCH = 40;
 const MAX_DEF_WORDS = 9;
@@ -48,13 +49,19 @@ function valid(word, def) {
 
 function buildPrompt(batch) {
   return [
-    'You are a simple English learner\'s dictionary for B1-level students.',
-    'For each word below, write a SHORT plain-English definition of its most common meaning.',
+    "You are a simple English learner's dictionary for B1-level students.",
+    'These words come from short English stories for language learners.',
+    'For each word write a SHORT plain-English definition of its most common meaning.',
     'Rules:',
-    '- Maximum 8 words. Very simple vocabulary (B1). No examples, no punctuation at the end.',
+    '- Maximum 8 words. No examples, no punctuation at the end.',
+    '- When a word has several meanings, pick the meaning most common in everyday',
+    "  narrative stories. For example: 'light' = brightness from the sun or a lamp,",
+    "  NOT 'not heavy'; 'spring' = the season; 'bear' = the animal; 'left' = the",
+    "  direction; 'play' = children having fun.",
+    '- Use ONLY words that are as simple as, or simpler than, the headword. Never',
+    "  explain a word with a harder word (do NOT define 'brave' with 'courageous').",
     '- NEVER repeat the headword (or its root) inside the definition.',
-    '- Define the everyday meaning a reader of short stories would need.',
-    '- No em dash or en dash. Plain words only.',
+    '- No em dash or en dash. Plain everyday words only.',
     'Return ONLY a JSON object mapping each exact input word to its definition string.',
     '',
     'Words: ' + JSON.stringify(batch),
@@ -74,8 +81,14 @@ async function defineBatch(batch) {
   return {};
 }
 
+function loadWords() {
+  const base = JSON.parse(readFileSync(WORDS_PATH, 'utf8'));
+  const extra = existsSync(EXTRA_PATH) ? JSON.parse(readFileSync(EXTRA_PATH, 'utf8')) : [];
+  return [...new Set([...base, ...extra])].sort();
+}
+
 async function main() {
-  const words = JSON.parse(readFileSync(WORDS_PATH, 'utf8'));
+  const words = loadWords();
   const existing = !force && existsSync(OUT_PATH) ? JSON.parse(readFileSync(OUT_PATH, 'utf8')) : {};
   const todo = words.filter((w) => force || !existing[w]).slice(0, limit === Infinity ? undefined : limit);
   console.log(`toplam ${words.length} kelime, uretilecek ${todo.length} (force=${force}, limit=${limit})`);
