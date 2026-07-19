@@ -23,8 +23,9 @@ import { REPO_ROOT } from './lib/env.mjs';
 const WORDS_PATH = path.join(REPO_ROOT, 'wordlists', 'def-words.json');
 const EXTRA_PATH = path.join(REPO_ROOT, 'wordlists', 'def-extra-words.json');
 const OUT_PATH = path.join(REPO_ROOT, 'content', 'dictionary', 'en-def.json');
-const BATCH = 40;
-const MAX_DEF_WORDS = 9;
+const BATCH = 30;
+const MAX_DEF_WORDS = 10;
+const MIN_DEF_WORDS = 2;
 
 const args = process.argv.slice(2);
 const force = args.includes('--force');
@@ -38,12 +39,17 @@ const hasBannedDash = (s) => s.includes('—') || s.includes('–');
 function valid(word, def) {
   if (!def || typeof def !== 'string') return false;
   const d = def.trim();
-  if (!d || wc(d) > MAX_DEF_WORDS || hasBannedDash(d)) return false;
-  // bas kelimeyi (veya govdesini) icermesin: "anywhere -> any place" ok,
-  // "anywhere -> anywhere means..." red.
+  if (!d || wc(d) < MIN_DEF_WORDS || wc(d) > MAX_DEF_WORDS || hasBannedDash(d)) return false;
+  // Dairesel yasak: bas kelimeyi (veya kok govdesini) ICERMESIN.
+  // "inside -> being inside" red; "patience -> the ability to wait calmly" ok.
   const lw = word.toLowerCase();
+  const stem = lw.replace(/(ing|ed|es|s|ly)$/, '');
   const words = d.toLowerCase().match(/[a-z']+/g) ?? [];
-  if (words.includes(lw)) return false;
+  for (const dw of words) {
+    if (dw === lw) return false;
+    // kok cakismasi: tanim sozcugu bas kelimeyle ayni koke iniyorsa (>=4 harf) red
+    if (stem.length >= 4 && (dw === stem || dw.startsWith(stem))) return false;
+  }
   return true;
 }
 
@@ -51,17 +57,25 @@ function buildPrompt(batch) {
   return [
     "You are a simple English learner's dictionary for B1-level students.",
     'These words come from short English stories for language learners.',
-    'For each word write a SHORT plain-English definition of its most common meaning.',
+    'For each word write a clear definition of its most common meaning.',
     'Rules:',
-    '- Maximum 8 words. No examples, no punctuation at the end.',
+    '- Write a GRAMMATICALLY CORRECT short phrase or mini-sentence, the way a real',
+    '  learner\'s dictionary does. NO telegraphic fragments. Examples of the style:',
+    '    patience -> "the ability to wait calmly"',
+    '    brave -> "not afraid of danger"',
+    '    wave -> "to move your hand from side to side"',
+    '    shadow -> "a dark shape made when something blocks light"',
+    '- For a verb, start with "to ..."; for a noun, use a natural noun phrase',
+    '  ("a ...", "the ..."). Keep it simple B1 English. Maximum 10 words.',
+    '- No example sentence, no punctuation at the end.',
     '- When a word has several meanings, pick the meaning most common in everyday',
-    "  narrative stories. For example: 'light' = brightness from the sun or a lamp,",
-    "  NOT 'not heavy'; 'spring' = the season; 'bear' = the animal; 'left' = the",
-    "  direction; 'play' = children having fun.",
-    '- Use ONLY words that are as simple as, or simpler than, the headword. Never',
-    "  explain a word with a harder word (do NOT define 'brave' with 'courageous').",
-    '- NEVER repeat the headword (or its root) inside the definition.',
-    '- No em dash or en dash. Plain everyday words only.',
+    "  narrative stories (light = brightness from the sun or a lamp, NOT 'not heavy';",
+    "  spring = the season; bear = the animal; left = the direction).",
+    '- Use words as simple as, or simpler than, the headword (do NOT define',
+    "  'brave' with 'courageous').",
+    '- NEVER use the headword or its root inside the definition (no circular',
+    "  definitions like 'inside -> being inside').",
+    '- No em dash or en dash.',
     'Return ONLY a JSON object mapping each exact input word to its definition string.',
     '',
     'Words: ' + JSON.stringify(batch),
